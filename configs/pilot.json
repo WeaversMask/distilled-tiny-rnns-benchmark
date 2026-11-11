@@ -1,0 +1,18 @@
+{
+  "n_subjects": 1000,
+  "n_trials": 100,
+  "rare_fraction": 0.02,
+  "seed": 20261029,
+  "teacher_hidden": 32,
+  "student_hidden": 2,
+  "teacher_steps": 100,
+  "student_steps": 150,
+  "learning_rate": 0.01,
+  "teacher_prop": 1.0,
+  "temperature": 1.0,
+  "eval_every": 10,
+  "patience": 20,
+  "max_seconds_per_phase": 600.0,
+  "diagnostic_threshold": 0.2,
+  "t4_units_per_hour": 1.07
+}

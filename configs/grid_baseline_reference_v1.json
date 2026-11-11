@@ -1,0 +1,171 @@
+{
+  "config": {
+    "diagnostic_threshold": 0.2,
+    "eval_every": 10,
+    "learning_rate": 0.01,
+    "max_seconds_per_invocation": 1800.0,
+    "max_seconds_per_phase": 600.0,
+    "mode": "production",
+    "n_subjects": 1000,
+    "n_trials": 100,
+    "patience": 20,
+    "plan": [
+      {
+        "kind": "parametric_model_free",
+        "seed": 202611401
+      },
+      {
+        "kind": "parametric_model_free",
+        "seed": 202611411
+      },
+      {
+        "kind": "parametric_model_free",
+        "seed": 202611421
+      },
+      {
+        "kind": "reward_cue",
+        "seed": 202621401
+      },
+      {
+        "kind": "reward_cue",
+        "seed": 202621411
+      },
+      {
+        "kind": "reward_cue",
+        "seed": 202621421
+      }
+    ],
+    "protocol_sha256": "1e8762df6fc01919dd3cfc432e96b78ed1d3fe1a25c26859edd9674cd501821e",
+    "rare_fraction": 0.02,
+    "solo_l2": 0.1,
+    "student_hidden": 2,
+    "student_steps": 4000,
+    "t4_units_per_hour": 1.07,
+    "teacher_hidden": 32,
+    "teacher_steps": 500,
+    "temperature": 1.0
+  },
+  "file_sha256": {
+    "parametric_model_free/seed-202611401/data.npz": "85e0150afb47debb1376da313669ac714b7ffbe2dede022e5c42467466a6d1aa",
+    "parametric_model_free/seed-202611401/distilled.pt": "872d500e8332678f3932ba606069ec34694b120f56a2fee20b1525e258441c49",
+    "parametric_model_free/seed-202611401/environment-freeze.txt": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729",
+    "parametric_model_free/seed-202611401/environments/packages-f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729.txt": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729",
+    "parametric_model_free/seed-202611401/manifest.json": "5a77e95222a95acc5ab8f76ebe1f9fbc420e492f146b874dd84fc52262d9110e",
+    "parametric_model_free/seed-202611401/oracle.pt": "ad7e1ae60abbfcc67d4dc3c2ac6ea21b3cd3a009312cc0cc946c00865a36d90c",
+    "parametric_model_free/seed-202611401/predictions.npz": "119a9ad4a4121b36a0bddc015a92b405ebcc7e6187a936dc568909881de4642a",
+    "parametric_model_free/seed-202611401/primary.png": "a0b931f645c4c4819b4d4e848dc8d82dcb7b31da31db2602bebf40d318069b09",
+    "parametric_model_free/seed-202611401/probe_predictions.npz": "9d5b75ef34ca8cd411b24b91216e723049ee63312de88f3bb1d320469dac7ad4",
+    "parametric_model_free/seed-202611401/report.json": "0a997f3a9429a4c68a665b89e14e82fa83584774d20b1d82884869eef811dd3f",
+    "parametric_model_free/seed-202611401/soft_training_logits.npz": "5564fe2e8905ae30fe286fce42c134b3014e6c8d761ab3a69672d6d5ae4adde9",
+    "parametric_model_free/seed-202611401/solo.pt": "575b98adf1fda012f28fd38dab6bfce0a79082fe5f775f29c4d4d942f7879c9b",
+    "parametric_model_free/seed-202611401/teacher.pt": "a58352356c5caa2c3f3bfca96b109890bdd0c8cfe1df012de19910c29f8d2d54",
+    "parametric_model_free/seed-202611401/training.json": "923ff6523eb957da823f8426425b63266503eb87ccc1407edf4307995177b546",
+    "parametric_model_free/seed-202611411/data.npz": "1a6a3d14da068250a7b3ba5e74603c04d27d048acdf0427a979874b8ddeddd7f",
+    "parametric_model_free/seed-202611411/distilled.pt": "6bb84dac1ec64b0f83126a9d74ec863ede0cc7aa6d599bd1219f3ab50b65dfd4",
+    "parametric_model_free/seed-202611411/environment-freeze.txt": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729",
+    "parametric_model_free/seed-202611411/environments/packages-f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729.txt": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729",
+    "parametric_model_free/seed-202611411/manifest.json": "30ecb1ffc28a1c41a8785edf027cedd1913d881aafdfa78c1a52c831a78bf4c5",
+    "parametric_model_free/seed-202611411/oracle.pt": "f8cfcc0004e9374bb272b772549e8871808db2982802eaf2e864b5cb3abccd67",
+    "parametric_model_free/seed-202611411/predictions.npz": "c5c252802f669164a669053835f149d6c699ee4fa776e81e271b1cde0116ced0",
+    "parametric_model_free/seed-202611411/primary.png": "91348d69709298b30a6d9e83069f3571e933fc0eb0c41c7a7f1048bad4cd84a4",
+    "parametric_model_free/seed-202611411/probe_predictions.npz": "56c3dea5dd824c9d929ecd4394a6d6af3f8abb95b774797f22f437489ef90bd5",
+    "parametric_model_free/seed-202611411/report.json": "31d748f68a804b2cf5cae56143f47680fa6c71971a856702f1746392d388b6c9",
+    "parametric_model_free/seed-202611411/soft_training_logits.npz": "df92bdd4c84d53309c1defb9b0e2cf6c2be0f51514074b8da9954227491fd5f7",
+    "parametric_model_free/seed-202611411/solo.pt": "6650ccf1619d30a93c73a6ac4a2e4df594c4cd6b32eb03b5a9b91eb1977f0ed1",
+    "parametric_model_free/seed-202611411/teacher.pt": "8cf4dd4b8d66d824f671bc21998c342ef8f60add913113d077942f57aa1eca06",
+    "parametric_model_free/seed-202611411/training.json": "fed2d3cbd4a0caa57437fa5a12db355e74f5823e8a7b3879e19c200c1f05d27e",
+    "parametric_model_free/seed-202611421/data.npz": "8f8eaaa1fb4be6da8a30873ed5204b026ce222aa5f06a0d2f8e11bc80f7dfdb9",
+    "parametric_model_free/seed-202611421/distilled.pt": "0e6d75b234a761c713db34bb4ae58e584e2cdb7937ce53fddee916dd4ad9cf84",
+    "parametric_model_free/seed-202611421/environment-freeze.txt": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729",
+    "parametric_model_free/seed-202611421/environments/packages-f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729.txt": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729",
+    "parametric_model_free/seed-202611421/manifest.json": "fd72be058ed94e6605ce0a2d136e36cda029b5118a6760cc6808b002ca6dae38",
+    "parametric_model_free/seed-202611421/oracle.pt": "c1ce6356a22bbf44500b6b48750100e613dbe547a4b921eca96305bbd736404a",
+    "parametric_model_free/seed-202611421/predictions.npz": "1f34d45014814e35018c46e2a1276cb94c65ef6329b25a44db2668b0111b037e",
+    "parametric_model_free/seed-202611421/primary.png": "18617091690e338379d8b63f3099a5b4832de54f33d41e12a6e241a3dbe7da07",
+    "parametric_model_free/seed-202611421/probe_predictions.npz": "b0a33ab7983d51dd375ddc7e5afd05ae720aab8bb84edeaf8358c02349df056d",
+    "parametric_model_free/seed-202611421/report.json": "50f70a808199effd6e670de47c2374915d60712bacd6e4325efd6884efef07f4",
+    "parametric_model_free/seed-202611421/soft_training_logits.npz": "b86fe09ed36bf799973cea8ed7ec3d7df0de02799b44470d8d52036674b3be05",
+    "parametric_model_free/seed-202611421/solo.pt": "b7321f7f8b11087bd3b4f29a875060f1972d31fbafeb5c276cdec145cf3bad4e",
+    "parametric_model_free/seed-202611421/teacher.pt": "f09f3d1e8e409c5de40a32b7b81eecdc015a9ceed93aa4e8f27ba0ac711e870b",
+    "parametric_model_free/seed-202611421/training.json": "dfa21d74764807da7e80eed782f922565b9283c7c33a2ff4a1057649eb715ae6",
+    "protocol.json": "43112ad9a9ec3c052cb4cc229ada2027403152910f5f6df6cc02886777ff948a",
+    "reward_cue/seed-202621401/data.npz": "6edf2ee04da2fab3d59bdd355ed111f22038b3a2b0c3b0b060b615c04733b850",
+    "reward_cue/seed-202621401/distilled.pt": "5c5d3c576bec3bb11b9c9335d33a0f9da19479bdaac7b5c0579ae8258ab74a18",
+    "reward_cue/seed-202621401/environment-freeze.txt": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729",
+    "reward_cue/seed-202621401/environments/packages-f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729.txt": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729",
+    "reward_cue/seed-202621401/manifest.json": "a7be887234d3189e3f5e73cff0d704a63ef34f19b47b3422c833c1239831c14a",
+    "reward_cue/seed-202621401/oracle.pt": "ee96f256cfe70061c6d0b467265f2c85d60eac66a3e33a90d6e941fcc147beba",
+    "reward_cue/seed-202621401/predictions.npz": "e40c2fbb680f0d7b08092715142d2dbca6e7694abccb22f6c0eb3634f2978e76",
+    "reward_cue/seed-202621401/primary.png": "0419027766d7270e73d418605ddc3bebe3cdf79278c03c8e5a81a91a3e2471f2",
+    "reward_cue/seed-202621401/probe_predictions.npz": "a51754b562dbf06bfb6806e0bd2bebed2b8f21b27b871af94d8a4a86e0bc1175",
+    "reward_cue/seed-202621401/report.json": "80dc2a465439b2276e40ae773856484f0cc0a41b692d16261cac9c27a54fbbe0",
+    "reward_cue/seed-202621401/soft_training_logits.npz": "8a3abebf84cef5c2f2516d1a7ed913a92130fe7e2fe210e959c66cbb7501fe57",
+    "reward_cue/seed-202621401/solo.pt": "1ce8508e359db463b4293675e2d6b68774d4a4b7795283fb3f3f23bc7ce19628",
+    "reward_cue/seed-202621401/teacher.pt": "cb57b60b3bacf1e441357d2f310022a1780874395eb9d7bf40307e17342a9fd1",
+    "reward_cue/seed-202621401/training.json": "43afca95e076e912d3faac3eab644fea49c208d8c6edcc2018c208424fc7ed09",
+    "reward_cue/seed-202621411/data.npz": "e827b91cda2705183cb1def8348be4dfc0177db93d38c5eefc79a2ec045bea54",
+    "reward_cue/seed-202621411/distilled.pt": "1b44446ffd4297f0f9d2fb04348098617fe0f43326a9977efc936305f3f755e7",
+    "reward_cue/seed-202621411/environment-freeze.txt": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729",
+    "reward_cue/seed-202621411/environments/packages-f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729.txt": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729",
+    "reward_cue/seed-202621411/manifest.json": "c8fb261f1a1c4f8e6be0ca9ff5069b7f5afaf711f28dc63f3c51e257fac505ff",
+    "reward_cue/seed-202621411/oracle.pt": "856ea8ad350c90340299d8cc12c5cd76327a3f0da737933b153028cadf1de863",
+    "reward_cue/seed-202621411/predictions.npz": "13dd580ebac61bb69b234afbb32be9d0759c52469e533057404a819161649cfa",
+    "reward_cue/seed-202621411/primary.png": "b5df77781d06e6ef4f22df4353eb3fcfdaf726e7811e61283f35a42464ee2b1d",
+    "reward_cue/seed-202621411/probe_predictions.npz": "b6d3b54fd0610ad09ca7b2b261160b22a5428387a67be7e53149ebd82e519da4",
+    "reward_cue/seed-202621411/report.json": "a2aff129cb34390aae9e0f20fad6ab8cfb0def69c302e45609587f08cc846e4e",
+    "reward_cue/seed-202621411/soft_training_logits.npz": "3d9d77ec482a49067d75f9e0686205f3eef68a31122eadd9b3d312875505bafc",
+    "reward_cue/seed-202621411/solo.pt": "c03e6c9a53cb4b505b9a60864f256dba524f4307a966e63ccb032d39eb6920aa",
+    "reward_cue/seed-202621411/teacher.pt": "6f3dd71120c583fddab5dbcc422af721562dd1b283d00e2234d1b9db1f7294f4",
+    "reward_cue/seed-202621411/training.json": "3a61947f04ded6887a9e36e356840e52c28ff9a1b52f823de000091e27aa7fb7",
+    "reward_cue/seed-202621421/data.npz": "578e5074e85f626fa6fad5370d72e74776cc4b63be79d8959c636cdea4031c78",
+    "reward_cue/seed-202621421/distilled.pt": "6dede7d6e1b6a326c413ded2f69c0504f94dda4832b86bba2cf6938cd55cfada",
+    "reward_cue/seed-202621421/environment-freeze.txt": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729",
+    "reward_cue/seed-202621421/environments/packages-f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729.txt": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729",
+    "reward_cue/seed-202621421/manifest.json": "4611c0b0fdfdca0d5dfeb025da05b24d3bc3d66400644d764222de936a5da6bf",
+    "reward_cue/seed-202621421/oracle.pt": "a5e1c04d33e18e211c068ae95ff28a373b3675aa7a822d8d5597e5956b9f2c62",
+    "reward_cue/seed-202621421/predictions.npz": "1bd3742bda1a0adbdab967b6d3bc63251cfe8829b632c4836a68f6c8e8f2bd87",
+    "reward_cue/seed-202621421/primary.png": "0603f28dce7870f55bb39b7c4a3d3c8127f1933e8f0c41d63966657b27b8d127",
+    "reward_cue/seed-202621421/probe_predictions.npz": "ed840875ccec1c5141f315ddef027a5f3058c3540db50223734993acbbfbba24",
+    "reward_cue/seed-202621421/report.json": "337137494490355357e7c0944d2839669bf2fb00e32eb8bfd1ebbea3e247c95f",
+    "reward_cue/seed-202621421/soft_training_logits.npz": "77c64546afe68b6edc91fa99fc8a5d04c0e5d31576f2d2c9919a6690d3fde245",
+    "reward_cue/seed-202621421/solo.pt": "36e247fa886166f83b9d0addf661796c66d5c5e1b1ae9c8efabc0a22d1f8186a",
+    "reward_cue/seed-202621421/teacher.pt": "72037413c12b63bb7f8434727705aa11b5430adcda7e82f3a91d150762637294",
+    "reward_cue/seed-202621421/training.json": "362cdf8a2ed644bcc65dce7a5c8c7d54011bc406d3e38373b929d7f655578332",
+    "run_manifest.json": "e1cc07ba6ea60c092edefe87c33a570b3ef88d82d94090ff0a659059cee89ce3",
+    "summary.json": "9627fdcb63834da81b90b856c99423d1347106706c6c2771d886d18e6ed1e13f"
+  },
+  "origin": {
+    "run_name": "main-study-first-tranche-v1",
+    "verification_record": "review/main-study-integrity-verification.json",
+    "verified_results_commit": "f587fce"
+  },
+  "planned_populations": [
+    {
+      "kind": "parametric_model_free",
+      "seed": 202611401
+    },
+    {
+      "kind": "parametric_model_free",
+      "seed": 202611411
+    },
+    {
+      "kind": "parametric_model_free",
+      "seed": 202611421
+    },
+    {
+      "kind": "reward_cue",
+      "seed": 202621401
+    },
+    {
+      "kind": "reward_cue",
+      "seed": 202621411
+    },
+    {
+      "kind": "reward_cue",
+      "seed": 202621421
+    }
+  ],
+  "prospective_protocol_sha256": "1e8762df6fc01919dd3cfc432e96b78ed1d3fe1a25c26859edd9674cd501821e",
+  "schema_version": 1,
+  "source_sha256": "b5c5aa888e9b9ba00e9e8c69486c740a40efaf134bcda41397d8980fc4944372"
+}

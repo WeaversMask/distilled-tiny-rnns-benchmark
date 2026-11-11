@@ -1,0 +1,35 @@
+{
+  "parent_config": {
+    "base": {
+      "n_subjects": 1000,
+      "n_trials": 100,
+      "rare_fraction": 0.02,
+      "seed": 20261411,
+      "teacher_hidden": 32,
+      "student_hidden": 2,
+      "teacher_steps": 500,
+      "student_steps": 4000,
+      "learning_rate": 0.01,
+      "teacher_prop": 1.0,
+      "temperature": 1.0,
+      "eval_every": 10,
+      "patience": 20,
+      "max_seconds_per_phase": 600.0,
+      "diagnostic_threshold": 0.2,
+      "t4_units_per_hour": 1.07
+    },
+    "replication_seeds": [
+      20261411,
+      20261421,
+      20261431,
+      20261441,
+      20261451
+    ],
+    "solo_l2": 0.1,
+    "max_seconds_per_invocation": 1800.0
+  },
+  "expected_parent_source_sha256": "c68c9b2918c7199f0396a9a3bc28f98f1bd28f59469adf6524bfe6b67ac6c3d9",
+  "student_steps": 8000,
+  "max_seconds_per_phase": 600.0,
+  "max_seconds_per_invocation": 1800.0
+}
