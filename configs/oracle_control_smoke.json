@@ -1,0 +1,19 @@
+{
+  "base": {
+    "n_subjects": 10,
+    "n_trials": 15,
+    "rare_fraction": 0.2,
+    "seed": 201,
+    "teacher_hidden": 4,
+    "student_hidden": 2,
+    "teacher_steps": 2,
+    "student_steps": 4,
+    "teacher_prop": 1.0,
+    "temperature": 1.0,
+    "eval_every": 1,
+    "max_seconds_per_phase": 120.0
+  },
+  "replication_seeds": [201, 211],
+  "solo_l2": 0.1,
+  "max_seconds_per_invocation": 120.0
+}
