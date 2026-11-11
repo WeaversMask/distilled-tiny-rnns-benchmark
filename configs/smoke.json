@@ -1,0 +1,12 @@
+{
+  "n_subjects": 20,
+  "n_trials": 30,
+  "rare_fraction": 0.1,
+  "seed": 41,
+  "teacher_hidden": 4,
+  "student_hidden": 2,
+  "teacher_steps": 4,
+  "student_steps": 4,
+  "eval_every": 2,
+  "max_seconds_per_phase": 120.0
+}
