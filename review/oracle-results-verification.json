@@ -1,0 +1,4719 @@
+{
+  "checkpoint_and_provenance_audit": {
+    "source_sha256": "c68c9b2918c7199f0396a9a3bc28f98f1bd28f59469adf6524bfe6b67ac6c3d9",
+    "runs": [
+      {
+        "run": "oracle-control-v1",
+        "status": "complete",
+        "seeds": [
+          {
+            "seed": 20261411,
+            "models": {
+              "teacher": {
+                "steps": 270,
+                "selected_step": 70,
+                "seconds": 5.632810940000127
+              },
+              "solo": {
+                "steps": 4000,
+                "selected_step": 90,
+                "seconds": 376.274164714001
+              },
+              "distilled": {
+                "steps": 4000,
+                "selected_step": 2750,
+                "seconds": 361.6152750850015
+              },
+              "oracle": {
+                "steps": 4000,
+                "selected_step": 2390,
+                "seconds": 368.5439465769996
+              }
+            }
+          },
+          {
+            "seed": 20261421,
+            "models": {
+              "teacher": {
+                "steps": 260,
+                "selected_step": 60,
+                "seconds": 2.281652486000894
+              },
+              "solo": {
+                "steps": 4000,
+                "selected_step": 80,
+                "seconds": 375.9519802779996
+              },
+              "distilled": {
+                "steps": 4000,
+                "selected_step": 2580,
+                "seconds": 364.19570578299863
+              },
+              "oracle": {
+                "steps": 4000,
+                "selected_step": 3740,
+                "seconds": 376.15019143500103
+              }
+            }
+          },
+          {
+            "seed": 20261431,
+            "models": {
+              "teacher": {
+                "steps": 260,
+                "selected_step": 60,
+                "seconds": 2.24728851799955
+              },
+              "solo": {
+                "steps": 4000,
+                "selected_step": 100,
+                "seconds": 378.59216609800023
+              },
+              "distilled": {
+                "steps": 4000,
+                "selected_step": 3250,
+                "seconds": 363.722828164
+              },
+              "oracle": {
+                "steps": 4000,
+                "selected_step": 2070,
+                "seconds": 367.1046052340007
+              }
+            }
+          },
+          {
+            "seed": 20261441,
+            "models": {
+              "teacher": {
+                "steps": 270,
+                "selected_step": 70,
+                "seconds": 2.544172248000905
+              },
+              "solo": {
+                "steps": 4000,
+                "selected_step": 120,
+                "seconds": 370.2318776840002
+              },
+              "distilled": {
+                "steps": 4000,
+                "selected_step": 2980,
+                "seconds": 364.11351804100195
+              },
+              "oracle": {
+                "steps": 4000,
+                "selected_step": 900,
+                "seconds": 353.72844694500054
+              }
+            }
+          },
+          {
+            "seed": 20261451,
+            "models": {
+              "teacher": {
+                "steps": 250,
+                "selected_step": 50,
+                "seconds": 2.294328862000839
+              },
+              "solo": {
+                "steps": 4000,
+                "selected_step": 80,
+                "seconds": 357.04943307099893
+              },
+              "distilled": {
+                "steps": 4000,
+                "selected_step": 3790,
+                "seconds": 354.99677124999835
+              },
+              "oracle": {
+                "steps": 4000,
+                "selected_step": 1310,
+                "seconds": 362.93339692600057
+              }
+            }
+          }
+        ],
+        "seconds": 5510.204560339005,
+        "session_count": 16,
+        "environments": [
+          {
+            "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+            "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+            "packages": {
+              "torch": "2.11.0+cu130",
+              "numpy": "2.1.3",
+              "matplotlib": "3.10.0"
+            },
+            "device": "cuda",
+            "gpu": "Tesla T4",
+            "cuda": "13.0",
+            "cudnn": 92700,
+            "torch_threads": 1
+          }
+        ]
+      },
+      {
+        "run": "oracle-control-smoke-c68c9b2918c7",
+        "status": "complete",
+        "seeds": [
+          {
+            "seed": 201,
+            "models": {
+              "teacher": {
+                "steps": 2,
+                "selected_step": 0,
+                "seconds": 1.2480831600000784
+              },
+              "solo": {
+                "steps": 4,
+                "selected_step": 4,
+                "seconds": 0.5575761840002542
+              },
+              "distilled": {
+                "steps": 4,
+                "selected_step": 4,
+                "seconds": 0.386666403999925
+              },
+              "oracle": {
+                "steps": 4,
+                "selected_step": 4,
+                "seconds": 0.3341176430001269
+              }
+            }
+          },
+          {
+            "seed": 211,
+            "models": {
+              "teacher": {
+                "steps": 2,
+                "selected_step": 2,
+                "seconds": 0.06688515099995129
+              },
+              "solo": {
+                "steps": 4,
+                "selected_step": 0,
+                "seconds": 0.18773765400010234
+              },
+              "distilled": {
+                "steps": 4,
+                "selected_step": 0,
+                "seconds": 0.17717576199993346
+              },
+              "oracle": {
+                "steps": 4,
+                "selected_step": 4,
+                "seconds": 0.17717128799995407
+              }
+            }
+          }
+        ],
+        "seconds": 3.1354132460003257,
+        "session_count": 4,
+        "environments": [
+          {
+            "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+            "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+            "packages": {
+              "torch": "2.11.0+cu130",
+              "numpy": "2.1.3",
+              "matplotlib": "3.10.0"
+            },
+            "device": "cuda",
+            "gpu": "Tesla T4",
+            "cuda": "13.0",
+            "cudnn": 92700,
+            "torch_threads": 1
+          }
+        ]
+      }
+    ],
+    "checkpoint_count": 28,
+    "finite_model_states": 77,
+    "max_cpu_gpu_prediction_difference": 3.159046173095703e-06,
+    "max_cpu_gpu_checkpoint_nll_difference": 1.7881393432617188e-07,
+    "max_regenerated_data_difference": 4.440892098500626e-16,
+    "status": "PASS"
+  },
+  "independent_raw_metric_audit": {
+    "status": "PASS",
+    "independent_numpy_only": true,
+    "absolute_numeric_tolerance": 1e-12,
+    "counts": {
+      "summary_identity_exact_fields": 14,
+      "invariants": 261,
+      "subjects": 5020,
+      "test_trials": 100060,
+      "prediction_streams": 84,
+      "metadata_numeric_fields": 7,
+      "per_subject_objects": 105420,
+      "per_subject_exact_fields": 20080,
+      "per_subject_numeric_fields": 173876,
+      "per_subject_null_fields": 167484,
+      "groups_objects": 301,
+      "groups_exact_fields": 210,
+      "groups_numeric_fields": 850,
+      "checkpoint_scores_objects": 7,
+      "checkpoint_scores_numeric_fields": 84,
+      "aggregate_objects": 672,
+      "aggregate_exact_fields": 1086,
+      "aggregate_numeric_fields": 1580,
+      "groups_null_fields": 102,
+      "aggregate_null_fields": 204
+    },
+    "max_discrepancy": {
+      "absolute_error": 2.220446049250313e-16,
+      "path": "oracle-control-v1/seed-20261411/per_subject/189/models/frequency/nll"
+    },
+    "category_max_discrepancy": {
+      "metadata": 0.0,
+      "per_subject": 2.220446049250313e-16,
+      "groups": 1.6653345369377348e-16,
+      "checkpoint_scores": 1.1102230246251565e-16,
+      "aggregate": 1.6653345369377348e-16
+    },
+    "failure_count": 0,
+    "failures": [],
+    "notes": [
+      "Metrics use float64 Bernoulli cross-entropy and likelihood-ratio KL without importing production evaluation code.",
+      "Every subject and group metric, comparison, diagnostic support/null, aggregate count/range/sign, checkpoint NLL and prediction alias is checked.",
+      "Soft targets are zero outside train. Oracle training sigmoid matches generating probabilities up to float32 logit conversion.",
+      "Heldout oracle predictions differ from generating truth. Saved-checkpoint prediction reproduction is separately performed by the root audit."
+    ],
+    "studies": [
+      {
+        "path": "oracle-control-v1",
+        "seeds": [
+          {
+            "seed": 20261411,
+            "subjects": 1000,
+            "trials_per_subject": 100,
+            "rare_subjects": 20,
+            "rare_diagnostic_trials": 61,
+            "rare_diagnostic_subjects": 18,
+            "typical_diagnostic_trials": 9,
+            "oracle_train_probability_max_error": 1.23900293635959e-08,
+            "distilled_train_probability_max_error": 7.925953249277029e-08,
+            "off_train_soft_logit_nonzero_count": {
+              "oracle": 0,
+              "distilled": 0
+            },
+            "oracle_heldout_prediction_difference": {
+              "oracle_population": {
+                "mean_absolute_difference_from_truth": 0.03515792175072163,
+                "maximum_absolute_difference_from_truth": 0.5646956929371614,
+                "exact_true_float32_matches": 0,
+                "test_count": 20000
+              },
+              "oracle_individual": {
+                "mean_absolute_difference_from_truth": 0.060724029253212713,
+                "maximum_absolute_difference_from_truth": 0.5815814035823412,
+                "exact_true_float32_matches": 0,
+                "test_count": 20000
+              }
+            }
+          },
+          {
+            "seed": 20261421,
+            "subjects": 1000,
+            "trials_per_subject": 100,
+            "rare_subjects": 20,
+            "rare_diagnostic_trials": 61,
+            "rare_diagnostic_subjects": 12,
+            "typical_diagnostic_trials": 7,
+            "oracle_train_probability_max_error": 1.2252411099589189e-08,
+            "distilled_train_probability_max_error": 7.892960274258343e-08,
+            "off_train_soft_logit_nonzero_count": {
+              "oracle": 0,
+              "distilled": 0
+            },
+            "oracle_heldout_prediction_difference": {
+              "oracle_population": {
+                "mean_absolute_difference_from_truth": 0.034464602150742,
+                "maximum_absolute_difference_from_truth": 0.6437572842876087,
+                "exact_true_float32_matches": 0,
+                "test_count": 20000
+              },
+              "oracle_individual": {
+                "mean_absolute_difference_from_truth": 0.05880064000858996,
+                "maximum_absolute_difference_from_truth": 0.619772848020806,
+                "exact_true_float32_matches": 0,
+                "test_count": 20000
+              }
+            }
+          },
+          {
+            "seed": 20261431,
+            "subjects": 1000,
+            "trials_per_subject": 100,
+            "rare_subjects": 20,
+            "rare_diagnostic_trials": 43,
+            "rare_diagnostic_subjects": 14,
+            "typical_diagnostic_trials": 2,
+            "oracle_train_probability_max_error": 1.19104786172608e-08,
+            "distilled_train_probability_max_error": 7.905915944128594e-08,
+            "off_train_soft_logit_nonzero_count": {
+              "oracle": 0,
+              "distilled": 0
+            },
+            "oracle_heldout_prediction_difference": {
+              "oracle_population": {
+                "mean_absolute_difference_from_truth": 0.03531687628535036,
+                "maximum_absolute_difference_from_truth": 0.6030377057758869,
+                "exact_true_float32_matches": 0,
+                "test_count": 20000
+              },
+              "oracle_individual": {
+                "mean_absolute_difference_from_truth": 0.05872309315244191,
+                "maximum_absolute_difference_from_truth": 0.5614832662926307,
+                "exact_true_float32_matches": 0,
+                "test_count": 20000
+              }
+            }
+          },
+          {
+            "seed": 20261441,
+            "subjects": 1000,
+            "trials_per_subject": 100,
+            "rare_subjects": 20,
+            "rare_diagnostic_trials": 53,
+            "rare_diagnostic_subjects": 13,
+            "typical_diagnostic_trials": 6,
+            "oracle_train_probability_max_error": 1.2011742586692797e-08,
+            "distilled_train_probability_max_error": 7.649923206010101e-08,
+            "off_train_soft_logit_nonzero_count": {
+              "oracle": 0,
+              "distilled": 0
+            },
+            "oracle_heldout_prediction_difference": {
+              "oracle_population": {
+                "mean_absolute_difference_from_truth": 0.03449765083116212,
+                "maximum_absolute_difference_from_truth": 0.5277404329933011,
+                "exact_true_float32_matches": 0,
+                "test_count": 20000
+              },
+              "oracle_individual": {
+                "mean_absolute_difference_from_truth": 0.05654297521164362,
+                "maximum_absolute_difference_from_truth": 0.5418518266855085,
+                "exact_true_float32_matches": 0,
+                "test_count": 20000
+              }
+            }
+          },
+          {
+            "seed": 20261451,
+            "subjects": 1000,
+            "trials_per_subject": 100,
+            "rare_subjects": 20,
+            "rare_diagnostic_trials": 39,
+            "rare_diagnostic_subjects": 13,
+            "typical_diagnostic_trials": 1,
+            "oracle_train_probability_max_error": 1.2183234421314637e-08,
+            "distilled_train_probability_max_error": 7.845452021371102e-08,
+            "off_train_soft_logit_nonzero_count": {
+              "oracle": 0,
+              "distilled": 0
+            },
+            "oracle_heldout_prediction_difference": {
+              "oracle_population": {
+                "mean_absolute_difference_from_truth": 0.03382740563101896,
+                "maximum_absolute_difference_from_truth": 0.45803044925073444,
+                "exact_true_float32_matches": 0,
+                "test_count": 20000
+              },
+              "oracle_individual": {
+                "mean_absolute_difference_from_truth": 0.058568594494762656,
+                "maximum_absolute_difference_from_truth": 0.5254454578051095,
+                "exact_true_float32_matches": 0,
+                "test_count": 20000
+              }
+            }
+          }
+        ],
+        "aggregate_groups": {
+          "rare": {
+            "per_seed": [
+              {
+                "seed": 20261411,
+                "subject_count": 20,
+                "test_count": 400,
+                "diagnostic_count": 61,
+                "diagnostic_subject_count": 18,
+                "models": {
+                  "teacher": {
+                    "nll": 0.6278580165434178,
+                    "kl": 0.05477083875184805,
+                    "diagnostic_nll": 0.6415785022021256,
+                    "diagnostic_kl": 0.14851884344438218,
+                    "diagnostic_subject_count": 18
+                  },
+                  "solo": {
+                    "nll": 0.6683086645728954,
+                    "kl": 0.0786892906304836,
+                    "diagnostic_nll": 0.6431982453942398,
+                    "diagnostic_kl": 0.12497063917024537,
+                    "diagnostic_subject_count": 18
+                  },
+                  "distilled": {
+                    "nll": 0.6296076282498428,
+                    "kl": 0.05756007744983037,
+                    "diagnostic_nll": 0.6587914601982283,
+                    "diagnostic_kl": 0.1519697405633179,
+                    "diagnostic_subject_count": 18
+                  },
+                  "oracle": {
+                    "nll": 0.5807008080309825,
+                    "kl": 0.02033312049847067,
+                    "diagnostic_nll": 0.5253700341701188,
+                    "diagnostic_kl": 0.025212290303104075,
+                    "diagnostic_subject_count": 18
+                  },
+                  "solo_population": {
+                    "nll": 0.6683086645728954,
+                    "kl": 0.0786892906304836,
+                    "diagnostic_nll": 0.6431982453942398,
+                    "diagnostic_kl": 0.12497063917024537,
+                    "diagnostic_subject_count": 18
+                  },
+                  "solo_individual": {
+                    "nll": 0.6634412724623383,
+                    "kl": 0.08301103908081921,
+                    "diagnostic_nll": 0.6927088877227566,
+                    "diagnostic_kl": 0.14687805022107137,
+                    "diagnostic_subject_count": 18
+                  },
+                  "distilled_population": {
+                    "nll": 0.6296076282498428,
+                    "kl": 0.05756007744983037,
+                    "diagnostic_nll": 0.6587914601982283,
+                    "diagnostic_kl": 0.1519697405633179,
+                    "diagnostic_subject_count": 18
+                  },
+                  "distilled_individual": {
+                    "nll": 0.6393063277663155,
+                    "kl": 0.0635531325431736,
+                    "diagnostic_nll": 0.6544131431231563,
+                    "diagnostic_kl": 0.14562382530368553,
+                    "diagnostic_subject_count": 18
+                  },
+                  "oracle_population": {
+                    "nll": 0.5807008080309825,
+                    "kl": 0.02033312049847067,
+                    "diagnostic_nll": 0.5253700341701188,
+                    "diagnostic_kl": 0.025212290303104075,
+                    "diagnostic_subject_count": 18
+                  },
+                  "oracle_individual": {
+                    "nll": 0.6084657409667045,
+                    "kl": 0.031243085362287405,
+                    "diagnostic_nll": 0.5503625979903838,
+                    "diagnostic_kl": 0.03364708102553857,
+                    "diagnostic_subject_count": 18
+                  },
+                  "coinflip": {
+                    "nll": 0.6931471805599453,
+                    "kl": 0.1061253404903821,
+                    "diagnostic_nll": 0.6931471805599453,
+                    "diagnostic_kl": 0.18253066384288819,
+                    "diagnostic_subject_count": 18
+                  },
+                  "frequency": {
+                    "nll": 0.6843287755301198,
+                    "kl": 0.09048628455573915,
+                    "diagnostic_nll": 0.6714485082611459,
+                    "diagnostic_kl": 0.13837278887332866,
+                    "diagnostic_subject_count": 18
+                  }
+                },
+                "target_comparisons": {
+                  "population": {
+                    "nll_gain": 0.04890682021886039,
+                    "kl_gain": 0.0372269569513597,
+                    "diagnostic_nll_gain": 0.13342142602810947,
+                    "diagnostic_kl_gain": 0.12675745026021384
+                  },
+                  "individual": {
+                    "nll_gain": 0.03084058679961099,
+                    "kl_gain": 0.032310047180886196,
+                    "diagnostic_nll_gain": 0.10405054513277257,
+                    "diagnostic_kl_gain": 0.11197674427814697
+                  }
+                },
+                "contextual_comparisons": {
+                  "distilled_vs_solo": {
+                    "nll_gain": 0.03870103632305255,
+                    "kl_gain": 0.021129213180653236,
+                    "diagnostic_nll_gain": -0.015593214803988564,
+                    "diagnostic_kl_gain": -0.026999101393072544
+                  },
+                  "oracle_vs_solo": {
+                    "nll_gain": 0.08760785654191294,
+                    "kl_gain": 0.058356170132012934,
+                    "diagnostic_nll_gain": 0.1178282112241209,
+                    "diagnostic_kl_gain": 0.0997583488671413
+                  },
+                  "oracle_vs_teacher": {
+                    "nll_gain": 0.04715720851243532,
+                    "kl_gain": 0.03443771825337738,
+                    "diagnostic_nll_gain": 0.1162084680320068,
+                    "diagnostic_kl_gain": 0.12330655314127811
+                  }
+                }
+              },
+              {
+                "seed": 20261421,
+                "subject_count": 20,
+                "test_count": 400,
+                "diagnostic_count": 61,
+                "diagnostic_subject_count": 12,
+                "models": {
+                  "teacher": {
+                    "nll": 0.6288797973525553,
+                    "kl": 0.053813399882941385,
+                    "diagnostic_nll": 0.64995229576543,
+                    "diagnostic_kl": 0.14605344023595943,
+                    "diagnostic_subject_count": 12
+                  },
+                  "solo": {
+                    "nll": 0.6737791102499349,
+                    "kl": 0.08502927644366176,
+                    "diagnostic_nll": 0.6653089442105576,
+                    "diagnostic_kl": 0.13722695793857942,
+                    "diagnostic_subject_count": 12
+                  },
+                  "distilled": {
+                    "nll": 0.6275972537801475,
+                    "kl": 0.05675093558127616,
+                    "diagnostic_nll": 0.6486481569065606,
+                    "diagnostic_kl": 0.1437896551314585,
+                    "diagnostic_subject_count": 12
+                  },
+                  "oracle": {
+                    "nll": 0.6073004943882647,
+                    "kl": 0.02964959002178792,
+                    "diagnostic_nll": 0.555717603913562,
+                    "diagnostic_kl": 0.060352554048956016,
+                    "diagnostic_subject_count": 12
+                  },
+                  "solo_population": {
+                    "nll": 0.6737791102499349,
+                    "kl": 0.08502927644366176,
+                    "diagnostic_nll": 0.6653089442105576,
+                    "diagnostic_kl": 0.13722695793857942,
+                    "diagnostic_subject_count": 12
+                  },
+                  "solo_individual": {
+                    "nll": 0.6683999998707734,
+                    "kl": 0.08406706840374947,
+                    "diagnostic_nll": 0.6747608777260222,
+                    "diagnostic_kl": 0.14504467031657833,
+                    "diagnostic_subject_count": 12
+                  },
+                  "distilled_population": {
+                    "nll": 0.6275972537801475,
+                    "kl": 0.05675093558127616,
+                    "diagnostic_nll": 0.6486481569065606,
+                    "diagnostic_kl": 0.1437896551314585,
+                    "diagnostic_subject_count": 12
+                  },
+                  "distilled_individual": {
+                    "nll": 0.6424825980765229,
+                    "kl": 0.06279351855773427,
+                    "diagnostic_nll": 0.686014333539474,
+                    "diagnostic_kl": 0.1488316680492886,
+                    "diagnostic_subject_count": 12
+                  },
+                  "oracle_population": {
+                    "nll": 0.6073004943882647,
+                    "kl": 0.02964959002178792,
+                    "diagnostic_nll": 0.555717603913562,
+                    "diagnostic_kl": 0.060352554048956016,
+                    "diagnostic_subject_count": 12
+                  },
+                  "oracle_individual": {
+                    "nll": 0.6071708537438881,
+                    "kl": 0.041448248840445595,
+                    "diagnostic_nll": 0.5462668483300934,
+                    "diagnostic_kl": 0.09047407192118777,
+                    "diagnostic_subject_count": 12
+                  },
+                  "coinflip": {
+                    "nll": 0.6931471805599453,
+                    "kl": 0.09994394105343393,
+                    "diagnostic_nll": 0.6931471805599453,
+                    "diagnostic_kl": 0.152441825178508,
+                    "diagnostic_subject_count": 12
+                  },
+                  "frequency": {
+                    "nll": 0.6819079091851139,
+                    "kl": 0.09604601615380395,
+                    "diagnostic_nll": 0.678714309665884,
+                    "diagnostic_kl": 0.1599886410372177,
+                    "diagnostic_subject_count": 12
+                  }
+                },
+                "target_comparisons": {
+                  "population": {
+                    "nll_gain": 0.0202967593918828,
+                    "kl_gain": 0.027101345559488243,
+                    "diagnostic_nll_gain": 0.09293055299299868,
+                    "diagnostic_kl_gain": 0.08343710108250249
+                  },
+                  "individual": {
+                    "nll_gain": 0.03531174433263473,
+                    "kl_gain": 0.021345269717288673,
+                    "diagnostic_nll_gain": 0.13974748520938063,
+                    "diagnostic_kl_gain": 0.05835759612810083
+                  }
+                },
+                "contextual_comparisons": {
+                  "distilled_vs_solo": {
+                    "nll_gain": 0.04618185646978734,
+                    "kl_gain": 0.0282783408623856,
+                    "diagnostic_nll_gain": 0.016660787303997004,
+                    "diagnostic_kl_gain": -0.00656269719287908
+                  },
+                  "oracle_vs_solo": {
+                    "nll_gain": 0.06647861586167014,
+                    "kl_gain": 0.05537968642187384,
+                    "diagnostic_nll_gain": 0.10959134029699569,
+                    "diagnostic_kl_gain": 0.07687440388962341
+                  },
+                  "oracle_vs_teacher": {
+                    "nll_gain": 0.02157930296429056,
+                    "kl_gain": 0.024163809861153466,
+                    "diagnostic_nll_gain": 0.09423469185186806,
+                    "diagnostic_kl_gain": 0.08570088618700342
+                  }
+                }
+              },
+              {
+                "seed": 20261431,
+                "subject_count": 20,
+                "test_count": 400,
+                "diagnostic_count": 43,
+                "diagnostic_subject_count": 14,
+                "models": {
+                  "teacher": {
+                    "nll": 0.621275080333487,
+                    "kl": 0.04037745495409271,
+                    "diagnostic_nll": 0.5978294533758736,
+                    "diagnostic_kl": 0.12708499112183855,
+                    "diagnostic_subject_count": 14
+                  },
+                  "solo": {
+                    "nll": 0.6645261270043679,
+                    "kl": 0.0676866241128353,
+                    "diagnostic_nll": 0.6455002679548816,
+                    "diagnostic_kl": 0.14493072087243417,
+                    "diagnostic_subject_count": 14
+                  },
+                  "distilled": {
+                    "nll": 0.6287753183070837,
+                    "kl": 0.04046410396637989,
+                    "diagnostic_nll": 0.6074893012881976,
+                    "diagnostic_kl": 0.12786996523168306,
+                    "diagnostic_subject_count": 14
+                  },
+                  "oracle": {
+                    "nll": 0.6161428235557116,
+                    "kl": 0.01768693110338245,
+                    "diagnostic_nll": 0.47884438068666757,
+                    "diagnostic_kl": 0.020312113027006723,
+                    "diagnostic_subject_count": 14
+                  },
+                  "solo_population": {
+                    "nll": 0.6645261270043679,
+                    "kl": 0.0676866241128353,
+                    "diagnostic_nll": 0.6455002679548816,
+                    "diagnostic_kl": 0.14493072087243417,
+                    "diagnostic_subject_count": 14
+                  },
+                  "solo_individual": {
+                    "nll": 0.6714173611805975,
+                    "kl": 0.06681873427222376,
+                    "diagnostic_nll": 0.6549095468678258,
+                    "diagnostic_kl": 0.14559458800794559,
+                    "diagnostic_subject_count": 14
+                  },
+                  "distilled_population": {
+                    "nll": 0.6287753183070837,
+                    "kl": 0.04046410396637989,
+                    "diagnostic_nll": 0.6074893012881976,
+                    "diagnostic_kl": 0.12786996523168306,
+                    "diagnostic_subject_count": 14
+                  },
+                  "distilled_individual": {
+                    "nll": 0.6317064767499541,
+                    "kl": 0.04635847608318756,
+                    "diagnostic_nll": 0.6143727245625036,
+                    "diagnostic_kl": 0.13448418328698122,
+                    "diagnostic_subject_count": 14
+                  },
+                  "oracle_population": {
+                    "nll": 0.6161428235557116,
+                    "kl": 0.01768693110338245,
+                    "diagnostic_nll": 0.47884438068666757,
+                    "diagnostic_kl": 0.020312113027006723,
+                    "diagnostic_subject_count": 14
+                  },
+                  "oracle_individual": {
+                    "nll": 0.6270344090918715,
+                    "kl": 0.025369607466467426,
+                    "diagnostic_nll": 0.5070523961628021,
+                    "diagnostic_kl": 0.033768707109979944,
+                    "diagnostic_subject_count": 14
+                  },
+                  "coinflip": {
+                    "nll": 0.6931471805599453,
+                    "kl": 0.08105302774814221,
+                    "diagnostic_nll": 0.6931471805599453,
+                    "diagnostic_kl": 0.18051600237335874,
+                    "diagnostic_subject_count": 14
+                  },
+                  "frequency": {
+                    "nll": 0.6724695696588698,
+                    "kl": 0.07554306713209179,
+                    "diagnostic_nll": 0.6576448597331112,
+                    "diagnostic_kl": 0.1459602701066334,
+                    "diagnostic_subject_count": 14
+                  }
+                },
+                "target_comparisons": {
+                  "population": {
+                    "nll_gain": 0.01263249475137207,
+                    "kl_gain": 0.022777172862997436,
+                    "diagnostic_nll_gain": 0.12864492060153,
+                    "diagnostic_kl_gain": 0.10755785220467634
+                  },
+                  "individual": {
+                    "nll_gain": 0.00467206765808259,
+                    "kl_gain": 0.02098886861672013,
+                    "diagnostic_nll_gain": 0.10732032839970151,
+                    "diagnostic_kl_gain": 0.10071547617700127
+                  }
+                },
+                "contextual_comparisons": {
+                  "distilled_vs_solo": {
+                    "nll_gain": 0.0357508086972842,
+                    "kl_gain": 0.02722252014645541,
+                    "diagnostic_nll_gain": 0.03801096666668402,
+                    "diagnostic_kl_gain": 0.017060755640751102
+                  },
+                  "oracle_vs_solo": {
+                    "nll_gain": 0.04838330344865627,
+                    "kl_gain": 0.049999693009452846,
+                    "diagnostic_nll_gain": 0.166655887268214,
+                    "diagnostic_kl_gain": 0.12461860784542744
+                  },
+                  "oracle_vs_teacher": {
+                    "nll_gain": 0.005132256777775401,
+                    "kl_gain": 0.022690523850710256,
+                    "diagnostic_nll_gain": 0.118985072689206,
+                    "diagnostic_kl_gain": 0.10677287809483182
+                  }
+                }
+              },
+              {
+                "seed": 20261441,
+                "subject_count": 20,
+                "test_count": 400,
+                "diagnostic_count": 53,
+                "diagnostic_subject_count": 13,
+                "models": {
+                  "teacher": {
+                    "nll": 0.6535828179978627,
+                    "kl": 0.048295148966499266,
+                    "diagnostic_nll": 0.7045941119788552,
+                    "diagnostic_kl": 0.1637061306043895,
+                    "diagnostic_subject_count": 13
+                  },
+                  "solo": {
+                    "nll": 0.6699813382233276,
+                    "kl": 0.07005955704374325,
+                    "diagnostic_nll": 0.6837325996213295,
+                    "diagnostic_kl": 0.1484582592241739,
+                    "diagnostic_subject_count": 13
+                  },
+                  "distilled": {
+                    "nll": 0.657676897579736,
+                    "kl": 0.05068422995429737,
+                    "diagnostic_nll": 0.7104399609100577,
+                    "diagnostic_kl": 0.16285104359930133,
+                    "diagnostic_subject_count": 13
+                  },
+                  "oracle": {
+                    "nll": 0.618953473300328,
+                    "kl": 0.017356949057553177,
+                    "diagnostic_nll": 0.5680470487550351,
+                    "diagnostic_kl": 0.02289921122811733,
+                    "diagnostic_subject_count": 13
+                  },
+                  "solo_population": {
+                    "nll": 0.6699813382233276,
+                    "kl": 0.07005955704374325,
+                    "diagnostic_nll": 0.6837325996213295,
+                    "diagnostic_kl": 0.1484582592241739,
+                    "diagnostic_subject_count": 13
+                  },
+                  "solo_individual": {
+                    "nll": 0.6820041691724179,
+                    "kl": 0.07366767770810109,
+                    "diagnostic_nll": 0.716531967467215,
+                    "diagnostic_kl": 0.14964787572697816,
+                    "diagnostic_subject_count": 13
+                  },
+                  "distilled_population": {
+                    "nll": 0.657676897579736,
+                    "kl": 0.05068422995429737,
+                    "diagnostic_nll": 0.7104399609100577,
+                    "diagnostic_kl": 0.16285104359930133,
+                    "diagnostic_subject_count": 13
+                  },
+                  "distilled_individual": {
+                    "nll": 0.6754810425985965,
+                    "kl": 0.06218484231836772,
+                    "diagnostic_nll": 0.7275797361421105,
+                    "diagnostic_kl": 0.16142802406045986,
+                    "diagnostic_subject_count": 13
+                  },
+                  "oracle_population": {
+                    "nll": 0.618953473300328,
+                    "kl": 0.017356949057553177,
+                    "diagnostic_nll": 0.5680470487550351,
+                    "diagnostic_kl": 0.02289921122811733,
+                    "diagnostic_subject_count": 13
+                  },
+                  "oracle_individual": {
+                    "nll": 0.650409650378895,
+                    "kl": 0.03456695898377568,
+                    "diagnostic_nll": 0.6087105021748987,
+                    "diagnostic_kl": 0.04866782037368734,
+                    "diagnostic_subject_count": 13
+                  },
+                  "coinflip": {
+                    "nll": 0.6931471805599453,
+                    "kl": 0.09316042711368473,
+                    "diagnostic_nll": 0.6931471805599453,
+                    "diagnostic_kl": 0.17311840165736922,
+                    "diagnostic_subject_count": 13
+                  },
+                  "frequency": {
+                    "nll": 0.6867945944818935,
+                    "kl": 0.08949907058618542,
+                    "diagnostic_nll": 0.7210032924483291,
+                    "diagnostic_kl": 0.1900485256033937,
+                    "diagnostic_subject_count": 13
+                  }
+                },
+                "target_comparisons": {
+                  "population": {
+                    "nll_gain": 0.038723424279408,
+                    "kl_gain": 0.033327280896744194,
+                    "diagnostic_nll_gain": 0.1423929121550226,
+                    "diagnostic_kl_gain": 0.139951832371184
+                  },
+                  "individual": {
+                    "nll_gain": 0.02507139221970156,
+                    "kl_gain": 0.027617883334592037,
+                    "diagnostic_nll_gain": 0.11886923396721172,
+                    "diagnostic_kl_gain": 0.11276020368677253
+                  }
+                },
+                "contextual_comparisons": {
+                  "distilled_vs_solo": {
+                    "nll_gain": 0.012304440643591597,
+                    "kl_gain": 0.019375327089445886,
+                    "diagnostic_nll_gain": -0.026707361288728193,
+                    "diagnostic_kl_gain": -0.014392784375127421
+                  },
+                  "oracle_vs_solo": {
+                    "nll_gain": 0.0510278649229996,
+                    "kl_gain": 0.05270260798619007,
+                    "diagnostic_nll_gain": 0.1156855508662944,
+                    "diagnostic_kl_gain": 0.12555904799605658
+                  },
+                  "oracle_vs_teacher": {
+                    "nll_gain": 0.03462934469753465,
+                    "kl_gain": 0.030938199908946088,
+                    "diagnostic_nll_gain": 0.13654706322382015,
+                    "diagnostic_kl_gain": 0.14080691937627215
+                  }
+                }
+              },
+              {
+                "seed": 20261451,
+                "subject_count": 20,
+                "test_count": 400,
+                "diagnostic_count": 39,
+                "diagnostic_subject_count": 13,
+                "models": {
+                  "teacher": {
+                    "nll": 0.6598301080015564,
+                    "kl": 0.02835933900704606,
+                    "diagnostic_nll": 0.6393022252403248,
+                    "diagnostic_kl": 0.11750468289947423,
+                    "diagnostic_subject_count": 13
+                  },
+                  "solo": {
+                    "nll": 0.689683997413413,
+                    "kl": 0.05997613033995416,
+                    "diagnostic_nll": 0.6440038892278683,
+                    "diagnostic_kl": 0.15786965910616602,
+                    "diagnostic_subject_count": 13
+                  },
+                  "distilled": {
+                    "nll": 0.6651045509783254,
+                    "kl": 0.02965758147420629,
+                    "diagnostic_nll": 0.6465617203548791,
+                    "diagnostic_kl": 0.12271606409622378,
+                    "diagnostic_subject_count": 13
+                  },
+                  "oracle": {
+                    "nll": 0.6563646259710286,
+                    "kl": 0.008236833353577427,
+                    "diagnostic_nll": 0.5325117429167198,
+                    "diagnostic_kl": 0.011921675441995776,
+                    "diagnostic_subject_count": 13
+                  },
+                  "solo_population": {
+                    "nll": 0.689683997413413,
+                    "kl": 0.05997613033995416,
+                    "diagnostic_nll": 0.6440038892278683,
+                    "diagnostic_kl": 0.15786965910616602,
+                    "diagnostic_subject_count": 13
+                  },
+                  "solo_individual": {
+                    "nll": 0.6934980293218402,
+                    "kl": 0.06821773670006262,
+                    "diagnostic_nll": 0.6367732078068676,
+                    "diagnostic_kl": 0.14950361335839762,
+                    "diagnostic_subject_count": 13
+                  },
+                  "distilled_population": {
+                    "nll": 0.6651045509783254,
+                    "kl": 0.02965758147420629,
+                    "diagnostic_nll": 0.6465617203548791,
+                    "diagnostic_kl": 0.12271606409622378,
+                    "diagnostic_subject_count": 13
+                  },
+                  "distilled_individual": {
+                    "nll": 0.6710309237310523,
+                    "kl": 0.04491258372863525,
+                    "diagnostic_nll": 0.6081032221072596,
+                    "diagnostic_kl": 0.12795709732265287,
+                    "diagnostic_subject_count": 13
+                  },
+                  "oracle_population": {
+                    "nll": 0.6563646259710286,
+                    "kl": 0.008236833353577427,
+                    "diagnostic_nll": 0.5325117429167198,
+                    "diagnostic_kl": 0.011921675441995776,
+                    "diagnostic_subject_count": 13
+                  },
+                  "oracle_individual": {
+                    "nll": 0.6658907523260925,
+                    "kl": 0.031019227586187935,
+                    "diagnostic_nll": 0.45860634460900546,
+                    "diagnostic_kl": 0.06227386996936578,
+                    "diagnostic_subject_count": 13
+                  },
+                  "coinflip": {
+                    "nll": 0.6931471805599453,
+                    "kl": 0.06975067648162256,
+                    "diagnostic_nll": 0.6931471805599453,
+                    "diagnostic_kl": 0.18230252694947569,
+                    "diagnostic_subject_count": 13
+                  },
+                  "frequency": {
+                    "nll": 0.7030674089879121,
+                    "kl": 0.0665459056875578,
+                    "diagnostic_nll": 0.6509745704103035,
+                    "diagnostic_kl": 0.16576650198580564,
+                    "diagnostic_subject_count": 13
+                  }
+                },
+                "target_comparisons": {
+                  "population": {
+                    "nll_gain": 0.008739925007296812,
+                    "kl_gain": 0.021420748120628864,
+                    "diagnostic_nll_gain": 0.11404997743815937,
+                    "diagnostic_kl_gain": 0.110794388654228
+                  },
+                  "individual": {
+                    "nll_gain": 0.005140171404959815,
+                    "kl_gain": 0.013893356142447313,
+                    "diagnostic_nll_gain": 0.1494968774982542,
+                    "diagnostic_kl_gain": 0.06568322735328709
+                  }
+                },
+                "contextual_comparisons": {
+                  "distilled_vs_solo": {
+                    "nll_gain": 0.024579446435087582,
+                    "kl_gain": 0.030318548865747866,
+                    "diagnostic_nll_gain": -0.002557831127010801,
+                    "diagnostic_kl_gain": 0.03515359500994224
+                  },
+                  "oracle_vs_solo": {
+                    "nll_gain": 0.03331937144238439,
+                    "kl_gain": 0.051739296986376734,
+                    "diagnostic_nll_gain": 0.11149214631114857,
+                    "diagnostic_kl_gain": 0.14594798366417025
+                  },
+                  "oracle_vs_teacher": {
+                    "nll_gain": 0.0034654820305277667,
+                    "kl_gain": 0.020122505653468632,
+                    "diagnostic_nll_gain": 0.106790482323605,
+                    "diagnostic_kl_gain": 0.10558300745747845
+                  }
+                }
+              }
+            ],
+            "models": {
+              "teacher": {
+                "nll": {
+                  "mean": 0.6382851640457758,
+                  "min": 0.621275080333487,
+                  "max": 0.6598301080015564,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "kl": {
+                  "mean": 0.04512323631248549,
+                  "min": 0.02835933900704606,
+                  "max": 0.05477083875184805,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_nll": {
+                  "mean": 0.6466513177125218,
+                  "min": 0.5978294533758736,
+                  "max": 0.7045941119788552,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_kl": {
+                  "mean": 0.1405736176612088,
+                  "min": 0.11750468289947423,
+                  "max": 0.1637061306043895,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                }
+              },
+              "solo": {
+                "nll": {
+                  "mean": 0.6732558474927878,
+                  "min": 0.6645261270043679,
+                  "max": 0.689683997413413,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "kl": {
+                  "mean": 0.07228817571413561,
+                  "min": 0.05997613033995416,
+                  "max": 0.08502927644366176,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_nll": {
+                  "mean": 0.6563487892817753,
+                  "min": 0.6431982453942398,
+                  "max": 0.6837325996213295,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_kl": {
+                  "mean": 0.14269124726231977,
+                  "min": 0.12497063917024537,
+                  "max": 0.15786965910616602,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                }
+              },
+              "distilled": {
+                "nll": {
+                  "mean": 0.6417523297790272,
+                  "min": 0.6275972537801475,
+                  "max": 0.6651045509783254,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "kl": {
+                  "mean": 0.04702338568519802,
+                  "min": 0.02965758147420629,
+                  "max": 0.05756007744983037,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_nll": {
+                  "mean": 0.6543861199315847,
+                  "min": 0.6074893012881976,
+                  "max": 0.7104399609100577,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_kl": {
+                  "mean": 0.1418392937243969,
+                  "min": 0.12271606409622378,
+                  "max": 0.16285104359930133,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                }
+              },
+              "oracle": {
+                "nll": {
+                  "mean": 0.6158924450492631,
+                  "min": 0.5807008080309825,
+                  "max": 0.6563646259710286,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "kl": {
+                  "mean": 0.01865268480695433,
+                  "min": 0.008236833353577427,
+                  "max": 0.02964959002178792,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_nll": {
+                  "mean": 0.5320981620884206,
+                  "min": 0.47884438068666757,
+                  "max": 0.5680470487550351,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_kl": {
+                  "mean": 0.02813956880983598,
+                  "min": 0.011921675441995776,
+                  "max": 0.060352554048956016,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                }
+              },
+              "solo_population": {
+                "nll": {
+                  "mean": 0.6732558474927878,
+                  "min": 0.6645261270043679,
+                  "max": 0.689683997413413,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "kl": {
+                  "mean": 0.07228817571413561,
+                  "min": 0.05997613033995416,
+                  "max": 0.08502927644366176,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_nll": {
+                  "mean": 0.6563487892817753,
+                  "min": 0.6431982453942398,
+                  "max": 0.6837325996213295,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_kl": {
+                  "mean": 0.14269124726231977,
+                  "min": 0.12497063917024537,
+                  "max": 0.15786965910616602,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                }
+              },
+              "solo_individual": {
+                "nll": {
+                  "mean": 0.6757521664015934,
+                  "min": 0.6634412724623383,
+                  "max": 0.6934980293218402,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "kl": {
+                  "mean": 0.07515645123299124,
+                  "min": 0.06681873427222376,
+                  "max": 0.08406706840374947,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_nll": {
+                  "mean": 0.6751368975181374,
+                  "min": 0.6367732078068676,
+                  "max": 0.716531967467215,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_kl": {
+                  "mean": 0.14733375952619418,
+                  "min": 0.14504467031657833,
+                  "max": 0.14964787572697816,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                }
+              },
+              "distilled_population": {
+                "nll": {
+                  "mean": 0.6417523297790272,
+                  "min": 0.6275972537801475,
+                  "max": 0.6651045509783254,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "kl": {
+                  "mean": 0.04702338568519802,
+                  "min": 0.02965758147420629,
+                  "max": 0.05756007744983037,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_nll": {
+                  "mean": 0.6543861199315847,
+                  "min": 0.6074893012881976,
+                  "max": 0.7104399609100577,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_kl": {
+                  "mean": 0.1418392937243969,
+                  "min": 0.12271606409622378,
+                  "max": 0.16285104359930133,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                }
+              },
+              "distilled_individual": {
+                "nll": {
+                  "mean": 0.6520014737844881,
+                  "min": 0.6317064767499541,
+                  "max": 0.6754810425985965,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "kl": {
+                  "mean": 0.05596051064621967,
+                  "min": 0.04491258372863525,
+                  "max": 0.0635531325431736,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_nll": {
+                  "mean": 0.6580966318949008,
+                  "min": 0.6081032221072596,
+                  "max": 0.7275797361421105,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_kl": {
+                  "mean": 0.14366495960461362,
+                  "min": 0.12795709732265287,
+                  "max": 0.16142802406045986,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                }
+              },
+              "oracle_population": {
+                "nll": {
+                  "mean": 0.6158924450492631,
+                  "min": 0.5807008080309825,
+                  "max": 0.6563646259710286,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "kl": {
+                  "mean": 0.01865268480695433,
+                  "min": 0.008236833353577427,
+                  "max": 0.02964959002178792,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_nll": {
+                  "mean": 0.5320981620884206,
+                  "min": 0.47884438068666757,
+                  "max": 0.5680470487550351,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_kl": {
+                  "mean": 0.02813956880983598,
+                  "min": 0.011921675441995776,
+                  "max": 0.060352554048956016,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                }
+              },
+              "oracle_individual": {
+                "nll": {
+                  "mean": 0.6317942813014904,
+                  "min": 0.6071708537438881,
+                  "max": 0.6658907523260925,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "kl": {
+                  "mean": 0.03272942564783281,
+                  "min": 0.025369607466467426,
+                  "max": 0.041448248840445595,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_nll": {
+                  "mean": 0.5341997378534367,
+                  "min": 0.45860634460900546,
+                  "max": 0.6087105021748987,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_kl": {
+                  "mean": 0.053766310079951876,
+                  "min": 0.03364708102553857,
+                  "max": 0.09047407192118777,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                }
+              },
+              "coinflip": {
+                "nll": {
+                  "mean": 0.6931471805599453,
+                  "min": 0.6931471805599453,
+                  "max": 0.6931471805599453,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "kl": {
+                  "mean": 0.0900066825774531,
+                  "min": 0.06975067648162256,
+                  "max": 0.1061253404903821,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_nll": {
+                  "mean": 0.6931471805599453,
+                  "min": 0.6931471805599453,
+                  "max": 0.6931471805599453,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_kl": {
+                  "mean": 0.17418188400031998,
+                  "min": 0.152441825178508,
+                  "max": 0.18253066384288819,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                }
+              },
+              "frequency": {
+                "nll": {
+                  "mean": 0.6857136515687818,
+                  "min": 0.6724695696588698,
+                  "max": 0.7030674089879121,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "kl": {
+                  "mean": 0.08362406882307563,
+                  "min": 0.0665459056875578,
+                  "max": 0.09604601615380395,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_nll": {
+                  "mean": 0.6759571081037548,
+                  "min": 0.6509745704103035,
+                  "max": 0.7210032924483291,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_kl": {
+                  "mean": 0.16002734552127582,
+                  "min": 0.13837278887332866,
+                  "max": 0.1900485256033937,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                }
+              }
+            },
+            "support": {
+              "subject_count": {
+                "mean": 20.0,
+                "min": 20,
+                "max": 20,
+                "supported_seed_count": 5,
+                "planned_seed_count": 5
+              },
+              "test_count": {
+                "mean": 400.0,
+                "min": 400,
+                "max": 400,
+                "supported_seed_count": 5,
+                "planned_seed_count": 5
+              },
+              "diagnostic_count": {
+                "mean": 51.4,
+                "min": 39,
+                "max": 61,
+                "supported_seed_count": 5,
+                "planned_seed_count": 5
+              },
+              "diagnostic_subject_count": {
+                "mean": 14.0,
+                "min": 12,
+                "max": 18,
+                "supported_seed_count": 5,
+                "planned_seed_count": 5
+              }
+            },
+            "target_comparisons": {
+              "population": {
+                "nll_gain": {
+                  "mean": 0.025859884729764016,
+                  "min": 0.008739925007296812,
+                  "max": 0.04890682021886039,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5,
+                  "positive_seed_count": 5,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                },
+                "kl_gain": {
+                  "mean": 0.02837070087824369,
+                  "min": 0.021420748120628864,
+                  "max": 0.0372269569513597,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5,
+                  "positive_seed_count": 5,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                },
+                "diagnostic_nll_gain": {
+                  "mean": 0.12228795784316401,
+                  "min": 0.09293055299299868,
+                  "max": 0.1423929121550226,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5,
+                  "positive_seed_count": 5,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                },
+                "diagnostic_kl_gain": {
+                  "mean": 0.11369972491456093,
+                  "min": 0.08343710108250249,
+                  "max": 0.139951832371184,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5,
+                  "positive_seed_count": 5,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                }
+              },
+              "individual": {
+                "nll_gain": {
+                  "mean": 0.02020719248299794,
+                  "min": 0.00467206765808259,
+                  "max": 0.03531174433263473,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5,
+                  "positive_seed_count": 5,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                },
+                "kl_gain": {
+                  "mean": 0.023231084998386872,
+                  "min": 0.013893356142447313,
+                  "max": 0.032310047180886196,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5,
+                  "positive_seed_count": 5,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                },
+                "diagnostic_nll_gain": {
+                  "mean": 0.12389689404146412,
+                  "min": 0.10405054513277257,
+                  "max": 0.1494968774982542,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5,
+                  "positive_seed_count": 5,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                },
+                "diagnostic_kl_gain": {
+                  "mean": 0.08989864952466173,
+                  "min": 0.05835759612810083,
+                  "max": 0.11276020368677253,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5,
+                  "positive_seed_count": 5,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                }
+              }
+            },
+            "contextual_comparisons": {
+              "distilled_vs_solo": {
+                "nll_gain": {
+                  "mean": 0.031503517713760656,
+                  "min": 0.012304440643591597,
+                  "max": 0.04618185646978734,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5,
+                  "positive_seed_count": 5,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                },
+                "kl_gain": {
+                  "mean": 0.0252647900289376,
+                  "min": 0.019375327089445886,
+                  "max": 0.030318548865747866,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5,
+                  "positive_seed_count": 5,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                },
+                "diagnostic_nll_gain": {
+                  "mean": 0.0019626693501906935,
+                  "min": -0.026707361288728193,
+                  "max": 0.03801096666668402,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5,
+                  "positive_seed_count": 2,
+                  "negative_seed_count": 3,
+                  "tied_seed_count": 0
+                },
+                "diagnostic_kl_gain": {
+                  "mean": 0.0008519535379228587,
+                  "min": -0.026999101393072544,
+                  "max": 0.03515359500994224,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5,
+                  "positive_seed_count": 2,
+                  "negative_seed_count": 3,
+                  "tied_seed_count": 0
+                }
+              },
+              "oracle_vs_solo": {
+                "nll_gain": {
+                  "mean": 0.05736340244352467,
+                  "min": 0.03331937144238439,
+                  "max": 0.08760785654191294,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5,
+                  "positive_seed_count": 5,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                },
+                "kl_gain": {
+                  "mean": 0.05363549090718128,
+                  "min": 0.049999693009452846,
+                  "max": 0.058356170132012934,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5,
+                  "positive_seed_count": 5,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                },
+                "diagnostic_nll_gain": {
+                  "mean": 0.12425062719335471,
+                  "min": 0.10959134029699569,
+                  "max": 0.166655887268214,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5,
+                  "positive_seed_count": 5,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                },
+                "diagnostic_kl_gain": {
+                  "mean": 0.11455167845248379,
+                  "min": 0.07687440388962341,
+                  "max": 0.14594798366417025,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5,
+                  "positive_seed_count": 5,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                }
+              },
+              "oracle_vs_teacher": {
+                "nll_gain": {
+                  "mean": 0.02239271899651274,
+                  "min": 0.0034654820305277667,
+                  "max": 0.04715720851243532,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5,
+                  "positive_seed_count": 5,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                },
+                "kl_gain": {
+                  "mean": 0.026470551505531164,
+                  "min": 0.020122505653468632,
+                  "max": 0.03443771825337738,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5,
+                  "positive_seed_count": 5,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                },
+                "diagnostic_nll_gain": {
+                  "mean": 0.1145531556241012,
+                  "min": 0.09423469185186806,
+                  "max": 0.13654706322382015,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5,
+                  "positive_seed_count": 5,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                },
+                "diagnostic_kl_gain": {
+                  "mean": 0.11243404885137279,
+                  "min": 0.08570088618700342,
+                  "max": 0.14080691937627215,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5,
+                  "positive_seed_count": 5,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                }
+              }
+            }
+          },
+          "typical": {
+            "per_seed": [
+              {
+                "seed": 20261411,
+                "subject_count": 980,
+                "test_count": 19600,
+                "diagnostic_count": 9,
+                "diagnostic_subject_count": 9,
+                "models": {
+                  "teacher": {
+                    "nll": 0.6639773459718009,
+                    "kl": 0.009706889735063428,
+                    "diagnostic_nll": 0.7923694230099358,
+                    "diagnostic_kl": 0.0757665447272304,
+                    "diagnostic_subject_count": 9
+                  },
+                  "solo": {
+                    "nll": 0.6888938442837789,
+                    "kl": 0.034279534248327054,
+                    "diagnostic_nll": 0.6617144625053637,
+                    "diagnostic_kl": 0.023892085050628266,
+                    "diagnostic_subject_count": 9
+                  },
+                  "distilled": {
+                    "nll": 0.6659546662779657,
+                    "kl": 0.011603030272275572,
+                    "diagnostic_nll": 0.7762775393293857,
+                    "diagnostic_kl": 0.06902463518601376,
+                    "diagnostic_subject_count": 9
+                  },
+                  "oracle": {
+                    "nll": 0.6620516823455169,
+                    "kl": 0.006425999048766227,
+                    "diagnostic_nll": 0.7632841838772556,
+                    "diagnostic_kl": 0.03242916036014316,
+                    "diagnostic_subject_count": 9
+                  },
+                  "solo_population": {
+                    "nll": 0.6888938442837789,
+                    "kl": 0.034279534248327054,
+                    "diagnostic_nll": 0.6617144625053637,
+                    "diagnostic_kl": 0.023892085050628266,
+                    "diagnostic_subject_count": 9
+                  },
+                  "solo_individual": {
+                    "nll": 0.691701928157668,
+                    "kl": 0.0380525844269863,
+                    "diagnostic_nll": 0.6046369976046273,
+                    "diagnostic_kl": 0.02221941608447174,
+                    "diagnostic_subject_count": 9
+                  },
+                  "distilled_population": {
+                    "nll": 0.6659546662779657,
+                    "kl": 0.011603030272275572,
+                    "diagnostic_nll": 0.7762775393293857,
+                    "diagnostic_kl": 0.06902463518601376,
+                    "diagnostic_subject_count": 9
+                  },
+                  "distilled_individual": {
+                    "nll": 0.6759460082642409,
+                    "kl": 0.021377753360303106,
+                    "diagnostic_nll": 0.742822898619725,
+                    "diagnostic_kl": 0.0734220030206588,
+                    "diagnostic_subject_count": 9
+                  },
+                  "oracle_population": {
+                    "nll": 0.6620516823455169,
+                    "kl": 0.006425999048766227,
+                    "diagnostic_nll": 0.7632841838772556,
+                    "diagnostic_kl": 0.03242916036014316,
+                    "diagnostic_subject_count": 9
+                  },
+                  "oracle_individual": {
+                    "nll": 0.6726262658025559,
+                    "kl": 0.01696463238015221,
+                    "diagnostic_nll": 0.6726242621776878,
+                    "diagnostic_kl": 0.0405013288873174,
+                    "diagnostic_subject_count": 9
+                  },
+                  "coinflip": {
+                    "nll": 0.6931471805599453,
+                    "kl": 0.03791444926292405,
+                    "diagnostic_nll": 0.6931471805599453,
+                    "diagnostic_kl": 0.0319881963548139,
+                    "diagnostic_subject_count": 9
+                  },
+                  "frequency": {
+                    "nll": 0.6925753714912006,
+                    "kl": 0.0385112392843132,
+                    "diagnostic_nll": 0.6846284894399344,
+                    "diagnostic_kl": 0.033173140746668696,
+                    "diagnostic_subject_count": 9
+                  }
+                },
+                "target_comparisons": {
+                  "population": {
+                    "nll_gain": 0.0039029839324488114,
+                    "kl_gain": 0.005177031223509345,
+                    "diagnostic_nll_gain": 0.012993355452130095,
+                    "diagnostic_kl_gain": 0.036595474825870604
+                  },
+                  "individual": {
+                    "nll_gain": 0.0033197424616849824,
+                    "kl_gain": 0.0044131209801508975,
+                    "diagnostic_nll_gain": 0.07019863644203717,
+                    "diagnostic_kl_gain": 0.03292067413334139
+                  }
+                },
+                "contextual_comparisons": {
+                  "distilled_vs_solo": {
+                    "nll_gain": 0.022939178005813132,
+                    "kl_gain": 0.022676503976051483,
+                    "diagnostic_nll_gain": -0.114563076824022,
+                    "diagnostic_kl_gain": -0.045132550135385495
+                  },
+                  "oracle_vs_solo": {
+                    "nll_gain": 0.026842161938261944,
+                    "kl_gain": 0.027853535199560825,
+                    "diagnostic_nll_gain": -0.10156972137189191,
+                    "diagnostic_kl_gain": -0.008537075309514891
+                  },
+                  "oracle_vs_teacher": {
+                    "nll_gain": 0.001925663626283991,
+                    "kl_gain": 0.003280890686297201,
+                    "diagnostic_nll_gain": 0.02908523913268024,
+                    "diagnostic_kl_gain": 0.04333738436708725
+                  }
+                }
+              },
+              {
+                "seed": 20261421,
+                "subject_count": 980,
+                "test_count": 19600,
+                "diagnostic_count": 7,
+                "diagnostic_subject_count": 7,
+                "models": {
+                  "teacher": {
+                    "nll": 0.6679128939864151,
+                    "kl": 0.009472580155158965,
+                    "diagnostic_nll": 0.8816890937106289,
+                    "diagnostic_kl": 0.05278246593066275,
+                    "diagnostic_subject_count": 7
+                  },
+                  "solo": {
+                    "nll": 0.689836956137305,
+                    "kl": 0.0331622852063606,
+                    "diagnostic_nll": 0.7422738022701653,
+                    "diagnostic_kl": 0.04711043007217037,
+                    "diagnostic_subject_count": 7
+                  },
+                  "distilled": {
+                    "nll": 0.6708144566290022,
+                    "kl": 0.011464112644225912,
+                    "diagnostic_nll": 0.8995565590166328,
+                    "diagnostic_kl": 0.05268368188938071,
+                    "diagnostic_subject_count": 7
+                  },
+                  "oracle": {
+                    "nll": 0.6652460500988703,
+                    "kl": 0.0062198801977523645,
+                    "diagnostic_nll": 0.8294487017612295,
+                    "diagnostic_kl": 0.02075643435537514,
+                    "diagnostic_subject_count": 7
+                  },
+                  "solo_population": {
+                    "nll": 0.689836956137305,
+                    "kl": 0.0331622852063606,
+                    "diagnostic_nll": 0.7422738022701653,
+                    "diagnostic_kl": 0.04711043007217037,
+                    "diagnostic_subject_count": 7
+                  },
+                  "solo_individual": {
+                    "nll": 0.694767382356164,
+                    "kl": 0.03799577011180208,
+                    "diagnostic_nll": 0.7255943876865717,
+                    "diagnostic_kl": 0.052526316949732296,
+                    "diagnostic_subject_count": 7
+                  },
+                  "distilled_population": {
+                    "nll": 0.6708144566290022,
+                    "kl": 0.011464112644225912,
+                    "diagnostic_nll": 0.8995565590166328,
+                    "diagnostic_kl": 0.05268368188938071,
+                    "diagnostic_subject_count": 7
+                  },
+                  "distilled_individual": {
+                    "nll": 0.6781738349504205,
+                    "kl": 0.020209584378264474,
+                    "diagnostic_nll": 0.8869687415109693,
+                    "diagnostic_kl": 0.05125822403368668,
+                    "diagnostic_subject_count": 7
+                  },
+                  "oracle_population": {
+                    "nll": 0.6652460500988703,
+                    "kl": 0.0062198801977523645,
+                    "diagnostic_nll": 0.8294487017612295,
+                    "diagnostic_kl": 0.02075643435537514,
+                    "diagnostic_subject_count": 7
+                  },
+                  "oracle_individual": {
+                    "nll": 0.6749119673590286,
+                    "kl": 0.015927117285630493,
+                    "diagnostic_nll": 0.7921933224122226,
+                    "diagnostic_kl": 0.02131017890758868,
+                    "diagnostic_subject_count": 7
+                  },
+                  "coinflip": {
+                    "nll": 0.6931471805599453,
+                    "kl": 0.03586881829365577,
+                    "diagnostic_nll": 0.6931471805599453,
+                    "diagnostic_kl": 0.06181265853151009,
+                    "diagnostic_subject_count": 7
+                  },
+                  "frequency": {
+                    "nll": 0.6940030258500087,
+                    "kl": 0.03776331688050669,
+                    "diagnostic_nll": 0.7712268148571154,
+                    "diagnostic_kl": 0.05569762251022527,
+                    "diagnostic_subject_count": 7
+                  }
+                },
+                "target_comparisons": {
+                  "population": {
+                    "nll_gain": 0.0055684065301319086,
+                    "kl_gain": 0.005244232446473548,
+                    "diagnostic_nll_gain": 0.07010785725540325,
+                    "diagnostic_kl_gain": 0.03192724753400557
+                  },
+                  "individual": {
+                    "nll_gain": 0.0032618675913919093,
+                    "kl_gain": 0.004282467092633982,
+                    "diagnostic_nll_gain": 0.09477541909874665,
+                    "diagnostic_kl_gain": 0.029948045126098003
+                  }
+                },
+                "contextual_comparisons": {
+                  "distilled_vs_solo": {
+                    "nll_gain": 0.019022499508302815,
+                    "kl_gain": 0.021698172562134688,
+                    "diagnostic_nll_gain": -0.15728275674646752,
+                    "diagnostic_kl_gain": -0.005573251817210342
+                  },
+                  "oracle_vs_solo": {
+                    "nll_gain": 0.024590906038434723,
+                    "kl_gain": 0.026942405008608238,
+                    "diagnostic_nll_gain": -0.08717489949106427,
+                    "diagnostic_kl_gain": 0.02635399571679523
+                  },
+                  "oracle_vs_teacher": {
+                    "nll_gain": 0.0026668438875447897,
+                    "kl_gain": 0.0032526999574066006,
+                    "diagnostic_nll_gain": 0.052240391949399334,
+                    "diagnostic_kl_gain": 0.032026031575287606
+                  }
+                }
+              },
+              {
+                "seed": 20261431,
+                "subject_count": 980,
+                "test_count": 19600,
+                "diagnostic_count": 2,
+                "diagnostic_subject_count": 2,
+                "models": {
+                  "teacher": {
+                    "nll": 0.6686132161791258,
+                    "kl": 0.009576532938562523,
+                    "diagnostic_nll": 0.881314724096564,
+                    "diagnostic_kl": 0.11927391188675746,
+                    "diagnostic_subject_count": 2
+                  },
+                  "solo": {
+                    "nll": 0.6899063833555722,
+                    "kl": 0.03305934122151429,
+                    "diagnostic_nll": 0.8077856221444564,
+                    "diagnostic_kl": 0.07806634704900622,
+                    "diagnostic_subject_count": 2
+                  },
+                  "distilled": {
+                    "nll": 0.6715940869996668,
+                    "kl": 0.01130856922790378,
+                    "diagnostic_nll": 0.8999572647466757,
+                    "diagnostic_kl": 0.13048522208028102,
+                    "diagnostic_subject_count": 2
+                  },
+                  "oracle": {
+                    "nll": 0.6678941886632133,
+                    "kl": 0.006637072878662983,
+                    "diagnostic_nll": 0.6429427958235174,
+                    "diagnostic_kl": 0.022923904620066167,
+                    "diagnostic_subject_count": 2
+                  },
+                  "solo_population": {
+                    "nll": 0.6899063833555722,
+                    "kl": 0.03305934122151429,
+                    "diagnostic_nll": 0.8077856221444564,
+                    "diagnostic_kl": 0.07806634704900622,
+                    "diagnostic_subject_count": 2
+                  },
+                  "solo_individual": {
+                    "nll": 0.6964800360636387,
+                    "kl": 0.03764950494450132,
+                    "diagnostic_nll": 0.8304267897776847,
+                    "diagnostic_kl": 0.08827892771923151,
+                    "diagnostic_subject_count": 2
+                  },
+                  "distilled_population": {
+                    "nll": 0.6715940869996668,
+                    "kl": 0.01130856922790378,
+                    "diagnostic_nll": 0.8999572647466757,
+                    "diagnostic_kl": 0.13048522208028102,
+                    "diagnostic_subject_count": 2
+                  },
+                  "distilled_individual": {
+                    "nll": 0.6791180984907017,
+                    "kl": 0.019621102105207313,
+                    "diagnostic_nll": 0.8729434142408408,
+                    "diagnostic_kl": 0.12697718140274483,
+                    "diagnostic_subject_count": 2
+                  },
+                  "oracle_population": {
+                    "nll": 0.6678941886632133,
+                    "kl": 0.006637072878662983,
+                    "diagnostic_nll": 0.6429427958235174,
+                    "diagnostic_kl": 0.022923904620066167,
+                    "diagnostic_subject_count": 2
+                  },
+                  "oracle_individual": {
+                    "nll": 0.6770064149681244,
+                    "kl": 0.015773449431034,
+                    "diagnostic_nll": 0.6019114836783448,
+                    "diagnostic_kl": 0.01592526773009111,
+                    "diagnostic_subject_count": 2
+                  },
+                  "coinflip": {
+                    "nll": 0.6931471805599453,
+                    "kl": 0.03621399410754157,
+                    "diagnostic_nll": 0.6931471805599453,
+                    "diagnostic_kl": 0.041202968054749746,
+                    "diagnostic_subject_count": 2
+                  },
+                  "frequency": {
+                    "nll": 0.6944265582207064,
+                    "kl": 0.037331081039527966,
+                    "diagnostic_nll": 0.8901890368689542,
+                    "diagnostic_kl": 0.11127410574476791,
+                    "diagnostic_subject_count": 2
+                  }
+                },
+                "target_comparisons": {
+                  "population": {
+                    "nll_gain": 0.0036998983364535665,
+                    "kl_gain": 0.0046714963492407975,
+                    "diagnostic_nll_gain": 0.25701446892315827,
+                    "diagnostic_kl_gain": 0.10756131746021486
+                  },
+                  "individual": {
+                    "nll_gain": 0.00211168352257729,
+                    "kl_gain": 0.0038476526741733144,
+                    "diagnostic_nll_gain": 0.27103193056249597,
+                    "diagnostic_kl_gain": 0.11105191367265373
+                  }
+                },
+                "contextual_comparisons": {
+                  "distilled_vs_solo": {
+                    "nll_gain": 0.018312296355905366,
+                    "kl_gain": 0.021750771993610512,
+                    "diagnostic_nll_gain": -0.09217164260221933,
+                    "diagnostic_kl_gain": -0.05241887503127479
+                  },
+                  "oracle_vs_solo": {
+                    "nll_gain": 0.022012194692358933,
+                    "kl_gain": 0.02642226834285131,
+                    "diagnostic_nll_gain": 0.16484282632093894,
+                    "diagnostic_kl_gain": 0.05514244242894006
+                  },
+                  "oracle_vs_teacher": {
+                    "nll_gain": 0.0007190275159125736,
+                    "kl_gain": 0.0029394600598995407,
+                    "diagnostic_nll_gain": 0.23837192827304654,
+                    "diagnostic_kl_gain": 0.0963500072666913
+                  }
+                }
+              },
+              {
+                "seed": 20261441,
+                "subject_count": 980,
+                "test_count": 19600,
+                "diagnostic_count": 6,
+                "diagnostic_subject_count": 4,
+                "models": {
+                  "teacher": {
+                    "nll": 0.6662305794622113,
+                    "kl": 0.009893237734651875,
+                    "diagnostic_nll": 0.778589572483142,
+                    "diagnostic_kl": 0.052657614583678694,
+                    "diagnostic_subject_count": 4
+                  },
+                  "solo": {
+                    "nll": 0.6895936394404959,
+                    "kl": 0.033184488432080016,
+                    "diagnostic_nll": 0.7285772503993229,
+                    "diagnostic_kl": 0.03254061158054211,
+                    "diagnostic_subject_count": 4
+                  },
+                  "distilled": {
+                    "nll": 0.6689154587059087,
+                    "kl": 0.011788198361092066,
+                    "diagnostic_nll": 0.7402336204042619,
+                    "diagnostic_kl": 0.04406012938910749,
+                    "diagnostic_subject_count": 4
+                  },
+                  "oracle": {
+                    "nll": 0.6643579448494522,
+                    "kl": 0.005818604181528643,
+                    "diagnostic_nll": 0.5814528194771409,
+                    "diagnostic_kl": 0.022280512195791063,
+                    "diagnostic_subject_count": 4
+                  },
+                  "solo_population": {
+                    "nll": 0.6895936394404959,
+                    "kl": 0.033184488432080016,
+                    "diagnostic_nll": 0.7285772503993229,
+                    "diagnostic_kl": 0.03254061158054211,
+                    "diagnostic_subject_count": 4
+                  },
+                  "solo_individual": {
+                    "nll": 0.693380157643071,
+                    "kl": 0.03665174175257299,
+                    "diagnostic_nll": 0.712336042720623,
+                    "diagnostic_kl": 0.028334675655860484,
+                    "diagnostic_subject_count": 4
+                  },
+                  "distilled_population": {
+                    "nll": 0.6689154587059087,
+                    "kl": 0.011788198361092066,
+                    "diagnostic_nll": 0.7402336204042619,
+                    "diagnostic_kl": 0.04406012938910749,
+                    "diagnostic_subject_count": 4
+                  },
+                  "distilled_individual": {
+                    "nll": 0.6762576085625407,
+                    "kl": 0.019167152380733292,
+                    "diagnostic_nll": 0.7523997938879962,
+                    "diagnostic_kl": 0.04554823578142543,
+                    "diagnostic_subject_count": 4
+                  },
+                  "oracle_population": {
+                    "nll": 0.6643579448494522,
+                    "kl": 0.005818604181528643,
+                    "diagnostic_nll": 0.5814528194771409,
+                    "diagnostic_kl": 0.022280512195791063,
+                    "diagnostic_subject_count": 4
+                  },
+                  "oracle_individual": {
+                    "nll": 0.6709086064865865,
+                    "kl": 0.014433061904181924,
+                    "diagnostic_nll": 0.6818529294732144,
+                    "diagnostic_kl": 0.02730333806413943,
+                    "diagnostic_subject_count": 4
+                  },
+                  "coinflip": {
+                    "nll": 0.6931471805599453,
+                    "kl": 0.036779258002989486,
+                    "diagnostic_nll": 0.6931471805599453,
+                    "diagnostic_kl": 0.027142298832775236,
+                    "diagnostic_subject_count": 4
+                  },
+                  "frequency": {
+                    "nll": 0.6933370398580248,
+                    "kl": 0.03706651264935315,
+                    "diagnostic_nll": 0.7503652185571289,
+                    "diagnostic_kl": 0.04056011874887089,
+                    "diagnostic_subject_count": 4
+                  }
+                },
+                "target_comparisons": {
+                  "population": {
+                    "nll_gain": 0.00455751385645653,
+                    "kl_gain": 0.005969594179563423,
+                    "diagnostic_nll_gain": 0.158780800927121,
+                    "diagnostic_kl_gain": 0.02177961719331643
+                  },
+                  "individual": {
+                    "nll_gain": 0.0053490020759542345,
+                    "kl_gain": 0.004734090476551368,
+                    "diagnostic_nll_gain": 0.07054686441478175,
+                    "diagnostic_kl_gain": 0.018244897717286
+                  }
+                },
+                "contextual_comparisons": {
+                  "distilled_vs_solo": {
+                    "nll_gain": 0.02067818073458716,
+                    "kl_gain": 0.02139629007098795,
+                    "diagnostic_nll_gain": -0.01165637000493902,
+                    "diagnostic_kl_gain": -0.011519517808565381
+                  },
+                  "oracle_vs_solo": {
+                    "nll_gain": 0.02523569459104369,
+                    "kl_gain": 0.02736588425055137,
+                    "diagnostic_nll_gain": 0.14712443092218197,
+                    "diagnostic_kl_gain": 0.010260099384751049
+                  },
+                  "oracle_vs_teacher": {
+                    "nll_gain": 0.0018726346127591054,
+                    "kl_gain": 0.004074633553123232,
+                    "diagnostic_nll_gain": 0.1971367530060011,
+                    "diagnostic_kl_gain": 0.03037710238788763
+                  }
+                }
+              },
+              {
+                "seed": 20261451,
+                "subject_count": 980,
+                "test_count": 19600,
+                "diagnostic_count": 1,
+                "diagnostic_subject_count": 1,
+                "models": {
+                  "teacher": {
+                    "nll": 0.6685872448926171,
+                    "kl": 0.009216677223859694,
+                    "diagnostic_nll": 0.7942100715642969,
+                    "diagnostic_kl": 0.042084138273023874,
+                    "diagnostic_subject_count": 1
+                  },
+                  "solo": {
+                    "nll": 0.6903177544537435,
+                    "kl": 0.03288813425012233,
+                    "diagnostic_nll": 0.6415994692908005,
+                    "diagnostic_kl": 0.009968605897683586,
+                    "diagnostic_subject_count": 1
+                  },
+                  "distilled": {
+                    "nll": 0.6696143643979651,
+                    "kl": 0.01092253158715793,
+                    "diagnostic_nll": 0.8180918764839245,
+                    "diagnostic_kl": 0.048559745838659546,
+                    "diagnostic_subject_count": 1
+                  },
+                  "oracle": {
+                    "nll": 0.6681238934613257,
+                    "kl": 0.005756477315285499,
+                    "diagnostic_nll": 0.7217914781357283,
+                    "diagnostic_kl": 0.024662267574574848,
+                    "diagnostic_subject_count": 1
+                  },
+                  "solo_population": {
+                    "nll": 0.6903177544537435,
+                    "kl": 0.03288813425012233,
+                    "diagnostic_nll": 0.6415994692908005,
+                    "diagnostic_kl": 0.009968605897683586,
+                    "diagnostic_subject_count": 1
+                  },
+                  "solo_individual": {
+                    "nll": 0.69549669440652,
+                    "kl": 0.037222762821860676,
+                    "diagnostic_nll": 0.6418772365646038,
+                    "diagnostic_kl": 0.010009823275888868,
+                    "diagnostic_subject_count": 1
+                  },
+                  "distilled_population": {
+                    "nll": 0.6696143643979651,
+                    "kl": 0.01092253158715793,
+                    "diagnostic_nll": 0.8180918764839245,
+                    "diagnostic_kl": 0.048559745838659546,
+                    "diagnostic_subject_count": 1
+                  },
+                  "distilled_individual": {
+                    "nll": 0.6777452272012131,
+                    "kl": 0.019191741347929028,
+                    "diagnostic_nll": 0.8199140677784467,
+                    "diagnostic_kl": 0.0490674483063859,
+                    "diagnostic_subject_count": 1
+                  },
+                  "oracle_population": {
+                    "nll": 0.6681238934613257,
+                    "kl": 0.005756477315285499,
+                    "diagnostic_nll": 0.7217914781357283,
+                    "diagnostic_kl": 0.024662267574574848,
+                    "diagnostic_subject_count": 1
+                  },
+                  "oracle_individual": {
+                    "nll": 0.6768600693197397,
+                    "kl": 0.015691196642028622,
+                    "diagnostic_nll": 0.8246291849221193,
+                    "diagnostic_kl": 0.05038990768365237,
+                    "diagnostic_subject_count": 1
+                  },
+                  "coinflip": {
+                    "nll": 0.6931471805599453,
+                    "kl": 0.036094566131081994,
+                    "diagnostic_nll": 0.6931471805599453,
+                    "diagnostic_kl": 0.018803193488205958,
+                    "diagnostic_subject_count": 1
+                  },
+                  "frequency": {
+                    "nll": 0.6953317710514365,
+                    "kl": 0.037805598665239595,
+                    "diagnostic_nll": 0.6306268235786113,
+                    "diagnostic_kl": 0.008399520678141675,
+                    "diagnostic_subject_count": 1
+                  }
+                },
+                "target_comparisons": {
+                  "population": {
+                    "nll_gain": 0.0014904709366393432,
+                    "kl_gain": 0.0051660542718724315,
+                    "diagnostic_nll_gain": 0.09630039834819615,
+                    "diagnostic_kl_gain": 0.0238974782640847
+                  },
+                  "individual": {
+                    "nll_gain": 0.000885157881473364,
+                    "kl_gain": 0.0035005447059004054,
+                    "diagnostic_nll_gain": -0.004715117143672676,
+                    "diagnostic_kl_gain": -0.0013224593772664661
+                  }
+                },
+                "contextual_comparisons": {
+                  "distilled_vs_solo": {
+                    "nll_gain": 0.02070339005577848,
+                    "kl_gain": 0.0219656026629644,
+                    "diagnostic_nll_gain": -0.17649240719312398,
+                    "diagnostic_kl_gain": -0.03859113994097596
+                  },
+                  "oracle_vs_solo": {
+                    "nll_gain": 0.022193860992417824,
+                    "kl_gain": 0.027131656934836833,
+                    "diagnostic_nll_gain": -0.08019200884492783,
+                    "diagnostic_kl_gain": -0.014693661676891262
+                  },
+                  "oracle_vs_teacher": {
+                    "nll_gain": 0.0004633514312913922,
+                    "kl_gain": 0.003460199908574195,
+                    "diagnostic_nll_gain": 0.0724185934285686,
+                    "diagnostic_kl_gain": 0.017421870698449027
+                  }
+                }
+              }
+            ],
+            "models": {
+              "teacher": {
+                "nll": {
+                  "mean": 0.6670642560984341,
+                  "min": 0.6639773459718009,
+                  "max": 0.6686132161791258,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "kl": {
+                  "mean": 0.009573183557459296,
+                  "min": 0.009216677223859694,
+                  "max": 0.009893237734651875,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_nll": {
+                  "mean": 0.8256345769729135,
+                  "min": 0.778589572483142,
+                  "max": 0.8816890937106289,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_kl": {
+                  "mean": 0.06851293508027063,
+                  "min": 0.042084138273023874,
+                  "max": 0.11927391188675746,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                }
+              },
+              "solo": {
+                "nll": {
+                  "mean": 0.6897097155341791,
+                  "min": 0.6888938442837789,
+                  "max": 0.6903177544537435,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "kl": {
+                  "mean": 0.033314756671680865,
+                  "min": 0.03288813425012233,
+                  "max": 0.034279534248327054,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_nll": {
+                  "mean": 0.7163901213220217,
+                  "min": 0.6415994692908005,
+                  "max": 0.8077856221444564,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_kl": {
+                  "mean": 0.03831561593000611,
+                  "min": 0.009968605897683586,
+                  "max": 0.07806634704900622,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                }
+              },
+              "distilled": {
+                "nll": {
+                  "mean": 0.6693786066021017,
+                  "min": 0.6659546662779657,
+                  "max": 0.6715940869996668,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "kl": {
+                  "mean": 0.011417288418531053,
+                  "min": 0.01092253158715793,
+                  "max": 0.011788198361092066,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_nll": {
+                  "mean": 0.8268233719961762,
+                  "min": 0.7402336204042619,
+                  "max": 0.8999572647466757,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_kl": {
+                  "mean": 0.0689626828766885,
+                  "min": 0.04406012938910749,
+                  "max": 0.13048522208028102,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                }
+              },
+              "oracle": {
+                "nll": {
+                  "mean": 0.6655347518836756,
+                  "min": 0.6620516823455169,
+                  "max": 0.6681238934613257,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "kl": {
+                  "mean": 0.006171606724399143,
+                  "min": 0.005756477315285499,
+                  "max": 0.006637072878662983,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_nll": {
+                  "mean": 0.7077839958149743,
+                  "min": 0.5814528194771409,
+                  "max": 0.8294487017612295,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_kl": {
+                  "mean": 0.024610455821190078,
+                  "min": 0.02075643435537514,
+                  "max": 0.03242916036014316,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                }
+              },
+              "solo_population": {
+                "nll": {
+                  "mean": 0.6897097155341791,
+                  "min": 0.6888938442837789,
+                  "max": 0.6903177544537435,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "kl": {
+                  "mean": 0.033314756671680865,
+                  "min": 0.03288813425012233,
+                  "max": 0.034279534248327054,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_nll": {
+                  "mean": 0.7163901213220217,
+                  "min": 0.6415994692908005,
+                  "max": 0.8077856221444564,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_kl": {
+                  "mean": 0.03831561593000611,
+                  "min": 0.009968605897683586,
+                  "max": 0.07806634704900622,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                }
+              },
+              "solo_individual": {
+                "nll": {
+                  "mean": 0.6943652397254123,
+                  "min": 0.691701928157668,
+                  "max": 0.6964800360636387,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "kl": {
+                  "mean": 0.03751447281154467,
+                  "min": 0.03665174175257299,
+                  "max": 0.0380525844269863,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_nll": {
+                  "mean": 0.7029742908708221,
+                  "min": 0.6046369976046273,
+                  "max": 0.8304267897776847,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_kl": {
+                  "mean": 0.04027383193703698,
+                  "min": 0.010009823275888868,
+                  "max": 0.08827892771923151,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                }
+              },
+              "distilled_population": {
+                "nll": {
+                  "mean": 0.6693786066021017,
+                  "min": 0.6659546662779657,
+                  "max": 0.6715940869996668,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "kl": {
+                  "mean": 0.011417288418531053,
+                  "min": 0.01092253158715793,
+                  "max": 0.011788198361092066,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_nll": {
+                  "mean": 0.8268233719961762,
+                  "min": 0.7402336204042619,
+                  "max": 0.8999572647466757,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_kl": {
+                  "mean": 0.0689626828766885,
+                  "min": 0.04406012938910749,
+                  "max": 0.13048522208028102,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                }
+              },
+              "distilled_individual": {
+                "nll": {
+                  "mean": 0.6774481554938234,
+                  "min": 0.6759460082642409,
+                  "max": 0.6791180984907017,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "kl": {
+                  "mean": 0.019913466714487443,
+                  "min": 0.019167152380733292,
+                  "max": 0.021377753360303106,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_nll": {
+                  "mean": 0.8150097832075958,
+                  "min": 0.742822898619725,
+                  "max": 0.8869687415109693,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_kl": {
+                  "mean": 0.06925461850898032,
+                  "min": 0.04554823578142543,
+                  "max": 0.12697718140274483,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                }
+              },
+              "oracle_population": {
+                "nll": {
+                  "mean": 0.6655347518836756,
+                  "min": 0.6620516823455169,
+                  "max": 0.6681238934613257,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "kl": {
+                  "mean": 0.006171606724399143,
+                  "min": 0.005756477315285499,
+                  "max": 0.006637072878662983,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_nll": {
+                  "mean": 0.7077839958149743,
+                  "min": 0.5814528194771409,
+                  "max": 0.8294487017612295,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_kl": {
+                  "mean": 0.024610455821190078,
+                  "min": 0.02075643435537514,
+                  "max": 0.03242916036014316,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                }
+              },
+              "oracle_individual": {
+                "nll": {
+                  "mean": 0.674462664787207,
+                  "min": 0.6709086064865865,
+                  "max": 0.6770064149681244,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "kl": {
+                  "mean": 0.01575789152860545,
+                  "min": 0.014433061904181924,
+                  "max": 0.01696463238015221,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_nll": {
+                  "mean": 0.7146422365327177,
+                  "min": 0.6019114836783448,
+                  "max": 0.8246291849221193,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_kl": {
+                  "mean": 0.0310860042545578,
+                  "min": 0.01592526773009111,
+                  "max": 0.05038990768365237,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                }
+              },
+              "coinflip": {
+                "nll": {
+                  "mean": 0.6931471805599453,
+                  "min": 0.6931471805599453,
+                  "max": 0.6931471805599453,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "kl": {
+                  "mean": 0.03657421715963858,
+                  "min": 0.03586881829365577,
+                  "max": 0.03791444926292405,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_nll": {
+                  "mean": 0.6931471805599453,
+                  "min": 0.6931471805599453,
+                  "max": 0.6931471805599453,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_kl": {
+                  "mean": 0.03618986305241099,
+                  "min": 0.018803193488205958,
+                  "max": 0.06181265853151009,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                }
+              },
+              "frequency": {
+                "nll": {
+                  "mean": 0.6939347532942755,
+                  "min": 0.6925753714912006,
+                  "max": 0.6953317710514365,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "kl": {
+                  "mean": 0.03769554970378812,
+                  "min": 0.03706651264935315,
+                  "max": 0.0385112392843132,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_nll": {
+                  "mean": 0.7454072766603488,
+                  "min": 0.6306268235786113,
+                  "max": 0.8901890368689542,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                },
+                "diagnostic_kl": {
+                  "mean": 0.04982090168573489,
+                  "min": 0.008399520678141675,
+                  "max": 0.11127410574476791,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5
+                }
+              }
+            },
+            "support": {
+              "subject_count": {
+                "mean": 980.0,
+                "min": 980,
+                "max": 980,
+                "supported_seed_count": 5,
+                "planned_seed_count": 5
+              },
+              "test_count": {
+                "mean": 19600.0,
+                "min": 19600,
+                "max": 19600,
+                "supported_seed_count": 5,
+                "planned_seed_count": 5
+              },
+              "diagnostic_count": {
+                "mean": 5.0,
+                "min": 1,
+                "max": 9,
+                "supported_seed_count": 5,
+                "planned_seed_count": 5
+              },
+              "diagnostic_subject_count": {
+                "mean": 4.6,
+                "min": 1,
+                "max": 9,
+                "supported_seed_count": 5,
+                "planned_seed_count": 5
+              }
+            },
+            "target_comparisons": {
+              "population": {
+                "nll_gain": {
+                  "mean": 0.003843854718426032,
+                  "min": 0.0014904709366393432,
+                  "max": 0.0055684065301319086,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5,
+                  "positive_seed_count": 5,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                },
+                "kl_gain": {
+                  "mean": 0.0052456816941319085,
+                  "min": 0.0046714963492407975,
+                  "max": 0.005969594179563423,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5,
+                  "positive_seed_count": 5,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                },
+                "diagnostic_nll_gain": {
+                  "mean": 0.11903937618120175,
+                  "min": 0.012993355452130095,
+                  "max": 0.25701446892315827,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5,
+                  "positive_seed_count": 5,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                },
+                "diagnostic_kl_gain": {
+                  "mean": 0.044352227055498426,
+                  "min": 0.02177961719331643,
+                  "max": 0.10756131746021486,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5,
+                  "positive_seed_count": 5,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                }
+              },
+              "individual": {
+                "nll_gain": {
+                  "mean": 0.002985490706616356,
+                  "min": 0.000885157881473364,
+                  "max": 0.0053490020759542345,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5,
+                  "positive_seed_count": 5,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                },
+                "kl_gain": {
+                  "mean": 0.004155575185881994,
+                  "min": 0.0035005447059004054,
+                  "max": 0.004734090476551368,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5,
+                  "positive_seed_count": 5,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                },
+                "diagnostic_nll_gain": {
+                  "mean": 0.10036754667487777,
+                  "min": -0.004715117143672676,
+                  "max": 0.27103193056249597,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5,
+                  "positive_seed_count": 4,
+                  "negative_seed_count": 1,
+                  "tied_seed_count": 0
+                },
+                "diagnostic_kl_gain": {
+                  "mean": 0.03816861425442253,
+                  "min": -0.0013224593772664661,
+                  "max": 0.11105191367265373,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5,
+                  "positive_seed_count": 4,
+                  "negative_seed_count": 1,
+                  "tied_seed_count": 0
+                }
+              }
+            },
+            "contextual_comparisons": {
+              "distilled_vs_solo": {
+                "nll_gain": {
+                  "mean": 0.02033110893207739,
+                  "min": 0.018312296355905366,
+                  "max": 0.022939178005813132,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5,
+                  "positive_seed_count": 5,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                },
+                "kl_gain": {
+                  "mean": 0.021897468253149803,
+                  "min": 0.02139629007098795,
+                  "max": 0.022676503976051483,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5,
+                  "positive_seed_count": 5,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                },
+                "diagnostic_nll_gain": {
+                  "mean": -0.11043325067415437,
+                  "min": -0.17649240719312398,
+                  "max": -0.01165637000493902,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5,
+                  "positive_seed_count": 0,
+                  "negative_seed_count": 5,
+                  "tied_seed_count": 0
+                },
+                "diagnostic_kl_gain": {
+                  "mean": -0.030647066946682393,
+                  "min": -0.05241887503127479,
+                  "max": -0.005573251817210342,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5,
+                  "positive_seed_count": 0,
+                  "negative_seed_count": 5,
+                  "tied_seed_count": 0
+                }
+              },
+              "oracle_vs_solo": {
+                "nll_gain": {
+                  "mean": 0.024174963650503423,
+                  "min": 0.022012194692358933,
+                  "max": 0.026842161938261944,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5,
+                  "positive_seed_count": 5,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                },
+                "kl_gain": {
+                  "mean": 0.027143149947281713,
+                  "min": 0.02642226834285131,
+                  "max": 0.027853535199560825,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5,
+                  "positive_seed_count": 5,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                },
+                "diagnostic_nll_gain": {
+                  "mean": 0.008606125507047379,
+                  "min": -0.10156972137189191,
+                  "max": 0.16484282632093894,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5,
+                  "positive_seed_count": 2,
+                  "negative_seed_count": 3,
+                  "tied_seed_count": 0
+                },
+                "diagnostic_kl_gain": {
+                  "mean": 0.013705160108816037,
+                  "min": -0.014693661676891262,
+                  "max": 0.05514244242894006,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5,
+                  "positive_seed_count": 3,
+                  "negative_seed_count": 2,
+                  "tied_seed_count": 0
+                }
+              },
+              "oracle_vs_teacher": {
+                "nll_gain": {
+                  "mean": 0.0015295042147583705,
+                  "min": 0.0004633514312913922,
+                  "max": 0.0026668438875447897,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5,
+                  "positive_seed_count": 5,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                },
+                "kl_gain": {
+                  "mean": 0.003401576833060154,
+                  "min": 0.0029394600598995407,
+                  "max": 0.004074633553123232,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5,
+                  "positive_seed_count": 5,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                },
+                "diagnostic_nll_gain": {
+                  "mean": 0.11785058115793916,
+                  "min": 0.02908523913268024,
+                  "max": 0.23837192827304654,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5,
+                  "positive_seed_count": 5,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                },
+                "diagnostic_kl_gain": {
+                  "mean": 0.043902479259080564,
+                  "min": 0.017421870698449027,
+                  "max": 0.0963500072666913,
+                  "supported_seed_count": 5,
+                  "planned_seed_count": 5,
+                  "positive_seed_count": 5,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "path": "oracle-control-smoke-c68c9b2918c7",
+        "seeds": [
+          {
+            "seed": 201,
+            "subjects": 10,
+            "trials_per_subject": 15,
+            "rare_subjects": 2,
+            "rare_diagnostic_trials": 0,
+            "rare_diagnostic_subjects": 0,
+            "typical_diagnostic_trials": 0,
+            "oracle_train_probability_max_error": 5.947970616038134e-09,
+            "distilled_train_probability_max_error": 5.959397841870384e-08,
+            "off_train_soft_logit_nonzero_count": {
+              "oracle": 0,
+              "distilled": 0
+            },
+            "oracle_heldout_prediction_difference": {
+              "oracle_population": {
+                "mean_absolute_difference_from_truth": 0.1223789713035611,
+                "maximum_absolute_difference_from_truth": 0.38887689221665056,
+                "exact_true_float32_matches": 0,
+                "test_count": 30
+              },
+              "oracle_individual": {
+                "mean_absolute_difference_from_truth": 0.12786981475855785,
+                "maximum_absolute_difference_from_truth": 0.38887689221665056,
+                "exact_true_float32_matches": 0,
+                "test_count": 30
+              }
+            }
+          },
+          {
+            "seed": 211,
+            "subjects": 10,
+            "trials_per_subject": 15,
+            "rare_subjects": 2,
+            "rare_diagnostic_trials": 1,
+            "rare_diagnostic_subjects": 1,
+            "typical_diagnostic_trials": 0,
+            "oracle_train_probability_max_error": 1.001963123581362e-08,
+            "distilled_train_probability_max_error": 4.844239448464904e-08,
+            "off_train_soft_logit_nonzero_count": {
+              "oracle": 0,
+              "distilled": 0
+            },
+            "oracle_heldout_prediction_difference": {
+              "oracle_population": {
+                "mean_absolute_difference_from_truth": 0.15603142037314688,
+                "maximum_absolute_difference_from_truth": 0.42838140125732965,
+                "exact_true_float32_matches": 0,
+                "test_count": 30
+              },
+              "oracle_individual": {
+                "mean_absolute_difference_from_truth": 0.15531367316169056,
+                "maximum_absolute_difference_from_truth": 0.42838140125732965,
+                "exact_true_float32_matches": 0,
+                "test_count": 30
+              }
+            }
+          }
+        ],
+        "aggregate_groups": {
+          "rare": {
+            "per_seed": [
+              {
+                "seed": 201,
+                "subject_count": 2,
+                "test_count": 6,
+                "diagnostic_count": 0,
+                "diagnostic_subject_count": 0,
+                "models": {
+                  "teacher": {
+                    "nll": 0.6843314135252496,
+                    "kl": 0.01704638398959068,
+                    "diagnostic_nll": null,
+                    "diagnostic_kl": null,
+                    "diagnostic_subject_count": 0
+                  },
+                  "solo": {
+                    "nll": 0.5500344042539935,
+                    "kl": 0.032586365098979185,
+                    "diagnostic_nll": null,
+                    "diagnostic_kl": null,
+                    "diagnostic_subject_count": 0
+                  },
+                  "distilled": {
+                    "nll": 0.5479007260346092,
+                    "kl": 0.03479648409410679,
+                    "diagnostic_nll": null,
+                    "diagnostic_kl": null,
+                    "diagnostic_subject_count": 0
+                  },
+                  "oracle": {
+                    "nll": 0.548539003028641,
+                    "kl": 0.03408163300573136,
+                    "diagnostic_nll": null,
+                    "diagnostic_kl": null,
+                    "diagnostic_subject_count": 0
+                  },
+                  "solo_population": {
+                    "nll": 0.5500344042539935,
+                    "kl": 0.032586365098979185,
+                    "diagnostic_nll": null,
+                    "diagnostic_kl": null,
+                    "diagnostic_subject_count": 0
+                  },
+                  "solo_individual": {
+                    "nll": 0.5318443941945816,
+                    "kl": 0.04211231330360146,
+                    "diagnostic_nll": null,
+                    "diagnostic_kl": null,
+                    "diagnostic_subject_count": 0
+                  },
+                  "distilled_population": {
+                    "nll": 0.5479007260346092,
+                    "kl": 0.03479648409410679,
+                    "diagnostic_nll": null,
+                    "diagnostic_kl": null,
+                    "diagnostic_subject_count": 0
+                  },
+                  "distilled_individual": {
+                    "nll": 0.5318443941945816,
+                    "kl": 0.04211231330360146,
+                    "diagnostic_nll": null,
+                    "diagnostic_kl": null,
+                    "diagnostic_subject_count": 0
+                  },
+                  "oracle_population": {
+                    "nll": 0.548539003028641,
+                    "kl": 0.03408163300573136,
+                    "diagnostic_nll": null,
+                    "diagnostic_kl": null,
+                    "diagnostic_subject_count": 0
+                  },
+                  "oracle_individual": {
+                    "nll": 0.5318443941945816,
+                    "kl": 0.04211231330360146,
+                    "diagnostic_nll": null,
+                    "diagnostic_kl": null,
+                    "diagnostic_subject_count": 0
+                  },
+                  "coinflip": {
+                    "nll": 0.6931471805599453,
+                    "kl": 0.01532889058950394,
+                    "diagnostic_nll": null,
+                    "diagnostic_kl": null,
+                    "diagnostic_subject_count": 0
+                  },
+                  "frequency": {
+                    "nll": 1.0621726499151332,
+                    "kl": 0.11849932139375502,
+                    "diagnostic_nll": null,
+                    "diagnostic_kl": null,
+                    "diagnostic_subject_count": 0
+                  }
+                },
+                "target_comparisons": {
+                  "population": {
+                    "nll_gain": -0.00063827699403185,
+                    "kl_gain": 0.0007148510883754275,
+                    "diagnostic_nll_gain": null,
+                    "diagnostic_kl_gain": null
+                  },
+                  "individual": {
+                    "nll_gain": 0.0,
+                    "kl_gain": 0.0,
+                    "diagnostic_nll_gain": null,
+                    "diagnostic_kl_gain": null
+                  }
+                },
+                "contextual_comparisons": {
+                  "distilled_vs_solo": {
+                    "nll_gain": 0.0021336782193843717,
+                    "kl_gain": -0.0022101189951276023,
+                    "diagnostic_nll_gain": null,
+                    "diagnostic_kl_gain": null
+                  },
+                  "oracle_vs_solo": {
+                    "nll_gain": 0.0014954012253525217,
+                    "kl_gain": -0.0014952679067521749,
+                    "diagnostic_nll_gain": null,
+                    "diagnostic_kl_gain": null
+                  },
+                  "oracle_vs_teacher": {
+                    "nll_gain": 0.13579241049660862,
+                    "kl_gain": -0.01703524901614068,
+                    "diagnostic_nll_gain": null,
+                    "diagnostic_kl_gain": null
+                  }
+                }
+              },
+              {
+                "seed": 211,
+                "subject_count": 2,
+                "test_count": 6,
+                "diagnostic_count": 1,
+                "diagnostic_subject_count": 1,
+                "models": {
+                  "teacher": {
+                    "nll": 0.7560589000267199,
+                    "kl": 0.04030517865896132,
+                    "diagnostic_nll": 0.5849331741023154,
+                    "diagnostic_kl": 0.09961561654683604,
+                    "diagnostic_subject_count": 1
+                  },
+                  "solo": {
+                    "nll": 0.7510841438831317,
+                    "kl": 0.04614570527496356,
+                    "diagnostic_nll": 0.5598909980954511,
+                    "diagnostic_kl": 0.08772263925370105,
+                    "diagnostic_subject_count": 1
+                  },
+                  "distilled": {
+                    "nll": 0.7510841438831317,
+                    "kl": 0.04614570527496356,
+                    "diagnostic_nll": 0.5598909980954511,
+                    "diagnostic_kl": 0.08772263925370105,
+                    "diagnostic_subject_count": 1
+                  },
+                  "oracle": {
+                    "nll": 0.7217798883630311,
+                    "kl": 0.03537672073790886,
+                    "diagnostic_nll": 0.5005078865670055,
+                    "diagnostic_kl": 0.06138647829292748,
+                    "diagnostic_subject_count": 1
+                  },
+                  "solo_population": {
+                    "nll": 0.7510841438831317,
+                    "kl": 0.04614570527496356,
+                    "diagnostic_nll": 0.5598909980954511,
+                    "diagnostic_kl": 0.08772263925370105,
+                    "diagnostic_subject_count": 1
+                  },
+                  "solo_individual": {
+                    "nll": 0.7694749864003558,
+                    "kl": 0.045924300495778905,
+                    "diagnostic_nll": 0.5598909980954511,
+                    "diagnostic_kl": 0.08772263925370105,
+                    "diagnostic_subject_count": 1
+                  },
+                  "distilled_population": {
+                    "nll": 0.7510841438831317,
+                    "kl": 0.04614570527496356,
+                    "diagnostic_nll": 0.5598909980954511,
+                    "diagnostic_kl": 0.08772263925370105,
+                    "diagnostic_subject_count": 1
+                  },
+                  "distilled_individual": {
+                    "nll": 0.7164488867264213,
+                    "kl": 0.042535373486268686,
+                    "diagnostic_nll": 0.5598909980954511,
+                    "diagnostic_kl": 0.08772263925370105,
+                    "diagnostic_subject_count": 1
+                  },
+                  "oracle_population": {
+                    "nll": 0.7217798883630311,
+                    "kl": 0.03537672073790886,
+                    "diagnostic_nll": 0.5005078865670055,
+                    "diagnostic_kl": 0.06138647829292748,
+                    "diagnostic_subject_count": 1
+                  },
+                  "oracle_individual": {
+                    "nll": 0.7383799751180826,
+                    "kl": 0.03708437764585934,
+                    "diagnostic_nll": 0.5005078865670055,
+                    "diagnostic_kl": 0.06138647829292748,
+                    "diagnostic_subject_count": 1
+                  },
+                  "coinflip": {
+                    "nll": 0.6931471805599453,
+                    "kl": 0.05239040899475075,
+                    "diagnostic_nll": 0.6931471805599453,
+                    "diagnostic_kl": 0.1552976219877698,
+                    "diagnostic_subject_count": 1
+                  },
+                  "frequency": {
+                    "nll": 0.8696422098890493,
+                    "kl": 0.07933903546647292,
+                    "diagnostic_nll": 0.78845736036427,
+                    "diagnostic_kl": 0.2088885389637514,
+                    "diagnostic_subject_count": 1
+                  }
+                },
+                "target_comparisons": {
+                  "population": {
+                    "nll_gain": 0.02930425552010063,
+                    "kl_gain": 0.010768984537054702,
+                    "diagnostic_nll_gain": 0.059383111528445554,
+                    "diagnostic_kl_gain": 0.02633616096077357
+                  },
+                  "individual": {
+                    "nll_gain": -0.021931088391661357,
+                    "kl_gain": 0.005450995840409346,
+                    "diagnostic_nll_gain": 0.059383111528445554,
+                    "diagnostic_kl_gain": 0.02633616096077357
+                  }
+                },
+                "contextual_comparisons": {
+                  "distilled_vs_solo": {
+                    "nll_gain": 0.0,
+                    "kl_gain": 0.0,
+                    "diagnostic_nll_gain": 0.0,
+                    "diagnostic_kl_gain": 0.0
+                  },
+                  "oracle_vs_solo": {
+                    "nll_gain": 0.02930425552010063,
+                    "kl_gain": 0.010768984537054702,
+                    "diagnostic_nll_gain": 0.059383111528445554,
+                    "diagnostic_kl_gain": 0.02633616096077357
+                  },
+                  "oracle_vs_teacher": {
+                    "nll_gain": 0.03427901166368885,
+                    "kl_gain": 0.004928457921052461,
+                    "diagnostic_nll_gain": 0.08442528753530987,
+                    "diagnostic_kl_gain": 0.03822913825390856
+                  }
+                }
+              }
+            ],
+            "models": {
+              "teacher": {
+                "nll": {
+                  "mean": 0.7201951567759848,
+                  "min": 0.6843314135252496,
+                  "max": 0.7560589000267199,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "kl": {
+                  "mean": 0.028675781324276,
+                  "min": 0.01704638398959068,
+                  "max": 0.04030517865896132,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_nll": {
+                  "mean": 0.5849331741023154,
+                  "min": 0.5849331741023154,
+                  "max": 0.5849331741023154,
+                  "supported_seed_count": 1,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_kl": {
+                  "mean": 0.09961561654683604,
+                  "min": 0.09961561654683604,
+                  "max": 0.09961561654683604,
+                  "supported_seed_count": 1,
+                  "planned_seed_count": 2
+                }
+              },
+              "solo": {
+                "nll": {
+                  "mean": 0.6505592740685626,
+                  "min": 0.5500344042539935,
+                  "max": 0.7510841438831317,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "kl": {
+                  "mean": 0.039366035186971376,
+                  "min": 0.032586365098979185,
+                  "max": 0.04614570527496356,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_nll": {
+                  "mean": 0.5598909980954511,
+                  "min": 0.5598909980954511,
+                  "max": 0.5598909980954511,
+                  "supported_seed_count": 1,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_kl": {
+                  "mean": 0.08772263925370105,
+                  "min": 0.08772263925370105,
+                  "max": 0.08772263925370105,
+                  "supported_seed_count": 1,
+                  "planned_seed_count": 2
+                }
+              },
+              "distilled": {
+                "nll": {
+                  "mean": 0.6494924349588704,
+                  "min": 0.5479007260346092,
+                  "max": 0.7510841438831317,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "kl": {
+                  "mean": 0.04047109468453518,
+                  "min": 0.03479648409410679,
+                  "max": 0.04614570527496356,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_nll": {
+                  "mean": 0.5598909980954511,
+                  "min": 0.5598909980954511,
+                  "max": 0.5598909980954511,
+                  "supported_seed_count": 1,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_kl": {
+                  "mean": 0.08772263925370105,
+                  "min": 0.08772263925370105,
+                  "max": 0.08772263925370105,
+                  "supported_seed_count": 1,
+                  "planned_seed_count": 2
+                }
+              },
+              "oracle": {
+                "nll": {
+                  "mean": 0.635159445695836,
+                  "min": 0.548539003028641,
+                  "max": 0.7217798883630311,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "kl": {
+                  "mean": 0.03472917687182011,
+                  "min": 0.03408163300573136,
+                  "max": 0.03537672073790886,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_nll": {
+                  "mean": 0.5005078865670055,
+                  "min": 0.5005078865670055,
+                  "max": 0.5005078865670055,
+                  "supported_seed_count": 1,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_kl": {
+                  "mean": 0.06138647829292748,
+                  "min": 0.06138647829292748,
+                  "max": 0.06138647829292748,
+                  "supported_seed_count": 1,
+                  "planned_seed_count": 2
+                }
+              },
+              "solo_population": {
+                "nll": {
+                  "mean": 0.6505592740685626,
+                  "min": 0.5500344042539935,
+                  "max": 0.7510841438831317,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "kl": {
+                  "mean": 0.039366035186971376,
+                  "min": 0.032586365098979185,
+                  "max": 0.04614570527496356,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_nll": {
+                  "mean": 0.5598909980954511,
+                  "min": 0.5598909980954511,
+                  "max": 0.5598909980954511,
+                  "supported_seed_count": 1,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_kl": {
+                  "mean": 0.08772263925370105,
+                  "min": 0.08772263925370105,
+                  "max": 0.08772263925370105,
+                  "supported_seed_count": 1,
+                  "planned_seed_count": 2
+                }
+              },
+              "solo_individual": {
+                "nll": {
+                  "mean": 0.6506596902974687,
+                  "min": 0.5318443941945816,
+                  "max": 0.7694749864003558,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "kl": {
+                  "mean": 0.044018306899690184,
+                  "min": 0.04211231330360146,
+                  "max": 0.045924300495778905,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_nll": {
+                  "mean": 0.5598909980954511,
+                  "min": 0.5598909980954511,
+                  "max": 0.5598909980954511,
+                  "supported_seed_count": 1,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_kl": {
+                  "mean": 0.08772263925370105,
+                  "min": 0.08772263925370105,
+                  "max": 0.08772263925370105,
+                  "supported_seed_count": 1,
+                  "planned_seed_count": 2
+                }
+              },
+              "distilled_population": {
+                "nll": {
+                  "mean": 0.6494924349588704,
+                  "min": 0.5479007260346092,
+                  "max": 0.7510841438831317,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "kl": {
+                  "mean": 0.04047109468453518,
+                  "min": 0.03479648409410679,
+                  "max": 0.04614570527496356,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_nll": {
+                  "mean": 0.5598909980954511,
+                  "min": 0.5598909980954511,
+                  "max": 0.5598909980954511,
+                  "supported_seed_count": 1,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_kl": {
+                  "mean": 0.08772263925370105,
+                  "min": 0.08772263925370105,
+                  "max": 0.08772263925370105,
+                  "supported_seed_count": 1,
+                  "planned_seed_count": 2
+                }
+              },
+              "distilled_individual": {
+                "nll": {
+                  "mean": 0.6241466404605014,
+                  "min": 0.5318443941945816,
+                  "max": 0.7164488867264213,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "kl": {
+                  "mean": 0.04232384339493507,
+                  "min": 0.04211231330360146,
+                  "max": 0.042535373486268686,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_nll": {
+                  "mean": 0.5598909980954511,
+                  "min": 0.5598909980954511,
+                  "max": 0.5598909980954511,
+                  "supported_seed_count": 1,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_kl": {
+                  "mean": 0.08772263925370105,
+                  "min": 0.08772263925370105,
+                  "max": 0.08772263925370105,
+                  "supported_seed_count": 1,
+                  "planned_seed_count": 2
+                }
+              },
+              "oracle_population": {
+                "nll": {
+                  "mean": 0.635159445695836,
+                  "min": 0.548539003028641,
+                  "max": 0.7217798883630311,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "kl": {
+                  "mean": 0.03472917687182011,
+                  "min": 0.03408163300573136,
+                  "max": 0.03537672073790886,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_nll": {
+                  "mean": 0.5005078865670055,
+                  "min": 0.5005078865670055,
+                  "max": 0.5005078865670055,
+                  "supported_seed_count": 1,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_kl": {
+                  "mean": 0.06138647829292748,
+                  "min": 0.06138647829292748,
+                  "max": 0.06138647829292748,
+                  "supported_seed_count": 1,
+                  "planned_seed_count": 2
+                }
+              },
+              "oracle_individual": {
+                "nll": {
+                  "mean": 0.6351121846563321,
+                  "min": 0.5318443941945816,
+                  "max": 0.7383799751180826,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "kl": {
+                  "mean": 0.0395983454747304,
+                  "min": 0.03708437764585934,
+                  "max": 0.04211231330360146,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_nll": {
+                  "mean": 0.5005078865670055,
+                  "min": 0.5005078865670055,
+                  "max": 0.5005078865670055,
+                  "supported_seed_count": 1,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_kl": {
+                  "mean": 0.06138647829292748,
+                  "min": 0.06138647829292748,
+                  "max": 0.06138647829292748,
+                  "supported_seed_count": 1,
+                  "planned_seed_count": 2
+                }
+              },
+              "coinflip": {
+                "nll": {
+                  "mean": 0.6931471805599453,
+                  "min": 0.6931471805599453,
+                  "max": 0.6931471805599453,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "kl": {
+                  "mean": 0.03385964979212735,
+                  "min": 0.01532889058950394,
+                  "max": 0.05239040899475075,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_nll": {
+                  "mean": 0.6931471805599453,
+                  "min": 0.6931471805599453,
+                  "max": 0.6931471805599453,
+                  "supported_seed_count": 1,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_kl": {
+                  "mean": 0.1552976219877698,
+                  "min": 0.1552976219877698,
+                  "max": 0.1552976219877698,
+                  "supported_seed_count": 1,
+                  "planned_seed_count": 2
+                }
+              },
+              "frequency": {
+                "nll": {
+                  "mean": 0.9659074299020912,
+                  "min": 0.8696422098890493,
+                  "max": 1.0621726499151332,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "kl": {
+                  "mean": 0.09891917843011397,
+                  "min": 0.07933903546647292,
+                  "max": 0.11849932139375502,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_nll": {
+                  "mean": 0.78845736036427,
+                  "min": 0.78845736036427,
+                  "max": 0.78845736036427,
+                  "supported_seed_count": 1,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_kl": {
+                  "mean": 0.2088885389637514,
+                  "min": 0.2088885389637514,
+                  "max": 0.2088885389637514,
+                  "supported_seed_count": 1,
+                  "planned_seed_count": 2
+                }
+              }
+            },
+            "support": {
+              "subject_count": {
+                "mean": 2.0,
+                "min": 2,
+                "max": 2,
+                "supported_seed_count": 2,
+                "planned_seed_count": 2
+              },
+              "test_count": {
+                "mean": 6.0,
+                "min": 6,
+                "max": 6,
+                "supported_seed_count": 2,
+                "planned_seed_count": 2
+              },
+              "diagnostic_count": {
+                "mean": 0.5,
+                "min": 0,
+                "max": 1,
+                "supported_seed_count": 2,
+                "planned_seed_count": 2
+              },
+              "diagnostic_subject_count": {
+                "mean": 0.5,
+                "min": 0,
+                "max": 1,
+                "supported_seed_count": 2,
+                "planned_seed_count": 2
+              }
+            },
+            "target_comparisons": {
+              "population": {
+                "nll_gain": {
+                  "mean": 0.01433298926303439,
+                  "min": -0.00063827699403185,
+                  "max": 0.02930425552010063,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2,
+                  "positive_seed_count": 1,
+                  "negative_seed_count": 1,
+                  "tied_seed_count": 0
+                },
+                "kl_gain": {
+                  "mean": 0.0057419178127150645,
+                  "min": 0.0007148510883754275,
+                  "max": 0.010768984537054702,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2,
+                  "positive_seed_count": 2,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                },
+                "diagnostic_nll_gain": {
+                  "mean": 0.059383111528445554,
+                  "min": 0.059383111528445554,
+                  "max": 0.059383111528445554,
+                  "supported_seed_count": 1,
+                  "planned_seed_count": 2,
+                  "positive_seed_count": 1,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                },
+                "diagnostic_kl_gain": {
+                  "mean": 0.02633616096077357,
+                  "min": 0.02633616096077357,
+                  "max": 0.02633616096077357,
+                  "supported_seed_count": 1,
+                  "planned_seed_count": 2,
+                  "positive_seed_count": 1,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                }
+              },
+              "individual": {
+                "nll_gain": {
+                  "mean": -0.010965544195830679,
+                  "min": -0.021931088391661357,
+                  "max": 0.0,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2,
+                  "positive_seed_count": 0,
+                  "negative_seed_count": 1,
+                  "tied_seed_count": 1
+                },
+                "kl_gain": {
+                  "mean": 0.002725497920204673,
+                  "min": 0.0,
+                  "max": 0.005450995840409346,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2,
+                  "positive_seed_count": 1,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 1
+                },
+                "diagnostic_nll_gain": {
+                  "mean": 0.059383111528445554,
+                  "min": 0.059383111528445554,
+                  "max": 0.059383111528445554,
+                  "supported_seed_count": 1,
+                  "planned_seed_count": 2,
+                  "positive_seed_count": 1,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                },
+                "diagnostic_kl_gain": {
+                  "mean": 0.02633616096077357,
+                  "min": 0.02633616096077357,
+                  "max": 0.02633616096077357,
+                  "supported_seed_count": 1,
+                  "planned_seed_count": 2,
+                  "positive_seed_count": 1,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                }
+              }
+            },
+            "contextual_comparisons": {
+              "distilled_vs_solo": {
+                "nll_gain": {
+                  "mean": 0.0010668391096921859,
+                  "min": 0.0,
+                  "max": 0.0021336782193843717,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2,
+                  "positive_seed_count": 1,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 1
+                },
+                "kl_gain": {
+                  "mean": -0.0011050594975638012,
+                  "min": -0.0022101189951276023,
+                  "max": 0.0,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2,
+                  "positive_seed_count": 0,
+                  "negative_seed_count": 1,
+                  "tied_seed_count": 1
+                },
+                "diagnostic_nll_gain": {
+                  "mean": 0.0,
+                  "min": 0.0,
+                  "max": 0.0,
+                  "supported_seed_count": 1,
+                  "planned_seed_count": 2,
+                  "positive_seed_count": 0,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 1
+                },
+                "diagnostic_kl_gain": {
+                  "mean": 0.0,
+                  "min": 0.0,
+                  "max": 0.0,
+                  "supported_seed_count": 1,
+                  "planned_seed_count": 2,
+                  "positive_seed_count": 0,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 1
+                }
+              },
+              "oracle_vs_solo": {
+                "nll_gain": {
+                  "mean": 0.015399828372726576,
+                  "min": 0.0014954012253525217,
+                  "max": 0.02930425552010063,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2,
+                  "positive_seed_count": 2,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                },
+                "kl_gain": {
+                  "mean": 0.004636858315151263,
+                  "min": -0.0014952679067521749,
+                  "max": 0.010768984537054702,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2,
+                  "positive_seed_count": 1,
+                  "negative_seed_count": 1,
+                  "tied_seed_count": 0
+                },
+                "diagnostic_nll_gain": {
+                  "mean": 0.059383111528445554,
+                  "min": 0.059383111528445554,
+                  "max": 0.059383111528445554,
+                  "supported_seed_count": 1,
+                  "planned_seed_count": 2,
+                  "positive_seed_count": 1,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                },
+                "diagnostic_kl_gain": {
+                  "mean": 0.02633616096077357,
+                  "min": 0.02633616096077357,
+                  "max": 0.02633616096077357,
+                  "supported_seed_count": 1,
+                  "planned_seed_count": 2,
+                  "positive_seed_count": 1,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                }
+              },
+              "oracle_vs_teacher": {
+                "nll_gain": {
+                  "mean": 0.08503571108014873,
+                  "min": 0.03427901166368885,
+                  "max": 0.13579241049660862,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2,
+                  "positive_seed_count": 2,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                },
+                "kl_gain": {
+                  "mean": -0.00605339554754411,
+                  "min": -0.01703524901614068,
+                  "max": 0.004928457921052461,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2,
+                  "positive_seed_count": 1,
+                  "negative_seed_count": 1,
+                  "tied_seed_count": 0
+                },
+                "diagnostic_nll_gain": {
+                  "mean": 0.08442528753530987,
+                  "min": 0.08442528753530987,
+                  "max": 0.08442528753530987,
+                  "supported_seed_count": 1,
+                  "planned_seed_count": 2,
+                  "positive_seed_count": 1,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                },
+                "diagnostic_kl_gain": {
+                  "mean": 0.03822913825390856,
+                  "min": 0.03822913825390856,
+                  "max": 0.03822913825390856,
+                  "supported_seed_count": 1,
+                  "planned_seed_count": 2,
+                  "positive_seed_count": 1,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                }
+              }
+            }
+          },
+          "typical": {
+            "per_seed": [
+              {
+                "seed": 201,
+                "subject_count": 8,
+                "test_count": 24,
+                "diagnostic_count": 0,
+                "diagnostic_subject_count": 0,
+                "models": {
+                  "teacher": {
+                    "nll": 0.6854522155236622,
+                    "kl": 0.011876775203863434,
+                    "diagnostic_nll": null,
+                    "diagnostic_kl": null,
+                    "diagnostic_subject_count": 0
+                  },
+                  "solo": {
+                    "nll": 0.7014163089890202,
+                    "kl": 0.05443465504727985,
+                    "diagnostic_nll": null,
+                    "diagnostic_kl": null,
+                    "diagnostic_subject_count": 0
+                  },
+                  "distilled": {
+                    "nll": 0.6925302801310269,
+                    "kl": 0.049488245013740634,
+                    "diagnostic_nll": null,
+                    "diagnostic_kl": null,
+                    "diagnostic_subject_count": 0
+                  },
+                  "oracle": {
+                    "nll": 0.6972920975723866,
+                    "kl": 0.04985395319133326,
+                    "diagnostic_nll": null,
+                    "diagnostic_kl": null,
+                    "diagnostic_subject_count": 0
+                  },
+                  "solo_population": {
+                    "nll": 0.7014163089890202,
+                    "kl": 0.05443465504727985,
+                    "diagnostic_nll": null,
+                    "diagnostic_kl": null,
+                    "diagnostic_subject_count": 0
+                  },
+                  "solo_individual": {
+                    "nll": 0.7126674543471999,
+                    "kl": 0.05762281794575203,
+                    "diagnostic_nll": null,
+                    "diagnostic_kl": null,
+                    "diagnostic_subject_count": 0
+                  },
+                  "distilled_population": {
+                    "nll": 0.6925302801310269,
+                    "kl": 0.049488245013740634,
+                    "diagnostic_nll": null,
+                    "diagnostic_kl": null,
+                    "diagnostic_subject_count": 0
+                  },
+                  "distilled_individual": {
+                    "nll": 0.6985611057669018,
+                    "kl": 0.050341896707422895,
+                    "diagnostic_nll": null,
+                    "diagnostic_kl": null,
+                    "diagnostic_subject_count": 0
+                  },
+                  "oracle_population": {
+                    "nll": 0.6972920975723866,
+                    "kl": 0.04985395319133326,
+                    "diagnostic_nll": null,
+                    "diagnostic_kl": null,
+                    "diagnostic_subject_count": 0
+                  },
+                  "oracle_individual": {
+                    "nll": 0.7091198643802827,
+                    "kl": 0.054029332574313686,
+                    "diagnostic_nll": null,
+                    "diagnostic_kl": null,
+                    "diagnostic_subject_count": 0
+                  },
+                  "coinflip": {
+                    "nll": 0.6931471805599453,
+                    "kl": 0.015878168236907242,
+                    "diagnostic_nll": null,
+                    "diagnostic_kl": null,
+                    "diagnostic_subject_count": 0
+                  },
+                  "frequency": {
+                    "nll": 0.725189525881569,
+                    "kl": 0.028461852500429895,
+                    "diagnostic_nll": null,
+                    "diagnostic_kl": null,
+                    "diagnostic_subject_count": 0
+                  }
+                },
+                "target_comparisons": {
+                  "population": {
+                    "nll_gain": -0.004761817441359728,
+                    "kl_gain": -0.0003657081775926274,
+                    "diagnostic_nll_gain": null,
+                    "diagnostic_kl_gain": null
+                  },
+                  "individual": {
+                    "nll_gain": -0.010558758613380959,
+                    "kl_gain": -0.003687435866890791,
+                    "diagnostic_nll_gain": null,
+                    "diagnostic_kl_gain": null
+                  }
+                },
+                "contextual_comparisons": {
+                  "distilled_vs_solo": {
+                    "nll_gain": 0.008886028857993278,
+                    "kl_gain": 0.004946410033539218,
+                    "diagnostic_nll_gain": null,
+                    "diagnostic_kl_gain": null
+                  },
+                  "oracle_vs_solo": {
+                    "nll_gain": 0.00412421141663355,
+                    "kl_gain": 0.004580701855946591,
+                    "diagnostic_nll_gain": null,
+                    "diagnostic_kl_gain": null
+                  },
+                  "oracle_vs_teacher": {
+                    "nll_gain": -0.011839882048724437,
+                    "kl_gain": -0.03797717798746983,
+                    "diagnostic_nll_gain": null,
+                    "diagnostic_kl_gain": null
+                  }
+                }
+              },
+              {
+                "seed": 211,
+                "subject_count": 8,
+                "test_count": 24,
+                "diagnostic_count": 0,
+                "diagnostic_subject_count": 0,
+                "models": {
+                  "teacher": {
+                    "nll": 0.7179718648542581,
+                    "kl": 0.05842686952048715,
+                    "diagnostic_nll": null,
+                    "diagnostic_kl": null,
+                    "diagnostic_subject_count": 0
+                  },
+                  "solo": {
+                    "nll": 0.6640479370905432,
+                    "kl": 0.11035865387126254,
+                    "diagnostic_nll": null,
+                    "diagnostic_kl": null,
+                    "diagnostic_subject_count": 0
+                  },
+                  "distilled": {
+                    "nll": 0.6640479370905432,
+                    "kl": 0.11035865387126254,
+                    "diagnostic_nll": null,
+                    "diagnostic_kl": null,
+                    "diagnostic_subject_count": 0
+                  },
+                  "oracle": {
+                    "nll": 0.6557496180551535,
+                    "kl": 0.08829865239491415,
+                    "diagnostic_nll": null,
+                    "diagnostic_kl": null,
+                    "diagnostic_subject_count": 0
+                  },
+                  "solo_population": {
+                    "nll": 0.6640479370905432,
+                    "kl": 0.11035865387126254,
+                    "diagnostic_nll": null,
+                    "diagnostic_kl": null,
+                    "diagnostic_subject_count": 0
+                  },
+                  "solo_individual": {
+                    "nll": 0.661147396330784,
+                    "kl": 0.09951381997497039,
+                    "diagnostic_nll": null,
+                    "diagnostic_kl": null,
+                    "diagnostic_subject_count": 0
+                  },
+                  "distilled_population": {
+                    "nll": 0.6640479370905432,
+                    "kl": 0.11035865387126254,
+                    "diagnostic_nll": null,
+                    "diagnostic_kl": null,
+                    "diagnostic_subject_count": 0
+                  },
+                  "distilled_individual": {
+                    "nll": 0.6581926439077301,
+                    "kl": 0.09421347146166094,
+                    "diagnostic_nll": null,
+                    "diagnostic_kl": null,
+                    "diagnostic_subject_count": 0
+                  },
+                  "oracle_population": {
+                    "nll": 0.6557496180551535,
+                    "kl": 0.08829865239491415,
+                    "diagnostic_nll": null,
+                    "diagnostic_kl": null,
+                    "diagnostic_subject_count": 0
+                  },
+                  "oracle_individual": {
+                    "nll": 0.6579660268049505,
+                    "kl": 0.08844228368556341,
+                    "diagnostic_nll": null,
+                    "diagnostic_kl": null,
+                    "diagnostic_subject_count": 0
+                  },
+                  "coinflip": {
+                    "nll": 0.6931471805599453,
+                    "kl": 0.058381600222328495,
+                    "diagnostic_nll": null,
+                    "diagnostic_kl": null,
+                    "diagnostic_subject_count": 0
+                  },
+                  "frequency": {
+                    "nll": 0.7415786067865262,
+                    "kl": 0.10921717764235217,
+                    "diagnostic_nll": null,
+                    "diagnostic_kl": null,
+                    "diagnostic_subject_count": 0
+                  }
+                },
+                "target_comparisons": {
+                  "population": {
+                    "nll_gain": 0.00829831903538969,
+                    "kl_gain": 0.022060001476348387,
+                    "diagnostic_nll_gain": null,
+                    "diagnostic_kl_gain": null
+                  },
+                  "individual": {
+                    "nll_gain": 0.00022661710277960267,
+                    "kl_gain": 0.0057711877760975305,
+                    "diagnostic_nll_gain": null,
+                    "diagnostic_kl_gain": null
+                  }
+                },
+                "contextual_comparisons": {
+                  "distilled_vs_solo": {
+                    "nll_gain": 0.0,
+                    "kl_gain": 0.0,
+                    "diagnostic_nll_gain": null,
+                    "diagnostic_kl_gain": null
+                  },
+                  "oracle_vs_solo": {
+                    "nll_gain": 0.00829831903538969,
+                    "kl_gain": 0.022060001476348387,
+                    "diagnostic_nll_gain": null,
+                    "diagnostic_kl_gain": null
+                  },
+                  "oracle_vs_teacher": {
+                    "nll_gain": 0.0622222467991046,
+                    "kl_gain": -0.029871782874426996,
+                    "diagnostic_nll_gain": null,
+                    "diagnostic_kl_gain": null
+                  }
+                }
+              }
+            ],
+            "models": {
+              "teacher": {
+                "nll": {
+                  "mean": 0.7017120401889602,
+                  "min": 0.6854522155236622,
+                  "max": 0.7179718648542581,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "kl": {
+                  "mean": 0.035151822362175296,
+                  "min": 0.011876775203863434,
+                  "max": 0.05842686952048715,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_nll": {
+                  "mean": null,
+                  "min": null,
+                  "max": null,
+                  "supported_seed_count": 0,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_kl": {
+                  "mean": null,
+                  "min": null,
+                  "max": null,
+                  "supported_seed_count": 0,
+                  "planned_seed_count": 2
+                }
+              },
+              "solo": {
+                "nll": {
+                  "mean": 0.6827321230397817,
+                  "min": 0.6640479370905432,
+                  "max": 0.7014163089890202,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "kl": {
+                  "mean": 0.08239665445927119,
+                  "min": 0.05443465504727985,
+                  "max": 0.11035865387126254,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_nll": {
+                  "mean": null,
+                  "min": null,
+                  "max": null,
+                  "supported_seed_count": 0,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_kl": {
+                  "mean": null,
+                  "min": null,
+                  "max": null,
+                  "supported_seed_count": 0,
+                  "planned_seed_count": 2
+                }
+              },
+              "distilled": {
+                "nll": {
+                  "mean": 0.6782891086107851,
+                  "min": 0.6640479370905432,
+                  "max": 0.6925302801310269,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "kl": {
+                  "mean": 0.07992344944250158,
+                  "min": 0.049488245013740634,
+                  "max": 0.11035865387126254,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_nll": {
+                  "mean": null,
+                  "min": null,
+                  "max": null,
+                  "supported_seed_count": 0,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_kl": {
+                  "mean": null,
+                  "min": null,
+                  "max": null,
+                  "supported_seed_count": 0,
+                  "planned_seed_count": 2
+                }
+              },
+              "oracle": {
+                "nll": {
+                  "mean": 0.67652085781377,
+                  "min": 0.6557496180551535,
+                  "max": 0.6972920975723866,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "kl": {
+                  "mean": 0.06907630279312371,
+                  "min": 0.04985395319133326,
+                  "max": 0.08829865239491415,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_nll": {
+                  "mean": null,
+                  "min": null,
+                  "max": null,
+                  "supported_seed_count": 0,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_kl": {
+                  "mean": null,
+                  "min": null,
+                  "max": null,
+                  "supported_seed_count": 0,
+                  "planned_seed_count": 2
+                }
+              },
+              "solo_population": {
+                "nll": {
+                  "mean": 0.6827321230397817,
+                  "min": 0.6640479370905432,
+                  "max": 0.7014163089890202,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "kl": {
+                  "mean": 0.08239665445927119,
+                  "min": 0.05443465504727985,
+                  "max": 0.11035865387126254,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_nll": {
+                  "mean": null,
+                  "min": null,
+                  "max": null,
+                  "supported_seed_count": 0,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_kl": {
+                  "mean": null,
+                  "min": null,
+                  "max": null,
+                  "supported_seed_count": 0,
+                  "planned_seed_count": 2
+                }
+              },
+              "solo_individual": {
+                "nll": {
+                  "mean": 0.686907425338992,
+                  "min": 0.661147396330784,
+                  "max": 0.7126674543471999,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "kl": {
+                  "mean": 0.0785683189603612,
+                  "min": 0.05762281794575203,
+                  "max": 0.09951381997497039,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_nll": {
+                  "mean": null,
+                  "min": null,
+                  "max": null,
+                  "supported_seed_count": 0,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_kl": {
+                  "mean": null,
+                  "min": null,
+                  "max": null,
+                  "supported_seed_count": 0,
+                  "planned_seed_count": 2
+                }
+              },
+              "distilled_population": {
+                "nll": {
+                  "mean": 0.6782891086107851,
+                  "min": 0.6640479370905432,
+                  "max": 0.6925302801310269,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "kl": {
+                  "mean": 0.07992344944250158,
+                  "min": 0.049488245013740634,
+                  "max": 0.11035865387126254,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_nll": {
+                  "mean": null,
+                  "min": null,
+                  "max": null,
+                  "supported_seed_count": 0,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_kl": {
+                  "mean": null,
+                  "min": null,
+                  "max": null,
+                  "supported_seed_count": 0,
+                  "planned_seed_count": 2
+                }
+              },
+              "distilled_individual": {
+                "nll": {
+                  "mean": 0.678376874837316,
+                  "min": 0.6581926439077301,
+                  "max": 0.6985611057669018,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "kl": {
+                  "mean": 0.07227768408454191,
+                  "min": 0.050341896707422895,
+                  "max": 0.09421347146166094,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_nll": {
+                  "mean": null,
+                  "min": null,
+                  "max": null,
+                  "supported_seed_count": 0,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_kl": {
+                  "mean": null,
+                  "min": null,
+                  "max": null,
+                  "supported_seed_count": 0,
+                  "planned_seed_count": 2
+                }
+              },
+              "oracle_population": {
+                "nll": {
+                  "mean": 0.67652085781377,
+                  "min": 0.6557496180551535,
+                  "max": 0.6972920975723866,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "kl": {
+                  "mean": 0.06907630279312371,
+                  "min": 0.04985395319133326,
+                  "max": 0.08829865239491415,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_nll": {
+                  "mean": null,
+                  "min": null,
+                  "max": null,
+                  "supported_seed_count": 0,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_kl": {
+                  "mean": null,
+                  "min": null,
+                  "max": null,
+                  "supported_seed_count": 0,
+                  "planned_seed_count": 2
+                }
+              },
+              "oracle_individual": {
+                "nll": {
+                  "mean": 0.6835429455926166,
+                  "min": 0.6579660268049505,
+                  "max": 0.7091198643802827,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "kl": {
+                  "mean": 0.07123580812993854,
+                  "min": 0.054029332574313686,
+                  "max": 0.08844228368556341,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_nll": {
+                  "mean": null,
+                  "min": null,
+                  "max": null,
+                  "supported_seed_count": 0,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_kl": {
+                  "mean": null,
+                  "min": null,
+                  "max": null,
+                  "supported_seed_count": 0,
+                  "planned_seed_count": 2
+                }
+              },
+              "coinflip": {
+                "nll": {
+                  "mean": 0.6931471805599453,
+                  "min": 0.6931471805599453,
+                  "max": 0.6931471805599453,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "kl": {
+                  "mean": 0.03712988422961787,
+                  "min": 0.015878168236907242,
+                  "max": 0.058381600222328495,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_nll": {
+                  "mean": null,
+                  "min": null,
+                  "max": null,
+                  "supported_seed_count": 0,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_kl": {
+                  "mean": null,
+                  "min": null,
+                  "max": null,
+                  "supported_seed_count": 0,
+                  "planned_seed_count": 2
+                }
+              },
+              "frequency": {
+                "nll": {
+                  "mean": 0.7333840663340476,
+                  "min": 0.725189525881569,
+                  "max": 0.7415786067865262,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "kl": {
+                  "mean": 0.06883951507139104,
+                  "min": 0.028461852500429895,
+                  "max": 0.10921717764235217,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_nll": {
+                  "mean": null,
+                  "min": null,
+                  "max": null,
+                  "supported_seed_count": 0,
+                  "planned_seed_count": 2
+                },
+                "diagnostic_kl": {
+                  "mean": null,
+                  "min": null,
+                  "max": null,
+                  "supported_seed_count": 0,
+                  "planned_seed_count": 2
+                }
+              }
+            },
+            "support": {
+              "subject_count": {
+                "mean": 8.0,
+                "min": 8,
+                "max": 8,
+                "supported_seed_count": 2,
+                "planned_seed_count": 2
+              },
+              "test_count": {
+                "mean": 24.0,
+                "min": 24,
+                "max": 24,
+                "supported_seed_count": 2,
+                "planned_seed_count": 2
+              },
+              "diagnostic_count": {
+                "mean": 0.0,
+                "min": 0,
+                "max": 0,
+                "supported_seed_count": 2,
+                "planned_seed_count": 2
+              },
+              "diagnostic_subject_count": {
+                "mean": 0.0,
+                "min": 0,
+                "max": 0,
+                "supported_seed_count": 2,
+                "planned_seed_count": 2
+              }
+            },
+            "target_comparisons": {
+              "population": {
+                "nll_gain": {
+                  "mean": 0.0017682507970149808,
+                  "min": -0.004761817441359728,
+                  "max": 0.00829831903538969,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2,
+                  "positive_seed_count": 1,
+                  "negative_seed_count": 1,
+                  "tied_seed_count": 0
+                },
+                "kl_gain": {
+                  "mean": 0.01084714664937788,
+                  "min": -0.0003657081775926274,
+                  "max": 0.022060001476348387,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2,
+                  "positive_seed_count": 1,
+                  "negative_seed_count": 1,
+                  "tied_seed_count": 0
+                },
+                "diagnostic_nll_gain": {
+                  "mean": null,
+                  "min": null,
+                  "max": null,
+                  "supported_seed_count": 0,
+                  "planned_seed_count": 2,
+                  "positive_seed_count": 0,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                },
+                "diagnostic_kl_gain": {
+                  "mean": null,
+                  "min": null,
+                  "max": null,
+                  "supported_seed_count": 0,
+                  "planned_seed_count": 2,
+                  "positive_seed_count": 0,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                }
+              },
+              "individual": {
+                "nll_gain": {
+                  "mean": -0.005166070755300678,
+                  "min": -0.010558758613380959,
+                  "max": 0.00022661710277960267,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2,
+                  "positive_seed_count": 1,
+                  "negative_seed_count": 1,
+                  "tied_seed_count": 0
+                },
+                "kl_gain": {
+                  "mean": 0.0010418759546033697,
+                  "min": -0.003687435866890791,
+                  "max": 0.0057711877760975305,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2,
+                  "positive_seed_count": 1,
+                  "negative_seed_count": 1,
+                  "tied_seed_count": 0
+                },
+                "diagnostic_nll_gain": {
+                  "mean": null,
+                  "min": null,
+                  "max": null,
+                  "supported_seed_count": 0,
+                  "planned_seed_count": 2,
+                  "positive_seed_count": 0,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                },
+                "diagnostic_kl_gain": {
+                  "mean": null,
+                  "min": null,
+                  "max": null,
+                  "supported_seed_count": 0,
+                  "planned_seed_count": 2,
+                  "positive_seed_count": 0,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                }
+              }
+            },
+            "contextual_comparisons": {
+              "distilled_vs_solo": {
+                "nll_gain": {
+                  "mean": 0.004443014428996639,
+                  "min": 0.0,
+                  "max": 0.008886028857993278,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2,
+                  "positive_seed_count": 1,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 1
+                },
+                "kl_gain": {
+                  "mean": 0.002473205016769609,
+                  "min": 0.0,
+                  "max": 0.004946410033539218,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2,
+                  "positive_seed_count": 1,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 1
+                },
+                "diagnostic_nll_gain": {
+                  "mean": null,
+                  "min": null,
+                  "max": null,
+                  "supported_seed_count": 0,
+                  "planned_seed_count": 2,
+                  "positive_seed_count": 0,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                },
+                "diagnostic_kl_gain": {
+                  "mean": null,
+                  "min": null,
+                  "max": null,
+                  "supported_seed_count": 0,
+                  "planned_seed_count": 2,
+                  "positive_seed_count": 0,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                }
+              },
+              "oracle_vs_solo": {
+                "nll_gain": {
+                  "mean": 0.00621126522601162,
+                  "min": 0.00412421141663355,
+                  "max": 0.00829831903538969,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2,
+                  "positive_seed_count": 2,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                },
+                "kl_gain": {
+                  "mean": 0.013320351666147489,
+                  "min": 0.004580701855946591,
+                  "max": 0.022060001476348387,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2,
+                  "positive_seed_count": 2,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                },
+                "diagnostic_nll_gain": {
+                  "mean": null,
+                  "min": null,
+                  "max": null,
+                  "supported_seed_count": 0,
+                  "planned_seed_count": 2,
+                  "positive_seed_count": 0,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                },
+                "diagnostic_kl_gain": {
+                  "mean": null,
+                  "min": null,
+                  "max": null,
+                  "supported_seed_count": 0,
+                  "planned_seed_count": 2,
+                  "positive_seed_count": 0,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                }
+              },
+              "oracle_vs_teacher": {
+                "nll_gain": {
+                  "mean": 0.02519118237519008,
+                  "min": -0.011839882048724437,
+                  "max": 0.0622222467991046,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2,
+                  "positive_seed_count": 1,
+                  "negative_seed_count": 1,
+                  "tied_seed_count": 0
+                },
+                "kl_gain": {
+                  "mean": -0.03392448043094841,
+                  "min": -0.03797717798746983,
+                  "max": -0.029871782874426996,
+                  "supported_seed_count": 2,
+                  "planned_seed_count": 2,
+                  "positive_seed_count": 0,
+                  "negative_seed_count": 2,
+                  "tied_seed_count": 0
+                },
+                "diagnostic_nll_gain": {
+                  "mean": null,
+                  "min": null,
+                  "max": null,
+                  "supported_seed_count": 0,
+                  "planned_seed_count": 2,
+                  "positive_seed_count": 0,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                },
+                "diagnostic_kl_gain": {
+                  "mean": null,
+                  "min": null,
+                  "max": null,
+                  "supported_seed_count": 0,
+                  "planned_seed_count": 2,
+                  "positive_seed_count": 0,
+                  "negative_seed_count": 0,
+                  "tied_seed_count": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}

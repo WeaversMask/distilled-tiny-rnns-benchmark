@@ -1,0 +1,4 @@
+6855 checks; 0 issues
+prior_baseline 6 7028.766201504999 2.0891055098917635 {'known_seconds': 7131.496624232, 'all_seconds': 7131.496624232, 'recorded': 4, 'total': 4, 'statuses': {'incomplete': 3, 'complete': 1}} protocol hash 43112ad9a9ec3c052cb4cc229ada2027403152910f5f6df6cc02886777ff948a
+production 18 27401.728675114 8.144402689547773 {'known_seconds': 27907.668607372998, 'all_seconds': 27907.668607372998, 'recorded': 18, 'total': 18, 'statuses': {'complete': 18}} protocol hash 8c02ac39eaf98fee12f5d8f46389598c4b16854f633c2e3c4758d038a62e22e3
+smoke 12 11.970969617000378 0.0035580381917195572 {'known_seconds': 40.300013852000006, 'all_seconds': 40.300013852000006, 'recorded': 3, 'total': 3, 'statuses': {'complete': 3}} protocol hash e8596f10cf561a555cdde6d4dfe6799c233f3b07e4d755d89566b05b0b7393fb

@@ -1,0 +1,2054 @@
+{
+  "production": {
+    "folder": "main-study-first-tranche-v1",
+    "mode": "production",
+    "audit_mode": "read-only; no training/resume runner called",
+    "environment": {
+      "python": "3.13.0 (v3.13.0:60403a5409f, Oct  7 2024, 00:37:40) [Clang 15.0.0 (clang-1500.3.9.4)]",
+      "torch": "2.15.0",
+      "numpy": "2.5.4",
+      "device": "cpu"
+    },
+    "checks": 993,
+    "issues": [],
+    "backend_reproduction_issues": [],
+    "file_sha256_before": {
+      "parametric_model_free/seed-202611401/data.npz": "85e0150afb47debb1376da313669ac714b7ffbe2dede022e5c42467466a6d1aa",
+      "parametric_model_free/seed-202611401/distilled.pt": "872d500e8332678f3932ba606069ec34694b120f56a2fee20b1525e258441c49",
+      "parametric_model_free/seed-202611401/environment-freeze.txt": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729",
+      "parametric_model_free/seed-202611401/environments/packages-f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729.txt": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729",
+      "parametric_model_free/seed-202611401/manifest.json": "5a77e95222a95acc5ab8f76ebe1f9fbc420e492f146b874dd84fc52262d9110e",
+      "parametric_model_free/seed-202611401/oracle.pt": "ad7e1ae60abbfcc67d4dc3c2ac6ea21b3cd3a009312cc0cc946c00865a36d90c",
+      "parametric_model_free/seed-202611401/predictions.npz": "119a9ad4a4121b36a0bddc015a92b405ebcc7e6187a936dc568909881de4642a",
+      "parametric_model_free/seed-202611401/primary.png": "a0b931f645c4c4819b4d4e848dc8d82dcb7b31da31db2602bebf40d318069b09",
+      "parametric_model_free/seed-202611401/probe_predictions.npz": "9d5b75ef34ca8cd411b24b91216e723049ee63312de88f3bb1d320469dac7ad4",
+      "parametric_model_free/seed-202611401/report.json": "0a997f3a9429a4c68a665b89e14e82fa83584774d20b1d82884869eef811dd3f",
+      "parametric_model_free/seed-202611401/soft_training_logits.npz": "5564fe2e8905ae30fe286fce42c134b3014e6c8d761ab3a69672d6d5ae4adde9",
+      "parametric_model_free/seed-202611401/solo.pt": "575b98adf1fda012f28fd38dab6bfce0a79082fe5f775f29c4d4d942f7879c9b",
+      "parametric_model_free/seed-202611401/teacher.pt": "a58352356c5caa2c3f3bfca96b109890bdd0c8cfe1df012de19910c29f8d2d54",
+      "parametric_model_free/seed-202611401/training.json": "923ff6523eb957da823f8426425b63266503eb87ccc1407edf4307995177b546",
+      "parametric_model_free/seed-202611411/data.npz": "1a6a3d14da068250a7b3ba5e74603c04d27d048acdf0427a979874b8ddeddd7f",
+      "parametric_model_free/seed-202611411/distilled.pt": "6bb84dac1ec64b0f83126a9d74ec863ede0cc7aa6d599bd1219f3ab50b65dfd4",
+      "parametric_model_free/seed-202611411/environment-freeze.txt": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729",
+      "parametric_model_free/seed-202611411/environments/packages-f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729.txt": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729",
+      "parametric_model_free/seed-202611411/manifest.json": "30ecb1ffc28a1c41a8785edf027cedd1913d881aafdfa78c1a52c831a78bf4c5",
+      "parametric_model_free/seed-202611411/oracle.pt": "f8cfcc0004e9374bb272b772549e8871808db2982802eaf2e864b5cb3abccd67",
+      "parametric_model_free/seed-202611411/predictions.npz": "c5c252802f669164a669053835f149d6c699ee4fa776e81e271b1cde0116ced0",
+      "parametric_model_free/seed-202611411/primary.png": "91348d69709298b30a6d9e83069f3571e933fc0eb0c41c7a7f1048bad4cd84a4",
+      "parametric_model_free/seed-202611411/probe_predictions.npz": "56c3dea5dd824c9d929ecd4394a6d6af3f8abb95b774797f22f437489ef90bd5",
+      "parametric_model_free/seed-202611411/report.json": "31d748f68a804b2cf5cae56143f47680fa6c71971a856702f1746392d388b6c9",
+      "parametric_model_free/seed-202611411/soft_training_logits.npz": "df92bdd4c84d53309c1defb9b0e2cf6c2be0f51514074b8da9954227491fd5f7",
+      "parametric_model_free/seed-202611411/solo.pt": "6650ccf1619d30a93c73a6ac4a2e4df594c4cd6b32eb03b5a9b91eb1977f0ed1",
+      "parametric_model_free/seed-202611411/teacher.pt": "8cf4dd4b8d66d824f671bc21998c342ef8f60add913113d077942f57aa1eca06",
+      "parametric_model_free/seed-202611411/training.json": "fed2d3cbd4a0caa57437fa5a12db355e74f5823e8a7b3879e19c200c1f05d27e",
+      "parametric_model_free/seed-202611421/data.npz": "8f8eaaa1fb4be6da8a30873ed5204b026ce222aa5f06a0d2f8e11bc80f7dfdb9",
+      "parametric_model_free/seed-202611421/distilled.pt": "0e6d75b234a761c713db34bb4ae58e584e2cdb7937ce53fddee916dd4ad9cf84",
+      "parametric_model_free/seed-202611421/environment-freeze.txt": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729",
+      "parametric_model_free/seed-202611421/environments/packages-f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729.txt": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729",
+      "parametric_model_free/seed-202611421/manifest.json": "fd72be058ed94e6605ce0a2d136e36cda029b5118a6760cc6808b002ca6dae38",
+      "parametric_model_free/seed-202611421/oracle.pt": "c1ce6356a22bbf44500b6b48750100e613dbe547a4b921eca96305bbd736404a",
+      "parametric_model_free/seed-202611421/predictions.npz": "1f34d45014814e35018c46e2a1276cb94c65ef6329b25a44db2668b0111b037e",
+      "parametric_model_free/seed-202611421/primary.png": "18617091690e338379d8b63f3099a5b4832de54f33d41e12a6e241a3dbe7da07",
+      "parametric_model_free/seed-202611421/probe_predictions.npz": "b0a33ab7983d51dd375ddc7e5afd05ae720aab8bb84edeaf8358c02349df056d",
+      "parametric_model_free/seed-202611421/report.json": "50f70a808199effd6e670de47c2374915d60712bacd6e4325efd6884efef07f4",
+      "parametric_model_free/seed-202611421/soft_training_logits.npz": "b86fe09ed36bf799973cea8ed7ec3d7df0de02799b44470d8d52036674b3be05",
+      "parametric_model_free/seed-202611421/solo.pt": "b7321f7f8b11087bd3b4f29a875060f1972d31fbafeb5c276cdec145cf3bad4e",
+      "parametric_model_free/seed-202611421/teacher.pt": "f09f3d1e8e409c5de40a32b7b81eecdc015a9ceed93aa4e8f27ba0ac711e870b",
+      "parametric_model_free/seed-202611421/training.json": "dfa21d74764807da7e80eed782f922565b9283c7c33a2ff4a1057649eb715ae6",
+      "protocol.json": "43112ad9a9ec3c052cb4cc229ada2027403152910f5f6df6cc02886777ff948a",
+      "reward_cue/seed-202621401/data.npz": "6edf2ee04da2fab3d59bdd355ed111f22038b3a2b0c3b0b060b615c04733b850",
+      "reward_cue/seed-202621401/distilled.pt": "5c5d3c576bec3bb11b9c9335d33a0f9da19479bdaac7b5c0579ae8258ab74a18",
+      "reward_cue/seed-202621401/environment-freeze.txt": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729",
+      "reward_cue/seed-202621401/environments/packages-f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729.txt": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729",
+      "reward_cue/seed-202621401/manifest.json": "a7be887234d3189e3f5e73cff0d704a63ef34f19b47b3422c833c1239831c14a",
+      "reward_cue/seed-202621401/oracle.pt": "ee96f256cfe70061c6d0b467265f2c85d60eac66a3e33a90d6e941fcc147beba",
+      "reward_cue/seed-202621401/predictions.npz": "e40c2fbb680f0d7b08092715142d2dbca6e7694abccb22f6c0eb3634f2978e76",
+      "reward_cue/seed-202621401/primary.png": "0419027766d7270e73d418605ddc3bebe3cdf79278c03c8e5a81a91a3e2471f2",
+      "reward_cue/seed-202621401/probe_predictions.npz": "a51754b562dbf06bfb6806e0bd2bebed2b8f21b27b871af94d8a4a86e0bc1175",
+      "reward_cue/seed-202621401/report.json": "80dc2a465439b2276e40ae773856484f0cc0a41b692d16261cac9c27a54fbbe0",
+      "reward_cue/seed-202621401/soft_training_logits.npz": "8a3abebf84cef5c2f2516d1a7ed913a92130fe7e2fe210e959c66cbb7501fe57",
+      "reward_cue/seed-202621401/solo.pt": "1ce8508e359db463b4293675e2d6b68774d4a4b7795283fb3f3f23bc7ce19628",
+      "reward_cue/seed-202621401/teacher.pt": "cb57b60b3bacf1e441357d2f310022a1780874395eb9d7bf40307e17342a9fd1",
+      "reward_cue/seed-202621401/training.json": "43afca95e076e912d3faac3eab644fea49c208d8c6edcc2018c208424fc7ed09",
+      "reward_cue/seed-202621411/data.npz": "e827b91cda2705183cb1def8348be4dfc0177db93d38c5eefc79a2ec045bea54",
+      "reward_cue/seed-202621411/distilled.pt": "1b44446ffd4297f0f9d2fb04348098617fe0f43326a9977efc936305f3f755e7",
+      "reward_cue/seed-202621411/environment-freeze.txt": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729",
+      "reward_cue/seed-202621411/environments/packages-f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729.txt": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729",
+      "reward_cue/seed-202621411/manifest.json": "c8fb261f1a1c4f8e6be0ca9ff5069b7f5afaf711f28dc63f3c51e257fac505ff",
+      "reward_cue/seed-202621411/oracle.pt": "856ea8ad350c90340299d8cc12c5cd76327a3f0da737933b153028cadf1de863",
+      "reward_cue/seed-202621411/predictions.npz": "13dd580ebac61bb69b234afbb32be9d0759c52469e533057404a819161649cfa",
+      "reward_cue/seed-202621411/primary.png": "b5df77781d06e6ef4f22df4353eb3fcfdaf726e7811e61283f35a42464ee2b1d",
+      "reward_cue/seed-202621411/probe_predictions.npz": "b6d3b54fd0610ad09ca7b2b261160b22a5428387a67be7e53149ebd82e519da4",
+      "reward_cue/seed-202621411/report.json": "a2aff129cb34390aae9e0f20fad6ab8cfb0def69c302e45609587f08cc846e4e",
+      "reward_cue/seed-202621411/soft_training_logits.npz": "3d9d77ec482a49067d75f9e0686205f3eef68a31122eadd9b3d312875505bafc",
+      "reward_cue/seed-202621411/solo.pt": "c03e6c9a53cb4b505b9a60864f256dba524f4307a966e63ccb032d39eb6920aa",
+      "reward_cue/seed-202621411/teacher.pt": "6f3dd71120c583fddab5dbcc422af721562dd1b283d00e2234d1b9db1f7294f4",
+      "reward_cue/seed-202621411/training.json": "3a61947f04ded6887a9e36e356840e52c28ff9a1b52f823de000091e27aa7fb7",
+      "reward_cue/seed-202621421/data.npz": "578e5074e85f626fa6fad5370d72e74776cc4b63be79d8959c636cdea4031c78",
+      "reward_cue/seed-202621421/distilled.pt": "6dede7d6e1b6a326c413ded2f69c0504f94dda4832b86bba2cf6938cd55cfada",
+      "reward_cue/seed-202621421/environment-freeze.txt": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729",
+      "reward_cue/seed-202621421/environments/packages-f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729.txt": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729",
+      "reward_cue/seed-202621421/manifest.json": "4611c0b0fdfdca0d5dfeb025da05b24d3bc3d66400644d764222de936a5da6bf",
+      "reward_cue/seed-202621421/oracle.pt": "a5e1c04d33e18e211c068ae95ff28a373b3675aa7a822d8d5597e5956b9f2c62",
+      "reward_cue/seed-202621421/predictions.npz": "1bd3742bda1a0adbdab967b6d3bc63251cfe8829b632c4836a68f6c8e8f2bd87",
+      "reward_cue/seed-202621421/primary.png": "0603f28dce7870f55bb39b7c4a3d3c8127f1933e8f0c41d63966657b27b8d127",
+      "reward_cue/seed-202621421/probe_predictions.npz": "ed840875ccec1c5141f315ddef027a5f3058c3540db50223734993acbbfbba24",
+      "reward_cue/seed-202621421/report.json": "337137494490355357e7c0944d2839669bf2fb00e32eb8bfd1ebbea3e247c95f",
+      "reward_cue/seed-202621421/soft_training_logits.npz": "77c64546afe68b6edc91fa99fc8a5d04c0e5d31576f2d2c9919a6690d3fde245",
+      "reward_cue/seed-202621421/solo.pt": "36e247fa886166f83b9d0addf661796c66d5c5e1b1ae9c8efabc0a22d1f8186a",
+      "reward_cue/seed-202621421/teacher.pt": "72037413c12b63bb7f8434727705aa11b5430adcda7e82f3a91d150762637294",
+      "reward_cue/seed-202621421/training.json": "362cdf8a2ed644bcc65dce7a5c8c7d54011bc406d3e38373b929d7f655578332",
+      "run_manifest.json": "e1cc07ba6ea60c092edefe87c33a570b3ef88d82d94090ff0a659059cee89ce3",
+      "summary.json": "9627fdcb63834da81b90b856c99423d1347106706c6c2771d886d18e6ed1e13f"
+    },
+    "populations": [
+      {
+        "kind": "parametric_model_free",
+        "seed": 202611401,
+        "sessions": [
+          {
+            "started_utc": "2026-11-04T18:37:25.397840+00:00",
+            "environment": {
+              "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+              "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+              "packages": {
+                "torch": "2.11.0+cu130",
+                "numpy": "2.4.6",
+                "matplotlib": "3.10.0"
+              },
+              "device": "cuda",
+              "gpu": "Tesla T4",
+              "cuda": "13.0",
+              "cudnn": 92700,
+              "torch_threads": 1
+            },
+            "package_inventory": {
+              "status": "recorded",
+              "path": "environments/packages-f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729.txt",
+              "sha256": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729"
+            },
+            "status": "complete",
+            "wall_seconds": 1183.210198068
+          }
+        ],
+        "arms": {
+          "teacher": {
+            "completed_steps": 300,
+            "early_stopped": true,
+            "population_selected_step": 100,
+            "individual_selected_at_limit": null,
+            "individual_best_step_min": null,
+            "individual_best_step_median": null,
+            "individual_best_step_max": null,
+            "training_seconds": 2.8426691509999955,
+            "checkpoint_cpu_validation": "passed",
+            "initial_train_nll": 0.6923782825469971,
+            "final_train_nll": 0.6185123324394226,
+            "initial_validation_nll": 0.6925743818283081,
+            "final_validation_nll": 0.7026188373565674,
+            "best_population_validation_nll": 0.666192889213562,
+            "teacher_logits_maximum_cpu_difference": 1.3470649719238281e-05
+          },
+          "solo": {
+            "completed_steps": 4000,
+            "early_stopped": false,
+            "population_selected_step": 120,
+            "individual_selected_at_limit": 0,
+            "individual_best_step_min": 0,
+            "individual_best_step_median": 50.0,
+            "individual_best_step_max": 3990,
+            "training_seconds": 389.959565837,
+            "checkpoint_cpu_validation": "passed",
+            "initial_train_nll": 0.7206334471702576,
+            "final_train_nll": 0.6710083484649658,
+            "initial_validation_nll": 0.7200220227241516,
+            "final_validation_nll": 0.687063455581665,
+            "best_population_validation_nll": 0.686924397945404
+          },
+          "distilled": {
+            "completed_steps": 4000,
+            "early_stopped": false,
+            "population_selected_step": 2180,
+            "individual_selected_at_limit": 17,
+            "individual_best_step_min": 0,
+            "individual_best_step_median": 165.0,
+            "individual_best_step_max": 4000,
+            "training_seconds": 387.424651196,
+            "checkpoint_cpu_validation": "passed",
+            "initial_train_nll": 0.7206334471702576,
+            "final_train_nll": 0.6630740761756897,
+            "initial_validation_nll": 0.7200220227241516,
+            "final_validation_nll": 0.6694073677062988,
+            "best_population_validation_nll": 0.6691491603851318,
+            "final_soft_target_mean_training_bce": {
+              "current_state": 0.6638503670692444,
+              "best_state": 0.6744064688682556,
+              "population_best_state": 0.6639381647109985
+            }
+          },
+          "oracle": {
+            "completed_steps": 4000,
+            "early_stopped": false,
+            "population_selected_step": 680,
+            "individual_selected_at_limit": 19,
+            "individual_best_step_min": 0,
+            "individual_best_step_median": 210.0,
+            "individual_best_step_max": 4000,
+            "training_seconds": 388.63062173699996,
+            "checkpoint_cpu_validation": "passed",
+            "initial_train_nll": 0.7206334471702576,
+            "final_train_nll": 0.6484559774398804,
+            "initial_validation_nll": 0.7200220227241516,
+            "final_validation_nll": 0.6625505685806274,
+            "best_population_validation_nll": 0.6607372760772705,
+            "final_soft_target_mean_training_bce": {
+              "current_state": 0.6465505361557007,
+              "best_state": 0.6594542264938354,
+              "population_best_state": 0.647377610206604
+            }
+          }
+        },
+        "neural_reproduction": [
+          {
+            "model": "teacher",
+            "maximum_probability_error": 3.0994415283203125e-06,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 9.238719940185547e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 5.960464477539063e-08,
+            "validation_is_per_person": false
+          },
+          {
+            "model": "solo_individual",
+            "maximum_probability_error": 1.1920928955078125e-07,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 1.1920928955078125e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 1.7881393432617188e-07,
+            "validation_is_per_person": true
+          },
+          {
+            "model": "solo_population",
+            "maximum_probability_error": 1.1920928955078125e-07,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 1.1920928955078125e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 0.0,
+            "validation_is_per_person": false
+          },
+          {
+            "model": "distilled_individual",
+            "maximum_probability_error": 9.238719940185547e-07,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 1.4901161193847656e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 1.7881393432617188e-07,
+            "validation_is_per_person": true
+          },
+          {
+            "model": "distilled_population",
+            "maximum_probability_error": 1.2814998626708984e-06,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 1.7881393432617188e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 5.960464477539063e-08,
+            "validation_is_per_person": false
+          },
+          {
+            "model": "oracle_individual",
+            "maximum_probability_error": 3.2186508178710938e-06,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 4.470348358154297e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 1.7881393432617188e-07,
+            "validation_is_per_person": true
+          },
+          {
+            "model": "oracle_population",
+            "maximum_probability_error": 1.5795230865478516e-06,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 2.384185791015625e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 0.0,
+            "validation_is_per_person": false
+          }
+        ]
+      },
+      {
+        "kind": "parametric_model_free",
+        "seed": 202611411,
+        "sessions": [
+          {
+            "started_utc": "2026-11-04T18:57:09.529717+00:00",
+            "environment": {
+              "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+              "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+              "packages": {
+                "torch": "2.11.0+cu130",
+                "numpy": "2.4.6",
+                "matplotlib": "3.10.0"
+              },
+              "device": "cuda",
+              "gpu": "Tesla T4",
+              "cuda": "13.0",
+              "cudnn": 92700,
+              "torch_threads": 1
+            },
+            "package_inventory": {
+              "status": "recorded",
+              "path": "environments/packages-f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729.txt",
+              "sha256": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729"
+            },
+            "status": "incomplete",
+            "phase": "distilled",
+            "wall_seconds": 616.1967395080001
+          },
+          {
+            "started_utc": "2026-11-04T19:12:21.047923+00:00",
+            "environment": {
+              "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+              "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+              "packages": {
+                "torch": "2.11.0+cu130",
+                "numpy": "2.4.6",
+                "matplotlib": "3.10.0"
+              },
+              "device": "cuda",
+              "gpu": "Tesla T4",
+              "cuda": "13.0",
+              "cudnn": 92700,
+              "torch_threads": 1
+            },
+            "package_inventory": {
+              "status": "recorded",
+              "path": "environments/packages-f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729.txt",
+              "sha256": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729"
+            },
+            "status": "complete",
+            "wall_seconds": 565.888639885
+          }
+        ],
+        "arms": {
+          "teacher": {
+            "completed_steps": 280,
+            "early_stopped": true,
+            "population_selected_step": 80,
+            "individual_selected_at_limit": null,
+            "individual_best_step_min": null,
+            "individual_best_step_median": null,
+            "individual_best_step_max": null,
+            "training_seconds": 2.479593345000012,
+            "checkpoint_cpu_validation": "passed",
+            "initial_train_nll": 0.6952511072158813,
+            "final_train_nll": 0.6152786612510681,
+            "initial_validation_nll": 0.6953745484352112,
+            "final_validation_nll": 0.7091190814971924,
+            "best_population_validation_nll": 0.6673054695129395,
+            "teacher_logits_maximum_cpu_difference": 6.198883056640625e-06
+          },
+          "solo": {
+            "completed_steps": 4000,
+            "early_stopped": false,
+            "population_selected_step": 110,
+            "individual_selected_at_limit": 1,
+            "individual_best_step_min": 0,
+            "individual_best_step_median": 40.0,
+            "individual_best_step_max": 4000,
+            "training_seconds": 386.67736848200025,
+            "checkpoint_cpu_validation": "passed",
+            "initial_train_nll": 0.7238520979881287,
+            "final_train_nll": 0.6701977849006653,
+            "initial_validation_nll": 0.722810685634613,
+            "final_validation_nll": 0.6878315806388855,
+            "best_population_validation_nll": 0.6877133250236511
+          },
+          "distilled": {
+            "completed_steps": 4000,
+            "early_stopped": false,
+            "population_selected_step": 1480,
+            "individual_selected_at_limit": 26,
+            "individual_best_step_min": 0,
+            "individual_best_step_median": 150.0,
+            "individual_best_step_max": 4000,
+            "training_seconds": 389.86107515000003,
+            "checkpoint_cpu_validation": "passed",
+            "initial_train_nll": 0.7238520979881287,
+            "final_train_nll": 0.6635997295379639,
+            "initial_validation_nll": 0.722810685634613,
+            "final_validation_nll": 0.6710648536682129,
+            "best_population_validation_nll": 0.670100212097168,
+            "final_soft_target_mean_training_bce": {
+              "current_state": 0.663917064666748,
+              "best_state": 0.6749501824378967,
+              "population_best_state": 0.6640665531158447
+            }
+          },
+          "oracle": {
+            "completed_steps": 4000,
+            "early_stopped": false,
+            "population_selected_step": 3050,
+            "individual_selected_at_limit": 28,
+            "individual_best_step_min": 0,
+            "individual_best_step_median": 210.0,
+            "individual_best_step_max": 4000,
+            "training_seconds": 384.37940888599996,
+            "checkpoint_cpu_validation": "passed",
+            "initial_train_nll": 0.7238520979881287,
+            "final_train_nll": 0.6492993235588074,
+            "initial_validation_nll": 0.722810685634613,
+            "final_validation_nll": 0.6616982817649841,
+            "best_population_validation_nll": 0.6612979173660278,
+            "final_soft_target_mean_training_bce": {
+              "current_state": 0.6478580236434937,
+              "best_state": 0.6603890061378479,
+              "population_best_state": 0.6478321552276611
+            }
+          }
+        },
+        "neural_reproduction": [
+          {
+            "model": "teacher",
+            "maximum_probability_error": 1.4901161193847656e-06,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 8.940696716308594e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 0.0,
+            "validation_is_per_person": false
+          },
+          {
+            "model": "solo_individual",
+            "maximum_probability_error": 1.1920928955078125e-07,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 1.1920928955078125e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 1.1920928955078125e-07,
+            "validation_is_per_person": true
+          },
+          {
+            "model": "solo_population",
+            "maximum_probability_error": 1.1920928955078125e-07,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 1.1920928955078125e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 0.0,
+            "validation_is_per_person": false
+          },
+          {
+            "model": "distilled_individual",
+            "maximum_probability_error": 4.76837158203125e-07,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 1.7881393432617188e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 1.7881393432617188e-07,
+            "validation_is_per_person": true
+          },
+          {
+            "model": "distilled_population",
+            "maximum_probability_error": 2.980232238769531e-07,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 1.1920928955078125e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 5.960464477539063e-08,
+            "validation_is_per_person": false
+          },
+          {
+            "model": "oracle_individual",
+            "maximum_probability_error": 1.6987323760986328e-06,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 5.364418029785156e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 1.7881393432617188e-07,
+            "validation_is_per_person": true
+          },
+          {
+            "model": "oracle_population",
+            "maximum_probability_error": 2.175569534301758e-06,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 5.066394805908203e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 5.960464477539063e-08,
+            "validation_is_per_person": false
+          }
+        ]
+      },
+      {
+        "kind": "parametric_model_free",
+        "seed": 202611421,
+        "sessions": [
+          {
+            "started_utc": "2026-11-04T19:21:47.584817+00:00",
+            "environment": {
+              "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+              "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+              "packages": {
+                "torch": "2.11.0+cu130",
+                "numpy": "2.4.6",
+                "matplotlib": "3.10.0"
+              },
+              "device": "cuda",
+              "gpu": "Tesla T4",
+              "cuda": "13.0",
+              "cudnn": 92700,
+              "torch_threads": 1
+            },
+            "package_inventory": {
+              "status": "recorded",
+              "path": "environments/packages-f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729.txt",
+              "sha256": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729"
+            },
+            "status": "complete",
+            "wall_seconds": 1200.2648935569996
+          }
+        ],
+        "arms": {
+          "teacher": {
+            "completed_steps": 290,
+            "early_stopped": true,
+            "population_selected_step": 90,
+            "individual_selected_at_limit": null,
+            "individual_best_step_min": null,
+            "individual_best_step_median": null,
+            "individual_best_step_max": null,
+            "training_seconds": 2.502291439000146,
+            "checkpoint_cpu_validation": "passed",
+            "initial_train_nll": 0.69242262840271,
+            "final_train_nll": 0.6255720257759094,
+            "initial_validation_nll": 0.691392719745636,
+            "final_validation_nll": 0.6925290822982788,
+            "best_population_validation_nll": 0.660307765007019,
+            "teacher_logits_maximum_cpu_difference": 1.0251998901367188e-05
+          },
+          "solo": {
+            "completed_steps": 4000,
+            "early_stopped": false,
+            "population_selected_step": 3510,
+            "individual_selected_at_limit": 0,
+            "individual_best_step_min": 0,
+            "individual_best_step_median": 40.0,
+            "individual_best_step_max": 3990,
+            "training_seconds": 389.93876106000016,
+            "checkpoint_cpu_validation": "passed",
+            "initial_train_nll": 0.7237502336502075,
+            "final_train_nll": 0.6696387529373169,
+            "initial_validation_nll": 0.7245712280273438,
+            "final_validation_nll": 0.6843923926353455,
+            "best_population_validation_nll": 0.6843881011009216
+          },
+          "distilled": {
+            "completed_steps": 4000,
+            "early_stopped": false,
+            "population_selected_step": 440,
+            "individual_selected_at_limit": 21,
+            "individual_best_step_min": 0,
+            "individual_best_step_median": 170.0,
+            "individual_best_step_max": 4000,
+            "training_seconds": 395.2871141380001,
+            "checkpoint_cpu_validation": "passed",
+            "initial_train_nll": 0.7237502336502075,
+            "final_train_nll": 0.6598446369171143,
+            "initial_validation_nll": 0.7245712280273438,
+            "final_validation_nll": 0.6634864807128906,
+            "best_population_validation_nll": 0.6626238226890564,
+            "final_soft_target_mean_training_bce": {
+              "current_state": 0.659845769405365,
+              "best_state": 0.670143187046051,
+              "population_best_state": 0.6608225107192993
+            }
+          },
+          "oracle": {
+            "completed_steps": 4000,
+            "early_stopped": false,
+            "population_selected_step": 610,
+            "individual_selected_at_limit": 28,
+            "individual_best_step_min": 0,
+            "individual_best_step_median": 240.0,
+            "individual_best_step_max": 4000,
+            "training_seconds": 396.69846030899953,
+            "checkpoint_cpu_validation": "passed",
+            "initial_train_nll": 0.7237502336502075,
+            "final_train_nll": 0.6469420790672302,
+            "initial_validation_nll": 0.7245712280273438,
+            "final_validation_nll": 0.6567436456680298,
+            "best_population_validation_nll": 0.6548960208892822,
+            "final_soft_target_mean_training_bce": {
+              "current_state": 0.6455835700035095,
+              "best_state": 0.6574712991714478,
+              "population_best_state": 0.6466088891029358
+            }
+          }
+        },
+        "neural_reproduction": [
+          {
+            "model": "teacher",
+            "maximum_probability_error": 2.2649765014648438e-06,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 1.2814998626708984e-06,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 0.0,
+            "validation_is_per_person": false
+          },
+          {
+            "model": "solo_individual",
+            "maximum_probability_error": 1.1920928955078125e-07,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 1.1920928955078125e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 1.7881393432617188e-07,
+            "validation_is_per_person": true
+          },
+          {
+            "model": "solo_population",
+            "maximum_probability_error": 1.1920928955078125e-07,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 1.1920928955078125e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 5.960464477539063e-08,
+            "validation_is_per_person": false
+          },
+          {
+            "model": "distilled_individual",
+            "maximum_probability_error": 1.0132789611816406e-06,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 2.980232238769531e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 1.7881393432617188e-07,
+            "validation_is_per_person": true
+          },
+          {
+            "model": "distilled_population",
+            "maximum_probability_error": 7.748603820800781e-07,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 1.1920928955078125e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 0.0,
+            "validation_is_per_person": false
+          },
+          {
+            "model": "oracle_individual",
+            "maximum_probability_error": 1.430511474609375e-06,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 2.980232238769531e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 2.384185791015625e-07,
+            "validation_is_per_person": true
+          },
+          {
+            "model": "oracle_population",
+            "maximum_probability_error": 8.344650268554688e-07,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 2.682209014892578e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 5.960464477539063e-08,
+            "validation_is_per_person": false
+          }
+        ]
+      },
+      {
+        "kind": "reward_cue",
+        "seed": 202621401,
+        "sessions": [
+          {
+            "started_utc": "2026-11-04T19:41:48.367011+00:00",
+            "environment": {
+              "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+              "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+              "packages": {
+                "torch": "2.11.0+cu130",
+                "numpy": "2.4.6",
+                "matplotlib": "3.10.0"
+              },
+              "device": "cuda",
+              "gpu": "Tesla T4",
+              "cuda": "13.0",
+              "cudnn": 92700,
+              "torch_threads": 1
+            },
+            "package_inventory": {
+              "status": "recorded",
+              "path": "environments/packages-f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729.txt",
+              "sha256": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729"
+            },
+            "status": "incomplete",
+            "phase": "solo",
+            "wall_seconds": 32.870993161000115
+          },
+          {
+            "started_utc": "2026-11-04T20:05:47.186112+00:00",
+            "environment": {
+              "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+              "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+              "packages": {
+                "torch": "2.11.0+cu130",
+                "numpy": "2.4.6",
+                "matplotlib": "3.10.0"
+              },
+              "device": "cuda",
+              "gpu": "Tesla T4",
+              "cuda": "13.0",
+              "cudnn": 92700,
+              "torch_threads": 1
+            },
+            "package_inventory": {
+              "status": "recorded",
+              "path": "environments/packages-f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729.txt",
+              "sha256": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729"
+            },
+            "status": "complete",
+            "wall_seconds": 1172.370777133
+          }
+        ],
+        "arms": {
+          "teacher": {
+            "completed_steps": 330,
+            "early_stopped": true,
+            "population_selected_step": 130,
+            "individual_selected_at_limit": null,
+            "individual_best_step_min": null,
+            "individual_best_step_median": null,
+            "individual_best_step_max": null,
+            "training_seconds": 2.9118923930000165,
+            "checkpoint_cpu_validation": "passed",
+            "initial_train_nll": 0.691830575466156,
+            "final_train_nll": 0.6174426078796387,
+            "initial_validation_nll": 0.6921291947364807,
+            "final_validation_nll": 0.696481466293335,
+            "best_population_validation_nll": 0.6634133458137512,
+            "teacher_logits_maximum_cpu_difference": 2.014636993408203e-05
+          },
+          "solo": {
+            "completed_steps": 4000,
+            "early_stopped": false,
+            "population_selected_step": 110,
+            "individual_selected_at_limit": 0,
+            "individual_best_step_min": 0,
+            "individual_best_step_median": 50.0,
+            "individual_best_step_max": 3990,
+            "training_seconds": 397.3006177019997,
+            "checkpoint_cpu_validation": "passed",
+            "initial_train_nll": 0.7237240076065063,
+            "final_train_nll": 0.6705256700515747,
+            "initial_validation_nll": 0.722355842590332,
+            "final_validation_nll": 0.6858019232749939,
+            "best_population_validation_nll": 0.6855278611183167
+          },
+          "distilled": {
+            "completed_steps": 4000,
+            "early_stopped": false,
+            "population_selected_step": 770,
+            "individual_selected_at_limit": 22,
+            "individual_best_step_min": 0,
+            "individual_best_step_median": 195.0,
+            "individual_best_step_max": 4000,
+            "training_seconds": 394.3157280639998,
+            "checkpoint_cpu_validation": "passed",
+            "initial_train_nll": 0.7237240076065063,
+            "final_train_nll": 0.6568459272384644,
+            "initial_validation_nll": 0.722355842590332,
+            "final_validation_nll": 0.6692898273468018,
+            "best_population_validation_nll": 0.667436420917511,
+            "final_soft_target_mean_training_bce": {
+              "current_state": 0.6595045924186707,
+              "best_state": 0.670689582824707,
+              "population_best_state": 0.6601868271827698
+            }
+          },
+          "oracle": {
+            "completed_steps": 4000,
+            "early_stopped": false,
+            "population_selected_step": 660,
+            "individual_selected_at_limit": 28,
+            "individual_best_step_min": 0,
+            "individual_best_step_median": 255.0,
+            "individual_best_step_max": 4000,
+            "training_seconds": 394.2874137300005,
+            "checkpoint_cpu_validation": "passed",
+            "initial_train_nll": 0.7237240076065063,
+            "final_train_nll": 0.6440629959106445,
+            "initial_validation_nll": 0.722355842590332,
+            "final_validation_nll": 0.6564250588417053,
+            "best_population_validation_nll": 0.6542358994483948,
+            "final_soft_target_mean_training_bce": {
+              "current_state": 0.6439059972763062,
+              "best_state": 0.6560340523719788,
+              "population_best_state": 0.6448161602020264
+            }
+          }
+        },
+        "neural_reproduction": [
+          {
+            "model": "teacher",
+            "maximum_probability_error": 4.112720489501953e-06,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 1.0728836059570312e-06,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 0.0,
+            "validation_is_per_person": false
+          },
+          {
+            "model": "solo_individual",
+            "maximum_probability_error": 1.1920928955078125e-07,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 1.1920928955078125e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 1.1920928955078125e-07,
+            "validation_is_per_person": true
+          },
+          {
+            "model": "solo_population",
+            "maximum_probability_error": 1.1920928955078125e-07,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 1.1920928955078125e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 0.0,
+            "validation_is_per_person": false
+          },
+          {
+            "model": "distilled_individual",
+            "maximum_probability_error": 1.4603137969970703e-06,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 1.7881393432617188e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 1.7881393432617188e-07,
+            "validation_is_per_person": true
+          },
+          {
+            "model": "distilled_population",
+            "maximum_probability_error": 9.238719940185547e-07,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 2.384185791015625e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 0.0,
+            "validation_is_per_person": false
+          },
+          {
+            "model": "oracle_individual",
+            "maximum_probability_error": 2.652406692504883e-06,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 2.980232238769531e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 2.384185791015625e-07,
+            "validation_is_per_person": true
+          },
+          {
+            "model": "oracle_population",
+            "maximum_probability_error": 1.4901161193847656e-06,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 4.172325134277344e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 5.960464477539063e-08,
+            "validation_is_per_person": false
+          }
+        ]
+      },
+      {
+        "kind": "reward_cue",
+        "seed": 202621411,
+        "sessions": [
+          {
+            "started_utc": "2026-11-04T20:25:20.355720+00:00",
+            "environment": {
+              "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+              "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+              "packages": {
+                "torch": "2.11.0+cu130",
+                "numpy": "2.4.6",
+                "matplotlib": "3.10.0"
+              },
+              "device": "cuda",
+              "gpu": "Tesla T4",
+              "cuda": "13.0",
+              "cudnn": 92700,
+              "torch_threads": 1
+            },
+            "package_inventory": {
+              "status": "recorded",
+              "path": "environments/packages-f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729.txt",
+              "sha256": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729"
+            },
+            "status": "incomplete",
+            "phase": "distilled",
+            "wall_seconds": 626.4155197179998
+          },
+          {
+            "started_utc": "2026-11-04T20:44:34.266806+00:00",
+            "environment": {
+              "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+              "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+              "packages": {
+                "torch": "2.11.0+cu130",
+                "numpy": "2.4.6",
+                "matplotlib": "3.10.0"
+              },
+              "device": "cuda",
+              "gpu": "Tesla T4",
+              "cuda": "13.0",
+              "cudnn": 92700,
+              "torch_threads": 1
+            },
+            "package_inventory": {
+              "status": "recorded",
+              "path": "environments/packages-f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729.txt",
+              "sha256": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729"
+            },
+            "status": "complete",
+            "wall_seconds": 550.4579102129992
+          }
+        ],
+        "arms": {
+          "teacher": {
+            "completed_steps": 250,
+            "early_stopped": true,
+            "population_selected_step": 50,
+            "individual_selected_at_limit": null,
+            "individual_best_step_min": null,
+            "individual_best_step_median": null,
+            "individual_best_step_max": null,
+            "training_seconds": 2.4599076340000465,
+            "checkpoint_cpu_validation": "passed",
+            "initial_train_nll": 0.6987550854682922,
+            "final_train_nll": 0.6250258684158325,
+            "initial_validation_nll": 0.6988062858581543,
+            "final_validation_nll": 0.6970351934432983,
+            "best_population_validation_nll": 0.6650703549385071,
+            "teacher_logits_maximum_cpu_difference": 7.987022399902344e-06
+          },
+          "solo": {
+            "completed_steps": 4000,
+            "early_stopped": false,
+            "population_selected_step": 120,
+            "individual_selected_at_limit": 3,
+            "individual_best_step_min": 0,
+            "individual_best_step_median": 50.0,
+            "individual_best_step_max": 4000,
+            "training_seconds": 391.57123056599994,
+            "checkpoint_cpu_validation": "passed",
+            "initial_train_nll": 0.7254381775856018,
+            "final_train_nll": 0.6699177622795105,
+            "initial_validation_nll": 0.7263333797454834,
+            "final_validation_nll": 0.6863287687301636,
+            "best_population_validation_nll": 0.6862091422080994
+          },
+          "distilled": {
+            "completed_steps": 4000,
+            "early_stopped": false,
+            "population_selected_step": 1190,
+            "individual_selected_at_limit": 26,
+            "individual_best_step_min": 0,
+            "individual_best_step_median": 160.0,
+            "individual_best_step_max": 4000,
+            "training_seconds": 382.14362456899835,
+            "checkpoint_cpu_validation": "passed",
+            "initial_train_nll": 0.7254381775856018,
+            "final_train_nll": 0.6636135578155518,
+            "initial_validation_nll": 0.7263333797454834,
+            "final_validation_nll": 0.6671857237815857,
+            "best_population_validation_nll": 0.6668589115142822,
+            "final_soft_target_mean_training_bce": {
+              "current_state": 0.6627076268196106,
+              "best_state": 0.6735861897468567,
+              "population_best_state": 0.6629055738449097
+            }
+          },
+          "oracle": {
+            "completed_steps": 4000,
+            "early_stopped": false,
+            "population_selected_step": 460,
+            "individual_selected_at_limit": 24,
+            "individual_best_step_min": 0,
+            "individual_best_step_median": 230.0,
+            "individual_best_step_max": 4000,
+            "training_seconds": 384.597153273,
+            "checkpoint_cpu_validation": "passed",
+            "initial_train_nll": 0.7254381775856018,
+            "final_train_nll": 0.6452392339706421,
+            "initial_validation_nll": 0.7263333797454834,
+            "final_validation_nll": 0.6566143035888672,
+            "best_population_validation_nll": 0.6556105017662048,
+            "final_soft_target_mean_training_bce": {
+              "current_state": 0.6452127695083618,
+              "best_state": 0.6570340991020203,
+              "population_best_state": 0.6466219425201416
+            }
+          }
+        },
+        "neural_reproduction": [
+          {
+            "model": "teacher",
+            "maximum_probability_error": 1.6093254089355469e-06,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 6.854534149169922e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 5.960464477539063e-08,
+            "validation_is_per_person": false
+          },
+          {
+            "model": "solo_individual",
+            "maximum_probability_error": 1.1920928955078125e-07,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 1.1920928955078125e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 1.7881393432617188e-07,
+            "validation_is_per_person": true
+          },
+          {
+            "model": "solo_population",
+            "maximum_probability_error": 1.1920928955078125e-07,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 1.1920928955078125e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 5.960464477539063e-08,
+            "validation_is_per_person": false
+          },
+          {
+            "model": "distilled_individual",
+            "maximum_probability_error": 3.5762786865234375e-07,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 1.7881393432617188e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 1.7881393432617188e-07,
+            "validation_is_per_person": true
+          },
+          {
+            "model": "distilled_population",
+            "maximum_probability_error": 6.556510925292969e-07,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 1.1920928955078125e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 0.0,
+            "validation_is_per_person": false
+          },
+          {
+            "model": "oracle_individual",
+            "maximum_probability_error": 1.3709068298339844e-06,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 3.5762786865234375e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 1.7881393432617188e-07,
+            "validation_is_per_person": true
+          },
+          {
+            "model": "oracle_population",
+            "maximum_probability_error": 6.556510925292969e-07,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 2.682209014892578e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 0.0,
+            "validation_is_per_person": false
+          }
+        ]
+      },
+      {
+        "kind": "reward_cue",
+        "seed": 202621421,
+        "sessions": [
+          {
+            "started_utc": "2026-11-04T20:53:45.955139+00:00",
+            "environment": {
+              "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+              "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+              "packages": {
+                "torch": "2.11.0+cu130",
+                "numpy": "2.4.6",
+                "matplotlib": "3.10.0"
+              },
+              "device": "cuda",
+              "gpu": "Tesla T4",
+              "cuda": "13.0",
+              "cudnn": 92700,
+              "torch_threads": 1
+            },
+            "package_inventory": {
+              "status": "recorded",
+              "path": "environments/packages-f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729.txt",
+              "sha256": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729"
+            },
+            "status": "complete",
+            "wall_seconds": 1177.9224206
+          }
+        ],
+        "arms": {
+          "teacher": {
+            "completed_steps": 300,
+            "early_stopped": true,
+            "population_selected_step": 100,
+            "individual_selected_at_limit": null,
+            "individual_best_step_min": null,
+            "individual_best_step_median": null,
+            "individual_best_step_max": null,
+            "training_seconds": 2.639781195000978,
+            "checkpoint_cpu_validation": "passed",
+            "initial_train_nll": 0.6971182227134705,
+            "final_train_nll": 0.6235873103141785,
+            "initial_validation_nll": 0.6971393823623657,
+            "final_validation_nll": 0.6983787417411804,
+            "best_population_validation_nll": 0.6682109832763672,
+            "teacher_logits_maximum_cpu_difference": 1.049041748046875e-05
+          },
+          "solo": {
+            "completed_steps": 4000,
+            "early_stopped": false,
+            "population_selected_step": 120,
+            "individual_selected_at_limit": 4,
+            "individual_best_step_min": 0,
+            "individual_best_step_median": 40.0,
+            "individual_best_step_max": 4000,
+            "training_seconds": 388.67745516299874,
+            "checkpoint_cpu_validation": "passed",
+            "initial_train_nll": 0.7192583084106445,
+            "final_train_nll": 0.6711143851280212,
+            "initial_validation_nll": 0.72044837474823,
+            "final_validation_nll": 0.6877503395080566,
+            "best_population_validation_nll": 0.6875683069229126
+          },
+          "distilled": {
+            "completed_steps": 4000,
+            "early_stopped": false,
+            "population_selected_step": 960,
+            "individual_selected_at_limit": 17,
+            "individual_best_step_min": 0,
+            "individual_best_step_median": 150.0,
+            "individual_best_step_max": 4000,
+            "training_seconds": 389.1612043160003,
+            "checkpoint_cpu_validation": "passed",
+            "initial_train_nll": 0.7192583084106445,
+            "final_train_nll": 0.661585807800293,
+            "initial_validation_nll": 0.72044837474823,
+            "final_validation_nll": 0.6712678670883179,
+            "best_population_validation_nll": 0.6698896884918213,
+            "final_soft_target_mean_training_bce": {
+              "current_state": 0.6617961525917053,
+              "best_state": 0.6740907430648804,
+              "population_best_state": 0.6621569991111755
+            }
+          },
+          "oracle": {
+            "completed_steps": 4000,
+            "early_stopped": false,
+            "population_selected_step": 840,
+            "individual_selected_at_limit": 18,
+            "individual_best_step_min": 0,
+            "individual_best_step_median": 230.0,
+            "individual_best_step_max": 4000,
+            "training_seconds": 382.0186121700008,
+            "checkpoint_cpu_validation": "passed",
+            "initial_train_nll": 0.7192583084106445,
+            "final_train_nll": 0.6476601958274841,
+            "initial_validation_nll": 0.72044837474823,
+            "final_validation_nll": 0.6599555015563965,
+            "best_population_validation_nll": 0.65907222032547,
+            "final_soft_target_mean_training_bce": {
+              "current_state": 0.6457774639129639,
+              "best_state": 0.6589596271514893,
+              "population_best_state": 0.6465411186218262
+            }
+          }
+        },
+        "neural_reproduction": [
+          {
+            "model": "teacher",
+            "maximum_probability_error": 3.0100345611572266e-06,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 8.940696716308594e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 5.960464477539063e-08,
+            "validation_is_per_person": false
+          },
+          {
+            "model": "solo_individual",
+            "maximum_probability_error": 1.1920928955078125e-07,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 1.1920928955078125e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 1.1920928955078125e-07,
+            "validation_is_per_person": true
+          },
+          {
+            "model": "solo_population",
+            "maximum_probability_error": 1.1920928955078125e-07,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 1.1920928955078125e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 5.960464477539063e-08,
+            "validation_is_per_person": false
+          },
+          {
+            "model": "distilled_individual",
+            "maximum_probability_error": 7.152557373046875e-07,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 2.384185791015625e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 1.1920928955078125e-07,
+            "validation_is_per_person": true
+          },
+          {
+            "model": "distilled_population",
+            "maximum_probability_error": 6.258487701416016e-07,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 1.7881393432617188e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 5.960464477539063e-08,
+            "validation_is_per_person": false
+          },
+          {
+            "model": "oracle_individual",
+            "maximum_probability_error": 3.4570693969726562e-06,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 4.76837158203125e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 5.364418029785156e-07,
+            "validation_is_per_person": true
+          },
+          {
+            "model": "oracle_population",
+            "maximum_probability_error": 1.1026859283447266e-06,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 2.682209014892578e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 0.0,
+            "validation_is_per_person": false
+          }
+        ]
+      }
+    ],
+    "status": "passed",
+    "unchanged": true,
+    "root_listed_hash_checks": 81,
+    "package_inventory_checks": 9,
+    "file_count": 87,
+    "source_sha256": "b5c5aa888e9b9ba00e9e8c69486c740a40efaf134bcda41397d8980fc4944372",
+    "maximum_cpu_probability_reconstruction_error": 4.112720489501953e-06,
+    "maximum_cpu_probe_reconstruction_error": 1.2814998626708984e-06,
+    "maximum_cpu_validation_nll_error": 5.364418029785156e-07,
+    "maximum_cpu_population_mean_validation_nll_error": 5.960464477539063e-08,
+    "maximum_cpu_individual_validation_nll_error": 5.364418029785156e-07,
+    "timing": {
+      "cumulative_training_seconds": 7028.766201504999,
+      "t4_equivalent_units_at_user_rate": 2.089105509891764,
+      "note": "Checkpoint training time counted once. Setup, baseline fitting, probes, evaluation, saving and idle billing are additional.",
+      "runner_wall_seconds": 7131.496624232,
+      "known_runner_wall_seconds": 7131.496624232,
+      "invocation_wall_time_coverage": {
+        "recorded_invocations": 4,
+        "total_invocations": 4
+      }
+    },
+    "root_invocations": [
+      {
+        "started_utc": "2026-11-04T18:37:24.924349+00:00",
+        "status": "incomplete",
+        "wall_seconds": 1800.223742735
+      },
+      {
+        "started_utc": "2026-11-04T19:12:20.446550+00:00",
+        "status": "incomplete",
+        "wall_seconds": 1800.3685403910004
+      },
+      {
+        "started_utc": "2026-11-04T20:05:46.205887+00:00",
+        "status": "incomplete",
+        "wall_seconds": 1800.1560678639999
+      },
+      {
+        "started_utc": "2026-11-04T20:44:33.063943+00:00",
+        "status": "complete",
+        "wall_seconds": 1730.7482732419994
+      }
+    ],
+    "verification_script_sha256": "3188293300b9c1f14e20e772dd9449866858dd0129f8e4508c95e2037309a175"
+  },
+  "smoke": {
+    "folder": "main-study-smoke-b5c5aa888e9b",
+    "mode": "smoke",
+    "audit_mode": "read-only; no training/resume runner called",
+    "environment": {
+      "python": "3.13.0 (v3.13.0:60403a5409f, Oct  7 2024, 00:37:40) [Clang 15.0.0 (clang-1500.3.9.4)]",
+      "torch": "2.15.0",
+      "numpy": "2.5.4",
+      "device": "cpu"
+    },
+    "checks": 665,
+    "issues": [],
+    "backend_reproduction_issues": [],
+    "file_sha256_before": {
+      "parametric_model_free/seed-701/data.npz": "4c9b8a6a6b23ad2f4e4188d878f82d199a1f35ae534b9ed44c634661f48526a7",
+      "parametric_model_free/seed-701/distilled.pt": "a5b693b84dd3c198a1a3a185922cc247f5511f2fdc7823307451ac78f3d75832",
+      "parametric_model_free/seed-701/environment-freeze.txt": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729",
+      "parametric_model_free/seed-701/environments/packages-f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729.txt": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729",
+      "parametric_model_free/seed-701/manifest.json": "aeb6c88b87cb4157faf930872ae5f3441e03a6ff8ec648efc9d1c81b34293325",
+      "parametric_model_free/seed-701/oracle.pt": "08242dde0ece4ce57b0418752e140316203038fae7a326d43174be3d6d2e684b",
+      "parametric_model_free/seed-701/predictions.npz": "d17934f2b7f485dcf527ac1742ad2c045cbf922e5d41f69eeeab12e7de52e2f0",
+      "parametric_model_free/seed-701/primary.png": "52e57ea3c3f61c91feed978313bad61aff4d5f2b24a10adf759f60abb08d4a96",
+      "parametric_model_free/seed-701/probe_predictions.npz": "a3df11d4bb72ec02b299686ab2aedccb3472f7d246d300ee28193ad928741d76",
+      "parametric_model_free/seed-701/report.json": "ab30fc0ece9b9f0bc56fdbe8eb668c3c2dc2d6ec9268c1d5aae235c566108bea",
+      "parametric_model_free/seed-701/soft_training_logits.npz": "02e4ef9c94e8ddc795b4006329bd6b0f575f78251313f03aa557f9dd1ddbd363",
+      "parametric_model_free/seed-701/solo.pt": "d833f28d7b8722f41e3810f9da33c5acb295d5ef0108819e276d21613ef551a1",
+      "parametric_model_free/seed-701/teacher.pt": "40edf3dc6f36478c46b764aa5dd0b7f16fc876a04768635db7cbe872fe866b41",
+      "parametric_model_free/seed-701/training.json": "9c2a3dddbeb59dbfaf3053a368417d2bbc3ce3dfe3315587300b60deddb8a939",
+      "parametric_model_free/seed-711/data.npz": "e4e3039cfff0f555202590e68b6c523537a82779d6c29d352817a777c9f90787",
+      "parametric_model_free/seed-711/distilled.pt": "8643298949922ffaaaeaf468fe5b34165eb6de15018e0e9b139b8dc5ad3291c0",
+      "parametric_model_free/seed-711/environment-freeze.txt": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729",
+      "parametric_model_free/seed-711/environments/packages-f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729.txt": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729",
+      "parametric_model_free/seed-711/manifest.json": "100d516f71b9e76bcbccae9806c20dbd8bba88cd7ce408fd90a0e199ec04a9ee",
+      "parametric_model_free/seed-711/oracle.pt": "b700f10252e534b005dad87676fc94a59b8f00683a6d642bd496d4d11fa98c5d",
+      "parametric_model_free/seed-711/predictions.npz": "632718d32472c65b31eb434a5fcb239c44366f95ae9a1d541fee10082ab7c128",
+      "parametric_model_free/seed-711/primary.png": "b49f439c90098f14b361a5db6a86cf8539843c8b930f09bf8a6d2cd533fc09dc",
+      "parametric_model_free/seed-711/probe_predictions.npz": "1a9d2cece4802efd5f827491afaabaa17fd1cda10fcc9c78147e7deaa3f4b235",
+      "parametric_model_free/seed-711/report.json": "d304052f507de47ab911a2b13477292af8741d7c925a824eb01822de75ea3ed7",
+      "parametric_model_free/seed-711/soft_training_logits.npz": "be524d35cf90518d110ca69f5e34b3f6bb628912422e5c50b867d1f9a15741a7",
+      "parametric_model_free/seed-711/solo.pt": "2102366397a62c8402c994ffd13709682335e58e68c5b04f6e087bf10c6f94e8",
+      "parametric_model_free/seed-711/teacher.pt": "a02eb6285a65791f495d3c20d550a0838c5a3384e6fbc28ef2a6ffe0d2db79e3",
+      "parametric_model_free/seed-711/training.json": "575feb2407c212e97a65dc0eeda6f0f2890085d3a2cbe05d5d6e0411f6d00e16",
+      "protocol.json": "c88e5fd9be6e70ca0ccd3d8137e644c3a80bccb3124610385533aa822d09ebde",
+      "reward_cue/seed-801/data.npz": "9d66c69f32571fa3650072aa2d83930d803dcf045114069248240a0ccc493487",
+      "reward_cue/seed-801/distilled.pt": "67003b9d4ce8b674cb6152a92d98fd24e5b2f78f3f14c6bb2bdfa4245f6dc8ad",
+      "reward_cue/seed-801/environment-freeze.txt": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729",
+      "reward_cue/seed-801/environments/packages-f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729.txt": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729",
+      "reward_cue/seed-801/manifest.json": "bfa53673f6e46cae396be5b144bb964f32a500d0de9ff63404a29950285098fb",
+      "reward_cue/seed-801/oracle.pt": "d09e924d0dd795fb8cb4a705039c9313d6929990ccfb42e9d17b62bb6213301d",
+      "reward_cue/seed-801/predictions.npz": "0f8ef08d502045178207f53a59962377a89b65f6323279e71d56aeffeaeb2add",
+      "reward_cue/seed-801/primary.png": "d0ddbe7e0977136671af17ee05bb98fc1a76dc4a5f0fca8334de0ce77e322722",
+      "reward_cue/seed-801/probe_predictions.npz": "cf3c4eb147d7859e2a4dfa34db721061af4c90836dc77440d531ad77809d9936",
+      "reward_cue/seed-801/report.json": "df08449887cf72d633d8bd9e3b4c45d36fb11b6ec8d5bb34adb2623842f33d58",
+      "reward_cue/seed-801/soft_training_logits.npz": "adfc7f1ed637fb4839a7ab824fe8435d48615498e3f228b46f225863639fbc22",
+      "reward_cue/seed-801/solo.pt": "0e4ec070d52794b0a7a32341490038780191641025b8cc2e619185e2083b6bc3",
+      "reward_cue/seed-801/teacher.pt": "2473deff86045ede7391d843e4e9c9fe35f6d7e98caa0f8a43378c56ceaf5618",
+      "reward_cue/seed-801/training.json": "dcc13fd14d23003f83309b10d9055eda515984c94e26354107230f94a179a010",
+      "reward_cue/seed-811/data.npz": "3221ebba5e4950424f2afd4c1e6b1cbbb4d3b06eb1a38ade427ff180f39c4260",
+      "reward_cue/seed-811/distilled.pt": "cc027b127e462165e451248ccfb8190af68e538ca938608c66e00a9ee8803012",
+      "reward_cue/seed-811/environment-freeze.txt": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729",
+      "reward_cue/seed-811/environments/packages-f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729.txt": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729",
+      "reward_cue/seed-811/manifest.json": "219321950c45c1db3426216d69f5d33850f9215a2634ab3f2314c9f19b9bec1e",
+      "reward_cue/seed-811/oracle.pt": "56da1e394da935010aab16affbea06ef80dc46bffb59e904e70d2dc6c084e8a2",
+      "reward_cue/seed-811/predictions.npz": "8ca18ae28fee89bcfee32305836752549078834b9d03d78653a1bedd5cfa83aa",
+      "reward_cue/seed-811/primary.png": "66ea4b057789a95ded890aecbf3e80b08ba15c264ab0659f195fa51a73d673fb",
+      "reward_cue/seed-811/probe_predictions.npz": "0336636cb7f374503f8f6e6d0fbee56a7a0fc6390c52162a4e9e98051ae732a6",
+      "reward_cue/seed-811/report.json": "dd76d6a8d8834a653fbbf953adf73bcce33e1365fee4532a10829da4b222d251",
+      "reward_cue/seed-811/soft_training_logits.npz": "00f4cb69b97a10f604ef9b4e54d07e2f26b9831ac9400b733696b8d775019b9d",
+      "reward_cue/seed-811/solo.pt": "6b3228941f5dd32d7bd3c5325166fef9fbda1d3417e025412c7834f0f32d1f03",
+      "reward_cue/seed-811/teacher.pt": "4dcb8adbeb9b064f9dd93227665f96c0df642f0c7da1b55c718baa44c63b6cf8",
+      "reward_cue/seed-811/training.json": "6915c178fa1829957175311f6102275ec7e4cd7617f0452b9dbf83980a1be7b9",
+      "run_manifest.json": "1b065021adc0cb024855e47fe90da818f446a7a77b213446cec4aa7b28db2967",
+      "summary.json": "e7b45e47d510b3e9c01e5d601eacb5cd79a589636e87bf3f2cc40cfb4c4e361b"
+    },
+    "populations": [
+      {
+        "kind": "parametric_model_free",
+        "seed": 701,
+        "sessions": [
+          {
+            "started_utc": "2026-11-04T18:37:14.540547+00:00",
+            "environment": {
+              "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+              "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+              "packages": {
+                "torch": "2.11.0+cu130",
+                "numpy": "2.4.6",
+                "matplotlib": "3.10.0"
+              },
+              "device": "cuda",
+              "gpu": "Tesla T4",
+              "cuda": "13.0",
+              "cudnn": 92700,
+              "torch_threads": 1
+            },
+            "package_inventory": {
+              "status": "recorded",
+              "path": "environments/packages-f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729.txt",
+              "sha256": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729"
+            },
+            "status": "complete",
+            "wall_seconds": 3.9076780899999903
+          }
+        ],
+        "arms": {
+          "teacher": {
+            "completed_steps": 2,
+            "early_stopped": false,
+            "population_selected_step": 2,
+            "individual_selected_at_limit": null,
+            "individual_best_step_min": null,
+            "individual_best_step_median": null,
+            "individual_best_step_max": null,
+            "training_seconds": 0.3226556749999645,
+            "checkpoint_cpu_validation": "passed",
+            "initial_train_nll": 0.7195127010345459,
+            "final_train_nll": 0.7082299590110779,
+            "initial_validation_nll": 0.716952919960022,
+            "final_validation_nll": 0.7044536471366882,
+            "best_population_validation_nll": 0.7044536471366882,
+            "teacher_logits_maximum_cpu_difference": 2.682209014892578e-06
+          },
+          "solo": {
+            "completed_steps": 4,
+            "early_stopped": false,
+            "population_selected_step": 4,
+            "individual_selected_at_limit": 7,
+            "individual_best_step_min": 0,
+            "individual_best_step_median": 4.0,
+            "individual_best_step_max": 4,
+            "training_seconds": 0.2604544039999155,
+            "checkpoint_cpu_validation": "passed",
+            "initial_train_nll": 0.7502763271331787,
+            "final_train_nll": 0.7334470152854919,
+            "initial_validation_nll": 0.695967435836792,
+            "final_validation_nll": 0.6859323382377625,
+            "best_population_validation_nll": 0.6859323382377625
+          },
+          "distilled": {
+            "completed_steps": 4,
+            "early_stopped": false,
+            "population_selected_step": 0,
+            "individual_selected_at_limit": 6,
+            "individual_best_step_min": 0,
+            "individual_best_step_median": 4.0,
+            "individual_best_step_max": 4,
+            "training_seconds": 0.18009551500006182,
+            "checkpoint_cpu_validation": "passed",
+            "initial_train_nll": 0.7502763271331787,
+            "final_train_nll": 0.74400794506073,
+            "initial_validation_nll": 0.695967435836792,
+            "final_validation_nll": 0.7000227570533752,
+            "best_population_validation_nll": 0.695967435836792,
+            "final_soft_target_mean_training_bce": {
+              "current_state": 0.6993693113327026,
+              "best_state": 0.7029052972793579,
+              "population_best_state": 0.7093055844306946
+            }
+          },
+          "oracle": {
+            "completed_steps": 4,
+            "early_stopped": false,
+            "population_selected_step": 4,
+            "individual_selected_at_limit": 6,
+            "individual_best_step_min": 0,
+            "individual_best_step_median": 4.0,
+            "individual_best_step_max": 4,
+            "training_seconds": 0.1604719380000006,
+            "checkpoint_cpu_validation": "passed",
+            "initial_train_nll": 0.7502763271331787,
+            "final_train_nll": 0.736149787902832,
+            "initial_validation_nll": 0.695967435836792,
+            "final_validation_nll": 0.6869198679924011,
+            "best_population_validation_nll": 0.6869198679924011,
+            "final_soft_target_mean_training_bce": {
+              "current_state": 0.7038977146148682,
+              "best_state": 0.7057265043258667,
+              "population_best_state": 0.7038977146148682
+            }
+          }
+        },
+        "neural_reproduction": [
+          {
+            "model": "teacher",
+            "maximum_probability_error": 5.960464477539062e-07,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 7.152557373046875e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 1.1920928955078125e-07,
+            "validation_is_per_person": false
+          },
+          {
+            "model": "solo_individual",
+            "maximum_probability_error": 5.960464477539063e-08,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 1.1920928955078125e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 5.960464477539063e-08,
+            "validation_is_per_person": true
+          },
+          {
+            "model": "solo_population",
+            "maximum_probability_error": 5.960464477539063e-08,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 1.1920928955078125e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 0.0,
+            "validation_is_per_person": false
+          },
+          {
+            "model": "distilled_individual",
+            "maximum_probability_error": 5.960464477539063e-08,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 1.1920928955078125e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 0.0,
+            "validation_is_per_person": true
+          },
+          {
+            "model": "distilled_population",
+            "maximum_probability_error": 5.960464477539063e-08,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 1.1920928955078125e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 5.960464477539063e-08,
+            "validation_is_per_person": false
+          },
+          {
+            "model": "oracle_individual",
+            "maximum_probability_error": 5.960464477539063e-08,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 1.1920928955078125e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 1.1920928955078125e-07,
+            "validation_is_per_person": true
+          },
+          {
+            "model": "oracle_population",
+            "maximum_probability_error": 1.1920928955078125e-07,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 5.960464477539063e-08,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 5.960464477539063e-08,
+            "validation_is_per_person": false
+          }
+        ]
+      },
+      {
+        "kind": "parametric_model_free",
+        "seed": 711,
+        "sessions": [
+          {
+            "started_utc": "2026-11-04T18:37:18.640446+00:00",
+            "environment": {
+              "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+              "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+              "packages": {
+                "torch": "2.11.0+cu130",
+                "numpy": "2.4.6",
+                "matplotlib": "3.10.0"
+              },
+              "device": "cuda",
+              "gpu": "Tesla T4",
+              "cuda": "13.0",
+              "cudnn": 92700,
+              "torch_threads": 1
+            },
+            "package_inventory": {
+              "status": "recorded",
+              "path": "environments/packages-f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729.txt",
+              "sha256": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729"
+            },
+            "status": "complete",
+            "wall_seconds": 1.7081777860000784
+          }
+        ],
+        "arms": {
+          "teacher": {
+            "completed_steps": 2,
+            "early_stopped": false,
+            "population_selected_step": 2,
+            "individual_selected_at_limit": null,
+            "individual_best_step_min": null,
+            "individual_best_step_median": null,
+            "individual_best_step_max": null,
+            "training_seconds": 0.054547769000009794,
+            "checkpoint_cpu_validation": "passed",
+            "initial_train_nll": 0.7313488721847534,
+            "final_train_nll": 0.7198284864425659,
+            "initial_validation_nll": 0.7802335619926453,
+            "final_validation_nll": 0.7640334963798523,
+            "best_population_validation_nll": 0.7640334963798523,
+            "teacher_logits_maximum_cpu_difference": 1.817941665649414e-06
+          },
+          "solo": {
+            "completed_steps": 4,
+            "early_stopped": false,
+            "population_selected_step": 4,
+            "individual_selected_at_limit": 5,
+            "individual_best_step_min": 0,
+            "individual_best_step_median": 2.0,
+            "individual_best_step_max": 4,
+            "training_seconds": 0.16628442900002938,
+            "checkpoint_cpu_validation": "passed",
+            "initial_train_nll": 0.7101708054542542,
+            "final_train_nll": 0.6971076726913452,
+            "initial_validation_nll": 0.7462201118469238,
+            "final_validation_nll": 0.7415362000465393,
+            "best_population_validation_nll": 0.7415362000465393
+          },
+          "distilled": {
+            "completed_steps": 4,
+            "early_stopped": false,
+            "population_selected_step": 4,
+            "individual_selected_at_limit": 5,
+            "individual_best_step_min": 0,
+            "individual_best_step_median": 2.0,
+            "individual_best_step_max": 4,
+            "training_seconds": 0.17946290299994416,
+            "checkpoint_cpu_validation": "passed",
+            "initial_train_nll": 0.7101708054542542,
+            "final_train_nll": 0.708385705947876,
+            "initial_validation_nll": 0.7462201118469238,
+            "final_validation_nll": 0.7420255541801453,
+            "best_population_validation_nll": 0.7420255541801453,
+            "final_soft_target_mean_training_bce": {
+              "current_state": 0.6942964792251587,
+              "best_state": 0.6974904537200928,
+              "population_best_state": 0.6942964792251587
+            }
+          },
+          "oracle": {
+            "completed_steps": 4,
+            "early_stopped": false,
+            "population_selected_step": 4,
+            "individual_selected_at_limit": 5,
+            "individual_best_step_min": 0,
+            "individual_best_step_median": 2.0,
+            "individual_best_step_max": 4,
+            "training_seconds": 0.16558818600003633,
+            "checkpoint_cpu_validation": "passed",
+            "initial_train_nll": 0.7101708054542542,
+            "final_train_nll": 0.6956939101219177,
+            "initial_validation_nll": 0.7462201118469238,
+            "final_validation_nll": 0.7332154512405396,
+            "best_population_validation_nll": 0.7332154512405396,
+            "final_soft_target_mean_training_bce": {
+              "current_state": 0.7023526430130005,
+              "best_state": 0.7089061737060547,
+              "population_best_state": 0.7023526430130005
+            }
+          }
+        },
+        "neural_reproduction": [
+          {
+            "model": "teacher",
+            "maximum_probability_error": 4.76837158203125e-07,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 5.364418029785156e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 5.960464477539063e-08,
+            "validation_is_per_person": false
+          },
+          {
+            "model": "solo_individual",
+            "maximum_probability_error": 5.960464477539063e-08,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 5.960464477539063e-08,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 5.960464477539063e-08,
+            "validation_is_per_person": true
+          },
+          {
+            "model": "solo_population",
+            "maximum_probability_error": 5.960464477539063e-08,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 5.960464477539063e-08,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 0.0,
+            "validation_is_per_person": false
+          },
+          {
+            "model": "distilled_individual",
+            "maximum_probability_error": 5.960464477539063e-08,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 5.960464477539063e-08,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 5.960464477539063e-08,
+            "validation_is_per_person": true
+          },
+          {
+            "model": "distilled_population",
+            "maximum_probability_error": 5.960464477539063e-08,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 1.1920928955078125e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 5.960464477539063e-08,
+            "validation_is_per_person": false
+          },
+          {
+            "model": "oracle_individual",
+            "maximum_probability_error": 1.1920928955078125e-07,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 5.960464477539063e-08,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 5.960464477539063e-08,
+            "validation_is_per_person": true
+          },
+          {
+            "model": "oracle_population",
+            "maximum_probability_error": 1.1920928955078125e-07,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 5.960464477539063e-08,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 5.960464477539063e-08,
+            "validation_is_per_person": false
+          }
+        ]
+      },
+      {
+        "kind": "reward_cue",
+        "seed": 801,
+        "sessions": [
+          {
+            "started_utc": "2026-11-04T18:37:20.555169+00:00",
+            "environment": {
+              "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+              "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+              "packages": {
+                "torch": "2.11.0+cu130",
+                "numpy": "2.4.6",
+                "matplotlib": "3.10.0"
+              },
+              "device": "cuda",
+              "gpu": "Tesla T4",
+              "cuda": "13.0",
+              "cudnn": 92700,
+              "torch_threads": 1
+            },
+            "package_inventory": {
+              "status": "recorded",
+              "path": "environments/packages-f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729.txt",
+              "sha256": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729"
+            },
+            "status": "complete",
+            "wall_seconds": 1.704358756999909
+          }
+        ],
+        "arms": {
+          "teacher": {
+            "completed_steps": 2,
+            "early_stopped": false,
+            "population_selected_step": 0,
+            "individual_selected_at_limit": null,
+            "individual_best_step_min": null,
+            "individual_best_step_median": null,
+            "individual_best_step_max": null,
+            "training_seconds": 0.05901991600001111,
+            "checkpoint_cpu_validation": "passed",
+            "initial_train_nll": 0.6817119121551514,
+            "final_train_nll": 0.6784464120864868,
+            "initial_validation_nll": 0.7540599703788757,
+            "final_validation_nll": 0.7555856108665466,
+            "best_population_validation_nll": 0.7540599703788757,
+            "teacher_logits_maximum_cpu_difference": 3.3080577850341797e-06
+          },
+          "solo": {
+            "completed_steps": 4,
+            "early_stopped": false,
+            "population_selected_step": 4,
+            "individual_selected_at_limit": 6,
+            "individual_best_step_min": 0,
+            "individual_best_step_median": 4.0,
+            "individual_best_step_max": 4,
+            "training_seconds": 0.17510395099998277,
+            "checkpoint_cpu_validation": "passed",
+            "initial_train_nll": 0.6980544328689575,
+            "final_train_nll": 0.6837885975837708,
+            "initial_validation_nll": 0.8184638023376465,
+            "final_validation_nll": 0.800642192363739,
+            "best_population_validation_nll": 0.800642192363739
+          },
+          "distilled": {
+            "completed_steps": 4,
+            "early_stopped": false,
+            "population_selected_step": 4,
+            "individual_selected_at_limit": 7,
+            "individual_best_step_min": 0,
+            "individual_best_step_median": 4.0,
+            "individual_best_step_max": 4,
+            "training_seconds": 0.18628211999998712,
+            "checkpoint_cpu_validation": "passed",
+            "initial_train_nll": 0.6980544328689575,
+            "final_train_nll": 0.6902034282684326,
+            "initial_validation_nll": 0.8184638023376465,
+            "final_validation_nll": 0.8008603453636169,
+            "best_population_validation_nll": 0.8008603453636169,
+            "final_soft_target_mean_training_bce": {
+              "current_state": 0.7050894498825073,
+              "best_state": 0.7077513933181763,
+              "population_best_state": 0.7050894498825073
+            }
+          },
+          "oracle": {
+            "completed_steps": 4,
+            "early_stopped": false,
+            "population_selected_step": 4,
+            "individual_selected_at_limit": 9,
+            "individual_best_step_min": 0,
+            "individual_best_step_median": 4.0,
+            "individual_best_step_max": 4,
+            "training_seconds": 0.18192225100006,
+            "checkpoint_cpu_validation": "passed",
+            "initial_train_nll": 0.6980544328689575,
+            "final_train_nll": 0.6841037273406982,
+            "initial_validation_nll": 0.8184638023376465,
+            "final_validation_nll": 0.7860841155052185,
+            "best_population_validation_nll": 0.7860841155052185,
+            "final_soft_target_mean_training_bce": {
+              "current_state": 0.7027714252471924,
+              "best_state": 0.7029377222061157,
+              "population_best_state": 0.7027714252471924
+            }
+          }
+        },
+        "neural_reproduction": [
+          {
+            "model": "teacher",
+            "maximum_probability_error": 8.940696716308594e-07,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 8.642673492431641e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 1.7881393432617188e-07,
+            "validation_is_per_person": false
+          },
+          {
+            "model": "solo_individual",
+            "maximum_probability_error": 5.960464477539063e-08,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 1.1920928955078125e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 1.1920928955078125e-07,
+            "validation_is_per_person": true
+          },
+          {
+            "model": "solo_population",
+            "maximum_probability_error": 5.960464477539063e-08,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 1.1920928955078125e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 0.0,
+            "validation_is_per_person": false
+          },
+          {
+            "model": "distilled_individual",
+            "maximum_probability_error": 5.960464477539063e-08,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 1.1920928955078125e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 1.7881393432617188e-07,
+            "validation_is_per_person": true
+          },
+          {
+            "model": "distilled_population",
+            "maximum_probability_error": 1.1920928955078125e-07,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 1.1920928955078125e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 1.1920928955078125e-07,
+            "validation_is_per_person": false
+          },
+          {
+            "model": "oracle_individual",
+            "maximum_probability_error": 5.960464477539063e-08,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 5.960464477539063e-08,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 1.1920928955078125e-07,
+            "validation_is_per_person": true
+          },
+          {
+            "model": "oracle_population",
+            "maximum_probability_error": 5.960464477539063e-08,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 5.960464477539063e-08,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 0.0,
+            "validation_is_per_person": false
+          }
+        ]
+      },
+      {
+        "kind": "reward_cue",
+        "seed": 811,
+        "sessions": [
+          {
+            "started_utc": "2026-11-04T18:37:22.468911+00:00",
+            "environment": {
+              "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+              "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+              "packages": {
+                "torch": "2.11.0+cu130",
+                "numpy": "2.4.6",
+                "matplotlib": "3.10.0"
+              },
+              "device": "cuda",
+              "gpu": "Tesla T4",
+              "cuda": "13.0",
+              "cudnn": 92700,
+              "torch_threads": 1
+            },
+            "package_inventory": {
+              "status": "recorded",
+              "path": "environments/packages-f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729.txt",
+              "sha256": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729"
+            },
+            "status": "complete",
+            "wall_seconds": 1.6836684630000036
+          }
+        ],
+        "arms": {
+          "teacher": {
+            "completed_steps": 2,
+            "early_stopped": false,
+            "population_selected_step": 0,
+            "individual_selected_at_limit": null,
+            "individual_best_step_min": null,
+            "individual_best_step_median": null,
+            "individual_best_step_max": null,
+            "training_seconds": 0.06059026399998402,
+            "checkpoint_cpu_validation": "passed",
+            "initial_train_nll": 0.6883290410041809,
+            "final_train_nll": 0.6830459833145142,
+            "initial_validation_nll": 0.7260081171989441,
+            "final_validation_nll": 0.7292994856834412,
+            "best_population_validation_nll": 0.7260081171989441,
+            "teacher_logits_maximum_cpu_difference": 2.0489096641540527e-06
+          },
+          "solo": {
+            "completed_steps": 4,
+            "early_stopped": false,
+            "population_selected_step": 4,
+            "individual_selected_at_limit": 8,
+            "individual_best_step_min": 0,
+            "individual_best_step_median": 4.0,
+            "individual_best_step_max": 4,
+            "training_seconds": 0.17693137300000217,
+            "checkpoint_cpu_validation": "passed",
+            "initial_train_nll": 0.6797111630439758,
+            "final_train_nll": 0.6644282937049866,
+            "initial_validation_nll": 0.7180429100990295,
+            "final_validation_nll": 0.6990439295768738,
+            "best_population_validation_nll": 0.6990439295768738
+          },
+          "distilled": {
+            "completed_steps": 4,
+            "early_stopped": false,
+            "population_selected_step": 4,
+            "individual_selected_at_limit": 7,
+            "individual_best_step_min": 0,
+            "individual_best_step_median": 4.0,
+            "individual_best_step_max": 4,
+            "training_seconds": 0.17182316499997796,
+            "checkpoint_cpu_validation": "passed",
+            "initial_train_nll": 0.6797111630439758,
+            "final_train_nll": 0.6742633581161499,
+            "initial_validation_nll": 0.7180429100990295,
+            "final_validation_nll": 0.7003424763679504,
+            "best_population_validation_nll": 0.7003424763679504,
+            "final_soft_target_mean_training_bce": {
+              "current_state": 0.7158873677253723,
+              "best_state": 0.7187439203262329,
+              "population_best_state": 0.7158873677253723
+            }
+          },
+          "oracle": {
+            "completed_steps": 4,
+            "early_stopped": false,
+            "population_selected_step": 4,
+            "individual_selected_at_limit": 9,
+            "individual_best_step_min": 0,
+            "individual_best_step_median": 4.0,
+            "individual_best_step_max": 4,
+            "training_seconds": 0.1801172460000089,
+            "checkpoint_cpu_validation": "passed",
+            "initial_train_nll": 0.6797111630439758,
+            "final_train_nll": 0.6693688035011292,
+            "initial_validation_nll": 0.7180429100990295,
+            "final_validation_nll": 0.6866502165794373,
+            "best_population_validation_nll": 0.6866502165794373,
+            "final_soft_target_mean_training_bce": {
+              "current_state": 0.714286208152771,
+              "best_state": 0.7172759771347046,
+              "population_best_state": 0.714286208152771
+            }
+          }
+        },
+        "neural_reproduction": [
+          {
+            "model": "teacher",
+            "maximum_probability_error": 8.344650268554688e-07,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 8.344650268554688e-07,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 1.1920928955078125e-07,
+            "validation_is_per_person": false
+          },
+          {
+            "model": "solo_individual",
+            "maximum_probability_error": 5.960464477539063e-08,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 5.960464477539063e-08,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 5.960464477539063e-08,
+            "validation_is_per_person": true
+          },
+          {
+            "model": "solo_population",
+            "maximum_probability_error": 5.960464477539063e-08,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 5.960464477539063e-08,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 5.960464477539063e-08,
+            "validation_is_per_person": false
+          },
+          {
+            "model": "distilled_individual",
+            "maximum_probability_error": 5.960464477539063e-08,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 5.960464477539063e-08,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 5.960464477539063e-08,
+            "validation_is_per_person": true
+          },
+          {
+            "model": "distilled_population",
+            "maximum_probability_error": 5.960464477539063e-08,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 5.960464477539063e-08,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 0.0,
+            "validation_is_per_person": false
+          },
+          {
+            "model": "oracle_individual",
+            "maximum_probability_error": 5.960464477539063e-08,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 5.960464477539063e-08,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 1.1920928955078125e-07,
+            "validation_is_per_person": true
+          },
+          {
+            "model": "oracle_population",
+            "maximum_probability_error": 5.960464477539063e-08,
+            "probability_count_over_5e_6": 0,
+            "maximum_probe_error": 5.960464477539063e-08,
+            "probe_count_over_5e_6": 0,
+            "maximum_validation_nll_error": 5.960464477539063e-08,
+            "validation_is_per_person": false
+          }
+        ]
+      }
+    ],
+    "status": "passed",
+    "unchanged": true,
+    "root_listed_hash_checks": 55,
+    "package_inventory_checks": 4,
+    "file_count": 59,
+    "source_sha256": "b5c5aa888e9b9ba00e9e8c69486c740a40efaf134bcda41397d8980fc4944372",
+    "maximum_cpu_probability_reconstruction_error": 8.940696716308594e-07,
+    "maximum_cpu_probe_reconstruction_error": 8.642673492431641e-07,
+    "maximum_cpu_validation_nll_error": 1.7881393432617188e-07,
+    "maximum_cpu_population_mean_validation_nll_error": 1.7881393432617188e-07,
+    "maximum_cpu_individual_validation_nll_error": 1.7881393432617188e-07,
+    "timing": {
+      "cumulative_training_seconds": 2.681351104999976,
+      "t4_equivalent_units_at_user_rate": 0.000796957133986104,
+      "note": "Checkpoint training time counted once. Setup, baseline fitting, probes, evaluation, saving and idle billing are additional.",
+      "runner_wall_seconds": 9.900368878999984,
+      "known_runner_wall_seconds": 9.900368878999984,
+      "invocation_wall_time_coverage": {
+        "recorded_invocations": 1,
+        "total_invocations": 1
+      }
+    },
+    "root_invocations": [
+      {
+        "started_utc": "2026-11-04T18:37:14.470425+00:00",
+        "status": "complete",
+        "wall_seconds": 9.900368878999984
+      }
+    ],
+    "verification_script_sha256": "3188293300b9c1f14e20e772dd9449866858dd0129f8e4508c95e2037309a175"
+  }
+}

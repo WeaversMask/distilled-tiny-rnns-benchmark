@@ -1,0 +1,248 @@
+{
+  "scope": "Fixed synthetic foundation recovery check with first-stage training choices only.",
+  "generator_seed": 99304,
+  "split_seed": 99305,
+  "people": 24,
+  "grid_columns": [
+    "model_based_weight",
+    "alpha",
+    "beta"
+  ],
+  "grid": [
+    [
+      0.0,
+      0.2,
+      2.0
+    ],
+    [
+      0.0,
+      0.2,
+      6.0
+    ],
+    [
+      0.0,
+      0.6,
+      2.0
+    ],
+    [
+      0.0,
+      0.6,
+      6.0
+    ],
+    [
+      0.4,
+      0.2,
+      2.0
+    ],
+    [
+      0.4,
+      0.2,
+      6.0
+    ],
+    [
+      0.4,
+      0.6,
+      2.0
+    ],
+    [
+      0.4,
+      0.6,
+      6.0
+    ],
+    [
+      0.8,
+      0.2,
+      2.0
+    ],
+    [
+      0.8,
+      0.2,
+      6.0
+    ],
+    [
+      0.8,
+      0.6,
+      2.0
+    ],
+    [
+      0.8,
+      0.6,
+      6.0
+    ]
+  ],
+  "true_grid_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "shared_history_prefix": true,
+  "hierarchical_pseudocount": 0.1,
+  "hierarchical_tolerance": 1e-10,
+  "hierarchical_max_iterations": 2000,
+  "numpy_version": "2.5.4",
+  "source_sha256": {
+    "foundation/classical_baselines.py": "2e1e33bc9661df4c5bd5f82a4e962edd9e034e0adf685d7941e0e0047ab64a95",
+    "scripts/check_classical_baselines.py": "b5ddfc6d98ee193b585411cc6e421a6e3089fe2f1c604f3d3d47da8ff29d43b0",
+    "src/distilled_rnns/simulation.py": "b8df7b364673721470447008bba1fc184bb816380993be98e1411dde84bd9c34",
+    "src/distilled_rnns/evaluation.py": "4601ed42f4c9e92774bd8038c80adfd07abe3476101d15da28b366735d485ac0"
+  },
+  "runs": [
+    {
+      "trials_per_person": 100,
+      "training_trials_per_person": 60,
+      "test_trials_per_person": 20,
+      "validation_trials_unused_per_person": 20,
+      "maximum_truth_replay_difference": 4.440892098500626e-16,
+      "minimum_nearest_wrong_point_mean_training_kl": 0.0005229289920985863,
+      "individual_exact_joint_recoveries": 8,
+      "individual_recovered_grid_indices": [
+        1,
+        5,
+        7,
+        3,
+        8,
+        1,
+        1,
+        7,
+        9,
+        1,
+        10,
+        11,
+        8,
+        5,
+        10,
+        3,
+        5,
+        6,
+        5,
+        7,
+        8,
+        8,
+        6,
+        11
+      ],
+      "hierarchical_map_exact_joint_recoveries": 7,
+      "hierarchical_mean_posterior_mass_on_truth": 0.25226388352216883,
+      "hierarchical_prior_weights": [
+        0.02297123556645913,
+        0.06428018149740375,
+        0.014701784108803453,
+        0.07676454734770775,
+        0.04173445592573355,
+        0.2523697983303848,
+        0.14139157132119734,
+        0.12561721223713584,
+        0.10204621473867824,
+        0.030083747898473134,
+        0.10668938865558514,
+        0.021349862372437998
+      ],
+      "hierarchical_em_iterations": 96,
+      "hierarchical_em_converged": true,
+      "pooled_grid_index": 6,
+      "held_out_scores": {
+        "individual": {
+          "observed_choice_nll": 0.6383171696061826,
+          "true_policy_kl": 0.00956017892801612
+        },
+        "pooled": {
+          "observed_choice_nll": 0.6550906286452434,
+          "true_policy_kl": 0.028526816047740298
+        },
+        "hierarchical": {
+          "observed_choice_nll": 0.6393124012956578,
+          "true_policy_kl": 0.007808290556250508
+        }
+      }
+    },
+    {
+      "trials_per_person": 10000,
+      "training_trials_per_person": 6000,
+      "test_trials_per_person": 2000,
+      "validation_trials_unused_per_person": 2000,
+      "maximum_truth_replay_difference": 5.551115123125783e-16,
+      "minimum_nearest_wrong_point_mean_training_kl": 0.001117158992325085,
+      "individual_exact_joint_recoveries": 24,
+      "individual_recovered_grid_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "hierarchical_map_exact_joint_recoveries": 24,
+      "hierarchical_mean_posterior_mass_on_truth": 0.9965355886916845,
+      "hierarchical_prior_weights": [
+        0.08261070597598082,
+        0.08333333333333334,
+        0.0833333332180434,
+        0.08333333333333334,
+        0.08536765165729314,
+        0.08333333333333334,
+        0.08333333345479027,
+        0.08333333333333334,
+        0.08202164237881335,
+        0.08333333333333334,
+        0.08333333331507908,
+        0.08333333333333334
+      ],
+      "hierarchical_em_iterations": 2,
+      "hierarchical_em_converged": true,
+      "pooled_grid_index": 6,
+      "held_out_scores": {
+        "individual": {
+          "observed_choice_nll": 0.6239116509605795,
+          "true_policy_kl": 3.517634521117954e-18
+        },
+        "pooled": {
+          "observed_choice_nll": 0.6562134454419553,
+          "true_policy_kl": 0.031127551254234498
+        },
+        "hierarchical": {
+          "observed_choice_nll": 0.6239158076266451,
+          "true_policy_kl": 1.1576529722632942e-07
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,387 @@
+{
+  "scope": "Fixed synthetic 20-hybrid/4-cue foundation fixture; same people and histories at both lengths.",
+  "generator_seed": 99309,
+  "split_seed": 99310,
+  "numpy_version": "2.5.4",
+  "source_sha256": {
+    "foundation/reward_cue.py": "2dc1b4f8a0e28b621ef656739833ebe423c41a5fa2a5e5f69244dde788144886",
+    "foundation/classical_baselines.py": "2e1e33bc9661df4c5bd5f82a4e962edd9e034e0adf685d7941e0e0047ab64a95",
+    "scripts/check_rare_mechanism.py": "56038cdada30819264e77dc29eaf6bb77d8c1fe6faad3b3370ae4ad4075e3424",
+    "src/distilled_rnns/simulation.py": "b8df7b364673721470447008bba1fc184bb816380993be98e1411dde84bd9c34",
+    "src/distilled_rnns/evaluation.py": "4601ed42f4c9e92774bd8038c80adfd07abe3476101d15da28b366735d485ac0"
+  },
+  "cue_grid": [
+    0.6,
+    0.75,
+    0.9
+  ],
+  "hybrid_grid": [
+    [
+      0.0,
+      0.2,
+      2.0
+    ],
+    [
+      0.0,
+      0.2,
+      6.0
+    ],
+    [
+      0.0,
+      0.6,
+      2.0
+    ],
+    [
+      0.0,
+      0.6,
+      6.0
+    ],
+    [
+      0.4,
+      0.2,
+      2.0
+    ],
+    [
+      0.4,
+      0.2,
+      6.0
+    ],
+    [
+      0.4,
+      0.6,
+      2.0
+    ],
+    [
+      0.4,
+      0.6,
+      6.0
+    ],
+    [
+      0.8,
+      0.2,
+      2.0
+    ],
+    [
+      0.8,
+      0.2,
+      6.0
+    ],
+    [
+      0.8,
+      0.6,
+      2.0
+    ],
+    [
+      0.8,
+      0.6,
+      6.0
+    ]
+  ],
+  "family_pseudocount": 0.1,
+  "within_family_prior": "uniform within each family, averaged evidence; family prior estimated by EM",
+  "true_cue_indices": [
+    2,
+    10,
+    11,
+    13
+  ],
+  "hand_derived_probe": {
+    "previous_trial": "first action 0, state 1, second action 0; reward 1 vs 0",
+    "cue_rewarded_unrewarded": [
+      0.75,
+      0.25
+    ],
+    "hybrid_rewarded_unrewarded": [
+      0.5349429451582145,
+      0.52497918747894
+    ],
+    "cue_contrast": 0.5,
+    "hybrid_contrast": 0.009963757679274488
+  },
+  "runs": [
+    {
+      "length": 100,
+      "training_choices_per_person": 60,
+      "test_choices_per_person": 20,
+      "groups": {
+        "hybrid": {
+          "people": 20,
+          "correct_family_map": 20,
+          "mean_posterior_cue": 0.023765504453829977,
+          "test_scores": {
+            "family_mixture": {
+              "overall": {
+                "support_people": 20,
+                "support_trials": 400,
+                "nll": 0.6327821604392523,
+                "kl": 0.007513247807485812
+              },
+              "diagnostic": {
+                "support_people": 6,
+                "support_trials": 19,
+                "nll": 0.5555712540254979,
+                "kl": 0.021591718953143626
+              }
+            },
+            "hybrid_only": {
+              "overall": {
+                "support_people": 20,
+                "support_trials": 400,
+                "nll": 0.6329862931711835,
+                "kl": 0.007698138526162189
+              },
+              "diagnostic": {
+                "support_people": 6,
+                "support_trials": 19,
+                "nll": 0.5553958948114789,
+                "kl": 0.021516938216701656
+              }
+            },
+            "cue_only": {
+              "overall": {
+                "support_people": 20,
+                "support_trials": 400,
+                "nll": 0.7006418717788069,
+                "kl": 0.06852711276646643
+              },
+              "diagnostic": {
+                "support_people": 6,
+                "support_trials": 19,
+                "nll": 0.7596320752240299,
+                "kl": 0.28853178120132705
+              }
+            }
+          }
+        },
+        "cue": {
+          "people": 4,
+          "correct_family_map": 2,
+          "mean_posterior_cue": 0.5993593592555702,
+          "test_scores": {
+            "family_mixture": {
+              "overall": {
+                "support_people": 4,
+                "support_trials": 80,
+                "nll": 0.6011448282508838,
+                "kl": 0.016302630271317314
+              },
+              "diagnostic": {
+                "support_people": 3,
+                "support_trials": 34,
+                "nll": 0.6237560024922802,
+                "kl": 0.01972714966373477
+              }
+            },
+            "hybrid_only": {
+              "overall": {
+                "support_people": 4,
+                "support_trials": 80,
+                "nll": 0.6690026427252938,
+                "kl": 0.10911836886194995
+              },
+              "diagnostic": {
+                "support_people": 3,
+                "support_trials": 34,
+                "nll": 0.6591062494802484,
+                "kl": 0.15741698118364564
+              }
+            },
+            "cue_only": {
+              "overall": {
+                "support_people": 4,
+                "support_trials": 80,
+                "nll": 0.604139129841241,
+                "kl": 0.011541545895530655
+              },
+              "diagnostic": {
+                "support_people": 3,
+                "support_trials": 34,
+                "nll": 0.6245468702428775,
+                "kl": 0.015388668989270445
+              }
+            }
+          }
+        }
+      },
+      "prior_family_weights_hybrid_cue": [
+        0.8771553160758125,
+        0.12284468392418733
+      ],
+      "posterior_cue_by_person": [
+        0.011134368311332446,
+        0.007081955646647746,
+        0.9893737206674903,
+        0.0031359522884623547,
+        0.07240784261308336,
+        0.024436112986770984,
+        6.1529294546146295e-06,
+        0.13028420428144474,
+        0.08421987741249572,
+        0.011252720855808399,
+        0.3048209730126587,
+        0.1035316237288792,
+        5.4806844286877956e-05,
+        0.9997111196132523,
+        0.06016133048726432,
+        0.0011082011535082244,
+        0.00031041749766335714,
+        0.0016352420822796654,
+        0.02210723958540879,
+        1.2054819789373588e-06,
+        0.031573487078743946,
+        0.012301098889448957,
+        0.002097871775830145,
+        8.746858676618973e-10
+      ],
+      "iterations": 9,
+      "converged": true,
+      "maximum_truth_replay_error": 0.0,
+      "maximum_reference_replay_error": 0.0,
+      "causal_history_matches": true,
+      "minimum_mean_training_kl_to_any_other_family_candidate": 0.015212836708949299,
+      "realized_common_transitions_fraction": 0.7095833333333333
+    },
+    {
+      "length": 2000,
+      "training_choices_per_person": 1200,
+      "test_choices_per_person": 400,
+      "groups": {
+        "hybrid": {
+          "people": 20,
+          "correct_family_map": 20,
+          "mean_posterior_cue": 3.3225657073749896e-09,
+          "test_scores": {
+            "family_mixture": {
+              "overall": {
+                "support_people": 20,
+                "support_trials": 8000,
+                "nll": 0.6263210078567458,
+                "kl": 0.0003740315045559986
+              },
+              "diagnostic": {
+                "support_people": 8,
+                "support_trials": 555,
+                "nll": 0.548104464851319,
+                "kl": 0.004329407602985506
+              }
+            },
+            "hybrid_only": {
+              "overall": {
+                "support_people": 20,
+                "support_trials": 8000,
+                "nll": 0.6263210078878729,
+                "kl": 0.000374031504660386
+              },
+              "diagnostic": {
+                "support_people": 8,
+                "support_trials": 555,
+                "nll": 0.548104464851319,
+                "kl": 0.004329407602985506
+              }
+            },
+            "cue_only": {
+              "overall": {
+                "support_people": 20,
+                "support_trials": 8000,
+                "nll": 0.6945975812667011,
+                "kl": 0.07505139580282841
+              },
+              "diagnostic": {
+                "support_people": 8,
+                "support_trials": 555,
+                "nll": 0.7420089255021921,
+                "kl": 0.21242341934307532
+              }
+            }
+          }
+        },
+        "cue": {
+          "people": 4,
+          "correct_family_map": 4,
+          "mean_posterior_cue": 0.9999999987555859,
+          "test_scores": {
+            "family_mixture": {
+              "overall": {
+                "support_people": 4,
+                "support_trials": 1600,
+                "nll": 0.5624794537723281,
+                "kl": 6.217248934545123e-18
+              },
+              "diagnostic": {
+                "support_people": 4,
+                "support_trials": 747,
+                "nll": 0.5755586539280052,
+                "kl": 4.434122440777664e-18
+              }
+            },
+            "hybrid_only": {
+              "overall": {
+                "support_people": 4,
+                "support_trials": 1600,
+                "nll": 0.6591110112161449,
+                "kl": 0.09953377868403282
+              },
+              "diagnostic": {
+                "support_people": 4,
+                "support_trials": 747,
+                "nll": 0.6724012974003575,
+                "kl": 0.1324404805543506
+              }
+            },
+            "cue_only": {
+              "overall": {
+                "support_people": 4,
+                "support_trials": 1600,
+                "nll": 0.5624794537688353,
+                "kl": 0.0
+              },
+              "diagnostic": {
+                "support_people": 4,
+                "support_trials": 747,
+                "nll": 0.5755586540384461,
+                "kl": 0.0
+              }
+            }
+          }
+        }
+      },
+      "prior_family_weights_hybrid_cue": [
+        0.8305785098564603,
+        0.16942149014353977
+      ],
+      "posterior_cue_by_person": [
+        2.664719352873923e-10,
+        2.861894164035693e-18,
+        1.0,
+        7.419096838276779e-15,
+        1.9193975261714875e-33,
+        3.8507934755774874e-30,
+        3.957548728645902e-45,
+        1.0540991630541444e-11,
+        6.616748449721028e-08,
+        5.485733399739707e-18,
+        0.9999999998349915,
+        0.9999999951873522,
+        6.502808610530063e-56,
+        1.0,
+        9.826618383315159e-13,
+        1.8755782984616772e-21,
+        6.363039104456801e-60,
+        3.7259991046429775e-20,
+        4.816869660118203e-13,
+        3.6287066707801946e-62,
+        5.344947083646476e-12,
+        3.372362147381767e-26,
+        2.7390437174287715e-131,
+        2.6901899038013205e-127
+      ],
+      "iterations": 2,
+      "converged": true,
+      "maximum_truth_replay_error": 0.0,
+      "maximum_reference_replay_error": 0.0,
+      "causal_history_matches": true,
+      "minimum_mean_training_kl_to_any_other_family_candidate": 0.015221501909638077,
+      "realized_common_transitions_fraction": 0.6994791666666667
+    }
+  ]
+}

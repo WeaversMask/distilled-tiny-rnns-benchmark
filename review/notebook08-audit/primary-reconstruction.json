@@ -1,0 +1,4355 @@
+{
+  "populations": [
+    {
+      "rarity": 2,
+      "kind": "parametric_model_free",
+      "seed": 202611401,
+      "group": {
+        "rare": {
+          "people": 20,
+          "selection": {
+            "population": {
+              "gain": 0.009709983098568775,
+              "change": -0.023548401255880674,
+              "person_quadrant_counts": {
+                "+/+": 0,
+                "+/-": 13,
+                "-/+": 0,
+                "-/-": 7,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.0,
+                "+/-": 0.65,
+                "-/+": 0.0,
+                "-/-": 0.35,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.015814632999725044,
+              "change": -0.021749481199628905,
+              "person_quadrant_counts": {
+                "+/+": 0,
+                "+/-": 12,
+                "-/+": 0,
+                "-/-": 6,
+                "any_tie": 2,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 2
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.0,
+                "+/-": 0.6,
+                "-/+": 0.0,
+                "-/-": 0.3,
+                "any_tie": 0.1,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.1
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.6448919819938478,
+              "rms": 0.0781524524176021
+            },
+            "solo_population": {
+              "nll": 0.6604594690438106,
+              "rms": 0.10561791261525395
+            },
+            "solo_individual": {
+              "nll": 0.6666863892657147,
+              "rms": 0.10738137840433219
+            },
+            "distilled_population": {
+              "nll": 0.6507494859452418,
+              "rms": 0.08206951135937328
+            },
+            "distilled_individual": {
+              "nll": 0.6508717562659896,
+              "rms": 0.0856318972047033
+            },
+            "oracle_population": {
+              "nll": 0.6230848304734029,
+              "rms": 0.06181393819260972
+            },
+            "oracle_individual": {
+              "nll": 0.6164218994922941,
+              "rms": 0.06990705981915898
+            }
+          }
+        },
+        "typical": {
+          "people": 980,
+          "selection": {
+            "population": {
+              "gain": 0.017840552402081985,
+              "change": -0.004883150575023938,
+              "person_quadrant_counts": {
+                "+/+": 172,
+                "+/-": 443,
+                "-/+": 202,
+                "-/-": 163,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.17551020408163265,
+                "+/-": 0.4520408163265306,
+                "-/+": 0.20612244897959184,
+                "-/-": 0.1663265306122449,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.0177256727580251,
+              "change": -0.007470282528531124,
+              "person_quadrant_counts": {
+                "+/+": 160,
+                "+/-": 407,
+                "-/+": 153,
+                "-/-": 169,
+                "any_tie": 91,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 91
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.16326530612244897,
+                "+/-": 0.4153061224489796,
+                "-/+": 0.15612244897959185,
+                "-/-": 0.17244897959183675,
+                "any_tie": 0.09285714285714286,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.09285714285714286
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.6642699976294696,
+              "rms": 0.041139261792161985
+            },
+            "solo_population": {
+              "nll": 0.6853370827126292,
+              "rms": 0.05036095438762234
+            },
+            "solo_individual": {
+              "nll": 0.6905915470943208,
+              "rms": 0.05327046782388276
+            },
+            "distilled_population": {
+              "nll": 0.6674965303105472,
+              "rms": 0.0454778038125984
+            },
+            "distilled_individual": {
+              "nll": 0.6728658743362957,
+              "rms": 0.04580018529535164
+            },
+            "oracle_population": {
+              "nll": 0.6561507269754131,
+              "rms": 0.02861709736132444
+            },
+            "oracle_individual": {
+              "nll": 0.6673379100442696,
+              "rms": 0.03738848774683933
+            }
+          }
+        }
+      }
+    },
+    {
+      "rarity": 2,
+      "kind": "parametric_model_free",
+      "seed": 202611411,
+      "group": {
+        "rare": {
+          "people": 20,
+          "selection": {
+            "population": {
+              "gain": 0.03284194323194487,
+              "change": -0.0073949402442544925,
+              "person_quadrant_counts": {
+                "+/+": 5,
+                "+/-": 8,
+                "-/+": 2,
+                "-/-": 5,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.25,
+                "+/-": 0.4,
+                "-/+": 0.1,
+                "-/-": 0.25,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.036487038004144136,
+              "change": -0.006948003777064557,
+              "person_quadrant_counts": {
+                "+/+": 4,
+                "+/-": 12,
+                "-/+": 3,
+                "-/-": 1,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.2,
+                "+/-": 0.6,
+                "-/+": 0.15,
+                "-/-": 0.05,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.656379988278355,
+              "rms": 0.07952738687730146
+            },
+            "solo_population": {
+              "nll": 0.6866315589566648,
+              "rms": 0.0867606802611621
+            },
+            "solo_individual": {
+              "nll": 0.6866052925330945,
+              "rms": 0.08622198398290695
+            },
+            "distilled_population": {
+              "nll": 0.6537896157247198,
+              "rms": 0.07936574001690763
+            },
+            "distilled_individual": {
+              "nll": 0.6501182545289504,
+              "rms": 0.07927398020584239
+            },
+            "oracle_population": {
+              "nll": 0.6549670370496582,
+              "rms": 0.04205783089313937
+            },
+            "oracle_individual": {
+              "nll": 0.6587125592431413,
+              "rms": 0.05352999999391035
+            }
+          }
+        },
+        "typical": {
+          "people": 980,
+          "selection": {
+            "population": {
+              "gain": 0.016169742319505288,
+              "change": -0.004831507598985877,
+              "person_quadrant_counts": {
+                "+/+": 185,
+                "+/-": 417,
+                "-/+": 201,
+                "-/-": 177,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.18877551020408162,
+                "+/-": 0.42551020408163265,
+                "-/+": 0.20510204081632652,
+                "-/-": 0.18061224489795918,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.013861262528325447,
+              "change": -0.006500791422295368,
+              "person_quadrant_counts": {
+                "+/+": 168,
+                "+/-": 374,
+                "-/+": 147,
+                "-/-": 191,
+                "any_tie": 100,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 100
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.17142857142857143,
+                "+/-": 0.3816326530612245,
+                "-/+": 0.15,
+                "-/-": 0.19489795918367347,
+                "any_tie": 0.10204081632653061,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.10204081632653061
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.6670764301011209,
+              "rms": 0.04639930976483726
+            },
+            "solo_population": {
+              "nll": 0.685482473638481,
+              "rms": 0.0502727175448494
+            },
+            "solo_individual": {
+              "nll": 0.6895855301111224,
+              "rms": 0.05319171053930213
+            },
+            "distilled_population": {
+              "nll": 0.6693127313189757,
+              "rms": 0.04544120994586353
+            },
+            "distilled_individual": {
+              "nll": 0.6757242675827971,
+              "rms": 0.04669091911700676
+            },
+            "oracle_population": {
+              "nll": 0.6606548393905994,
+              "rms": 0.0308791653204018
+            },
+            "oracle_individual": {
+              "nll": 0.669253688197233,
+              "rms": 0.038334390726891425
+            }
+          }
+        }
+      }
+    },
+    {
+      "rarity": 2,
+      "kind": "parametric_model_free",
+      "seed": 202611421,
+      "group": {
+        "rare": {
+          "people": 20,
+          "selection": {
+            "population": {
+              "gain": 0.027387022327664295,
+              "change": -0.01351226642245216,
+              "person_quadrant_counts": {
+                "+/+": 2,
+                "+/-": 11,
+                "-/+": 4,
+                "-/-": 3,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.1,
+                "+/-": 0.55,
+                "-/+": 0.2,
+                "-/-": 0.15,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.020281769123498213,
+              "change": -0.014587636821341853,
+              "person_quadrant_counts": {
+                "+/+": 2,
+                "+/-": 10,
+                "-/+": 2,
+                "-/-": 4,
+                "any_tie": 2,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 2
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.1,
+                "+/-": 0.5,
+                "-/+": 0.1,
+                "-/-": 0.2,
+                "any_tie": 0.1,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.1
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.6192852780522058,
+              "rms": 0.09059188432010255
+            },
+            "solo_population": {
+              "nll": 0.6524375177794883,
+              "rms": 0.10557351866382567
+            },
+            "solo_individual": {
+              "nll": 0.6492646355984358,
+              "rms": 0.11002894712317002
+            },
+            "distilled_population": {
+              "nll": 0.6250504954518241,
+              "rms": 0.09206125224137349
+            },
+            "distilled_individual": {
+              "nll": 0.6289828664749376,
+              "rms": 0.09544131030182817
+            },
+            "oracle_population": {
+              "nll": 0.5658821066044902,
+              "rms": 0.059389273419973555
+            },
+            "oracle_individual": {
+              "nll": 0.5800633303407079,
+              "rms": 0.07058397933853577
+            }
+          }
+        },
+        "typical": {
+          "people": 980,
+          "selection": {
+            "population": {
+              "gain": 0.01975176093363339,
+              "change": -0.004842877883092803,
+              "person_quadrant_counts": {
+                "+/+": 200,
+                "+/-": 409,
+                "-/+": 206,
+                "-/-": 165,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.20408163265306123,
+                "+/-": 0.4173469387755102,
+                "-/+": 0.21020408163265306,
+                "-/-": 0.1683673469387755,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.019063156200167044,
+              "change": -0.006033839431880439,
+              "person_quadrant_counts": {
+                "+/+": 195,
+                "+/-": 379,
+                "-/+": 160,
+                "-/-": 172,
+                "any_tie": 74,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 74
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.1989795918367347,
+                "+/-": 0.386734693877551,
+                "-/+": 0.16326530612244897,
+                "-/-": 0.17551020408163265,
+                "any_tie": 0.07551020408163266,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.07551020408163266
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.6639191248798527,
+              "rms": 0.04929413764726012
+            },
+            "solo_population": {
+              "nll": 0.6859060799724053,
+              "rms": 0.051552295607949494
+            },
+            "solo_individual": {
+              "nll": 0.69064564693303,
+              "rms": 0.05418155859664726
+            },
+            "distilled_population": {
+              "nll": 0.6661543190387719,
+              "rms": 0.046709417724856685
+            },
+            "distilled_individual": {
+              "nll": 0.6715824907328629,
+              "rms": 0.048147719164766824
+            },
+            "oracle_population": {
+              "nll": 0.6544063841057123,
+              "rms": 0.029445910938581545
+            },
+            "oracle_individual": {
+              "nll": 0.6642025280993235,
+              "rms": 0.03841281009419681
+            }
+          }
+        }
+      }
+    },
+    {
+      "rarity": 2,
+      "kind": "reward_cue",
+      "seed": 202621401,
+      "group": {
+        "rare": {
+          "people": 20,
+          "selection": {
+            "population": {
+              "gain": 0.03432729503039413,
+              "change": -0.02714734750129344,
+              "person_quadrant_counts": {
+                "+/+": 1,
+                "+/-": 12,
+                "-/+": 0,
+                "-/-": 7,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.05,
+                "+/-": 0.6,
+                "-/+": 0.0,
+                "-/-": 0.35,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.050343466074046384,
+              "change": -0.026299348403361282,
+              "person_quadrant_counts": {
+                "+/+": 1,
+                "+/-": 15,
+                "-/+": 0,
+                "-/-": 4,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.05,
+                "+/-": 0.75,
+                "-/+": 0.0,
+                "-/-": 0.2,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.6696799745304849,
+              "rms": 0.21677371708626772
+            },
+            "solo_population": {
+              "nll": 0.6974617974936568,
+              "rms": 0.25770802561346906
+            },
+            "solo_individual": {
+              "nll": 0.7159624873109985,
+              "rms": 0.260065205073157
+            },
+            "distilled_population": {
+              "nll": 0.6631345024632627,
+              "rms": 0.23056067811217557
+            },
+            "distilled_individual": {
+              "nll": 0.665619021236952,
+              "rms": 0.23376585666979563
+            },
+            "oracle_population": {
+              "nll": 0.6229695714162267,
+              "rms": 0.10251113957342459
+            },
+            "oracle_individual": {
+              "nll": 0.616242539808402,
+              "rms": 0.11328300471631869
+            }
+          }
+        },
+        "typical": {
+          "people": 980,
+          "selection": {
+            "population": {
+              "gain": 0.015878653025253157,
+              "change": -0.00431420407762761,
+              "person_quadrant_counts": {
+                "+/+": 199,
+                "+/-": 388,
+                "-/+": 232,
+                "-/-": 161,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.2030612244897959,
+                "+/-": 0.39591836734693875,
+                "-/+": 0.23673469387755103,
+                "-/-": 0.16428571428571428,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.014866041988975972,
+              "change": -0.0060286101315025304,
+              "person_quadrant_counts": {
+                "+/+": 180,
+                "+/-": 348,
+                "-/+": 187,
+                "-/-": 187,
+                "any_tie": 78,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 78
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.1836734693877551,
+                "+/-": 0.3551020408163265,
+                "-/+": 0.19081632653061226,
+                "-/-": 0.19081632653061226,
+                "any_tie": 0.07959183673469387,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.07959183673469387
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.6650554041656951,
+              "rms": 0.05818016270982717
+            },
+            "solo_population": {
+              "nll": 0.6862720526168017,
+              "rms": 0.051514350524558994
+            },
+            "solo_individual": {
+              "nll": 0.6895376502271311,
+              "rms": 0.054115111862499635
+            },
+            "distilled_population": {
+              "nll": 0.6703933995915486,
+              "rms": 0.04720014644693138
+            },
+            "distilled_individual": {
+              "nll": 0.6746716082381551,
+              "rms": 0.0480865017309971
+            },
+            "oracle_population": {
+              "nll": 0.659022019962868,
+              "rms": 0.030656918246236595
+            },
+            "oracle_individual": {
+              "nll": 0.6678198361929116,
+              "rms": 0.03900008788428054
+            }
+          }
+        }
+      }
+    },
+    {
+      "rarity": 2,
+      "kind": "reward_cue",
+      "seed": 202621411,
+      "group": {
+        "rare": {
+          "people": 20,
+          "selection": {
+            "population": {
+              "gain": 0.03259641604919204,
+              "change": -0.02541983066717023,
+              "person_quadrant_counts": {
+                "+/+": 0,
+                "+/-": 13,
+                "-/+": 0,
+                "-/-": 7,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.0,
+                "+/-": 0.65,
+                "-/+": 0.0,
+                "-/-": 0.35,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.03462858956818316,
+              "change": -0.01804454689020544,
+              "person_quadrant_counts": {
+                "+/+": 0,
+                "+/-": 12,
+                "-/+": 2,
+                "-/-": 5,
+                "any_tie": 1,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 1
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.0,
+                "+/-": 0.6,
+                "-/+": 0.1,
+                "-/-": 0.25,
+                "any_tie": 0.05,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.05
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.6582987431573455,
+              "rms": 0.2122634040963621
+            },
+            "solo_population": {
+              "nll": 0.6990455819739165,
+              "rms": 0.24257737370788712
+            },
+            "solo_individual": {
+              "nll": 0.6986647053551109,
+              "rms": 0.24142787902859358
+            },
+            "distilled_population": {
+              "nll": 0.6664491659247246,
+              "rms": 0.21715754304071694
+            },
+            "distilled_individual": {
+              "nll": 0.6640361157869277,
+              "rms": 0.2233833321383881
+            },
+            "oracle_population": {
+              "nll": 0.5412674145489217,
+              "rms": 0.07995459348858514
+            },
+            "oracle_individual": {
+              "nll": 0.5496964507761597,
+              "rms": 0.10600584244864227
+            }
+          }
+        },
+        "typical": {
+          "people": 980,
+          "selection": {
+            "population": {
+              "gain": 0.01818676325155107,
+              "change": -0.002573787834680178,
+              "person_quadrant_counts": {
+                "+/+": 222,
+                "+/-": 384,
+                "-/+": 216,
+                "-/-": 158,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.22653061224489796,
+                "+/-": 0.39183673469387753,
+                "-/+": 0.22040816326530613,
+                "-/-": 0.16122448979591836,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.014968782924831912,
+              "change": -0.0042502510395269555,
+              "person_quadrant_counts": {
+                "+/+": 209,
+                "+/-": 351,
+                "-/+": 181,
+                "-/-": 160,
+                "any_tie": 79,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 79
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.21326530612244898,
+                "+/-": 0.35816326530612247,
+                "-/+": 0.1846938775510204,
+                "-/-": 0.16326530612244897,
+                "any_tie": 0.08061224489795918,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.08061224489795918
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.6655859422078576,
+              "rms": 0.04750166957553354
+            },
+            "solo_population": {
+              "nll": 0.685905194737797,
+              "rms": 0.05086179831532739
+            },
+            "solo_individual": {
+              "nll": 0.688954101162022,
+              "rms": 0.05346233702603882
+            },
+            "distilled_population": {
+              "nll": 0.6677184314862458,
+              "rms": 0.04828801048064721
+            },
+            "distilled_individual": {
+              "nll": 0.6739853182371903,
+              "rms": 0.04921208598651187
+            },
+            "oracle_population": {
+              "nll": 0.6592679174473465,
+              "rms": 0.030537743765341907
+            },
+            "oracle_individual": {
+              "nll": 0.6669866176555368,
+              "rms": 0.03851799875353183
+            }
+          }
+        }
+      }
+    },
+    {
+      "rarity": 2,
+      "kind": "reward_cue",
+      "seed": 202621421,
+      "group": {
+        "rare": {
+          "people": 20,
+          "selection": {
+            "population": {
+              "gain": -0.0015891104006168944,
+              "change": -0.024655428132135126,
+              "person_quadrant_counts": {
+                "+/+": 1,
+                "+/-": 10,
+                "-/+": 0,
+                "-/-": 9,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.05,
+                "+/-": 0.5,
+                "-/+": 0.0,
+                "-/-": 0.45,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.008462949682489191,
+              "change": -0.01823925459114434,
+              "person_quadrant_counts": {
+                "+/+": 2,
+                "+/-": 10,
+                "-/+": 0,
+                "-/-": 5,
+                "any_tie": 3,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 3
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.1,
+                "+/-": 0.5,
+                "-/+": 0.0,
+                "-/-": 0.25,
+                "any_tie": 0.15,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.15
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.6917265349520225,
+              "rms": 0.20123198027159614
+            },
+            "solo_population": {
+              "nll": 0.6927506486305848,
+              "rms": 0.2353650808083137
+            },
+            "solo_individual": {
+              "nll": 0.7066364647672077,
+              "rms": 0.23835305582833125
+            },
+            "distilled_population": {
+              "nll": 0.6943397590312019,
+              "rms": 0.21070965267617853
+            },
+            "distilled_individual": {
+              "nll": 0.6981735150847184,
+              "rms": 0.22011380123718688
+            },
+            "oracle_population": {
+              "nll": 0.6049594844706817,
+              "rms": 0.08056016076495116
+            },
+            "oracle_individual": {
+              "nll": 0.6029169898681817,
+              "rms": 0.11433258994149753
+            }
+          }
+        },
+        "typical": {
+          "people": 980,
+          "selection": {
+            "population": {
+              "gain": 0.020035433670748313,
+              "change": -0.004592421424962877,
+              "person_quadrant_counts": {
+                "+/+": 213,
+                "+/-": 396,
+                "-/+": 203,
+                "-/-": 168,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.2173469387755102,
+                "+/-": 0.40408163265306124,
+                "-/+": 0.20714285714285716,
+                "-/-": 0.17142857142857143,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.016304376788202686,
+              "change": -0.0054808745404954845,
+              "person_quadrant_counts": {
+                "+/+": 183,
+                "+/-": 357,
+                "-/+": 175,
+                "-/-": 168,
+                "any_tie": 97,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 97
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.186734693877551,
+                "+/-": 0.36428571428571427,
+                "-/+": 0.17857142857142858,
+                "-/-": 0.17142857142857143,
+                "any_tie": 0.09897959183673469,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.09897959183673469
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.6644609926386229,
+              "rms": 0.0486735929722687
+            },
+            "solo_population": {
+              "nll": 0.6880079792939783,
+              "rms": 0.05077619431959616
+            },
+            "solo_individual": {
+              "nll": 0.6912013205385626,
+              "rms": 0.054018093732453504
+            },
+            "distilled_population": {
+              "nll": 0.66797254562323,
+              "rms": 0.046183772894633275
+            },
+            "distilled_individual": {
+              "nll": 0.67489694375036,
+              "rms": 0.04853721919195803
+            },
+            "oracle_population": {
+              "nll": 0.6593544060077511,
+              "rms": 0.029780078984499723
+            },
+            "oracle_individual": {
+              "nll": 0.668302331183576,
+              "rms": 0.03976591833164388
+            }
+          }
+        }
+      }
+    },
+    {
+      "rarity": 5,
+      "kind": "parametric_model_free",
+      "seed": 202612401,
+      "group": {
+        "rare": {
+          "people": 50,
+          "selection": {
+            "population": {
+              "gain": 0.018546793867166154,
+              "change": -0.010495115318620627,
+              "person_quadrant_counts": {
+                "+/+": 8,
+                "+/-": 24,
+                "-/+": 9,
+                "-/-": 9,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.16,
+                "+/-": 0.48,
+                "-/+": 0.18,
+                "-/-": 0.18,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.02010817876630902,
+              "change": -0.010306970554075603,
+              "person_quadrant_counts": {
+                "+/+": 8,
+                "+/-": 21,
+                "-/+": 7,
+                "-/-": 12,
+                "any_tie": 2,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 2
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.16,
+                "+/-": 0.42,
+                "-/+": 0.14,
+                "-/-": 0.24,
+                "any_tie": 0.04,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.04
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.6502670361719245,
+              "rms": 0.0720295870357925
+            },
+            "solo_population": {
+              "nll": 0.6721324195969035,
+              "rms": 0.08553813204243449
+            },
+            "solo_individual": {
+              "nll": 0.680936096121287,
+              "rms": 0.08663939837013697
+            },
+            "distilled_population": {
+              "nll": 0.6535856257297371,
+              "rms": 0.07504301672381387
+            },
+            "distilled_individual": {
+              "nll": 0.660827917354978,
+              "rms": 0.07633242781606137
+            },
+            "oracle_population": {
+              "nll": 0.643242962834148,
+              "rms": 0.04494305052701034
+            },
+            "oracle_individual": {
+              "nll": 0.655599094114324,
+              "rms": 0.05758558080441696
+            }
+          }
+        },
+        "typical": {
+          "people": 950,
+          "selection": {
+            "population": {
+              "gain": 0.014891339321230723,
+              "change": -0.0052722024032503135,
+              "person_quadrant_counts": {
+                "+/+": 163,
+                "+/-": 400,
+                "-/+": 212,
+                "-/-": 175,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.17157894736842105,
+                "+/-": 0.42105263157894735,
+                "-/+": 0.2231578947368421,
+                "-/-": 0.18421052631578946,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.014495544642245017,
+              "change": -0.005619102856336997,
+              "person_quadrant_counts": {
+                "+/+": 157,
+                "+/-": 360,
+                "-/+": 178,
+                "-/-": 174,
+                "any_tie": 81,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 81
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.16526315789473683,
+                "+/-": 0.37894736842105264,
+                "-/+": 0.18736842105263157,
+                "-/-": 0.1831578947368421,
+                "any_tie": 0.08526315789473685,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.08526315789473685
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.6675338684818823,
+              "rms": 0.04642676424773834
+            },
+            "solo_population": {
+              "nll": 0.6873822873773757,
+              "rms": 0.05237348751179727
+            },
+            "solo_individual": {
+              "nll": 0.6910317612389083,
+              "rms": 0.054992645934010334
+            },
+            "distilled_population": {
+              "nll": 0.672490948056145,
+              "rms": 0.047101285108546956
+            },
+            "distilled_individual": {
+              "nll": 0.6765362165966634,
+              "rms": 0.04937354307767334
+            },
+            "oracle_population": {
+              "nll": 0.6607389273038823,
+              "rms": 0.030308419727185593
+            },
+            "oracle_individual": {
+              "nll": 0.6696430670523857,
+              "rms": 0.039264896119029065
+            }
+          }
+        }
+      }
+    },
+    {
+      "rarity": 5,
+      "kind": "parametric_model_free",
+      "seed": 202612411,
+      "group": {
+        "rare": {
+          "people": 50,
+          "selection": {
+            "population": {
+              "gain": 0.02869335452676506,
+              "change": -0.016296804421104275,
+              "person_quadrant_counts": {
+                "+/+": 3,
+                "+/-": 28,
+                "-/+": 9,
+                "-/-": 10,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.06,
+                "+/-": 0.56,
+                "-/+": 0.18,
+                "-/-": 0.2,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.03459798331195936,
+              "change": -0.014449133943958243,
+              "person_quadrant_counts": {
+                "+/+": 5,
+                "+/-": 27,
+                "-/+": 3,
+                "-/-": 11,
+                "any_tie": 4,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 4
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.1,
+                "+/-": 0.54,
+                "-/+": 0.06,
+                "-/-": 0.22,
+                "any_tie": 0.08,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.08
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.6423290955841265,
+              "rms": 0.07436814611623294
+            },
+            "solo_population": {
+              "nll": 0.6744249805053371,
+              "rms": 0.09276976372912044
+            },
+            "solo_individual": {
+              "nll": 0.6804613514615794,
+              "rms": 0.09511204249280752
+            },
+            "distilled_population": {
+              "nll": 0.6457316259785719,
+              "rms": 0.07647295930801618
+            },
+            "distilled_individual": {
+              "nll": 0.6458633681496201,
+              "rms": 0.08066290854884926
+            },
+            "oracle_population": {
+              "nll": 0.6365504382103144,
+              "rms": 0.047252240999785415
+            },
+            "oracle_individual": {
+              "nll": 0.6382697253724475,
+              "rms": 0.06752126500945861
+            }
+          }
+        },
+        "typical": {
+          "people": 950,
+          "selection": {
+            "population": {
+              "gain": 0.015783447524027893,
+              "change": -0.005497999924714354,
+              "person_quadrant_counts": {
+                "+/+": 187,
+                "+/-": 374,
+                "-/+": 215,
+                "-/-": 174,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.1968421052631579,
+                "+/-": 0.3936842105263158,
+                "-/+": 0.22631578947368422,
+                "-/-": 0.1831578947368421,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.016947641693951406,
+              "change": -0.00683831829791261,
+              "person_quadrant_counts": {
+                "+/+": 151,
+                "+/-": 384,
+                "-/+": 168,
+                "-/-": 167,
+                "any_tie": 80,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 80
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.15894736842105264,
+                "+/-": 0.40421052631578946,
+                "-/+": 0.17684210526315788,
+                "-/-": 0.17578947368421052,
+                "any_tie": 0.08421052631578947,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.08421052631578947
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.6692877432032812,
+              "rms": 0.04560614127515108
+            },
+            "solo_population": {
+              "nll": 0.6878134438175043,
+              "rms": 0.049697717944163305
+            },
+            "solo_individual": {
+              "nll": 0.6918790328843004,
+              "rms": 0.05219318575609274
+            },
+            "distilled_population": {
+              "nll": 0.6720299962934764,
+              "rms": 0.04419971801944895
+            },
+            "distilled_individual": {
+              "nll": 0.6749313911903491,
+              "rms": 0.045354867458180126
+            },
+            "oracle_population": {
+              "nll": 0.6634147350832342,
+              "rms": 0.03009922783233229
+            },
+            "oracle_individual": {
+              "nll": 0.6705425960967426,
+              "rms": 0.03755356316185817
+            }
+          }
+        }
+      }
+    },
+    {
+      "rarity": 5,
+      "kind": "parametric_model_free",
+      "seed": 202612421,
+      "group": {
+        "rare": {
+          "people": 50,
+          "selection": {
+            "population": {
+              "gain": 0.02108941062464093,
+              "change": -0.012011468248672436,
+              "person_quadrant_counts": {
+                "+/+": 9,
+                "+/-": 25,
+                "-/+": 7,
+                "-/-": 9,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.18,
+                "+/-": 0.5,
+                "-/+": 0.14,
+                "-/-": 0.18,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.015143171415074043,
+              "change": -0.012130292632406755,
+              "person_quadrant_counts": {
+                "+/+": 7,
+                "+/-": 23,
+                "-/+": 4,
+                "-/-": 11,
+                "any_tie": 5,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 5
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.14,
+                "+/-": 0.46,
+                "-/+": 0.08,
+                "-/-": 0.22,
+                "any_tie": 0.1,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.1
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.6510650787042693,
+              "rms": 0.07700881251182612
+            },
+            "solo_population": {
+              "nll": 0.6761781914446188,
+              "rms": 0.08997756828647173
+            },
+            "solo_individual": {
+              "nll": 0.68127923976547,
+              "rms": 0.0943484464759204
+            },
+            "distilled_population": {
+              "nll": 0.6550887808199778,
+              "rms": 0.07796610003779925
+            },
+            "distilled_individual": {
+              "nll": 0.6661360683503958,
+              "rms": 0.08221815384351362
+            },
+            "oracle_population": {
+              "nll": 0.6260397405574879,
+              "rms": 0.047964144494408695
+            },
+            "oracle_individual": {
+              "nll": 0.6424443683272919,
+              "rms": 0.06588643916941597
+            }
+          }
+        },
+        "typical": {
+          "people": 950,
+          "selection": {
+            "population": {
+              "gain": 0.018456442836366486,
+              "change": -0.005242590900781366,
+              "person_quadrant_counts": {
+                "+/+": 198,
+                "+/-": 397,
+                "-/+": 198,
+                "-/-": 157,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.20842105263157895,
+                "+/-": 0.41789473684210526,
+                "-/+": 0.20842105263157895,
+                "-/-": 0.16526315789473683,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.01650669049395784,
+              "change": -0.007547192527942662,
+              "person_quadrant_counts": {
+                "+/+": 167,
+                "+/-": 365,
+                "-/+": 150,
+                "-/-": 183,
+                "any_tie": 85,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 85
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.17578947368421052,
+                "+/-": 0.38421052631578945,
+                "-/+": 0.15789473684210525,
+                "-/-": 0.19263157894736843,
+                "any_tie": 0.08947368421052632,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.08947368421052632
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.6648750142522283,
+              "rms": 0.04461700272930458
+            },
+            "solo_population": {
+              "nll": 0.6858139152263742,
+              "rms": 0.05061566440796711
+            },
+            "solo_individual": {
+              "nll": 0.6888568277284158,
+              "rms": 0.053592231576556404
+            },
+            "distilled_population": {
+              "nll": 0.6673574723900075,
+              "rms": 0.04537307350718574
+            },
+            "distilled_individual": {
+              "nll": 0.672350137234458,
+              "rms": 0.04604503904861374
+            },
+            "oracle_population": {
+              "nll": 0.6559885579992306,
+              "rms": 0.02940204210570254
+            },
+            "oracle_individual": {
+              "nll": 0.663851600045456,
+              "rms": 0.03762189895126874
+            }
+          }
+        }
+      }
+    },
+    {
+      "rarity": 5,
+      "kind": "reward_cue",
+      "seed": 202622401,
+      "group": {
+        "rare": {
+          "people": 50,
+          "selection": {
+            "population": {
+              "gain": 0.026959043733815885,
+              "change": -0.03149411336791337,
+              "person_quadrant_counts": {
+                "+/+": 1,
+                "+/-": 33,
+                "-/+": 0,
+                "-/-": 16,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.02,
+                "+/-": 0.66,
+                "-/+": 0.0,
+                "-/-": 0.32,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.019809085873152246,
+              "change": -0.020107291081569004,
+              "person_quadrant_counts": {
+                "+/+": 4,
+                "+/-": 27,
+                "-/+": 2,
+                "-/-": 13,
+                "any_tie": 4,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 4
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.08,
+                "+/-": 0.54,
+                "-/+": 0.04,
+                "-/-": 0.26,
+                "any_tie": 0.08,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.08
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.660182041378958,
+              "rms": 0.2085744331173099
+            },
+            "solo_population": {
+              "nll": 0.6948760050109278,
+              "rms": 0.2471477254246201
+            },
+            "solo_individual": {
+              "nll": 0.6958307019222191,
+              "rms": 0.24695364461994085
+            },
+            "distilled_population": {
+              "nll": 0.6679169612771122,
+              "rms": 0.21565361205670672
+            },
+            "distilled_individual": {
+              "nll": 0.676021616049067,
+              "rms": 0.22684635353837188
+            },
+            "oracle_population": {
+              "nll": 0.5786754107743766,
+              "rms": 0.06504112802899592
+            },
+            "oracle_individual": {
+              "nll": 0.5864474718482198,
+              "rms": 0.08991567972434016
+            }
+          }
+        },
+        "typical": {
+          "people": 950,
+          "selection": {
+            "population": {
+              "gain": 0.018421145571252455,
+              "change": -0.0028495125349514597,
+              "person_quadrant_counts": {
+                "+/+": 222,
+                "+/-": 381,
+                "-/+": 190,
+                "-/-": 157,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.2336842105263158,
+                "+/-": 0.4010526315789474,
+                "-/+": 0.2,
+                "-/-": 0.16526315789473683,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.016138622119505886,
+              "change": -0.0059743920512313,
+              "person_quadrant_counts": {
+                "+/+": 174,
+                "+/-": 360,
+                "-/+": 170,
+                "-/-": 144,
+                "any_tie": 102,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 102
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.1831578947368421,
+                "+/-": 0.37894736842105264,
+                "-/+": 0.17894736842105263,
+                "-/-": 0.15157894736842106,
+                "any_tie": 0.10736842105263159,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.10736842105263159
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.6661890029420626,
+              "rms": 0.04789906553971805
+            },
+            "solo_population": {
+              "nll": 0.6866063930405678,
+              "rms": 0.04986586966321559
+            },
+            "solo_individual": {
+              "nll": 0.6919027586509915,
+              "rms": 0.05318209309836857
+            },
+            "distilled_population": {
+              "nll": 0.6681852474693154,
+              "rms": 0.04701635712826412
+            },
+            "distilled_individual": {
+              "nll": 0.6757641365314857,
+              "rms": 0.047207701047137264
+            },
+            "oracle_population": {
+              "nll": 0.6615182760838707,
+              "rms": 0.03050742647057101
+            },
+            "oracle_individual": {
+              "nll": 0.6720771520432175,
+              "rms": 0.0388174495192317
+            }
+          }
+        }
+      }
+    },
+    {
+      "rarity": 5,
+      "kind": "reward_cue",
+      "seed": 202622411,
+      "group": {
+        "rare": {
+          "people": 50,
+          "selection": {
+            "population": {
+              "gain": 0.02426887518084992,
+              "change": -0.03040917619349418,
+              "person_quadrant_counts": {
+                "+/+": 0,
+                "+/-": 35,
+                "-/+": 0,
+                "-/-": 15,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.0,
+                "+/-": 0.7,
+                "-/+": 0.0,
+                "-/-": 0.3,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.014203228962715714,
+              "change": -0.02068429415011609,
+              "person_quadrant_counts": {
+                "+/+": 0,
+                "+/-": 28,
+                "-/+": 2,
+                "-/-": 18,
+                "any_tie": 2,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 2
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.0,
+                "+/-": 0.56,
+                "-/+": 0.04,
+                "-/-": 0.36,
+                "any_tie": 0.04,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.04
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.664398224936933,
+              "rms": 0.215875135929106
+            },
+            "solo_population": {
+              "nll": 0.6938164330852656,
+              "rms": 0.25013075920687927
+            },
+            "solo_individual": {
+              "nll": 0.6986582122342578,
+              "rms": 0.25085699430893793
+            },
+            "distilled_population": {
+              "nll": 0.6695475579044157,
+              "rms": 0.21972158301338518
+            },
+            "distilled_individual": {
+              "nll": 0.6844549832715423,
+              "rms": 0.2301727001588219
+            },
+            "oracle_population": {
+              "nll": 0.583648214519855,
+              "rms": 0.04895048320854329
+            },
+            "oracle_individual": {
+              "nll": 0.5715927099294212,
+              "rms": 0.07783618666727529
+            }
+          }
+        },
+        "typical": {
+          "people": 950,
+          "selection": {
+            "population": {
+              "gain": 0.01875251160684524,
+              "change": -0.002172131468354403,
+              "person_quadrant_counts": {
+                "+/+": 217,
+                "+/-": 394,
+                "-/+": 185,
+                "-/-": 154,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.22842105263157894,
+                "+/-": 0.4147368421052632,
+                "-/+": 0.19473684210526315,
+                "-/-": 0.16210526315789472,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.016390055882951768,
+              "change": -0.005751042454550332,
+              "person_quadrant_counts": {
+                "+/+": 170,
+                "+/-": 370,
+                "-/+": 165,
+                "-/-": 148,
+                "any_tie": 97,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 97
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.17894736842105263,
+                "+/-": 0.3894736842105263,
+                "-/+": 0.1736842105263158,
+                "-/-": 0.15578947368421053,
+                "any_tie": 0.10210526315789474,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.10210526315789474
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.6664524527454302,
+              "rms": 0.043110196931558174
+            },
+            "solo_population": {
+              "nll": 0.6881268835160901,
+              "rms": 0.04884523738841116
+            },
+            "solo_individual": {
+              "nll": 0.6910982163168903,
+              "rms": 0.05245945656650325
+            },
+            "distilled_population": {
+              "nll": 0.6693743719092448,
+              "rms": 0.046673105920056746
+            },
+            "distilled_individual": {
+              "nll": 0.6747081604339384,
+              "rms": 0.046708414111952916
+            },
+            "oracle_population": {
+              "nll": 0.6592024052161507,
+              "rms": 0.028181723283773826
+            },
+            "oracle_individual": {
+              "nll": 0.6695104755288123,
+              "rms": 0.03684918199231444
+            }
+          }
+        }
+      }
+    },
+    {
+      "rarity": 5,
+      "kind": "reward_cue",
+      "seed": 202622421,
+      "group": {
+        "rare": {
+          "people": 50,
+          "selection": {
+            "population": {
+              "gain": 0.029940348036621295,
+              "change": -0.026980357706059978,
+              "person_quadrant_counts": {
+                "+/+": 1,
+                "+/-": 35,
+                "-/+": 1,
+                "-/-": 13,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.02,
+                "+/-": 0.7,
+                "-/+": 0.02,
+                "-/-": 0.26,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.02546695152301816,
+              "change": -0.019193645433367653,
+              "person_quadrant_counts": {
+                "+/+": 4,
+                "+/-": 29,
+                "-/+": 1,
+                "-/-": 12,
+                "any_tie": 4,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 4
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.08,
+                "+/-": 0.58,
+                "-/+": 0.02,
+                "-/-": 0.24,
+                "any_tie": 0.08,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.08
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.6657721736138723,
+              "rms": 0.20164002694552657
+            },
+            "solo_population": {
+              "nll": 0.6994420519294493,
+              "rms": 0.23517284093333912
+            },
+            "solo_individual": {
+              "nll": 0.7012618658039779,
+              "rms": 0.23552998992835442
+            },
+            "distilled_population": {
+              "nll": 0.6695017038928279,
+              "rms": 0.20819248322727912
+            },
+            "distilled_individual": {
+              "nll": 0.6757949142809596,
+              "rms": 0.21633634449498676
+            },
+            "oracle_population": {
+              "nll": 0.6083218996392933,
+              "rms": 0.08368677859462532
+            },
+            "oracle_individual": {
+              "nll": 0.6145320706281829,
+              "rms": 0.10879373673609068
+            }
+          }
+        },
+        "typical": {
+          "people": 950,
+          "selection": {
+            "population": {
+              "gain": 0.01715248462854522,
+              "change": 0.000864025238945012,
+              "person_quadrant_counts": {
+                "+/+": 254,
+                "+/-": 328,
+                "-/+": 244,
+                "-/-": 124,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.2673684210526316,
+                "+/-": 0.3452631578947368,
+                "-/+": 0.25684210526315787,
+                "-/-": 0.13052631578947368,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.01688943535098148,
+              "change": -0.004329577399271817,
+              "person_quadrant_counts": {
+                "+/+": 187,
+                "+/-": 351,
+                "-/+": 187,
+                "-/-": 146,
+                "any_tie": 79,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 79
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.1968421052631579,
+                "+/-": 0.36947368421052634,
+                "-/+": 0.1968421052631579,
+                "-/-": 0.15368421052631578,
+                "any_tie": 0.08315789473684211,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.08315789473684211
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.6650245602998839,
+              "rms": 0.053093613792767266
+            },
+            "solo_population": {
+              "nll": 0.6852351082099793,
+              "rms": 0.05128224109525414
+            },
+            "solo_individual": {
+              "nll": 0.6895033840764125,
+              "rms": 0.05391913484020021
+            },
+            "distilled_population": {
+              "nll": 0.6680826235814342,
+              "rms": 0.05214626633419915
+            },
+            "distilled_individual": {
+              "nll": 0.672613948725431,
+              "rms": 0.04958955744092839
+            },
+            "oracle_population": {
+              "nll": 0.6563583851235202,
+              "rms": 0.02970819091478072
+            },
+            "oracle_individual": {
+              "nll": 0.665226278825429,
+              "rms": 0.03777545815494054
+            }
+          }
+        }
+      }
+    },
+    {
+      "rarity": 10,
+      "kind": "parametric_model_free",
+      "seed": 202613401,
+      "group": {
+        "rare": {
+          "people": 100,
+          "selection": {
+            "population": {
+              "gain": 0.016807587793124662,
+              "change": -0.012146341335808332,
+              "person_quadrant_counts": {
+                "+/+": 17,
+                "+/-": 49,
+                "-/+": 14,
+                "-/-": 20,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.17,
+                "+/-": 0.49,
+                "-/+": 0.14,
+                "-/-": 0.2,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.013260473005061859,
+              "change": -0.010565012271308521,
+              "person_quadrant_counts": {
+                "+/+": 16,
+                "+/-": 42,
+                "-/+": 13,
+                "-/-": 22,
+                "any_tie": 7,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 7
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.16,
+                "+/-": 0.42,
+                "-/+": 0.13,
+                "-/-": 0.22,
+                "any_tie": 0.07,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.07
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.6418804603272088,
+              "rms": 0.07521644539202144
+            },
+            "solo_population": {
+              "nll": 0.6693633122269044,
+              "rms": 0.08950055252323867
+            },
+            "solo_individual": {
+              "nll": 0.6727114158680648,
+              "rms": 0.09003258698024588
+            },
+            "distilled_population": {
+              "nll": 0.6525557244337794,
+              "rms": 0.07735421118743034
+            },
+            "distilled_individual": {
+              "nll": 0.659450942863003,
+              "rms": 0.07946757470893737
+            },
+            "oracle_population": {
+              "nll": 0.635600802942226,
+              "rms": 0.04864299195450592
+            },
+            "oracle_individual": {
+              "nll": 0.6485477523914591,
+              "rms": 0.06610658500619544
+            }
+          }
+        },
+        "typical": {
+          "people": 900,
+          "selection": {
+            "population": {
+              "gain": 0.018165354795226244,
+              "change": -0.00229256762626229,
+              "person_quadrant_counts": {
+                "+/+": 230,
+                "+/-": 318,
+                "-/+": 191,
+                "-/-": 161,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.25555555555555554,
+                "+/-": 0.35333333333333333,
+                "-/+": 0.21222222222222223,
+                "-/-": 0.17888888888888888,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.014284611030016565,
+              "change": -0.004787827350073855,
+              "person_quadrant_counts": {
+                "+/+": 183,
+                "+/-": 312,
+                "-/+": 156,
+                "-/-": 164,
+                "any_tie": 85,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 85
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.20333333333333334,
+                "+/-": 0.3466666666666667,
+                "-/+": 0.17333333333333334,
+                "-/-": 0.18222222222222223,
+                "any_tie": 0.09444444444444444,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.09444444444444444
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.6661202161359425,
+              "rms": 0.05126181255748916
+            },
+            "solo_population": {
+              "nll": 0.6872134732316378,
+              "rms": 0.05077842425935973
+            },
+            "solo_individual": {
+              "nll": 0.6897292454223725,
+              "rms": 0.053414377915388646
+            },
+            "distilled_population": {
+              "nll": 0.6690481184364117,
+              "rms": 0.048485856633097436
+            },
+            "distilled_individual": {
+              "nll": 0.6754446343923559,
+              "rms": 0.048626550565314786
+            },
+            "oracle_population": {
+              "nll": 0.6595466020868914,
+              "rms": 0.030444361932337072
+            },
+            "oracle_individual": {
+              "nll": 0.6678738715090723,
+              "rms": 0.039533781969708706
+            }
+          }
+        }
+      }
+    },
+    {
+      "rarity": 10,
+      "kind": "parametric_model_free",
+      "seed": 202613411,
+      "group": {
+        "rare": {
+          "people": 100,
+          "selection": {
+            "population": {
+              "gain": 0.017488771364957783,
+              "change": -0.016552395702174493,
+              "person_quadrant_counts": {
+                "+/+": 13,
+                "+/-": 46,
+                "-/+": 15,
+                "-/-": 26,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.13,
+                "+/-": 0.46,
+                "-/+": 0.15,
+                "-/-": 0.26,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.021476841728263637,
+              "change": -0.011211962618345174,
+              "person_quadrant_counts": {
+                "+/+": 18,
+                "+/-": 40,
+                "-/+": 15,
+                "-/-": 18,
+                "any_tie": 9,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 9
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.18,
+                "+/-": 0.4,
+                "-/+": 0.15,
+                "-/-": 0.18,
+                "any_tie": 0.09,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.09
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.6359849917252687,
+              "rms": 0.07551844850851691
+            },
+            "solo_population": {
+              "nll": 0.6595927231872397,
+              "rms": 0.09192799478344461
+            },
+            "solo_individual": {
+              "nll": 0.6648233511026347,
+              "rms": 0.09203514593570486
+            },
+            "distilled_population": {
+              "nll": 0.642103951822282,
+              "rms": 0.07537559908127013
+            },
+            "distilled_individual": {
+              "nll": 0.643346509374371,
+              "rms": 0.08082318331735967
+            },
+            "oracle_population": {
+              "nll": 0.6290257909753018,
+              "rms": 0.051293038770994635
+            },
+            "oracle_individual": {
+              "nll": 0.6358435718153516,
+              "rms": 0.06379928966368803
+            }
+          }
+        },
+        "typical": {
+          "people": 900,
+          "selection": {
+            "population": {
+              "gain": 0.018161200159049824,
+              "change": -0.004972455278900396,
+              "person_quadrant_counts": {
+                "+/+": 200,
+                "+/-": 338,
+                "-/+": 190,
+                "-/-": 172,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.2222222222222222,
+                "+/-": 0.37555555555555553,
+                "-/+": 0.2111111111111111,
+                "-/-": 0.19111111111111112,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.017706654431233464,
+              "change": -0.005384980882666861,
+              "person_quadrant_counts": {
+                "+/+": 183,
+                "+/-": 337,
+                "-/+": 154,
+                "-/-": 152,
+                "any_tie": 74,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 74
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.20333333333333334,
+                "+/-": 0.37444444444444447,
+                "-/+": 0.1711111111111111,
+                "-/-": 0.1688888888888889,
+                "any_tie": 0.08222222222222222,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.08222222222222222
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.66404549486323,
+              "rms": 0.05231695651925504
+            },
+            "solo_population": {
+              "nll": 0.6856037067456584,
+              "rms": 0.053284515390814836
+            },
+            "solo_individual": {
+              "nll": 0.6908201012045851,
+              "rms": 0.05577016910851619
+            },
+            "distilled_population": {
+              "nll": 0.6674425065866085,
+              "rms": 0.04831206011191445
+            },
+            "distilled_individual": {
+              "nll": 0.6731134467733515,
+              "rms": 0.05038518822584934
+            },
+            "oracle_population": {
+              "nll": 0.6583830197585295,
+              "rms": 0.03220057373120712
+            },
+            "oracle_individual": {
+              "nll": 0.6668425122089382,
+              "rms": 0.039762898377009755
+            }
+          }
+        }
+      }
+    },
+    {
+      "rarity": 10,
+      "kind": "parametric_model_free",
+      "seed": 202613421,
+      "group": {
+        "rare": {
+          "people": 100,
+          "selection": {
+            "population": {
+              "gain": 0.019930997203914082,
+              "change": -0.011192518157794625,
+              "person_quadrant_counts": {
+                "+/+": 15,
+                "+/-": 41,
+                "-/+": 20,
+                "-/-": 24,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.15,
+                "+/-": 0.41,
+                "-/+": 0.2,
+                "-/-": 0.24,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.01951856796065093,
+              "change": -0.010062434354924375,
+              "person_quadrant_counts": {
+                "+/+": 16,
+                "+/-": 40,
+                "-/+": 16,
+                "-/-": 21,
+                "any_tie": 7,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 7
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.16,
+                "+/-": 0.4,
+                "-/+": 0.16,
+                "-/-": 0.21,
+                "any_tie": 0.07,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.07
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.6481847278870219,
+              "rms": 0.07228181284242938
+            },
+            "solo_population": {
+              "nll": 0.6726005685555316,
+              "rms": 0.08612992589124545
+            },
+            "solo_individual": {
+              "nll": 0.6734071259445507,
+              "rms": 0.0891715910246205
+            },
+            "distilled_population": {
+              "nll": 0.6526695713516175,
+              "rms": 0.07493740773345084
+            },
+            "distilled_individual": {
+              "nll": 0.6538885579839,
+              "rms": 0.07910915666969615
+            },
+            "oracle_population": {
+              "nll": 0.6428677027168708,
+              "rms": 0.05212278479739096
+            },
+            "oracle_individual": {
+              "nll": 0.645977392660997,
+              "rms": 0.06577109784405727
+            }
+          }
+        },
+        "typical": {
+          "people": 900,
+          "selection": {
+            "population": {
+              "gain": 0.017255921880387267,
+              "change": -0.004647423955830897,
+              "person_quadrant_counts": {
+                "+/+": 202,
+                "+/-": 333,
+                "-/+": 207,
+                "-/-": 158,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.22444444444444445,
+                "+/-": 0.37,
+                "-/+": 0.23,
+                "-/-": 0.17555555555555555,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.015924541980073863,
+              "change": -0.005759731387629446,
+              "person_quadrant_counts": {
+                "+/+": 185,
+                "+/-": 317,
+                "-/+": 162,
+                "-/-": 151,
+                "any_tie": 85,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 85
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.20555555555555555,
+                "+/-": 0.3522222222222222,
+                "-/+": 0.18,
+                "-/-": 0.16777777777777778,
+                "any_tie": 0.09444444444444444,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.09444444444444444
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.6653596847501123,
+              "rms": 0.049465432663746645
+            },
+            "solo_population": {
+              "nll": 0.6860698055686009,
+              "rms": 0.052011652828046505
+            },
+            "solo_individual": {
+              "nll": 0.6912958921271156,
+              "rms": 0.05487497524105692
+            },
+            "distilled_population": {
+              "nll": 0.6688138836882134,
+              "rms": 0.0473642288722156
+            },
+            "distilled_individual": {
+              "nll": 0.6753713501470416,
+              "rms": 0.04911524385342747
+            },
+            "oracle_population": {
+              "nll": 0.6605253021103735,
+              "rms": 0.030439149029629967
+            },
+            "oracle_individual": {
+              "nll": 0.6684497701741531,
+              "rms": 0.039063020792003744
+            }
+          }
+        }
+      }
+    },
+    {
+      "rarity": 10,
+      "kind": "reward_cue",
+      "seed": 202623401,
+      "group": {
+        "rare": {
+          "people": 100,
+          "selection": {
+            "population": {
+              "gain": 0.030877516051284918,
+              "change": -0.03755808515171781,
+              "person_quadrant_counts": {
+                "+/+": 0,
+                "+/-": 72,
+                "-/+": 0,
+                "-/-": 28,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.0,
+                "+/-": 0.72,
+                "-/+": 0.0,
+                "-/-": 0.28,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.033143639132109486,
+              "change": -0.03144150420460569,
+              "person_quadrant_counts": {
+                "+/+": 3,
+                "+/-": 59,
+                "-/+": 5,
+                "-/-": 31,
+                "any_tie": 2,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 2
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.03,
+                "+/-": 0.59,
+                "-/+": 0.05,
+                "-/-": 0.31,
+                "any_tie": 0.02,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.02
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.6529320445743402,
+              "rms": 0.20624107186049834
+            },
+            "solo_population": {
+              "nll": 0.6939050380006253,
+              "rms": 0.25288597184303824
+            },
+            "solo_individual": {
+              "nll": 0.6950825156610156,
+              "rms": 0.2525185284892229
+            },
+            "distilled_population": {
+              "nll": 0.6630275219493404,
+              "rms": 0.2153278866913205
+            },
+            "distilled_individual": {
+              "nll": 0.6619388765289059,
+              "rms": 0.2210770242846172
+            },
+            "oracle_population": {
+              "nll": 0.5869558657068678,
+              "rms": 0.0676727134469704
+            },
+            "oracle_individual": {
+              "nll": 0.5761103827164591,
+              "rms": 0.09733775304250067
+            }
+          }
+        },
+        "typical": {
+          "people": 900,
+          "selection": {
+            "population": {
+              "gain": 0.017355962031986173,
+              "change": -8.228943005097973e-05,
+              "person_quadrant_counts": {
+                "+/+": 235,
+                "+/-": 330,
+                "-/+": 211,
+                "-/-": 124,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.2611111111111111,
+                "+/-": 0.36666666666666664,
+                "-/+": 0.23444444444444446,
+                "-/-": 0.13777777777777778,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.016178492232585922,
+              "change": -0.004482385790015752,
+              "person_quadrant_counts": {
+                "+/+": 177,
+                "+/-": 325,
+                "-/+": 172,
+                "-/-": 138,
+                "any_tie": 88,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 88
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.19666666666666666,
+                "+/-": 0.3611111111111111,
+                "-/+": 0.19111111111111112,
+                "-/-": 0.15333333333333332,
+                "any_tie": 0.09777777777777778,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.09777777777777778
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.6672756114389972,
+              "rms": 0.05093387853983695
+            },
+            "solo_population": {
+              "nll": 0.6864803197119109,
+              "rms": 0.04985597818283852
+            },
+            "solo_individual": {
+              "nll": 0.690430816299471,
+              "rms": 0.052605554744742135
+            },
+            "distilled_population": {
+              "nll": 0.6691243576799247,
+              "rms": 0.04977368875278753
+            },
+            "distilled_individual": {
+              "nll": 0.6742523240668851,
+              "rms": 0.04812316895472637
+            },
+            "oracle_population": {
+              "nll": 0.6599265123070944,
+              "rms": 0.028651834163728736
+            },
+            "oracle_individual": {
+              "nll": 0.6684150721891825,
+              "rms": 0.03662237413211281
+            }
+          }
+        }
+      }
+    },
+    {
+      "rarity": 10,
+      "kind": "reward_cue",
+      "seed": 202623411,
+      "group": {
+        "rare": {
+          "people": 100,
+          "selection": {
+            "population": {
+              "gain": 0.020530706052788502,
+              "change": -0.036815432873674836,
+              "person_quadrant_counts": {
+                "+/+": 0,
+                "+/-": 67,
+                "-/+": 1,
+                "-/-": 32,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.0,
+                "+/-": 0.67,
+                "-/+": 0.01,
+                "-/-": 0.32,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.023273410785621725,
+              "change": -0.025895215025031254,
+              "person_quadrant_counts": {
+                "+/+": 5,
+                "+/-": 57,
+                "-/+": 5,
+                "-/-": 23,
+                "any_tie": 10,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 10
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.05,
+                "+/-": 0.57,
+                "-/+": 0.05,
+                "-/-": 0.23,
+                "any_tie": 0.1,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.1
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.6611716880017164,
+              "rms": 0.19010411283164808
+            },
+            "solo_population": {
+              "nll": 0.6908775062327708,
+              "rms": 0.23369021960162878
+            },
+            "solo_individual": {
+              "nll": 0.6985963424986126,
+              "rms": 0.23445672179765215
+            },
+            "distilled_population": {
+              "nll": 0.6703468001799824,
+              "rms": 0.19687478672795394
+            },
+            "distilled_individual": {
+              "nll": 0.6753229317129908,
+              "rms": 0.20856150677262092
+            },
+            "oracle_population": {
+              "nll": 0.5971787439702269,
+              "rms": 0.0685697448849598
+            },
+            "oracle_individual": {
+              "nll": 0.6048277784657796,
+              "rms": 0.09844841925135173
+            }
+          }
+        },
+        "typical": {
+          "people": 900,
+          "selection": {
+            "population": {
+              "gain": 0.016145022752622456,
+              "change": 0.0011336150820808008,
+              "person_quadrant_counts": {
+                "+/+": 245,
+                "+/-": 304,
+                "-/+": 218,
+                "-/-": 133,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.2722222222222222,
+                "+/-": 0.3377777777777778,
+                "-/+": 0.24222222222222223,
+                "-/-": 0.14777777777777779,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.015328854793259504,
+              "change": -0.0047971906315132234,
+              "person_quadrant_counts": {
+                "+/+": 179,
+                "+/-": 339,
+                "-/+": 164,
+                "-/-": 136,
+                "any_tie": 82,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 82
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.1988888888888889,
+                "+/-": 0.37666666666666665,
+                "-/+": 0.18222222222222223,
+                "-/-": 0.1511111111111111,
+                "any_tie": 0.09111111111111111,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.09111111111111111
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.667262044230622,
+              "rms": 0.05256477118006855
+            },
+            "solo_population": {
+              "nll": 0.6863516965397823,
+              "rms": 0.049873871411531316
+            },
+            "solo_individual": {
+              "nll": 0.6909847099520977,
+              "rms": 0.05321069653605873
+            },
+            "distilled_population": {
+              "nll": 0.6702066737871599,
+              "rms": 0.051007486493612114
+            },
+            "distilled_individual": {
+              "nll": 0.6756558551588382,
+              "rms": 0.0484135059045455
+            },
+            "oracle_population": {
+              "nll": 0.6588082259250541,
+              "rms": 0.02932184320624771
+            },
+            "oracle_individual": {
+              "nll": 0.6681268459932261,
+              "rms": 0.03767598288512136
+            }
+          }
+        }
+      }
+    },
+    {
+      "rarity": 10,
+      "kind": "reward_cue",
+      "seed": 202623421,
+      "group": {
+        "rare": {
+          "people": 100,
+          "selection": {
+            "population": {
+              "gain": 0.03844558224423822,
+              "change": -0.045994170403294274,
+              "person_quadrant_counts": {
+                "+/+": 0,
+                "+/-": 73,
+                "-/+": 1,
+                "-/-": 26,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.0,
+                "+/-": 0.73,
+                "-/+": 0.01,
+                "-/-": 0.26,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.0319127013475924,
+              "change": -0.035638357447235036,
+              "person_quadrant_counts": {
+                "+/+": 0,
+                "+/-": 67,
+                "-/+": 2,
+                "-/-": 23,
+                "any_tie": 8,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 8
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.0,
+                "+/-": 0.67,
+                "-/+": 0.02,
+                "-/-": 0.23,
+                "any_tie": 0.08,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.08
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.637881205609705,
+              "rms": 0.19637555775565133
+            },
+            "solo_population": {
+              "nll": 0.6911431559927849,
+              "rms": 0.25451667910857156
+            },
+            "solo_individual": {
+              "nll": 0.6998356804014091,
+              "rms": 0.2548728566563409
+            },
+            "distilled_population": {
+              "nll": 0.6526975737485466,
+              "rms": 0.2085225087052773
+            },
+            "distilled_individual": {
+              "nll": 0.6679229790538165,
+              "rms": 0.21923449920910582
+            },
+            "oracle_population": {
+              "nll": 0.5704046006697857,
+              "rms": 0.06968414079347247
+            },
+            "oracle_individual": {
+              "nll": 0.5934816588955639,
+              "rms": 0.109993920302221
+            }
+          }
+        },
+        "typical": {
+          "people": 900,
+          "selection": {
+            "population": {
+              "gain": 0.022532744637926417,
+              "change": -0.003250738691103604,
+              "person_quadrant_counts": {
+                "+/+": 229,
+                "+/-": 351,
+                "-/+": 188,
+                "-/-": 132,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.2544444444444444,
+                "+/-": 0.39,
+                "-/+": 0.2088888888888889,
+                "-/-": 0.14666666666666667,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.01868302620883914,
+              "change": -0.00615084722539428,
+              "person_quadrant_counts": {
+                "+/+": 163,
+                "+/-": 356,
+                "-/+": 177,
+                "-/-": 133,
+                "any_tie": 71,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 71
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.1811111111111111,
+                "+/-": 0.39555555555555555,
+                "-/+": 0.19666666666666666,
+                "-/-": 0.14777777777777779,
+                "any_tie": 0.07888888888888888,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.07888888888888888
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.6626036176127355,
+              "rms": 0.06854502720411962
+            },
+            "solo_population": {
+              "nll": 0.687550303578992,
+              "rms": 0.053480218834852475
+            },
+            "solo_individual": {
+              "nll": 0.6893537149698674,
+              "rms": 0.056103597566797385
+            },
+            "distilled_population": {
+              "nll": 0.6650175589410656,
+              "rms": 0.05022948014374887
+            },
+            "distilled_individual": {
+              "nll": 0.6706706887610282,
+              "rms": 0.0499527503414031
+            },
+            "oracle_population": {
+              "nll": 0.6552373969538855,
+              "rms": 0.031957654927063726
+            },
+            "oracle_individual": {
+              "nll": 0.6620138244244238,
+              "rms": 0.03902024269183968
+            }
+          }
+        }
+      }
+    },
+    {
+      "rarity": 25,
+      "kind": "parametric_model_free",
+      "seed": 202614401,
+      "group": {
+        "rare": {
+          "people": 250,
+          "selection": {
+            "population": {
+              "gain": 0.026485307055423,
+              "change": -0.023145340848767865,
+              "person_quadrant_counts": {
+                "+/+": 25,
+                "+/-": 136,
+                "-/+": 25,
+                "-/-": 64,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.1,
+                "+/-": 0.544,
+                "-/+": 0.1,
+                "-/-": 0.256,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.026171888162487847,
+              "change": -0.017744348386863038,
+              "person_quadrant_counts": {
+                "+/+": 31,
+                "+/-": 131,
+                "-/+": 21,
+                "-/-": 48,
+                "any_tie": 19,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 19
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.124,
+                "+/-": 0.524,
+                "-/+": 0.084,
+                "-/-": 0.192,
+                "any_tie": 0.076,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.076
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.6357480368959268,
+              "rms": 0.06722440482373009
+            },
+            "solo_population": {
+              "nll": 0.6687684599742386,
+              "rms": 0.09416019273324226
+            },
+            "solo_individual": {
+              "nll": 0.6702174052260804,
+              "rms": 0.0955353055231123
+            },
+            "distilled_population": {
+              "nll": 0.6422831529188157,
+              "rms": 0.0710148518844744
+            },
+            "distilled_individual": {
+              "nll": 0.6440455170635928,
+              "rms": 0.07779095713624926
+            },
+            "oracle_population": {
+              "nll": 0.6326358281882654,
+              "rms": 0.054688367952738355
+            },
+            "oracle_individual": {
+              "nll": 0.6399141614580832,
+              "rms": 0.06627698893247307
+            }
+          }
+        },
+        "typical": {
+          "people": 750,
+          "selection": {
+            "population": {
+              "gain": 0.014651990707418832,
+              "change": -0.0045602190533578875,
+              "person_quadrant_counts": {
+                "+/+": 167,
+                "+/-": 274,
+                "-/+": 175,
+                "-/-": 134,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.22266666666666668,
+                "+/-": 0.36533333333333334,
+                "-/+": 0.23333333333333334,
+                "-/-": 0.17866666666666667,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.013181526349885746,
+              "change": -0.004584188062343122,
+              "person_quadrant_counts": {
+                "+/+": 142,
+                "+/-": 276,
+                "-/+": 155,
+                "-/-": 122,
+                "any_tie": 55,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 55
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.18933333333333333,
+                "+/-": 0.368,
+                "-/+": 0.20666666666666667,
+                "-/-": 0.16266666666666665,
+                "any_tie": 0.07333333333333333,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.07333333333333333
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.6681880857024751,
+              "rms": 0.05017805964827118
+            },
+            "solo_population": {
+              "nll": 0.6859132714973336,
+              "rms": 0.05002940954853719
+            },
+            "solo_individual": {
+              "nll": 0.6879571556954984,
+              "rms": 0.05238529526600612
+            },
+            "distilled_population": {
+              "nll": 0.6712612807899148,
+              "rms": 0.04546919049517929
+            },
+            "distilled_individual": {
+              "nll": 0.6747756293456126,
+              "rms": 0.04780110720366299
+            },
+            "oracle_population": {
+              "nll": 0.6604337704029425,
+              "rms": 0.028319864475009303
+            },
+            "oracle_individual": {
+              "nll": 0.6672139273143975,
+              "rms": 0.036686762157708754
+            }
+          }
+        }
+      }
+    },
+    {
+      "rarity": 25,
+      "kind": "parametric_model_free",
+      "seed": 202614411,
+      "group": {
+        "rare": {
+          "people": 250,
+          "selection": {
+            "population": {
+              "gain": 0.027239217791388704,
+              "change": -0.019736584365450612,
+              "person_quadrant_counts": {
+                "+/+": 27,
+                "+/-": 141,
+                "-/+": 32,
+                "-/-": 50,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.108,
+                "+/-": 0.564,
+                "-/+": 0.128,
+                "-/-": 0.2,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.02549470305003345,
+              "change": -0.016789987868965496,
+              "person_quadrant_counts": {
+                "+/+": 27,
+                "+/-": 118,
+                "-/+": 35,
+                "-/-": 50,
+                "any_tie": 20,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 20
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.108,
+                "+/-": 0.472,
+                "-/+": 0.14,
+                "-/-": 0.2,
+                "any_tie": 0.08,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.08
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.6294755881144677,
+              "rms": 0.07190059004727697
+            },
+            "solo_population": {
+              "nll": 0.6655883205325622,
+              "rms": 0.0960986024927899
+            },
+            "solo_individual": {
+              "nll": 0.6717064910285854,
+              "rms": 0.09802098718596447
+            },
+            "distilled_population": {
+              "nll": 0.6383491027411733,
+              "rms": 0.0763620181273393
+            },
+            "distilled_individual": {
+              "nll": 0.6462117879785519,
+              "rms": 0.08123099931699898
+            },
+            "oracle_population": {
+              "nll": 0.6304523577008385,
+              "rms": 0.05580939650811564
+            },
+            "oracle_individual": {
+              "nll": 0.6327399073364685,
+              "rms": 0.06585490211727975
+            }
+          }
+        },
+        "typical": {
+          "people": 750,
+          "selection": {
+            "population": {
+              "gain": 0.018313665009674643,
+              "change": -0.006979894865470289,
+              "person_quadrant_counts": {
+                "+/+": 137,
+                "+/-": 302,
+                "-/+": 158,
+                "-/-": 153,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.18266666666666667,
+                "+/-": 0.4026666666666667,
+                "-/+": 0.21066666666666667,
+                "-/-": 0.204,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.015133134464656774,
+              "change": -0.006316456667702366,
+              "person_quadrant_counts": {
+                "+/+": 142,
+                "+/-": 267,
+                "-/+": 134,
+                "-/-": 146,
+                "any_tie": 61,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 61
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.18933333333333333,
+                "+/-": 0.356,
+                "-/+": 0.17866666666666667,
+                "-/-": 0.19466666666666665,
+                "any_tie": 0.08133333333333333,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.08133333333333333
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.6653236460456777,
+              "rms": 0.04684519321908321
+            },
+            "solo_population": {
+              "nll": 0.6871885238872278,
+              "rms": 0.052875340454428967
+            },
+            "solo_individual": {
+              "nll": 0.6903031012153148,
+              "rms": 0.055346877176747813
+            },
+            "distilled_population": {
+              "nll": 0.6688748588775533,
+              "rms": 0.045895445588958673
+            },
+            "distilled_individual": {
+              "nll": 0.6751699667506581,
+              "rms": 0.04903042050904545
+            },
+            "oracle_population": {
+              "nll": 0.6595199310536036,
+              "rms": 0.032200023510027556
+            },
+            "oracle_individual": {
+              "nll": 0.6676139342359959,
+              "rms": 0.03970040687828924
+            }
+          }
+        }
+      }
+    },
+    {
+      "rarity": 25,
+      "kind": "parametric_model_free",
+      "seed": 202614421,
+      "group": {
+        "rare": {
+          "people": 250,
+          "selection": {
+            "population": {
+              "gain": 0.03337615069292181,
+              "change": -0.02594162494075346,
+              "person_quadrant_counts": {
+                "+/+": 22,
+                "+/-": 153,
+                "-/+": 17,
+                "-/-": 58,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.088,
+                "+/-": 0.612,
+                "-/+": 0.068,
+                "-/-": 0.232,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.0324328235136389,
+              "change": -0.021130604298657225,
+              "person_quadrant_counts": {
+                "+/+": 28,
+                "+/-": 132,
+                "-/+": 21,
+                "-/-": 54,
+                "any_tie": 15,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 15
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.112,
+                "+/-": 0.528,
+                "-/+": 0.084,
+                "-/-": 0.216,
+                "any_tie": 0.06,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.06
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.622444875281339,
+              "rms": 0.07051862790120336
+            },
+            "solo_population": {
+              "nll": 0.6601095680358814,
+              "rms": 0.0964434342550324
+            },
+            "solo_individual": {
+              "nll": 0.6653587235239871,
+              "rms": 0.09819930916121636
+            },
+            "distilled_population": {
+              "nll": 0.6267334173429597,
+              "rms": 0.07050180931427895
+            },
+            "distilled_individual": {
+              "nll": 0.6329259000103481,
+              "rms": 0.07706870486255911
+            },
+            "oracle_population": {
+              "nll": 0.6249065824231866,
+              "rms": 0.05354990267583126
+            },
+            "oracle_individual": {
+              "nll": 0.63552240946125,
+              "rms": 0.06697563164481192
+            }
+          }
+        },
+        "typical": {
+          "people": 750,
+          "selection": {
+            "population": {
+              "gain": 0.01853149962289169,
+              "change": -0.005936633568982529,
+              "person_quadrant_counts": {
+                "+/+": 162,
+                "+/-": 283,
+                "-/+": 166,
+                "-/-": 139,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.216,
+                "+/-": 0.37733333333333335,
+                "-/+": 0.22133333333333333,
+                "-/-": 0.18533333333333332,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.016520538877214105,
+              "change": -0.006740400643957742,
+              "person_quadrant_counts": {
+                "+/+": 138,
+                "+/-": 281,
+                "-/+": 124,
+                "-/-": 141,
+                "any_tie": 66,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 66
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.184,
+                "+/-": 0.37466666666666665,
+                "-/+": 0.16533333333333333,
+                "-/-": 0.188,
+                "any_tie": 0.088,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.088
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.6679615584379263,
+              "rms": 0.06187174220436811
+            },
+            "solo_population": {
+              "nll": 0.6887538119150972,
+              "rms": 0.05175571427041278
+            },
+            "solo_individual": {
+              "nll": 0.6934261758444813,
+              "rms": 0.05440356333809113
+            },
+            "distilled_population": {
+              "nll": 0.6702223122922055,
+              "rms": 0.04581908070143026
+            },
+            "distilled_individual": {
+              "nll": 0.6769056369672672,
+              "rms": 0.047663162694133385
+            },
+            "oracle_population": {
+              "nll": 0.6578917586205542,
+              "rms": 0.030393303597280118
+            },
+            "oracle_individual": {
+              "nll": 0.6693259901577734,
+              "rms": 0.039096150238730365
+            }
+          }
+        }
+      }
+    },
+    {
+      "rarity": 25,
+      "kind": "reward_cue",
+      "seed": 202624401,
+      "group": {
+        "rare": {
+          "people": 250,
+          "selection": {
+            "population": {
+              "gain": 0.08027984707521195,
+              "change": -0.09811348739349773,
+              "person_quadrant_counts": {
+                "+/+": 3,
+                "+/-": 178,
+                "-/+": 2,
+                "-/-": 67,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.012,
+                "+/-": 0.712,
+                "-/+": 0.008,
+                "-/-": 0.268,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.07879491730048133,
+              "change": -0.09069170184091806,
+              "person_quadrant_counts": {
+                "+/+": 9,
+                "+/-": 157,
+                "-/+": 11,
+                "-/-": 57,
+                "any_tie": 16,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 16
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.036,
+                "+/-": 0.628,
+                "-/+": 0.044,
+                "-/-": 0.228,
+                "any_tie": 0.064,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.064
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.5771078766980957,
+              "rms": 0.14584781000725344
+            },
+            "solo_population": {
+              "nll": 0.6937254429847017,
+              "rms": 0.24351886411578227
+            },
+            "solo_individual": {
+              "nll": 0.6956032966692809,
+              "rms": 0.24384181845674263
+            },
+            "distilled_population": {
+              "nll": 0.6134455959094899,
+              "rms": 0.14540537672228454
+            },
+            "distilled_individual": {
+              "nll": 0.6168083793687996,
+              "rms": 0.15315011661582456
+            },
+            "oracle_population": {
+              "nll": 0.5990534691646705,
+              "rms": 0.06937404321549616
+            },
+            "oracle_individual": {
+              "nll": 0.601771278470132,
+              "rms": 0.1041539350004214
+            }
+          }
+        },
+        "typical": {
+          "people": 750,
+          "selection": {
+            "population": {
+              "gain": 0.020081827387947424,
+              "change": 0.0018786162665126779,
+              "person_quadrant_counts": {
+                "+/+": 209,
+                "+/-": 253,
+                "-/+": 175,
+                "-/-": 113,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.2786666666666667,
+                "+/-": 0.3373333333333333,
+                "-/+": 0.23333333333333334,
+                "-/-": 0.15066666666666667,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.0149594951929858,
+              "change": 0.0016941776579342776,
+              "person_quadrant_counts": {
+                "+/+": 169,
+                "+/-": 232,
+                "-/+": 168,
+                "-/-": 102,
+                "any_tie": 79,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 79
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.22533333333333333,
+                "+/-": 0.30933333333333335,
+                "-/+": 0.224,
+                "-/-": 0.136,
+                "any_tie": 0.10533333333333333,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.10533333333333333
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.6694030262924546,
+              "rms": 0.11965811249563986
+            },
+            "solo_population": {
+              "nll": 0.6859773448307848,
+              "rms": 0.05244948762764091
+            },
+            "solo_individual": {
+              "nll": 0.6899783355989969,
+              "rms": 0.05538306459015354
+            },
+            "distilled_population": {
+              "nll": 0.6658955174428375,
+              "rms": 0.05432810389415357
+            },
+            "distilled_individual": {
+              "nll": 0.6750188404060112,
+              "rms": 0.05707724224808781
+            },
+            "oracle_population": {
+              "nll": 0.6523761849155694,
+              "rms": 0.032437286684621786
+            },
+            "oracle_individual": {
+              "nll": 0.6631381355476784,
+              "rms": 0.040488636991840375
+            }
+          }
+        }
+      }
+    },
+    {
+      "rarity": 25,
+      "kind": "reward_cue",
+      "seed": 202624411,
+      "group": {
+        "rare": {
+          "people": 250,
+          "selection": {
+            "population": {
+              "gain": 0.09768421115618092,
+              "change": -0.10603629462622291,
+              "person_quadrant_counts": {
+                "+/+": 1,
+                "+/-": 190,
+                "-/+": 0,
+                "-/-": 59,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.004,
+                "+/-": 0.76,
+                "-/+": 0.0,
+                "-/-": 0.236,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.08998324186756633,
+              "change": -0.09642025515769276,
+              "person_quadrant_counts": {
+                "+/+": 3,
+                "+/-": 171,
+                "-/+": 9,
+                "-/-": 52,
+                "any_tie": 15,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 15
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.012,
+                "+/-": 0.684,
+                "-/+": 0.036,
+                "-/-": 0.208,
+                "any_tie": 0.06,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.06
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.5633181446837519,
+              "rms": 0.14915105167885787
+            },
+            "solo_population": {
+              "nll": 0.6947108161234862,
+              "rms": 0.24534000793402228
+            },
+            "solo_individual": {
+              "nll": 0.699039967413686,
+              "rms": 0.24555899554784796
+            },
+            "distilled_population": {
+              "nll": 0.5970266049673053,
+              "rms": 0.13930371330779934
+            },
+            "distilled_individual": {
+              "nll": 0.6090567255461197,
+              "rms": 0.1491387403901552
+            },
+            "oracle_population": {
+              "nll": 0.5711685945530435,
+              "rms": 0.0727912750376669
+            },
+            "oracle_individual": {
+              "nll": 0.586511227125281,
+              "rms": 0.1013428756207517
+            }
+          }
+        },
+        "typical": {
+          "people": 750,
+          "selection": {
+            "population": {
+              "gain": 0.01349643606714253,
+              "change": 0.0027373795450250627,
+              "person_quadrant_counts": {
+                "+/+": 204,
+                "+/-": 232,
+                "-/+": 199,
+                "-/-": 115,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.272,
+                "+/-": 0.30933333333333335,
+                "-/+": 0.2653333333333333,
+                "-/-": 0.15333333333333332,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.012320587773926046,
+              "change": 0.0007384124476567629,
+              "person_quadrant_counts": {
+                "+/+": 178,
+                "+/-": 238,
+                "-/+": 150,
+                "-/-": 110,
+                "any_tie": 74,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 74
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.23733333333333334,
+                "+/-": 0.31733333333333336,
+                "-/+": 0.2,
+                "-/-": 0.14666666666666667,
+                "any_tie": 0.09866666666666667,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.09866666666666667
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.6737326271706551,
+              "rms": 0.10940030732123213
+            },
+            "solo_population": {
+              "nll": 0.6888705351245001,
+              "rms": 0.05027290739445802
+            },
+            "solo_individual": {
+              "nll": 0.6928583094725248,
+              "rms": 0.05335906981095548
+            },
+            "distilled_population": {
+              "nll": 0.6753740990573577,
+              "rms": 0.05301028693948308
+            },
+            "distilled_individual": {
+              "nll": 0.6805377216985988,
+              "rms": 0.05409748225861224
+            },
+            "oracle_population": {
+              "nll": 0.6590589529981511,
+              "rms": 0.02913911132399352
+            },
+            "oracle_individual": {
+              "nll": 0.6686242944548434,
+              "rms": 0.038333377601617834
+            }
+          }
+        }
+      }
+    },
+    {
+      "rarity": 25,
+      "kind": "reward_cue",
+      "seed": 202624421,
+      "group": {
+        "rare": {
+          "people": 250,
+          "selection": {
+            "population": {
+              "gain": 0.06852135730199518,
+              "change": -0.08280215355258899,
+              "person_quadrant_counts": {
+                "+/+": 2,
+                "+/-": 174,
+                "-/+": 4,
+                "-/-": 70,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.008,
+                "+/-": 0.696,
+                "-/+": 0.016,
+                "-/-": 0.28,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.06780424219324474,
+              "change": -0.07697690174386206,
+              "person_quadrant_counts": {
+                "+/+": 6,
+                "+/-": 151,
+                "-/+": 5,
+                "-/-": 68,
+                "any_tie": 20,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 20
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.024,
+                "+/-": 0.604,
+                "-/+": 0.02,
+                "-/-": 0.272,
+                "any_tie": 0.08,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.08
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.5945005589948302,
+              "rms": 0.12634237150468688
+            },
+            "solo_population": {
+              "nll": 0.6947392034507132,
+              "rms": 0.24050167433079042
+            },
+            "solo_individual": {
+              "nll": 0.6976028734521644,
+              "rms": 0.24068673557254544
+            },
+            "distilled_population": {
+              "nll": 0.626217846148718,
+              "rms": 0.15769952077820146
+            },
+            "distilled_individual": {
+              "nll": 0.6297986312589197,
+              "rms": 0.1637098338286834
+            },
+            "oracle_population": {
+              "nll": 0.607177184771027,
+              "rms": 0.07188437636120182
+            },
+            "oracle_individual": {
+              "nll": 0.6011509677052593,
+              "rms": 0.09854632231285815
+            }
+          }
+        },
+        "typical": {
+          "people": 750,
+          "selection": {
+            "population": {
+              "gain": 0.009072437412466227,
+              "change": 0.007887803226964689,
+              "person_quadrant_counts": {
+                "+/+": 223,
+                "+/-": 198,
+                "-/+": 221,
+                "-/-": 108,
+                "any_tie": 0,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 0
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.29733333333333334,
+                "+/-": 0.264,
+                "-/+": 0.2946666666666667,
+                "-/-": 0.144,
+                "any_tie": 0.0,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.0
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            },
+            "individual": {
+              "gain": 0.00880549506656068,
+              "change": 0.004287422407633624,
+              "person_quadrant_counts": {
+                "+/+": 182,
+                "+/-": 212,
+                "-/+": 177,
+                "-/-": 111,
+                "any_tie": 68,
+                "gain_only_tie": 0,
+                "assay_only_tie": 0,
+                "both_tied": 68
+              },
+              "person_quadrant_fractions": {
+                "+/+": 0.24266666666666667,
+                "+/-": 0.2826666666666667,
+                "-/+": 0.236,
+                "-/-": 0.148,
+                "any_tie": 0.09066666666666667,
+                "gain_only_tie": 0.0,
+                "assay_only_tie": 0.0,
+                "both_tied": 0.09066666666666667
+              },
+              "near_zero_nonzero_gain": 0,
+              "near_zero_nonzero_change": 0
+            }
+          },
+          "models": {
+            "teacher": {
+              "nll": 0.6801269384051069,
+              "rms": 0.15754833845228197
+            },
+            "solo_population": {
+              "nll": 0.686105132535624,
+              "rms": 0.050904972126279556
+            },
+            "solo_individual": {
+              "nll": 0.6905901918187616,
+              "rms": 0.054024578879726705
+            },
+            "distilled_population": {
+              "nll": 0.6770326951231578,
+              "rms": 0.05879277535324425
+            },
+            "distilled_individual": {
+              "nll": 0.6817846967522011,
+              "rms": 0.058312001287360325
+            },
+            "oracle_population": {
+              "nll": 0.6595403672477138,
+              "rms": 0.03096743899631292
+            },
+            "oracle_individual": {
+              "nll": 0.668056297284874,
+              "rms": 0.038886874021546475
+            }
+          }
+        }
+      }
+    }
+  ],
+  "maximum_saved_discrepancies": {
+    "true_signature": 1.2212453270876722e-15,
+    "prediction_gain": 6.938893903907228e-17,
+    "behavioral_distortion": 5.551115123125783e-17,
+    "quadrant_fraction": 0
+  },
+  "issues": []
+}

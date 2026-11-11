@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "populations": 24,
+  "rarity_strategy_cells": 8,
+  "groups": [
+    "rare",
+    "typical"
+  ],
+  "selection_rules": [
+    "population",
+    "individual"
+  ],
+  "signs_and_person_quadrant_counts_require_exact_agreement": true,
+  "absolute_tolerance": 1e-12,
+  "maximum_absolute_differences": {
+    "per_seed_gain": 6.938893903907228e-17,
+    "per_seed_change": 4.5102810375396984e-17,
+    "cell_mean_gain": 1.3877787807814457e-17,
+    "cell_mean_change": 2.2551405187698492e-17
+  },
+  "issues": 0
+}

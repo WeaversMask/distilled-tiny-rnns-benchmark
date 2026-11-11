@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, please cite this software and the release version used."
+title: Distilled Tiny RNNs
+type: software
+authors:
+  - family-names: WeaversMask
+    website: https://github.com/WeaversMask
+version: 0.1.0
+license: MIT
+repository-code: https://github.com/WeaversMask/distilled-tiny-rnns-benchmark
+abstract: >-
+  A synthetic two-stage decision benchmark for comparing held-out choice
+  prediction and behavioral fidelity across solo and distilled recurrent models.

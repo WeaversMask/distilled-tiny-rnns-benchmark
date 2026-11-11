@@ -1,0 +1,29 @@
+{
+  "repository": "https://github.com/jil095/tinyRNN",
+  "commit": "a8fc159a2b2d451be6756ae244b29b7d991aac1f",
+  "retrieved_date": "2026-11-04",
+  "file_sha256": {
+    "path_settings.py": "68654a5082e67c8702f533b1ac8d5cf34101ce20fa5c3f9eb67db5d166cf8872",
+    "agents/BaseAgent.py": "b4e87daba0131dac1baaa256ae6b5a6b11a72fc5a45992194b50ebbb767b0c97",
+    "agents/RNNAgent.py": "a4306265bfa3b5488ca5aec5f5ce673df7140c07aacbe3587a412e0b5fcfb1e1",
+    "agents/RNNAgentTrainer.py": "7a9d4940927929b0a86c506fb97f94b03b7a17d2e584952fc6296d12b68ebd11",
+    "agents/network_models.py": "ea47154fa6b5f7a2fac26c0e21a5a5b45b00d8a35534a063edb5258c478f4604",
+    "agents/custom_rnn_layers.py": "948f6cd10fdd3acfea7c272673d384d68b23a392b9e0ebab4b046be949be2a9c",
+    "datasets/BaseTwoStepDataset.py": "b32256c199889ab1c3cca4557278064a073b1ba1f207efaf296fecfb26dcae34",
+    "datasets/GillanHumanDataset.py": "1d8f0d7f7ef702521cb5e81b39dc8fa20cfe95a6b4b6cc3620d769182f2d43b0",
+    "training_experiments/training.py": "975f0dc5fd7317dacb8148af143944b4bc43ce397737de8b8886e1e6e7932021",
+    "training_experiments/exp_Gillan_splittrial.py": "526b6709ce116dd76d19f5af80c9bf8ca37a3893bfad8d6e7291dad5f385d0a0"
+  },
+  "fixture": {
+    "n_subjects": 4,
+    "n_trials": 200,
+    "data_seed": 202611041,
+    "initialization_seed": 202611044,
+    "max_epoch_num": 100,
+    "student_hidden_sizes": [
+      2,
+      5
+    ]
+  },
+  "scope": "Synthetic representative alignment; no human data and no complete reproduction."
+}

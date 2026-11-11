@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "protocol_id": "main-study-v1-20261104",
+  "status": "frozen_prospective_design",
+  "scope": "Finite-grid synthetic strategy-preservation benchmark; first tranche before broader grid.",
+  "population": {
+    "subjects": 1000,
+    "rarity_levels": [
+      0.02,
+      0.05,
+      0.1,
+      0.25
+    ],
+    "history_levels": [
+      100,
+      200,
+      350,
+      1000
+    ],
+    "rare_kinds": [
+      "parametric_model_free",
+      "reward_cue"
+    ],
+    "replications": 3,
+    "typical_weight": [
+      0.4,
+      0.8
+    ],
+    "rare_parametric_weight": [
+      0.0
+    ],
+    "alpha": [
+      0.2,
+      0.6
+    ],
+    "beta": [
+      2.0,
+      6.0
+    ],
+    "cue_reliability": [
+      0.6,
+      0.75,
+      0.9
+    ],
+    "parameter_sampling": "Independent discrete uniform draws from each listed support. Exact rare count rounded half-up and assigned by seeded permutation."
+  },
+  "release_order": {
+    "first_tranche_rarity": 0.02,
+    "first_tranche_history": 100,
+    "first_tranche_populations": 6,
+    "broader_grid_populations": 96,
+    "gate": "Complete and report the six populations with all arms. Stage broader compute using measured full runtime; retain the frozen design regardless of result direction.",
+    "additional_populations_after_first_tranche": 90
+  },
+  "seeds": {
+    "data_formula": "202611400 + 10000*kind_index + 1000*rarity_index + 100*history_index + 10*replication_index + 1",
+    "indexing": "All indices zero-based in listed order.",
+    "split_offset": 1,
+    "teacher_initialization_offset": 2,
+    "student_initialization_offset": 3,
+    "additional_starting_points": 0
+  },
+  "neural_recipe": {
+    "implementation": "Project first-stage GRU adaptation documented in published-method-alignment.md",
+    "teacher_hidden": 32,
+    "student_hidden": 2,
+    "teacher_steps_maximum": 500,
+    "student_steps": 4000,
+    "learning_rate": 0.01,
+    "optimizer": "Adam",
+    "solo_l2": 0.1,
+    "soft_student_l2": 0.0,
+    "teacher_prop": 1.0,
+    "temperature": 1.0,
+    "eval_every": 10,
+    "teacher_patience": 20,
+    "primary_selection": "Population mean observed-choice validation NLL, strict improvement, earliest tie retained.",
+    "secondary_selection": "Per-person observed-choice validation NLL, same trajectory and earliest tie.",
+    "split": "Independent seeded interspersed 60/20/20 masks per person.",
+    "training_budget_basis": "Retain the recipe fixed before notebook 06 for continuity and bounded compute. No test-score-based choice between its examined horizons."
+  },
+  "comparisons": [
+    "teacher",
+    "solo",
+    "teacher_target_student",
+    "oracle_target_student",
+    "individual_grid_ml",
+    "pooled_grid_ml",
+    "hierarchical_hybrid",
+    "hierarchical_hybrid_cue_mixture",
+    "coinflip",
+    "training_frequency"
+  ],
+  "baseline_recipe": {
+    "hybrid_grid_weight": [
+      0.0,
+      0.4,
+      0.8
+    ],
+    "hybrid_grid_alpha": [
+      0.2,
+      0.6
+    ],
+    "hybrid_grid_beta": [
+      2.0,
+      6.0
+    ],
+    "cue_grid": [
+      0.6,
+      0.75,
+      0.9
+    ],
+    "hybrid_population_pseudocount_per_point": 0.1,
+    "between_family_pseudocount_per_family": 0.1,
+    "within_family_prior": "Uniform normalized within each family; average likelihood before estimating family weights.",
+    "em_maximum_iterations": 2000,
+    "em_relative_objective_tolerance": 1e-10,
+    "fitting": "First-stage observed training choices only. Group labels and true parameters reserved for scoring."
+  },
+  "primary_outcome": {
+    "unit": "Population, with equal-person rare-group means",
+    "contrast": "Teacher-target student against solo, population-selected states",
+    "prediction_gain": "solo test NLL minus student test NLL",
+    "behavioral_distortion": "student signature RMS error minus solo signature RMS error",
+    "report": "Report both coordinates and their paired seed directions. Positive in both coordinates denotes better sampled prediction and worse strategy-assay fidelity."
+  },
+  "behavioral_assay": {
+    "history_bank": "All 256 lexicographic binary two-trial histories, field order first_action,state,second_action,reward",
+    "horizon_choices": 3,
+    "transition_common_probability": 0.7,
+    "second_action_one_probability": 0.5,
+    "reward_probability": 0.5,
+    "signature_order": [
+      "unrewarded_rare",
+      "unrewarded_common",
+      "rewarded_rare",
+      "rewarded_common"
+    ],
+    "signature": "Exact probability of repeating the second first-stage action at the third choice, conditional on second-trial reward and transition. Weight histories by each fitted policy's own previous first-stage choices.",
+    "rms_error": "Square root of the equally weighted mean of four squared differences from that person's generating-policy signature.",
+    "pull": "Projection of fitted-minus-true signature onto true-majority-mean-minus-true signature, divided by squared norm of that direction. Denominator <=1e-12 gives null.",
+    "hierarchical_policy": "Hold each person's training-posterior weights fixed. At each history average candidate action probabilities using those weights. Candidate value states follow that history. No persistent latent-candidate draw and no posterior updates from assay choices."
+  },
+  "secondary_outcomes": {
+    "conditional_prediction": [
+      "overall_test_nll",
+      "overall_true_policy_kl",
+      "diagnostic_test_nll",
+      "diagnostic_true_policy_kl"
+    ],
+    "diagnostic_threshold": 0.2,
+    "diagnostic_reference": "Hybrid weight 0.75 with the person's stage-two alpha and beta on the same history.",
+    "probe_policy_kl": "Mean KL(true Bernoulli || fitted Bernoulli) at the third choice, uniform over 256 fixed histories.",
+    "other": [
+      "four_signature_cells",
+      "signed_pull",
+      "teacher_and_oracle_contrasts",
+      "same_contrasts_in_typical_group",
+      "family_posteriors",
+      "diagnostic_support",
+      "individual_selection_sensitivity"
+    ]
+  },
+  "stopping_and_reporting": {
+    "aggregation": "Equal people within groups then equal populations. Unsupported diagnostics remain null with counts. Separate protocols and rare kinds.",
+    "stopping": "Finish every planned arm at the fixed budget. Resume interrupted trajectories without resetting optimizer, RNG or selection. Numerical failures must be diagnosed and logged.",
+    "completion": "Aggregate only a complete planned tranche; report interruptions explicitly.",
+    "inference": "Descriptive means, ranges, and seed directions. Three populations per cell; no confirmatory significance declaration.",
+    "interpretation": "Behavioral preservation requires agreement on the declared assay alongside conditional prediction. Short-history family uncertainty is reported.",
+    "future_changes": "Amend protocol before new data are evaluated. Preserve all prior versions and outcomes. Off-grid populations, human data, extra capacities, teacher interventions and longer horizons need separate prospective designs."
+  }
+}

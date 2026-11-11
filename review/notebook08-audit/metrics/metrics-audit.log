@@ -1,0 +1,43 @@
+prior 2% 202611401 0 issue(s)
+prior 2% 202611411 0 issue(s)
+prior 2% 202611421 0 issue(s)
+prior 2% 202621401 0 issue(s)
+prior 2% 202621411 0 issue(s)
+prior 2% 202621421 0 issue(s)
+production 5% 202612401 0 issue(s)
+production 5% 202612411 0 issue(s)
+production 5% 202612421 0 issue(s)
+production 5% 202622401 0 issue(s)
+production 5% 202622411 0 issue(s)
+production 5% 202622421 0 issue(s)
+production 10% 202613401 0 issue(s)
+production 10% 202613411 0 issue(s)
+production 10% 202613421 0 issue(s)
+production 10% 202623401 0 issue(s)
+production 10% 202623411 0 issue(s)
+production 10% 202623421 0 issue(s)
+production 25% 202614401 0 issue(s)
+production 25% 202614411 0 issue(s)
+production 25% 202614421 0 issue(s)
+production 25% 202624401 0 issue(s)
+production 25% 202624411 0 issue(s)
+production 25% 202624421 0 issue(s)
+smoke 30% 81001 0 issue(s)
+smoke 30% 81011 0 issue(s)
+smoke 30% 81101 0 issue(s)
+smoke 30% 81111 0 issue(s)
+smoke 40% 82001 0 issue(s)
+smoke 40% 82011 0 issue(s)
+smoke 40% 82101 0 issue(s)
+smoke 40% 82111 0 issue(s)
+smoke 50% 83001 0 issue(s)
+smoke 50% 83011 0 issue(s)
+smoke 50% 83101 0 issue(s)
+smoke 50% 83111 0 issue(s)
+prior 2% passed 65220682 {'true_probe': 1.1102230246251565e-16, 'metrics': 8.08242361927114e-14, 'baseline_prediction': 1.9984014443252818e-15, 'baseline_probe': 9.992007221626409e-16, 'baseline_metadata': 9.547918011776346e-15, 'independent_ml_log_likelihood': 0.0, 'independent_baseline_metadata': 1.2545520178264269e-14, 'independent_reference_probability': 4.996003610813204e-16, 'independent_diagnostic_mask': 0.0, 'independent_baseline_prediction': 2.220446049250313e-15, 'independent_baseline_probe': 1.3322676295501878e-15, 'quadrants': 0.0, 'summary': 3.3306690738754696e-15} []
+production 5% passed 65220683 {'true_probe': 1.1102230246251565e-16, 'metrics': 8.615330671091215e-14, 'baseline_prediction': 1.3322676295501878e-15, 'baseline_probe': 7.771561172376096e-16, 'baseline_metadata': 1.454392162258955e-14, 'independent_ml_log_likelihood': 0.0, 'independent_baseline_metadata': 2.1760371282653068e-14, 'independent_reference_probability': 5.551115123125783e-16, 'independent_diagnostic_mask': 0.0, 'independent_baseline_prediction': 2.275957200481571e-15, 'independent_baseline_probe': 1.2212453270876722e-15, 'quadrants': 0.0, 'summary': 7.549516567451064e-15} []
+production 10% passed 65220683 {'true_probe': 2.220446049250313e-16, 'metrics': 1.2789769243681803e-13, 'baseline_prediction': 1.7208456881689926e-15, 'baseline_probe': 1.3322676295501878e-15, 'baseline_metadata': 6.994405055138486e-15, 'independent_ml_log_likelihood': 0.0, 'independent_baseline_metadata': 1.7819079545233762e-14, 'independent_reference_probability': 4.996003610813204e-16, 'independent_diagnostic_mask': 0.0, 'independent_baseline_prediction': 1.5543122344752192e-15, 'independent_baseline_probe': 1.3322676295501878e-15, 'quadrants': 0.0, 'summary': 4.6629367034256575e-15} []
+production 25% passed 65220683 {'true_probe': 3.3306690738754696e-16, 'metrics': 9.414691248821327e-14, 'baseline_prediction': 1.4432899320127035e-15, 'baseline_probe': 7.771561172376096e-16, 'baseline_metadata': 1.201816424156732e-14, 'independent_ml_log_likelihood': 0.0, 'independent_baseline_metadata': 1.2989609388114332e-14, 'independent_reference_probability': 4.440892098500626e-16, 'independent_diagnostic_mask': 0.0, 'independent_baseline_prediction': 1.7763568394002505e-15, 'independent_baseline_probe': 1.5543122344752192e-15, 'quadrants': 0.0, 'summary': 1.199040866595169e-14} []
+smoke 30% passed 397769 {'true_probe': 2.220446049250313e-16, 'metrics': 1.8474111129762605e-13, 'baseline_prediction': 4.440892098500626e-16, 'baseline_probe': 5.551115123125783e-16, 'baseline_metadata': 4.718447854656915e-16, 'independent_ml_log_likelihood': 0.0, 'independent_baseline_metadata': 8.881784197001252e-16, 'independent_reference_probability': 3.3306690738754696e-16, 'independent_diagnostic_mask': 0.0, 'independent_baseline_prediction': 5.551115123125783e-16, 'independent_baseline_probe': 4.440892098500626e-16, 'quadrants': 0.0, 'summary': 3.241851231905457e-14} []
+smoke 40% passed 397769 {'true_probe': 2.220446049250313e-16, 'metrics': 3.730349362740526e-14, 'baseline_prediction': 3.3306690738754696e-16, 'baseline_probe': 4.440892098500626e-16, 'baseline_metadata': 3.885780586188048e-16, 'independent_ml_log_likelihood': 0.0, 'independent_baseline_metadata': 1.1379786002407855e-15, 'independent_reference_probability': 3.3306690738754696e-16, 'independent_diagnostic_mask': 0.0, 'independent_baseline_prediction': 3.3306690738754696e-16, 'independent_baseline_probe': 4.440892098500626e-16, 'quadrants': 0.0, 'summary': 7.93809462606987e-15} []
+smoke 50% passed 397769 {'true_probe': 2.220446049250313e-16, 'metrics': 5.639932965095795e-14, 'baseline_prediction': 3.3306690738754696e-16, 'baseline_probe': 3.3306690738754696e-16, 'baseline_metadata': 4.440892098500626e-16, 'independent_ml_log_likelihood': 0.0, 'independent_baseline_metadata': 6.661338147750939e-16, 'independent_reference_probability': 2.7755575615628914e-16, 'independent_diagnostic_mask': 0.0, 'independent_baseline_prediction': 4.440892098500626e-16, 'independent_baseline_probe': 5.551115123125783e-16, 'quadrants': 0.0, 'summary': 1.1587952819525071e-14} []

@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-05",
+  "status": "passed",
+  "scope": "Read-only completion/integrity and independently reconstructed scientific results from notebook07",
+  "source_sha256": "b5c5aa888e9b9ba00e9e8c69486c740a40efaf134bcda41397d8980fc4944372",
+  "inputs": {
+    "production": {
+      "path": "main-study-first-tranche-v1",
+      "files": 87,
+      "all_files_unchanged": true,
+      "integrity_checks": 993,
+      "independent_raw_elements_compared": 32592382,
+      "maximum_errors": {
+        "true_probe": 1.1102230246251565e-16,
+        "metrics": 1.5631940186722204e-13,
+        "baseline_prediction": 1.9984014443252818e-15,
+        "baseline_probe": 9.992007221626409e-16,
+        "baseline_metadata": 9.547918011776346e-15,
+        "summary": 4.6629367034256575e-15
+      }
+    },
+    "smoke": {
+      "path": "main-study-smoke-b5c5aa888e9b",
+      "files": 59,
+      "all_files_unchanged": true,
+      "integrity_checks": 665,
+      "independent_raw_elements_compared": 207246,
+      "maximum_errors": {
+        "true_probe": 2.220446049250313e-16,
+        "metrics": 1.0524914273446484e-13,
+        "baseline_prediction": 3.3306690738754696e-16,
+        "baseline_probe": 3.3306690738754696e-16,
+        "baseline_metadata": 7.216449660063518e-16,
+        "summary": 2.0761170560490427e-14
+      }
+    }
+  },
+  "checks": {
+    "independent_interpretation_review": "passed",
+    "new_script_syntax": "passed",
+    "output_path_protection": "all three scripts reject writing into input folders",
+    "report_links": "all resolve",
+    "figure": "rendered and visually inspected"
+  },
+  "source_changes": "No changes to main_study, foundation, original numerical package, notebooks, frozen protocol or scientific tolerances.",
+  "artifact_sha256": {
+    "scripts/verify_main_study_integrity.py": "3188293300b9c1f14e20e772dd9449866858dd0129f8e4508c95e2037309a175",
+    "scripts/verify_main_study_metrics.py": "3f2cda64d61f6293a5d6476aaf62af136720bbfa4ea0c03d7efa3a7f804e15e3",
+    "scripts/plot_main_study_results.py": "7efd59cd7b11e95be82f9b2be3968b0a3e64d90fd73c86421b418e85a98034da",
+    "docs/figures/main-study-first-tranche-primary.png": "0a06a3bd88d084a5ce1ff372159ca89fefd56ab832ac75e3d49d009815b5cd35"
+  }
+}

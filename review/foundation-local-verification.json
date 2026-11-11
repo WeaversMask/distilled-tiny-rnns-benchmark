@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-04",
+  "scope": "Read-only notebook-06 audit and bounded foundation checks; prospective protocol before main evaluation",
+  "working_base_commit": "dc5ec43fd05bb49d8b0c7035aa2b8555b86addea",
+  "numerical_source_sha256": "a7394cdff009e97f1130e135e8439e5ae70295f0fb7b29e01eba771831a659a0",
+  "full_suite": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 python -m pytest -q -p no:cacheprovider",
+    "passed": 376,
+    "skipped": 4,
+    "skip_reason": "CUDA-specific checks on CPU environment",
+    "seconds": 29.57,
+    "warnings": "One intentional malformed-ZIP fixture warns about a duplicate archive member."
+  },
+  "independent_review": {
+    "status": "pass",
+    "open_findings": 0,
+    "record": "review/foundation-independent-review.md"
+  },
+  "results_audits": {
+    "budget-check": {
+      "checks": 482173,
+      "file_count": 125,
+      "maximum_cpu_probability_error": 3.159046173095703e-06,
+      "status": "passed"
+    },
+    "budget-smoke": {
+      "checks": 2768,
+      "file_count": 53,
+      "maximum_cpu_probability_error": 4.76837158203125e-07,
+      "status": "passed"
+    }
+  },
+  "foundation_fixture_hashes_current": true,
+  "main_study_status": "Protocol frozen. Runner and independently reviewed Colab release are the next implementation milestone.",
+  "prospective_config_sha256": "1e8762df6fc01919dd3cfc432e96b78ed1d3fe1a25c26859edd9674cd501821e",
+  "verification_script_sha256": "6f29bead9b316d88d1ac9f382a41156074fce4835715908dd4000105f8833005"
+}

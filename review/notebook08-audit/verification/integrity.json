@@ -1,0 +1,2238 @@
+{
+  "audit_mode": "Read-only. No runner, fitting, resume, or notebook cells called.",
+  "elapsed_time_absolute_tolerance_seconds": 1e-10,
+  "file_sha256_before": "inventory-before.json",
+  "checkpoint_load": {
+    "torch": "2.4.1",
+    "python": "3.11.5 (main, Sep 11 2023, 08:31:25) [Clang 14.0.6 ]",
+    "map_location": "cpu",
+    "weights_only": true
+  },
+  "provenance": {
+    "checkout": ".",
+    "checkout_head": "3a943d9d1c8c2ceebfa2173b96fa8e54b98806f5",
+    "runtime_commit": "87f5068a637377089fe0ea7087a13211a9ea8d2b",
+    "notebook_release_commit": "92521ec26f1030443cde325530f50f3f479b18b4",
+    "notebook_sha256": "764feeac07e7f9aa22e6f07bd60c539257af05c6d0b26ae20d5eee9673fbf332",
+    "core_source_sha256": "b5c5aa888e9b9ba00e9e8c69486c740a40efaf134bcda41397d8980fc4944372",
+    "grid_source_sha256": "a4582314a2b34289883f526366298f6604bb4c1e327856d068ee91e2c494c9df",
+    "frozen_design_sha256": "1e8762df6fc01919dd3cfc432e96b78ed1d3fe1a25c26859edd9674cd501821e",
+    "runtime_checkout_file_comparisons": 30,
+    "release_checkout_file_comparisons": 2
+  },
+  "prior_baseline": {
+    "path": "main-study-first-tranche-v1",
+    "protocol_sha256": "43112ad9a9ec3c052cb4cc229ada2027403152910f5f6df6cc02886777ff948a",
+    "completion_manifest_entries": 80,
+    "population_count": 6,
+    "subjects_per_population": 1000,
+    "trials_per_subject": 100,
+    "rare_fraction": 0.02,
+    "cumulative_training_seconds": 7028.766201504999,
+    "training_only_t4_units": 2.0891055098917635,
+    "runner_wall": {
+      "known_seconds": 7131.496624232,
+      "all_seconds": 7131.496624232,
+      "recorded": 4,
+      "total": 4,
+      "statuses": {
+        "incomplete": 3,
+        "complete": 1
+      }
+    },
+    "populations": [
+      {
+        "kind": "parametric_model_free",
+        "seed": 202611401,
+        "path": "main-study-first-tranche-v1/parametric_model_free/seed-202611401",
+        "protocol_sha256": "43112ad9a9ec3c052cb4cc229ada2027403152910f5f6df6cc02886777ff948a",
+        "file_count": 14,
+        "sessions": [
+          {
+            "status": "complete",
+            "phase": null,
+            "device": "cuda",
+            "gpu": "Tesla T4",
+            "cuda": "13.0",
+            "cudnn": 92700,
+            "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+            "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+            "torch_threads": 1,
+            "packages": {
+              "torch": "2.11.0+cu130",
+              "numpy": "2.4.6",
+              "matplotlib": "3.10.0"
+            },
+            "package_inventory_sha256": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729",
+            "started_utc": "2026-11-04T18:37:25.397840+00:00",
+            "wall_seconds": 1183.210198068
+          }
+        ],
+        "session_wall": {
+          "known_seconds": 1183.210198068,
+          "all_seconds": 1183.210198068,
+          "recorded": 1,
+          "total": 1,
+          "statuses": {
+            "complete": 1
+          }
+        },
+        "arm_seconds": {
+          "teacher": 2.8426691509999955,
+          "solo": 389.959565837,
+          "distilled": 387.424651196,
+          "oracle": 388.63062173699996
+        },
+        "cumulative_training_seconds": 1168.857507921,
+        "training_only_t4_units": 0.34741042596540833
+      },
+      {
+        "kind": "parametric_model_free",
+        "seed": 202611411,
+        "path": "main-study-first-tranche-v1/parametric_model_free/seed-202611411",
+        "protocol_sha256": "43112ad9a9ec3c052cb4cc229ada2027403152910f5f6df6cc02886777ff948a",
+        "file_count": 14,
+        "sessions": [
+          {
+            "status": "incomplete",
+            "phase": "distilled",
+            "device": "cuda",
+            "gpu": "Tesla T4",
+            "cuda": "13.0",
+            "cudnn": 92700,
+            "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+            "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+            "torch_threads": 1,
+            "packages": {
+              "torch": "2.11.0+cu130",
+              "numpy": "2.4.6",
+              "matplotlib": "3.10.0"
+            },
+            "package_inventory_sha256": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729",
+            "started_utc": "2026-11-04T18:57:09.529717+00:00",
+            "wall_seconds": 616.1967395080001
+          },
+          {
+            "status": "complete",
+            "phase": null,
+            "device": "cuda",
+            "gpu": "Tesla T4",
+            "cuda": "13.0",
+            "cudnn": 92700,
+            "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+            "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+            "torch_threads": 1,
+            "packages": {
+              "torch": "2.11.0+cu130",
+              "numpy": "2.4.6",
+              "matplotlib": "3.10.0"
+            },
+            "package_inventory_sha256": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729",
+            "started_utc": "2026-11-04T19:12:21.047923+00:00",
+            "wall_seconds": 565.888639885
+          }
+        ],
+        "session_wall": {
+          "known_seconds": 1182.085379393,
+          "all_seconds": 1182.085379393,
+          "recorded": 2,
+          "total": 2,
+          "statuses": {
+            "incomplete": 1,
+            "complete": 1
+          }
+        },
+        "arm_seconds": {
+          "teacher": 2.479593345000012,
+          "solo": 386.67736848200025,
+          "distilled": 389.86107515000003,
+          "oracle": 384.37940888599996
+        },
+        "cumulative_training_seconds": 1163.3974458630003,
+        "training_only_t4_units": 0.3457875741870584
+      },
+      {
+        "kind": "parametric_model_free",
+        "seed": 202611421,
+        "path": "main-study-first-tranche-v1/parametric_model_free/seed-202611421",
+        "protocol_sha256": "43112ad9a9ec3c052cb4cc229ada2027403152910f5f6df6cc02886777ff948a",
+        "file_count": 14,
+        "sessions": [
+          {
+            "status": "complete",
+            "phase": null,
+            "device": "cuda",
+            "gpu": "Tesla T4",
+            "cuda": "13.0",
+            "cudnn": 92700,
+            "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+            "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+            "torch_threads": 1,
+            "packages": {
+              "torch": "2.11.0+cu130",
+              "numpy": "2.4.6",
+              "matplotlib": "3.10.0"
+            },
+            "package_inventory_sha256": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729",
+            "started_utc": "2026-11-04T19:21:47.584817+00:00",
+            "wall_seconds": 1200.2648935569996
+          }
+        ],
+        "session_wall": {
+          "known_seconds": 1200.2648935569996,
+          "all_seconds": 1200.2648935569996,
+          "recorded": 1,
+          "total": 1,
+          "statuses": {
+            "complete": 1
+          }
+        },
+        "arm_seconds": {
+          "teacher": 2.502291439000146,
+          "solo": 389.93876106000016,
+          "distilled": 395.2871141380001,
+          "oracle": 396.69846030899953
+        },
+        "cumulative_training_seconds": 1184.426626946,
+        "training_only_t4_units": 0.35203791412006114
+      },
+      {
+        "kind": "reward_cue",
+        "seed": 202621401,
+        "path": "main-study-first-tranche-v1/reward_cue/seed-202621401",
+        "protocol_sha256": "43112ad9a9ec3c052cb4cc229ada2027403152910f5f6df6cc02886777ff948a",
+        "file_count": 14,
+        "sessions": [
+          {
+            "status": "incomplete",
+            "phase": "solo",
+            "device": "cuda",
+            "gpu": "Tesla T4",
+            "cuda": "13.0",
+            "cudnn": 92700,
+            "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+            "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+            "torch_threads": 1,
+            "packages": {
+              "torch": "2.11.0+cu130",
+              "numpy": "2.4.6",
+              "matplotlib": "3.10.0"
+            },
+            "package_inventory_sha256": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729",
+            "started_utc": "2026-11-04T19:41:48.367011+00:00",
+            "wall_seconds": 32.870993161000115
+          },
+          {
+            "status": "complete",
+            "phase": null,
+            "device": "cuda",
+            "gpu": "Tesla T4",
+            "cuda": "13.0",
+            "cudnn": 92700,
+            "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+            "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+            "torch_threads": 1,
+            "packages": {
+              "torch": "2.11.0+cu130",
+              "numpy": "2.4.6",
+              "matplotlib": "3.10.0"
+            },
+            "package_inventory_sha256": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729",
+            "started_utc": "2026-11-04T20:05:47.186112+00:00",
+            "wall_seconds": 1172.370777133
+          }
+        ],
+        "session_wall": {
+          "known_seconds": 1205.2417702940002,
+          "all_seconds": 1205.2417702940002,
+          "recorded": 2,
+          "total": 2,
+          "statuses": {
+            "incomplete": 1,
+            "complete": 1
+          }
+        },
+        "arm_seconds": {
+          "teacher": 2.9118923930000165,
+          "solo": 397.3006177019997,
+          "distilled": 394.3157280639998,
+          "oracle": 394.2874137300005
+        },
+        "cumulative_training_seconds": 1188.815651889,
+        "training_only_t4_units": 0.35334242986700837
+      },
+      {
+        "kind": "reward_cue",
+        "seed": 202621411,
+        "path": "main-study-first-tranche-v1/reward_cue/seed-202621411",
+        "protocol_sha256": "43112ad9a9ec3c052cb4cc229ada2027403152910f5f6df6cc02886777ff948a",
+        "file_count": 14,
+        "sessions": [
+          {
+            "status": "incomplete",
+            "phase": "distilled",
+            "device": "cuda",
+            "gpu": "Tesla T4",
+            "cuda": "13.0",
+            "cudnn": 92700,
+            "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+            "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+            "torch_threads": 1,
+            "packages": {
+              "torch": "2.11.0+cu130",
+              "numpy": "2.4.6",
+              "matplotlib": "3.10.0"
+            },
+            "package_inventory_sha256": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729",
+            "started_utc": "2026-11-04T20:25:20.355720+00:00",
+            "wall_seconds": 626.4155197179998
+          },
+          {
+            "status": "complete",
+            "phase": null,
+            "device": "cuda",
+            "gpu": "Tesla T4",
+            "cuda": "13.0",
+            "cudnn": 92700,
+            "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+            "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+            "torch_threads": 1,
+            "packages": {
+              "torch": "2.11.0+cu130",
+              "numpy": "2.4.6",
+              "matplotlib": "3.10.0"
+            },
+            "package_inventory_sha256": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729",
+            "started_utc": "2026-11-04T20:44:34.266806+00:00",
+            "wall_seconds": 550.4579102129992
+          }
+        ],
+        "session_wall": {
+          "known_seconds": 1176.873429930999,
+          "all_seconds": 1176.873429930999,
+          "recorded": 2,
+          "total": 2,
+          "statuses": {
+            "incomplete": 1,
+            "complete": 1
+          }
+        },
+        "arm_seconds": {
+          "teacher": 2.4599076340000465,
+          "solo": 391.57123056599994,
+          "distilled": 382.14362456899835,
+          "oracle": 384.597153273
+        },
+        "cumulative_training_seconds": 1160.7719160419983,
+        "training_only_t4_units": 0.34500720837914955
+      },
+      {
+        "kind": "reward_cue",
+        "seed": 202621421,
+        "path": "main-study-first-tranche-v1/reward_cue/seed-202621421",
+        "protocol_sha256": "43112ad9a9ec3c052cb4cc229ada2027403152910f5f6df6cc02886777ff948a",
+        "file_count": 14,
+        "sessions": [
+          {
+            "status": "complete",
+            "phase": null,
+            "device": "cuda",
+            "gpu": "Tesla T4",
+            "cuda": "13.0",
+            "cudnn": 92700,
+            "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+            "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+            "torch_threads": 1,
+            "packages": {
+              "torch": "2.11.0+cu130",
+              "numpy": "2.4.6",
+              "matplotlib": "3.10.0"
+            },
+            "package_inventory_sha256": "f5c07a997b73a051c5ed8770dbbfbf8dbae93f456467b2ec8428210719c82729",
+            "started_utc": "2026-11-04T20:53:45.955139+00:00",
+            "wall_seconds": 1177.9224206
+          }
+        ],
+        "session_wall": {
+          "known_seconds": 1177.9224206,
+          "all_seconds": 1177.9224206,
+          "recorded": 1,
+          "total": 1,
+          "statuses": {
+            "complete": 1
+          }
+        },
+        "arm_seconds": {
+          "teacher": 2.639781195000978,
+          "solo": 388.67745516299874,
+          "distilled": 389.1612043160003,
+          "oracle": 382.0186121700008
+        },
+        "cumulative_training_seconds": 1162.4970528440008,
+        "training_only_t4_units": 0.34551995737307806
+      }
+    ]
+  },
+  "production": {
+    "path": "main-study-rarity-v1",
+    "protocol_sha256": "8c02ac39eaf98fee12f5d8f46389598c4b16854f633c2e3c4758d038a62e22e3",
+    "completion_manifest_entries": 266,
+    "cells": {
+      "rarity-05_history-100": {
+        "path": "main-study-rarity-v1/cells/rarity-05_history-100",
+        "protocol_sha256": "557dc057f22ee219a7b5b6c2f038deda5074e5dd96be3528acd2171f0c391559",
+        "completion_manifest_entries": 80,
+        "population_count": 6,
+        "subjects_per_population": 1000,
+        "trials_per_subject": 100,
+        "rare_fraction": 0.05,
+        "cumulative_training_seconds": 9160.483987739995,
+        "training_only_t4_units": 2.7226994074671658,
+        "runner_wall": {
+          "known_seconds": 9266.846839129003,
+          "all_seconds": 9266.846839129003,
+          "recorded": 6,
+          "total": 6,
+          "statuses": {
+            "incomplete": 5,
+            "complete": 1
+          }
+        },
+        "populations": [
+          {
+            "kind": "parametric_model_free",
+            "seed": 202612401,
+            "path": "main-study-rarity-v1/cells/rarity-05_history-100/parametric_model_free/seed-202612401",
+            "protocol_sha256": "557dc057f22ee219a7b5b6c2f038deda5074e5dd96be3528acd2171f0c391559",
+            "file_count": 14,
+            "sessions": [
+              {
+                "status": "complete",
+                "phase": null,
+                "device": "cuda",
+                "gpu": "Tesla T4",
+                "cuda": "13.0",
+                "cudnn": 92800,
+                "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+                "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+                "torch_threads": 1,
+                "packages": {
+                  "torch": "2.14.1+cu130",
+                  "numpy": "2.4.6",
+                  "matplotlib": "3.10.0"
+                },
+                "package_inventory_sha256": "aa2ab266617a8154823162ec1a031ae727732c62da9f0f665f2b76e85a3f9783",
+                "started_utc": "2026-11-09T12:03:45.979409+00:00",
+                "wall_seconds": 1617.1604956219999
+              }
+            ],
+            "session_wall": {
+              "known_seconds": 1617.1604956219999,
+              "all_seconds": 1617.1604956219999,
+              "recorded": 1,
+              "total": 1,
+              "statuses": {
+                "complete": 1
+              }
+            },
+            "arm_seconds": {
+              "teacher": 2.828771376000077,
+              "solo": 538.683794532,
+              "distilled": 534.439117867,
+              "oracle": 525.316902566
+            },
+            "cumulative_training_seconds": 1601.2685863410002,
+            "training_only_t4_units": 0.4759326076069084
+          },
+          {
+            "kind": "parametric_model_free",
+            "seed": 202612411,
+            "path": "main-study-rarity-v1/cells/rarity-05_history-100/parametric_model_free/seed-202612411",
+            "protocol_sha256": "557dc057f22ee219a7b5b6c2f038deda5074e5dd96be3528acd2171f0c391559",
+            "file_count": 14,
+            "sessions": [
+              {
+                "status": "incomplete",
+                "phase": "solo",
+                "device": "cuda",
+                "gpu": "Tesla T4",
+                "cuda": "13.0",
+                "cudnn": 92800,
+                "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+                "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+                "torch_threads": 1,
+                "packages": {
+                  "torch": "2.14.1+cu130",
+                  "numpy": "2.4.6",
+                  "matplotlib": "3.10.0"
+                },
+                "package_inventory_sha256": "aa2ab266617a8154823162ec1a031ae727732c62da9f0f665f2b76e85a3f9783",
+                "started_utc": "2026-11-09T12:30:43.641548+00:00",
+                "wall_seconds": 182.42023883299998
+              },
+              {
+                "status": "complete",
+                "phase": null,
+                "device": "cuda",
+                "gpu": "Tesla T4",
+                "cuda": "13.0",
+                "cudnn": 92800,
+                "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+                "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+                "torch_threads": 1,
+                "packages": {
+                  "torch": "2.14.1+cu130",
+                  "numpy": "2.4.6",
+                  "matplotlib": "3.10.0"
+                },
+                "package_inventory_sha256": "aa2ab266617a8154823162ec1a031ae727732c62da9f0f665f2b76e85a3f9783",
+                "started_utc": "2026-11-09T14:22:36.201010+00:00",
+                "wall_seconds": 1335.854795452
+              }
+            ],
+            "session_wall": {
+              "known_seconds": 1518.275034285,
+              "all_seconds": 1518.275034285,
+              "recorded": 2,
+              "total": 2,
+              "statuses": {
+                "incomplete": 1,
+                "complete": 1
+              }
+            },
+            "arm_seconds": {
+              "teacher": 2.7614502930000526,
+              "solo": 508.90496369500033,
+              "distilled": 494.96501078800065,
+              "oracle": 495.1034532699996
+            },
+            "cumulative_training_seconds": 1501.7348780460006,
+            "training_only_t4_units": 0.4463489776414502
+          },
+          {
+            "kind": "parametric_model_free",
+            "seed": 202612421,
+            "path": "main-study-rarity-v1/cells/rarity-05_history-100/parametric_model_free/seed-202612421",
+            "protocol_sha256": "557dc057f22ee219a7b5b6c2f038deda5074e5dd96be3528acd2171f0c391559",
+            "file_count": 14,
+            "sessions": [
+              {
+                "status": "incomplete",
+                "phase": "solo",
+                "device": "cuda",
+                "gpu": "Tesla T4",
+                "cuda": "13.0",
+                "cudnn": 92800,
+                "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+                "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+                "torch_threads": 1,
+                "packages": {
+                  "torch": "2.14.1+cu130",
+                  "numpy": "2.4.6",
+                  "matplotlib": "3.10.0"
+                },
+                "package_inventory_sha256": "aa2ab266617a8154823162ec1a031ae727732c62da9f0f665f2b76e85a3f9783",
+                "started_utc": "2026-11-09T14:44:52.826357+00:00",
+                "wall_seconds": 463.65926362999926
+              },
+              {
+                "status": "complete",
+                "phase": null,
+                "device": "cuda",
+                "gpu": "Tesla T4",
+                "cuda": "13.0",
+                "cudnn": 92800,
+                "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+                "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+                "torch_threads": 1,
+                "packages": {
+                  "torch": "2.14.1+cu130",
+                  "numpy": "2.4.6",
+                  "matplotlib": "3.10.0"
+                },
+                "package_inventory_sha256": "aa2ab266617a8154823162ec1a031ae727732c62da9f0f665f2b76e85a3f9783",
+                "started_utc": "2026-11-09T14:55:11.625472+00:00",
+                "wall_seconds": 1067.7528820080006
+              }
+            ],
+            "session_wall": {
+              "known_seconds": 1531.4121456379999,
+              "all_seconds": 1531.4121456379999,
+              "recorded": 2,
+              "total": 2,
+              "statuses": {
+                "incomplete": 1,
+                "complete": 1
+              }
+            },
+            "arm_seconds": {
+              "teacher": 2.22453327599942,
+              "solo": 503.2139409520005,
+              "distilled": 506.33629345999907,
+              "oracle": 503.6101372060002
+            },
+            "cumulative_training_seconds": 1515.3849048939992,
+            "training_only_t4_units": 0.4504060689546054
+          },
+          {
+            "kind": "reward_cue",
+            "seed": 202622401,
+            "path": "main-study-rarity-v1/cells/rarity-05_history-100/reward_cue/seed-202622401",
+            "protocol_sha256": "557dc057f22ee219a7b5b6c2f038deda5074e5dd96be3528acd2171f0c391559",
+            "file_count": 14,
+            "sessions": [
+              {
+                "status": "incomplete",
+                "phase": "distilled",
+                "device": "cuda",
+                "gpu": "Tesla T4",
+                "cuda": "13.0",
+                "cudnn": 92800,
+                "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+                "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+                "torch_threads": 1,
+                "packages": {
+                  "torch": "2.14.1+cu130",
+                  "numpy": "2.4.6",
+                  "matplotlib": "3.10.0"
+                },
+                "package_inventory_sha256": "aa2ab266617a8154823162ec1a031ae727732c62da9f0f665f2b76e85a3f9783",
+                "started_utc": "2026-11-09T15:13:00.548114+00:00",
+                "wall_seconds": 731.0738823619995
+              },
+              {
+                "status": "complete",
+                "phase": null,
+                "device": "cuda",
+                "gpu": "Tesla T4",
+                "cuda": "13.0",
+                "cudnn": 92800,
+                "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+                "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+                "torch_threads": 1,
+                "packages": {
+                  "torch": "2.14.1+cu130",
+                  "numpy": "2.4.6",
+                  "matplotlib": "3.10.0"
+                },
+                "package_inventory_sha256": "aa2ab266617a8154823162ec1a031ae727732c62da9f0f665f2b76e85a3f9783",
+                "started_utc": "2026-11-09T15:35:32.891089+00:00",
+                "wall_seconds": 797.0324234039999
+              }
+            ],
+            "session_wall": {
+              "known_seconds": 1528.1063057659994,
+              "all_seconds": 1528.1063057659994,
+              "recorded": 2,
+              "total": 2,
+              "statuses": {
+                "incomplete": 1,
+                "complete": 1
+              }
+            },
+            "arm_seconds": {
+              "teacher": 2.3208920920005767,
+              "solo": 502.9046023640003,
+              "distilled": 506.6118960340009,
+              "oracle": 500.22721568700035
+            },
+            "cumulative_training_seconds": 1512.0646061770021,
+            "training_only_t4_units": 0.4494192023914979
+          },
+          {
+            "kind": "reward_cue",
+            "seed": 202622411,
+            "path": "main-study-rarity-v1/cells/rarity-05_history-100/reward_cue/seed-202622411",
+            "protocol_sha256": "557dc057f22ee219a7b5b6c2f038deda5074e5dd96be3528acd2171f0c391559",
+            "file_count": 14,
+            "sessions": [
+              {
+                "status": "incomplete",
+                "phase": "distilled",
+                "device": "cuda",
+                "gpu": "Tesla T4",
+                "cuda": "13.0",
+                "cudnn": 92800,
+                "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+                "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+                "torch_threads": 1,
+                "packages": {
+                  "torch": "2.14.1+cu130",
+                  "numpy": "2.4.6",
+                  "matplotlib": "3.10.0"
+                },
+                "package_inventory_sha256": "aa2ab266617a8154823162ec1a031ae727732c62da9f0f665f2b76e85a3f9783",
+                "started_utc": "2026-11-09T15:48:50.986091+00:00",
+                "wall_seconds": 1001.7843429229997
+              },
+              {
+                "status": "complete",
+                "phase": null,
+                "device": "cuda",
+                "gpu": "Tesla T4",
+                "cuda": "13.0",
+                "cudnn": 92800,
+                "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+                "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+                "torch_threads": 1,
+                "packages": {
+                  "torch": "2.14.1+cu130",
+                  "numpy": "2.4.6",
+                  "matplotlib": "3.10.0"
+                },
+                "package_inventory_sha256": "aa2ab266617a8154823162ec1a031ae727732c62da9f0f665f2b76e85a3f9783",
+                "started_utc": "2026-11-09T16:06:17.140578+00:00",
+                "wall_seconds": 535.4058564049992
+              }
+            ],
+            "session_wall": {
+              "known_seconds": 1537.190199327999,
+              "all_seconds": 1537.190199327999,
+              "recorded": 2,
+              "total": 2,
+              "statuses": {
+                "incomplete": 1,
+                "complete": 1
+              }
+            },
+            "arm_seconds": {
+              "teacher": 2.338365341998724,
+              "solo": 505.3003688379995,
+              "distilled": 507.5446949829984,
+              "oracle": 505.9441113520006
+            },
+            "cumulative_training_seconds": 1521.1275405149972,
+            "training_only_t4_units": 0.45211290787529085
+          },
+          {
+            "kind": "reward_cue",
+            "seed": 202622421,
+            "path": "main-study-rarity-v1/cells/rarity-05_history-100/reward_cue/seed-202622421",
+            "protocol_sha256": "557dc057f22ee219a7b5b6c2f038deda5074e5dd96be3528acd2171f0c391559",
+            "file_count": 14,
+            "sessions": [
+              {
+                "status": "incomplete",
+                "phase": "oracle",
+                "device": "cuda",
+                "gpu": "Tesla T4",
+                "cuda": "13.0",
+                "cudnn": 92800,
+                "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+                "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+                "torch_threads": 1,
+                "packages": {
+                  "torch": "2.14.1+cu130",
+                  "numpy": "2.4.6",
+                  "matplotlib": "3.10.0"
+                },
+                "package_inventory_sha256": "aa2ab266617a8154823162ec1a031ae727732c62da9f0f665f2b76e85a3f9783",
+                "started_utc": "2026-11-09T16:15:13.726655+00:00",
+                "wall_seconds": 1262.9470487830004
+              },
+              {
+                "status": "complete",
+                "phase": null,
+                "device": "cuda",
+                "gpu": "Tesla T4",
+                "cuda": "13.0",
+                "cudnn": 92800,
+                "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+                "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+                "torch_threads": 1,
+                "packages": {
+                  "torch": "2.14.1+cu130",
+                  "numpy": "2.4.6",
+                  "matplotlib": "3.10.0"
+                },
+                "package_inventory_sha256": "aa2ab266617a8154823162ec1a031ae727732c62da9f0f665f2b76e85a3f9783",
+                "started_utc": "2026-11-09T16:36:34.346280+00:00",
+                "wall_seconds": 263.6730071580023
+              }
+            ],
+            "session_wall": {
+              "known_seconds": 1526.6200559410026,
+              "all_seconds": 1526.6200559410026,
+              "recorded": 2,
+              "total": 2,
+              "statuses": {
+                "incomplete": 1,
+                "complete": 1
+              }
+            },
+            "arm_seconds": {
+              "teacher": 2.233560650000072,
+              "solo": 506.48495813200134,
+              "distilled": 499.61897846399916,
+              "oracle": 500.56597452099595
+            },
+            "cumulative_training_seconds": 1508.9034717669965,
+            "training_only_t4_units": 0.4484796429974129
+          }
+        ]
+      },
+      "rarity-10_history-100": {
+        "path": "main-study-rarity-v1/cells/rarity-10_history-100",
+        "protocol_sha256": "bdc89c13aad2ffeb657d7ae4b546368d0b6cbcd7d241ebeb5a14ead8470c10a8",
+        "completion_manifest_entries": 80,
+        "population_count": 6,
+        "subjects_per_population": 1000,
+        "trials_per_subject": 100,
+        "rare_fraction": 0.1,
+        "cumulative_training_seconds": 9078.030543351004,
+        "training_only_t4_units": 2.698192411495993,
+        "runner_wall": {
+          "known_seconds": 9185.563294683005,
+          "all_seconds": 9185.563294683005,
+          "recorded": 6,
+          "total": 6,
+          "statuses": {
+            "incomplete": 5,
+            "complete": 1
+          }
+        },
+        "populations": [
+          {
+            "kind": "parametric_model_free",
+            "seed": 202613401,
+            "path": "main-study-rarity-v1/cells/rarity-10_history-100/parametric_model_free/seed-202613401",
+            "protocol_sha256": "bdc89c13aad2ffeb657d7ae4b546368d0b6cbcd7d241ebeb5a14ead8470c10a8",
+            "file_count": 14,
+            "sessions": [
+              {
+                "status": "complete",
+                "phase": null,
+                "device": "cuda",
+                "gpu": "Tesla T4",
+                "cuda": "13.0",
+                "cudnn": 92800,
+                "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+                "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+                "torch_threads": 1,
+                "packages": {
+                  "torch": "2.14.1+cu130",
+                  "numpy": "2.4.6",
+                  "matplotlib": "3.10.0"
+                },
+                "package_inventory_sha256": "aa2ab266617a8154823162ec1a031ae727732c62da9f0f665f2b76e85a3f9783",
+                "started_utc": "2026-11-09T17:01:27.501045+00:00",
+                "wall_seconds": 1526.863093490003
+              }
+            ],
+            "session_wall": {
+              "known_seconds": 1526.863093490003,
+              "all_seconds": 1526.863093490003,
+              "recorded": 1,
+              "total": 1,
+              "statuses": {
+                "complete": 1
+              }
+            },
+            "arm_seconds": {
+              "teacher": 2.771166225000343,
+              "solo": 502.28842537699893,
+              "distilled": 500.2621358560027,
+              "oracle": 506.06135851100044
+            },
+            "cumulative_training_seconds": 1511.3830859690024,
+            "training_only_t4_units": 0.4492166394407869
+          },
+          {
+            "kind": "parametric_model_free",
+            "seed": 202613411,
+            "path": "main-study-rarity-v1/cells/rarity-10_history-100/parametric_model_free/seed-202613411",
+            "protocol_sha256": "bdc89c13aad2ffeb657d7ae4b546368d0b6cbcd7d241ebeb5a14ead8470c10a8",
+            "file_count": 14,
+            "sessions": [
+              {
+                "status": "incomplete",
+                "phase": "solo",
+                "device": "cuda",
+                "gpu": "Tesla T4",
+                "cuda": "13.0",
+                "cudnn": 92800,
+                "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+                "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+                "torch_threads": 1,
+                "packages": {
+                  "torch": "2.14.1+cu130",
+                  "numpy": "2.4.6",
+                  "matplotlib": "3.10.0"
+                },
+                "package_inventory_sha256": "aa2ab266617a8154823162ec1a031ae727732c62da9f0f665f2b76e85a3f9783",
+                "started_utc": "2026-11-09T17:26:54.846613+00:00",
+                "wall_seconds": 272.84958411400294
+              },
+              {
+                "status": "complete",
+                "phase": null,
+                "device": "cuda",
+                "gpu": "Tesla T4",
+                "cuda": "13.0",
+                "cudnn": 92800,
+                "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+                "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+                "torch_threads": 1,
+                "packages": {
+                  "torch": "2.14.1+cu130",
+                  "numpy": "2.4.6",
+                  "matplotlib": "3.10.0"
+                },
+                "package_inventory_sha256": "aa2ab266617a8154823162ec1a031ae727732c62da9f0f665f2b76e85a3f9783",
+                "started_utc": "2026-11-09T18:17:44.495034+00:00",
+                "wall_seconds": 1257.0188689899987
+              }
+            ],
+            "session_wall": {
+              "known_seconds": 1529.8684531040017,
+              "all_seconds": 1529.8684531040017,
+              "recorded": 2,
+              "total": 2,
+              "statuses": {
+                "incomplete": 1,
+                "complete": 1
+              }
+            },
+            "arm_seconds": {
+              "teacher": 2.8867434349995165,
+              "solo": 507.6828061719971,
+              "distilled": 504.6095015280007,
+              "oracle": 499.0160481130006
+            },
+            "cumulative_training_seconds": 1514.1950992479979,
+            "training_only_t4_units": 0.45005243227648833
+          },
+          {
+            "kind": "parametric_model_free",
+            "seed": 202613421,
+            "path": "main-study-rarity-v1/cells/rarity-10_history-100/parametric_model_free/seed-202613421",
+            "protocol_sha256": "bdc89c13aad2ffeb657d7ae4b546368d0b6cbcd7d241ebeb5a14ead8470c10a8",
+            "file_count": 14,
+            "sessions": [
+              {
+                "status": "incomplete",
+                "phase": "distilled",
+                "device": "cuda",
+                "gpu": "Tesla T4",
+                "cuda": "13.0",
+                "cudnn": 92800,
+                "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+                "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+                "torch_threads": 1,
+                "packages": {
+                  "torch": "2.14.1+cu130",
+                  "numpy": "2.4.6",
+                  "matplotlib": "3.10.0"
+                },
+                "package_inventory_sha256": "aa2ab266617a8154823162ec1a031ae727732c62da9f0f665f2b76e85a3f9783",
+                "started_utc": "2026-11-09T18:38:42.610194+00:00",
+                "wall_seconds": 542.1708023669999
+              },
+              {
+                "status": "complete",
+                "phase": null,
+                "device": "cuda",
+                "gpu": "Tesla T4",
+                "cuda": "13.0",
+                "cudnn": 92800,
+                "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+                "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+                "torch_threads": 1,
+                "packages": {
+                  "torch": "2.14.1+cu130",
+                  "numpy": "2.4.6",
+                  "matplotlib": "3.10.0"
+                },
+                "package_inventory_sha256": "aa2ab266617a8154823162ec1a031ae727732c62da9f0f665f2b76e85a3f9783",
+                "started_utc": "2026-11-09T18:52:12.576826+00:00",
+                "wall_seconds": 986.252335137
+              }
+            ],
+            "session_wall": {
+              "known_seconds": 1528.423137504,
+              "all_seconds": 1528.423137504,
+              "recorded": 2,
+              "total": 2,
+              "statuses": {
+                "incomplete": 1,
+                "complete": 1
+              }
+            },
+            "arm_seconds": {
+              "teacher": 2.677196205000655,
+              "solo": 506.2274324880018,
+              "distilled": 501.0213011449996,
+              "oracle": 501.2742241630003
+            },
+            "cumulative_training_seconds": 1511.2001540010024,
+            "training_only_t4_units": 0.4491622679947424
+          },
+          {
+            "kind": "reward_cue",
+            "seed": 202623401,
+            "path": "main-study-rarity-v1/cells/rarity-10_history-100/reward_cue/seed-202623401",
+            "protocol_sha256": "bdc89c13aad2ffeb657d7ae4b546368d0b6cbcd7d241ebeb5a14ead8470c10a8",
+            "file_count": 14,
+            "sessions": [
+              {
+                "status": "incomplete",
+                "phase": "distilled",
+                "device": "cuda",
+                "gpu": "Tesla T4",
+                "cuda": "13.0",
+                "cudnn": 92800,
+                "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+                "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+                "torch_threads": 1,
+                "packages": {
+                  "torch": "2.14.1+cu130",
+                  "numpy": "2.4.6",
+                  "matplotlib": "3.10.0"
+                },
+                "package_inventory_sha256": "aa2ab266617a8154823162ec1a031ae727732c62da9f0f665f2b76e85a3f9783",
+                "started_utc": "2026-11-09T19:08:39.590479+00:00",
+                "wall_seconds": 812.9372063180017
+              },
+              {
+                "status": "complete",
+                "phase": null,
+                "device": "cuda",
+                "gpu": "Tesla T4",
+                "cuda": "13.0",
+                "cudnn": 92800,
+                "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+                "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+                "torch_threads": 1,
+                "packages": {
+                  "torch": "2.14.1+cu130",
+                  "numpy": "2.4.6",
+                  "matplotlib": "3.10.0"
+                },
+                "package_inventory_sha256": "aa2ab266617a8154823162ec1a031ae727732c62da9f0f665f2b76e85a3f9783",
+                "started_utc": "2026-11-09T19:26:05.348953+00:00",
+                "wall_seconds": 702.7193676930001
+              }
+            ],
+            "session_wall": {
+              "known_seconds": 1515.6565740110018,
+              "all_seconds": 1515.6565740110018,
+              "recorded": 2,
+              "total": 2,
+              "statuses": {
+                "incomplete": 1,
+                "complete": 1
+              }
+            },
+            "arm_seconds": {
+              "teacher": 2.2718617930004257,
+              "solo": 499.9368750329995,
+              "distilled": 498.4954156189997,
+              "oracle": 497.9865063040015
+            },
+            "cumulative_training_seconds": 1498.6906587490012,
+            "training_only_t4_units": 0.44544416801706427
+          },
+          {
+            "kind": "reward_cue",
+            "seed": 202623411,
+            "path": "main-study-rarity-v1/cells/rarity-10_history-100/reward_cue/seed-202623411",
+            "protocol_sha256": "bdc89c13aad2ffeb657d7ae4b546368d0b6cbcd7d241ebeb5a14ead8470c10a8",
+            "file_count": 14,
+            "sessions": [
+              {
+                "status": "incomplete",
+                "phase": "oracle",
+                "device": "cuda",
+                "gpu": "Tesla T4",
+                "cuda": "13.0",
+                "cudnn": 92800,
+                "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+                "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+                "torch_threads": 1,
+                "packages": {
+                  "torch": "2.14.1+cu130",
+                  "numpy": "2.4.6",
+                  "matplotlib": "3.10.0"
+                },
+                "package_inventory_sha256": "aa2ab266617a8154823162ec1a031ae727732c62da9f0f665f2b76e85a3f9783",
+                "started_utc": "2026-11-09T19:37:48.815934+00:00",
+                "wall_seconds": 1096.1583388930012
+              },
+              {
+                "status": "complete",
+                "phase": null,
+                "device": "cuda",
+                "gpu": "Tesla T4",
+                "cuda": "13.0",
+                "cudnn": 92800,
+                "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+                "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+                "torch_threads": 1,
+                "packages": {
+                  "torch": "2.14.1+cu130",
+                  "numpy": "2.4.6",
+                  "matplotlib": "3.10.0"
+                },
+                "package_inventory_sha256": "aa2ab266617a8154823162ec1a031ae727732c62da9f0f665f2b76e85a3f9783",
+                "started_utc": "2026-11-09T19:57:32.267384+00:00",
+                "wall_seconds": 425.69015488900186
+              }
+            ],
+            "session_wall": {
+              "known_seconds": 1521.848493782003,
+              "all_seconds": 1521.848493782003,
+              "recorded": 2,
+              "total": 2,
+              "statuses": {
+                "incomplete": 1,
+                "complete": 1
+              }
+            },
+            "arm_seconds": {
+              "teacher": 2.254758153001603,
+              "solo": 503.5350473030012,
+              "distilled": 499.15015136999864,
+              "oracle": 499.8101447230001
+            },
+            "cumulative_training_seconds": 1504.7501015490016,
+            "training_only_t4_units": 0.44724516907150885
+          },
+          {
+            "kind": "reward_cue",
+            "seed": 202623421,
+            "path": "main-study-rarity-v1/cells/rarity-10_history-100/reward_cue/seed-202623421",
+            "protocol_sha256": "bdc89c13aad2ffeb657d7ae4b546368d0b6cbcd7d241ebeb5a14ead8470c10a8",
+            "file_count": 14,
+            "sessions": [
+              {
+                "status": "incomplete",
+                "phase": "oracle",
+                "device": "cuda",
+                "gpu": "Tesla T4",
+                "cuda": "13.0",
+                "cudnn": 92800,
+                "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+                "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+                "torch_threads": 1,
+                "packages": {
+                  "torch": "2.14.1+cu130",
+                  "numpy": "2.4.6",
+                  "matplotlib": "3.10.0"
+                },
+                "package_inventory_sha256": "aa2ab266617a8154823162ec1a031ae727732c62da9f0f665f2b76e85a3f9783",
+                "started_utc": "2026-11-09T20:04:38.692795+00:00",
+                "wall_seconds": 1373.0173965510003
+              },
+              {
+                "status": "complete",
+                "phase": null,
+                "device": "cuda",
+                "gpu": "Tesla T4",
+                "cuda": "13.0",
+                "cudnn": 92800,
+                "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+                "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+                "torch_threads": 1,
+                "packages": {
+                  "torch": "2.14.1+cu130",
+                  "numpy": "2.4.6",
+                  "matplotlib": "3.10.0"
+                },
+                "package_inventory_sha256": "aa2ab266617a8154823162ec1a031ae727732c62da9f0f665f2b76e85a3f9783",
+                "started_utc": "2026-11-09T20:29:55.094015+00:00",
+                "wall_seconds": 182.53070089200264
+              }
+            ],
+            "session_wall": {
+              "known_seconds": 1555.548097443003,
+              "all_seconds": 1555.548097443003,
+              "recorded": 2,
+              "total": 2,
+              "statuses": {
+                "incomplete": 1,
+                "complete": 1
+              }
+            },
+            "arm_seconds": {
+              "teacher": 2.692356948999077,
+              "solo": 509.5728146250003,
+              "distilled": 515.470169305001,
+              "oracle": 510.07610295599807
+            },
+            "cumulative_training_seconds": 1537.8114438349985,
+            "training_only_t4_units": 0.45707173469540235
+          }
+        ]
+      },
+      "rarity-25_history-100": {
+        "path": "main-study-rarity-v1/cells/rarity-25_history-100",
+        "protocol_sha256": "be80b24de11be3dc277095cc7568c22f7b918c1d4fc8df4940ae45ab9b3031ae",
+        "completion_manifest_entries": 80,
+        "population_count": 6,
+        "subjects_per_population": 1000,
+        "trials_per_subject": 100,
+        "rare_fraction": 0.25,
+        "cumulative_training_seconds": 9163.214144023,
+        "training_only_t4_units": 2.7235108705846143,
+        "runner_wall": {
+          "known_seconds": 9267.550546508995,
+          "all_seconds": 9267.550546508995,
+          "recorded": 6,
+          "total": 6,
+          "statuses": {
+            "incomplete": 5,
+            "complete": 1
+          }
+        },
+        "populations": [
+          {
+            "kind": "parametric_model_free",
+            "seed": 202614401,
+            "path": "main-study-rarity-v1/cells/rarity-25_history-100/parametric_model_free/seed-202614401",
+            "protocol_sha256": "be80b24de11be3dc277095cc7568c22f7b918c1d4fc8df4940ae45ab9b3031ae",
+            "file_count": 14,
+            "sessions": [
+              {
+                "status": "complete",
+                "phase": null,
+                "device": "cuda",
+                "gpu": "Tesla T4",
+                "cuda": "13.0",
+                "cudnn": 92800,
+                "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+                "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+                "torch_threads": 1,
+                "packages": {
+                  "torch": "2.14.1+cu130",
+                  "numpy": "2.4.6",
+                  "matplotlib": "3.10.0"
+                },
+                "package_inventory_sha256": "aa2ab266617a8154823162ec1a031ae727732c62da9f0f665f2b76e85a3f9783",
+                "started_utc": "2026-11-09T20:39:46.815912+00:00",
+                "wall_seconds": 1590.137661698005
+              }
+            ],
+            "session_wall": {
+              "known_seconds": 1590.137661698005,
+              "all_seconds": 1590.137661698005,
+              "recorded": 1,
+              "total": 1,
+              "statuses": {
+                "complete": 1
+              }
+            },
+            "arm_seconds": {
+              "teacher": 2.898798374000762,
+              "solo": 523.3860672859992,
+              "distilled": 528.7295797859988,
+              "oracle": 519.8946886609992
+            },
+            "cumulative_training_seconds": 1574.909134106998,
+            "training_only_t4_units": 0.46809799263735774
+          },
+          {
+            "kind": "parametric_model_free",
+            "seed": 202614411,
+            "path": "main-study-rarity-v1/cells/rarity-25_history-100/parametric_model_free/seed-202614411",
+            "protocol_sha256": "be80b24de11be3dc277095cc7568c22f7b918c1d4fc8df4940ae45ab9b3031ae",
+            "file_count": 14,
+            "sessions": [
+              {
+                "status": "incomplete",
+                "phase": "solo",
+                "device": "cuda",
+                "gpu": "Tesla T4",
+                "cuda": "13.0",
+                "cudnn": 92800,
+                "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+                "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+                "torch_threads": 1,
+                "packages": {
+                  "torch": "2.14.1+cu130",
+                  "numpy": "2.4.6",
+                  "matplotlib": "3.10.0"
+                },
+                "package_inventory_sha256": "aa2ab266617a8154823162ec1a031ae727732c62da9f0f665f2b76e85a3f9783",
+                "started_utc": "2026-11-09T21:06:17.490921+00:00",
+                "wall_seconds": 209.42157507899537
+              },
+              {
+                "status": "complete",
+                "phase": null,
+                "device": "cuda",
+                "gpu": "Tesla T4",
+                "cuda": "13.0",
+                "cudnn": 92800,
+                "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+                "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+                "torch_threads": 1,
+                "packages": {
+                  "torch": "2.14.1+cu130",
+                  "numpy": "2.4.6",
+                  "matplotlib": "3.10.0"
+                },
+                "package_inventory_sha256": "aa2ab266617a8154823162ec1a031ae727732c62da9f0f665f2b76e85a3f9783",
+                "started_utc": "2026-11-09T21:16:05.062183+00:00",
+                "wall_seconds": 1365.6610428019994
+              }
+            ],
+            "session_wall": {
+              "known_seconds": 1575.0826178809948,
+              "all_seconds": 1575.0826178809948,
+              "recorded": 2,
+              "total": 2,
+              "statuses": {
+                "incomplete": 1,
+                "complete": 1
+              }
+            },
+            "arm_seconds": {
+              "teacher": 2.775938815997506,
+              "solo": 526.3721547679961,
+              "distilled": 514.5062327650012,
+              "oracle": 515.5773404560023
+            },
+            "cumulative_training_seconds": 1559.231666804997,
+            "training_only_t4_units": 0.4634383009670408
+          },
+          {
+            "kind": "parametric_model_free",
+            "seed": 202614421,
+            "path": "main-study-rarity-v1/cells/rarity-25_history-100/parametric_model_free/seed-202614421",
+            "protocol_sha256": "be80b24de11be3dc277095cc7568c22f7b918c1d4fc8df4940ae45ab9b3031ae",
+            "file_count": 14,
+            "sessions": [
+              {
+                "status": "incomplete",
+                "phase": "solo",
+                "device": "cuda",
+                "gpu": "Tesla T4",
+                "cuda": "13.0",
+                "cudnn": 92800,
+                "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+                "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+                "torch_threads": 1,
+                "packages": {
+                  "torch": "2.14.1+cu130",
+                  "numpy": "2.4.6",
+                  "matplotlib": "3.10.0"
+                },
+                "package_inventory_sha256": "aa2ab266617a8154823162ec1a031ae727732c62da9f0f665f2b76e85a3f9783",
+                "started_utc": "2026-11-09T21:38:51.483819+00:00",
+                "wall_seconds": 433.90260274600587
+              },
+              {
+                "status": "complete",
+                "phase": null,
+                "device": "cuda",
+                "gpu": "Tesla T4",
+                "cuda": "13.0",
+                "cudnn": 92800,
+                "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+                "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+                "torch_threads": 1,
+                "packages": {
+                  "torch": "2.14.1+cu130",
+                  "numpy": "2.4.6",
+                  "matplotlib": "3.10.0"
+                },
+                "package_inventory_sha256": "aa2ab266617a8154823162ec1a031ae727732c62da9f0f665f2b76e85a3f9783",
+                "started_utc": "2026-11-09T22:13:10.139885+00:00",
+                "wall_seconds": 1078.5947961679994
+              }
+            ],
+            "session_wall": {
+              "known_seconds": 1512.4973989140053,
+              "all_seconds": 1512.4973989140053,
+              "recorded": 2,
+              "total": 2,
+              "statuses": {
+                "incomplete": 1,
+                "complete": 1
+              }
+            },
+            "arm_seconds": {
+              "teacher": 3.0531215440059896,
+              "solo": 515.1619555070065,
+              "distilled": 489.8859762169959,
+              "oracle": 489.60376800299855
+            },
+            "cumulative_training_seconds": 1497.704821271007,
+            "training_only_t4_units": 0.4451511552111049
+          },
+          {
+            "kind": "reward_cue",
+            "seed": 202624401,
+            "path": "main-study-rarity-v1/cells/rarity-25_history-100/reward_cue/seed-202624401",
+            "protocol_sha256": "be80b24de11be3dc277095cc7568c22f7b918c1d4fc8df4940ae45ab9b3031ae",
+            "file_count": 14,
+            "sessions": [
+              {
+                "status": "incomplete",
+                "phase": "distilled",
+                "device": "cuda",
+                "gpu": "Tesla T4",
+                "cuda": "13.0",
+                "cudnn": 92800,
+                "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+                "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+                "torch_threads": 1,
+                "packages": {
+                  "torch": "2.14.1+cu130",
+                  "numpy": "2.4.6",
+                  "matplotlib": "3.10.0"
+                },
+                "package_inventory_sha256": "aa2ab266617a8154823162ec1a031ae727732c62da9f0f665f2b76e85a3f9783",
+                "started_utc": "2026-11-09T22:31:09.480033+00:00",
+                "wall_seconds": 720.6051500719987
+              },
+              {
+                "status": "complete",
+                "phase": null,
+                "device": "cuda",
+                "gpu": "Tesla T4",
+                "cuda": "13.0",
+                "cudnn": 92800,
+                "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+                "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+                "torch_threads": 1,
+                "packages": {
+                  "torch": "2.14.1+cu130",
+                  "numpy": "2.4.6",
+                  "matplotlib": "3.10.0"
+                },
+                "package_inventory_sha256": "aa2ab266617a8154823162ec1a031ae727732c62da9f0f665f2b76e85a3f9783",
+                "started_utc": "2026-11-09T22:49:16.646842+00:00",
+                "wall_seconds": 779.996199416004
+              }
+            ],
+            "session_wall": {
+              "known_seconds": 1500.6013494880026,
+              "all_seconds": 1500.6013494880026,
+              "recorded": 2,
+              "total": 2,
+              "statuses": {
+                "incomplete": 1,
+                "complete": 1
+              }
+            },
+            "arm_seconds": {
+              "teacher": 3.1478556799993385,
+              "solo": 494.40053464299854,
+              "distilled": 490.79922672200337,
+              "oracle": 496.1840822939994
+            },
+            "cumulative_training_seconds": 1484.5316993390006,
+            "training_only_t4_units": 0.4412358106368696
+          },
+          {
+            "kind": "reward_cue",
+            "seed": 202624411,
+            "path": "main-study-rarity-v1/cells/rarity-25_history-100/reward_cue/seed-202624411",
+            "protocol_sha256": "be80b24de11be3dc277095cc7568c22f7b918c1d4fc8df4940ae45ab9b3031ae",
+            "file_count": 14,
+            "sessions": [
+              {
+                "status": "incomplete",
+                "phase": "distilled",
+                "device": "cuda",
+                "gpu": "Tesla T4",
+                "cuda": "13.0",
+                "cudnn": 92800,
+                "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+                "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+                "torch_threads": 1,
+                "packages": {
+                  "torch": "2.14.1+cu130",
+                  "numpy": "2.4.6",
+                  "matplotlib": "3.10.0"
+                },
+                "package_inventory_sha256": "aa2ab266617a8154823162ec1a031ae727732c62da9f0f665f2b76e85a3f9783",
+                "started_utc": "2026-11-09T23:02:17.378219+00:00",
+                "wall_seconds": 1019.0578274539948
+              },
+              {
+                "status": "complete",
+                "phase": null,
+                "device": "cuda",
+                "gpu": "Tesla T4",
+                "cuda": "13.0",
+                "cudnn": 92800,
+                "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+                "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+                "torch_threads": 1,
+                "packages": {
+                  "torch": "2.14.1+cu130",
+                  "numpy": "2.4.6",
+                  "matplotlib": "3.10.0"
+                },
+                "package_inventory_sha256": "aa2ab266617a8154823162ec1a031ae727732c62da9f0f665f2b76e85a3f9783",
+                "started_utc": "2026-11-09T23:19:59.725522+00:00",
+                "wall_seconds": 532.985825323005
+              }
+            ],
+            "session_wall": {
+              "known_seconds": 1552.0436527769998,
+              "all_seconds": 1552.0436527769998,
+              "recorded": 2,
+              "total": 2,
+              "statuses": {
+                "incomplete": 1,
+                "complete": 1
+              }
+            },
+            "arm_seconds": {
+              "teacher": 3.2508644650006318,
+              "solo": 495.2826005209936,
+              "distilled": 523.5745502430073,
+              "oracle": 512.0673642490001
+            },
+            "cumulative_training_seconds": 1534.1753794780016,
+            "training_only_t4_units": 0.4559910155670727
+          },
+          {
+            "kind": "reward_cue",
+            "seed": 202624421,
+            "path": "main-study-rarity-v1/cells/rarity-25_history-100/reward_cue/seed-202624421",
+            "protocol_sha256": "be80b24de11be3dc277095cc7568c22f7b918c1d4fc8df4940ae45ab9b3031ae",
+            "file_count": 14,
+            "sessions": [
+              {
+                "status": "incomplete",
+                "phase": "oracle",
+                "device": "cuda",
+                "gpu": "Tesla T4",
+                "cuda": "13.0",
+                "cudnn": 92800,
+                "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+                "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+                "torch_threads": 1,
+                "packages": {
+                  "torch": "2.14.1+cu130",
+                  "numpy": "2.4.6",
+                  "matplotlib": "3.10.0"
+                },
+                "package_inventory_sha256": "aa2ab266617a8154823162ec1a031ae727732c62da9f0f665f2b76e85a3f9783",
+                "started_utc": "2026-11-09T23:28:53.414815+00:00",
+                "wall_seconds": 1265.0321053250009
+              },
+              {
+                "status": "complete",
+                "phase": null,
+                "device": "cuda",
+                "gpu": "Tesla T4",
+                "cuda": "13.0",
+                "cudnn": 92800,
+                "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+                "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+                "torch_threads": 1,
+                "packages": {
+                  "torch": "2.14.1+cu130",
+                  "numpy": "2.4.6",
+                  "matplotlib": "3.10.0"
+                },
+                "package_inventory_sha256": "aa2ab266617a8154823162ec1a031ae727732c62da9f0f665f2b76e85a3f9783",
+                "started_utc": "2026-11-09T23:54:26.052327+00:00",
+                "wall_seconds": 264.35913608300325
+              }
+            ],
+            "session_wall": {
+              "known_seconds": 1529.3912414080041,
+              "all_seconds": 1529.3912414080041,
+              "recorded": 2,
+              "total": 2,
+              "statuses": {
+                "incomplete": 1,
+                "complete": 1
+              }
+            },
+            "arm_seconds": {
+              "teacher": 3.182824077004625,
+              "solo": 507.49881070399715,
+              "distilled": 505.0673729419941,
+              "oracle": 496.91243530000065
+            },
+            "cumulative_training_seconds": 1512.6614430229965,
+            "training_only_t4_units": 0.44959659556516846
+          }
+        ]
+      }
+    },
+    "population_count": 18,
+    "new_training_seconds": 27401.728675114,
+    "training_only_t4_units": 8.144402689547773,
+    "baseline_training_seconds": 7028.766201504999,
+    "runner_wall": {
+      "known_seconds": 27907.668607372998,
+      "all_seconds": 27907.668607372998,
+      "recorded": 18,
+      "total": 18,
+      "statuses": {
+        "complete": 18
+      }
+    },
+    "outer_invocation_counts_by_cell": {
+      "rarity-05_history-100": 6,
+      "rarity-10_history-100": 6,
+      "rarity-25_history-100": 6
+    }
+  },
+  "smoke_parent": {
+    "portable_reference_status": "verified",
+    "raw_parent_status": "not supplied",
+    "embedded_inventory_entries": 59,
+    "protocol_sha256": "c88e5fd9be6e70ca0ccd3d8137e644c3a80bccb3124610385533aa822d09ebde",
+    "planned_populations": [
+      {
+        "kind": "parametric_model_free",
+        "seed": 701
+      },
+      {
+        "kind": "parametric_model_free",
+        "seed": 711
+      },
+      {
+        "kind": "reward_cue",
+        "seed": 801
+      },
+      {
+        "kind": "reward_cue",
+        "seed": 811
+      }
+    ]
+  },
+  "smoke": {
+    "path": "rarity-smoke-a4582314a2b3",
+    "protocol_sha256": "e8596f10cf561a555cdde6d4dfe6799c233f3b07e4d755d89566b05b0b7393fb",
+    "completion_manifest_entries": 182,
+    "cells": {
+      "rarity-05_history-100": {
+        "path": "rarity-smoke-a4582314a2b3/cells/rarity-05_history-100",
+        "protocol_sha256": "5db6a8b3f2d44dd2487648342e71eeafe3b014c90c7f2a497075a067a39bef17",
+        "completion_manifest_entries": 54,
+        "population_count": 4,
+        "subjects_per_population": 10,
+        "trials_per_subject": 15,
+        "rare_fraction": 0.3,
+        "cumulative_training_seconds": 3.985503943999902,
+        "training_only_t4_units": 0.001184580338911082,
+        "runner_wall": {
+          "known_seconds": 11.647197986999913,
+          "all_seconds": 11.647197986999913,
+          "recorded": 1,
+          "total": 1,
+          "statuses": {
+            "complete": 1
+          }
+        },
+        "populations": [
+          {
+            "kind": "parametric_model_free",
+            "seed": 81001,
+            "path": "rarity-smoke-a4582314a2b3/cells/rarity-05_history-100/parametric_model_free/seed-81001",
+            "protocol_sha256": "5db6a8b3f2d44dd2487648342e71eeafe3b014c90c7f2a497075a067a39bef17",
+            "file_count": 14,
+            "sessions": [
+              {
+                "status": "complete",
+                "phase": null,
+                "device": "cuda",
+                "gpu": "Tesla T4",
+                "cuda": "13.0",
+                "cudnn": 92800,
+                "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+                "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+                "torch_threads": 1,
+                "packages": {
+                  "torch": "2.14.1+cu130",
+                  "numpy": "2.4.6",
+                  "matplotlib": "3.10.0"
+                },
+                "package_inventory_sha256": "aa2ab266617a8154823162ec1a031ae727732c62da9f0f665f2b76e85a3f9783",
+                "started_utc": "2026-11-09T12:02:13.494021+00:00",
+                "wall_seconds": 3.2951338899999882
+              }
+            ],
+            "session_wall": {
+              "known_seconds": 3.2951338899999882,
+              "all_seconds": 3.2951338899999882,
+              "recorded": 1,
+              "total": 1,
+              "statuses": {
+                "complete": 1
+              }
+            },
+            "arm_seconds": {
+              "teacher": 0.07099677799999426,
+              "solo": 0.4733951729999717,
+              "distilled": 0.5173176749999584,
+              "oracle": 0.3261013329999969
+            },
+            "cumulative_training_seconds": 1.3878109589999212,
+            "training_only_t4_units": 0.00041248825725830995
+          },
+          {
+            "kind": "parametric_model_free",
+            "seed": 81011,
+            "path": "rarity-smoke-a4582314a2b3/cells/rarity-05_history-100/parametric_model_free/seed-81011",
+            "protocol_sha256": "5db6a8b3f2d44dd2487648342e71eeafe3b014c90c7f2a497075a067a39bef17",
+            "file_count": 14,
+            "sessions": [
+              {
+                "status": "complete",
+                "phase": null,
+                "device": "cuda",
+                "gpu": "Tesla T4",
+                "cuda": "13.0",
+                "cudnn": 92800,
+                "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+                "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+                "torch_threads": 1,
+                "packages": {
+                  "torch": "2.14.1+cu130",
+                  "numpy": "2.4.6",
+                  "matplotlib": "3.10.0"
+                },
+                "package_inventory_sha256": "aa2ab266617a8154823162ec1a031ae727732c62da9f0f665f2b76e85a3f9783",
+                "started_utc": "2026-11-09T12:02:17.166627+00:00",
+                "wall_seconds": 2.699707598000032
+              }
+            ],
+            "session_wall": {
+              "known_seconds": 2.699707598000032,
+              "all_seconds": 2.699707598000032,
+              "recorded": 1,
+              "total": 1,
+              "statuses": {
+                "complete": 1
+              }
+            },
+            "arm_seconds": {
+              "teacher": 0.06922667399999227,
+              "solo": 0.2915979839999636,
+              "distilled": 0.3088269920000357,
+              "oracle": 0.2872891279999976
+            },
+            "cumulative_training_seconds": 0.9569407779999892,
+            "training_only_t4_units": 0.00028442406457221907
+          },
+          {
+            "kind": "reward_cue",
+            "seed": 81101,
+            "path": "rarity-smoke-a4582314a2b3/cells/rarity-05_history-100/reward_cue/seed-81101",
+            "protocol_sha256": "5db6a8b3f2d44dd2487648342e71eeafe3b014c90c7f2a497075a067a39bef17",
+            "file_count": 14,
+            "sessions": [
+              {
+                "status": "complete",
+                "phase": null,
+                "device": "cuda",
+                "gpu": "Tesla T4",
+                "cuda": "13.0",
+                "cudnn": 92800,
+                "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+                "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+                "torch_threads": 1,
+                "packages": {
+                  "torch": "2.14.1+cu130",
+                  "numpy": "2.4.6",
+                  "matplotlib": "3.10.0"
+                },
+                "package_inventory_sha256": "aa2ab266617a8154823162ec1a031ae727732c62da9f0f665f2b76e85a3f9783",
+                "started_utc": "2026-11-09T12:02:20.131024+00:00",
+                "wall_seconds": 2.237195788000008
+              }
+            ],
+            "session_wall": {
+              "known_seconds": 2.237195788000008,
+              "all_seconds": 2.237195788000008,
+              "recorded": 1,
+              "total": 1,
+              "statuses": {
+                "complete": 1
+              }
+            },
+            "arm_seconds": {
+              "teacher": 0.06732285900000079,
+              "solo": 0.2462160769999855,
+              "distilled": 0.2420740789999627,
+              "oracle": 0.25023343999998815
+            },
+            "cumulative_training_seconds": 0.8058464549999371,
+            "training_only_t4_units": 0.00023951547412498131
+          },
+          {
+            "kind": "reward_cue",
+            "seed": 81111,
+            "path": "rarity-smoke-a4582314a2b3/cells/rarity-05_history-100/reward_cue/seed-81111",
+            "protocol_sha256": "5db6a8b3f2d44dd2487648342e71eeafe3b014c90c7f2a497075a067a39bef17",
+            "file_count": 14,
+            "sessions": [
+              {
+                "status": "complete",
+                "phase": null,
+                "device": "cuda",
+                "gpu": "Tesla T4",
+                "cuda": "13.0",
+                "cudnn": 92800,
+                "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+                "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+                "torch_threads": 1,
+                "packages": {
+                  "torch": "2.14.1+cu130",
+                  "numpy": "2.4.6",
+                  "matplotlib": "3.10.0"
+                },
+                "package_inventory_sha256": "aa2ab266617a8154823162ec1a031ae727732c62da9f0f665f2b76e85a3f9783",
+                "started_utc": "2026-11-09T12:02:22.606829+00:00",
+                "wall_seconds": 2.139052666999987
+              }
+            ],
+            "session_wall": {
+              "known_seconds": 2.139052666999987,
+              "all_seconds": 2.139052666999987,
+              "recorded": 1,
+              "total": 1,
+              "statuses": {
+                "complete": 1
+              }
+            },
+            "arm_seconds": {
+              "teacher": 0.08981338700004926,
+              "solo": 0.23346122999998897,
+              "distilled": 0.2607696820000456,
+              "oracle": 0.2508614529999704
+            },
+            "cumulative_training_seconds": 0.8349057520000542,
+            "training_only_t4_units": 0.0002481525429555717
+          }
+        ]
+      },
+      "rarity-10_history-100": {
+        "path": "rarity-smoke-a4582314a2b3/cells/rarity-10_history-100",
+        "protocol_sha256": "005c8e2fe642f4ce03c38633df064006087b734e1a434bc72057c3e95c286f09",
+        "completion_manifest_entries": 54,
+        "population_count": 4,
+        "subjects_per_population": 10,
+        "trials_per_subject": 15,
+        "rare_fraction": 0.4,
+        "cumulative_training_seconds": 4.195763290000286,
+        "training_only_t4_units": 0.0012470740889723073,
+        "runner_wall": {
+          "known_seconds": 12.259486034999895,
+          "all_seconds": 12.259486034999895,
+          "recorded": 1,
+          "total": 1,
+          "statuses": {
+            "complete": 1
+          }
+        },
+        "populations": [
+          {
+            "kind": "parametric_model_free",
+            "seed": 82001,
+            "path": "rarity-smoke-a4582314a2b3/cells/rarity-10_history-100/parametric_model_free/seed-82001",
+            "protocol_sha256": "005c8e2fe642f4ce03c38633df064006087b734e1a434bc72057c3e95c286f09",
+            "file_count": 14,
+            "sessions": [
+              {
+                "status": "complete",
+                "phase": null,
+                "device": "cuda",
+                "gpu": "Tesla T4",
+                "cuda": "13.0",
+                "cudnn": 92800,
+                "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+                "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+                "torch_threads": 1,
+                "packages": {
+                  "torch": "2.14.1+cu130",
+                  "numpy": "2.4.6",
+                  "matplotlib": "3.10.0"
+                },
+                "package_inventory_sha256": "aa2ab266617a8154823162ec1a031ae727732c62da9f0f665f2b76e85a3f9783",
+                "started_utc": "2026-11-09T12:02:26.346166+00:00",
+                "wall_seconds": 2.2345798050000667
+              }
+            ],
+            "session_wall": {
+              "known_seconds": 2.2345798050000667,
+              "all_seconds": 2.2345798050000667,
+              "recorded": 1,
+              "total": 1,
+              "statuses": {
+                "complete": 1
+              }
+            },
+            "arm_seconds": {
+              "teacher": 0.08806186700007856,
+              "solo": 0.2619817360000525,
+              "distilled": 0.25182477600003494,
+              "oracle": 0.2562451470000724
+            },
+            "cumulative_training_seconds": 0.8581135260002384,
+            "training_only_t4_units": 0.0002550504091167375
+          },
+          {
+            "kind": "parametric_model_free",
+            "seed": 82011,
+            "path": "rarity-smoke-a4582314a2b3/cells/rarity-10_history-100/parametric_model_free/seed-82011",
+            "protocol_sha256": "005c8e2fe642f4ce03c38633df064006087b734e1a434bc72057c3e95c286f09",
+            "file_count": 14,
+            "sessions": [
+              {
+                "status": "complete",
+                "phase": null,
+                "device": "cuda",
+                "gpu": "Tesla T4",
+                "cuda": "13.0",
+                "cudnn": 92800,
+                "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+                "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+                "torch_threads": 1,
+                "packages": {
+                  "torch": "2.14.1+cu130",
+                  "numpy": "2.4.6",
+                  "matplotlib": "3.10.0"
+                },
+                "package_inventory_sha256": "aa2ab266617a8154823162ec1a031ae727732c62da9f0f665f2b76e85a3f9783",
+                "started_utc": "2026-11-09T12:02:28.839205+00:00",
+                "wall_seconds": 2.5282224510000333
+              }
+            ],
+            "session_wall": {
+              "known_seconds": 2.5282224510000333,
+              "all_seconds": 2.5282224510000333,
+              "recorded": 1,
+              "total": 1,
+              "statuses": {
+                "complete": 1
+              }
+            },
+            "arm_seconds": {
+              "teacher": 0.08927386300001672,
+              "solo": 0.2681399690000035,
+              "distilled": 0.25559250100002373,
+              "oracle": 0.33703063799998745
+            },
+            "cumulative_training_seconds": 0.9500369710000314,
+            "training_only_t4_units": 0.00028237209971389824
+          },
+          {
+            "kind": "reward_cue",
+            "seed": 82101,
+            "path": "rarity-smoke-a4582314a2b3/cells/rarity-10_history-100/reward_cue/seed-82101",
+            "protocol_sha256": "005c8e2fe642f4ce03c38633df064006087b734e1a434bc72057c3e95c286f09",
+            "file_count": 14,
+            "sessions": [
+              {
+                "status": "complete",
+                "phase": null,
+                "device": "cuda",
+                "gpu": "Tesla T4",
+                "cuda": "13.0",
+                "cudnn": 92800,
+                "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+                "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+                "torch_threads": 1,
+                "packages": {
+                  "torch": "2.14.1+cu130",
+                  "numpy": "2.4.6",
+                  "matplotlib": "3.10.0"
+                },
+                "package_inventory_sha256": "aa2ab266617a8154823162ec1a031ae727732c62da9f0f665f2b76e85a3f9783",
+                "started_utc": "2026-11-09T12:02:31.718231+00:00",
+                "wall_seconds": 3.5819541339999432
+              }
+            ],
+            "session_wall": {
+              "known_seconds": 3.5819541339999432,
+              "all_seconds": 3.5819541339999432,
+              "recorded": 1,
+              "total": 1,
+              "statuses": {
+                "complete": 1
+              }
+            },
+            "arm_seconds": {
+              "teacher": 0.1620266460000721,
+              "solo": 0.3924328699999933,
+              "distilled": 0.2656802300000436,
+              "oracle": 0.2889482269999917
+            },
+            "cumulative_training_seconds": 1.1090879730001006,
+            "training_only_t4_units": 0.00032964559197502997
+          },
+          {
+            "kind": "reward_cue",
+            "seed": 82111,
+            "path": "rarity-smoke-a4582314a2b3/cells/rarity-10_history-100/reward_cue/seed-82111",
+            "protocol_sha256": "005c8e2fe642f4ce03c38633df064006087b734e1a434bc72057c3e95c286f09",
+            "file_count": 14,
+            "sessions": [
+              {
+                "status": "complete",
+                "phase": null,
+                "device": "cuda",
+                "gpu": "Tesla T4",
+                "cuda": "13.0",
+                "cudnn": 92800,
+                "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+                "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+                "torch_threads": 1,
+                "packages": {
+                  "torch": "2.14.1+cu130",
+                  "numpy": "2.4.6",
+                  "matplotlib": "3.10.0"
+                },
+                "package_inventory_sha256": "aa2ab266617a8154823162ec1a031ae727732c62da9f0f665f2b76e85a3f9783",
+                "started_utc": "2026-11-09T12:02:35.569428+00:00",
+                "wall_seconds": 2.6932217319999836
+              }
+            ],
+            "session_wall": {
+              "known_seconds": 2.6932217319999836,
+              "all_seconds": 2.6932217319999836,
+              "recorded": 1,
+              "total": 1,
+              "statuses": {
+                "complete": 1
+              }
+            },
+            "arm_seconds": {
+              "teacher": 0.0881336930000316,
+              "solo": 0.4673842779999404,
+              "distilled": 0.26893962799999827,
+              "oracle": 0.4540672209999457
+            },
+            "cumulative_training_seconds": 1.278524819999916,
+            "training_only_t4_units": 0.00038000598816664166
+          }
+        ]
+      },
+      "rarity-25_history-100": {
+        "path": "rarity-smoke-a4582314a2b3/cells/rarity-25_history-100",
+        "protocol_sha256": "459c5ee7868191383d44243339558d44c36b627c449e047bd71269b9d0ecb4cf",
+        "completion_manifest_entries": 54,
+        "population_count": 4,
+        "subjects_per_population": 10,
+        "trials_per_subject": 15,
+        "rare_fraction": 0.5,
+        "cumulative_training_seconds": 3.78970238300019,
+        "training_only_t4_units": 0.0011263837638361676,
+        "runner_wall": {
+          "known_seconds": 11.856765800000062,
+          "all_seconds": 11.856765800000062,
+          "recorded": 1,
+          "total": 1,
+          "statuses": {
+            "complete": 1
+          }
+        },
+        "populations": [
+          {
+            "kind": "parametric_model_free",
+            "seed": 83001,
+            "path": "rarity-smoke-a4582314a2b3/cells/rarity-25_history-100/parametric_model_free/seed-83001",
+            "protocol_sha256": "459c5ee7868191383d44243339558d44c36b627c449e047bd71269b9d0ecb4cf",
+            "file_count": 14,
+            "sessions": [
+              {
+                "status": "complete",
+                "phase": null,
+                "device": "cuda",
+                "gpu": "Tesla T4",
+                "cuda": "13.0",
+                "cudnn": 92800,
+                "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+                "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+                "torch_threads": 1,
+                "packages": {
+                  "torch": "2.14.1+cu130",
+                  "numpy": "2.4.6",
+                  "matplotlib": "3.10.0"
+                },
+                "package_inventory_sha256": "aa2ab266617a8154823162ec1a031ae727732c62da9f0f665f2b76e85a3f9783",
+                "started_utc": "2026-11-09T12:02:40.362869+00:00",
+                "wall_seconds": 2.3458259180000596
+              }
+            ],
+            "session_wall": {
+              "known_seconds": 2.3458259180000596,
+              "all_seconds": 2.3458259180000596,
+              "recorded": 1,
+              "total": 1,
+              "statuses": {
+                "complete": 1
+              }
+            },
+            "arm_seconds": {
+              "teacher": 0.07984447199999067,
+              "solo": 0.28628876799996306,
+              "distilled": 0.24800675300002695,
+              "oracle": 0.259479338999995
+            },
+            "cumulative_training_seconds": 0.8736193319999757,
+            "training_only_t4_units": 0.0002596590792333261
+          },
+          {
+            "kind": "parametric_model_free",
+            "seed": 83011,
+            "path": "rarity-smoke-a4582314a2b3/cells/rarity-25_history-100/parametric_model_free/seed-83011",
+            "protocol_sha256": "459c5ee7868191383d44243339558d44c36b627c449e047bd71269b9d0ecb4cf",
+            "file_count": 14,
+            "sessions": [
+              {
+                "status": "complete",
+                "phase": null,
+                "device": "cuda",
+                "gpu": "Tesla T4",
+                "cuda": "13.0",
+                "cudnn": 92800,
+                "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+                "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+                "torch_threads": 1,
+                "packages": {
+                  "torch": "2.14.1+cu130",
+                  "numpy": "2.4.6",
+                  "matplotlib": "3.10.0"
+                },
+                "package_inventory_sha256": "aa2ab266617a8154823162ec1a031ae727732c62da9f0f665f2b76e85a3f9783",
+                "started_utc": "2026-11-09T12:02:42.921895+00:00",
+                "wall_seconds": 2.59478672299997
+              }
+            ],
+            "session_wall": {
+              "known_seconds": 2.59478672299997,
+              "all_seconds": 2.59478672299997,
+              "recorded": 1,
+              "total": 1,
+              "statuses": {
+                "complete": 1
+              }
+            },
+            "arm_seconds": {
+              "teacher": 0.09632781800007706,
+              "solo": 0.2538317310001048,
+              "distilled": 0.3669078789999958,
+              "oracle": 0.28210699600003863
+            },
+            "cumulative_training_seconds": 0.9991744240002163,
+            "training_only_t4_units": 0.0002969768426889532
+          },
+          {
+            "kind": "reward_cue",
+            "seed": 83101,
+            "path": "rarity-smoke-a4582314a2b3/cells/rarity-25_history-100/reward_cue/seed-83101",
+            "protocol_sha256": "459c5ee7868191383d44243339558d44c36b627c449e047bd71269b9d0ecb4cf",
+            "file_count": 14,
+            "sessions": [
+              {
+                "status": "complete",
+                "phase": null,
+                "device": "cuda",
+                "gpu": "Tesla T4",
+                "cuda": "13.0",
+                "cudnn": 92800,
+                "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+                "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+                "torch_threads": 1,
+                "packages": {
+                  "torch": "2.14.1+cu130",
+                  "numpy": "2.4.6",
+                  "matplotlib": "3.10.0"
+                },
+                "package_inventory_sha256": "aa2ab266617a8154823162ec1a031ae727732c62da9f0f665f2b76e85a3f9783",
+                "started_utc": "2026-11-09T12:02:45.864463+00:00",
+                "wall_seconds": 2.921703520000051
+              }
+            ],
+            "session_wall": {
+              "known_seconds": 2.921703520000051,
+              "all_seconds": 2.921703520000051,
+              "recorded": 1,
+              "total": 1,
+              "statuses": {
+                "complete": 1
+              }
+            },
+            "arm_seconds": {
+              "teacher": 0.07945307799991497,
+              "solo": 0.33427031099995475,
+              "distilled": 0.2978275960000474,
+              "oracle": 0.2844366939999645
+            },
+            "cumulative_training_seconds": 0.9959876789998816,
+            "training_only_t4_units": 0.00029602967125829814
+          },
+          {
+            "kind": "reward_cue",
+            "seed": 83111,
+            "path": "rarity-smoke-a4582314a2b3/cells/rarity-25_history-100/reward_cue/seed-83111",
+            "protocol_sha256": "459c5ee7868191383d44243339558d44c36b627c449e047bd71269b9d0ecb4cf",
+            "file_count": 14,
+            "sessions": [
+              {
+                "status": "complete",
+                "phase": null,
+                "device": "cuda",
+                "gpu": "Tesla T4",
+                "cuda": "13.0",
+                "cudnn": 92800,
+                "python": "3.13.16 (main, Oct  1 2026, 15:40:24) [GCC 13.3.0]",
+                "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+                "torch_threads": 1,
+                "packages": {
+                  "torch": "2.14.1+cu130",
+                  "numpy": "2.4.6",
+                  "matplotlib": "3.10.0"
+                },
+                "package_inventory_sha256": "aa2ab266617a8154823162ec1a031ae727732c62da9f0f665f2b76e85a3f9783",
+                "started_utc": "2026-11-09T12:02:49.136813+00:00",
+                "wall_seconds": 2.515053019999982
+              }
+            ],
+            "session_wall": {
+              "known_seconds": 2.515053019999982,
+              "all_seconds": 2.515053019999982,
+              "recorded": 1,
+              "total": 1,
+              "statuses": {
+                "complete": 1
+              }
+            },
+            "arm_seconds": {
+              "teacher": 0.10346272399999634,
+              "solo": 0.2684554190000199,
+              "distilled": 0.24868422899999132,
+              "oracle": 0.3003185760001088
+            },
+            "cumulative_training_seconds": 0.9209209480001164,
+            "training_only_t4_units": 0.0002737181706555902
+          }
+        ]
+      }
+    },
+    "population_count": 12,
+    "new_training_seconds": 11.970969617000378,
+    "training_only_t4_units": 0.0035580381917195572,
+    "baseline_training_seconds": 9.321979739999847,
+    "runner_wall": {
+      "known_seconds": 40.300013852000006,
+      "all_seconds": 40.300013852000006,
+      "recorded": 3,
+      "total": 3,
+      "statuses": {
+        "complete": 3
+      }
+    },
+    "outer_invocation_counts_by_cell": {
+      "rarity-05_history-100": 1,
+      "rarity-10_history-100": 1,
+      "rarity-25_history-100": 1
+    }
+  },
+  "checks": 6855,
+  "issues": [],
+  "status": "passed"
+}
